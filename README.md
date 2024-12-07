@@ -4,4 +4,6 @@ The archive is available through the National Library of Israel at: https://www.
 
 1. Code for LLM assisted parsing of archival folder descriptions.
 2. Code for LLM assisted classification and translation of archival document descriptions based on the RIC-O classification system and Netzer & Schuster's suggested vocabulary of document types.
-3. Code for LLM assisted NER from Archival document description.  
+3. Code for LLM assisted NER from Archival document description.
+
+   For more code related to digital work on the archiv see https://github.com/mmz-potsdam/jeckes-finder .
