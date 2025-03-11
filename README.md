@@ -8,5 +8,5 @@ The archive is available through the National Library of Israel at: https://www.
 3. Code for LLM assisted NER from Archival document description. (TBA)
 4. Archival Images exploration and classification with TSNE.(TBA)
 5. Data: Subfolders and document tables with automatic enrichments.
-6. 
+
 For more code related to digital work on the archive see https://github.com/mmz-potsdam/jeckes-finder .
