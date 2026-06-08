@@ -1,0 +1,13 @@
+.env
+.DS_Store
+.claude/
+
+# Reproducible from running code/harvest_cjh.py and code/fill_ead.py
+data/cjh-oai/raw/
+data/cjh-oai/records/
+data/cjh-oai/state/
+data/cjh-oai/fill_ead_failures.tsv
+
+# Python
+__pycache__/
+*.pyc

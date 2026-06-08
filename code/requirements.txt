@@ -1,0 +1,2 @@
+requests>=2.31
+lxml>=4.9
