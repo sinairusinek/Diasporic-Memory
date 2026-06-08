@@ -8,6 +8,8 @@ import os
 from pathlib import Path
 from typing import Any, Iterator
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 def _load_env() -> dict[str, str]:
@@ -30,6 +32,13 @@ class Omeka:
             "key_credential": env.get("OMEKA_KEY_CREDENTIAL") or os.environ["OMEKA_KEY_CREDENTIAL"],
         }
         self.s = requests.Session()
+        retry = Retry(total=5, backoff_factor=1.0,
+                      status_forcelist=[500, 502, 503, 504],
+                      allowed_methods=["GET", "POST", "PATCH"])
+        adapter = HTTPAdapter(max_retries=retry, pool_connections=1, pool_maxsize=1)
+        self.s.mount("http://", adapter); self.s.mount("https://", adapter)
+        self.s.headers["Connection"] = "close"  # don't reuse — server kills idle
+        self.s.headers["User-Agent"] = "jecke-cli/1.0"  # python-requests UA is blocked by WAF
 
     def get(self, path: str, **params: Any) -> Any:
         r = self.s.get(f"{self.base}/{path.lstrip('/')}", params={**self.auth, **params})
