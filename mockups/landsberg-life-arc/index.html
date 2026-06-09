@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Diasporic Memory of Leoni Frank, 1932–1971 — JeckeArchive mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;800&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* paper palette */
+    --paper:       #f6f1e6;
+    --paper-2:     #efe7d4;
+    --paper-3:     #fbf7eb;
+    --ink:         #1a1a1a;
+    --ink-soft:    #3a3a3a;
+    --ink-muted:   #6b6354;
+    --rule:        #c9bfa6;
+    --rule-2:      #a89c7e;
+    /* Heimat palette — 9 classes */
+    --c-heimat-city:        #a05a2a;    --c-heimat-city-bg:        #f5e7d8;
+    --c-current-address:    #6b6b85;    --c-current-address-bg:    #e6e6ee;
+    --c-recovery-place:     #6e8b3d;    --c-recovery-place-bg:     #e8efd9;
+    --c-heimat-institution: #2d5a5a;    --c-heimat-institution-bg: #d8e8e8;
+    --c-heimat-lineage:     #660248;    --c-heimat-lineage-bg:     #f0d9e3;
+    --c-diaspora-person:    #5a3a8a;    --c-diaspora-person-bg:    #e4dcef;
+    --c-citizenship:        #8a2418;    --c-citizenship-bg:        #f3d9d4;
+    --c-cultural:           #a0780f;    --c-cultural-bg:           #fff1c6;
+    --c-temporal:           #6b6354;    --c-temporal-bg:           #ebe6da;
+    --c-heimat-word:        #b91c1c;    /* the literal word "Heimat" */
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* --- mockup banner --- */
+  .mockup-banner {
+    background: #fff4cc;
+    color: #5a4400;
+    border-bottom: 2px solid #d6b94a;
+    padding: 10px 24px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .mockup-banner .small { font-weight: 400; opacity: 0.8; margin-inline-start: 12px; }
+
+  /* --- site header --- */
+  header.site {
+    background: var(--paper-3);
+    border-bottom: 3px solid var(--rule-2);
+    padding: 24px 32px;
+  }
+  .site-inner { max-width: 1280px; margin: 0 auto; }
+  header.site .kicker {
+    font-family: 'Inter', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ink-muted);
+  }
+  header.site h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 42px;
+    margin: 6px 0 4px;
+    color: var(--ink);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  header.site .subtitle {
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+    font-style: italic;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+
+  /* --- intro --- */
+  .intro {
+    max-width: 880px;
+    margin: 32px auto 0;
+    padding: 0 32px;
+    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    color: var(--ink-soft);
+  }
+  .intro p { margin: 0 0 14px; }
+  .intro .pull {
+    border-left: 3px solid var(--c-heimat-word);
+    background: var(--paper-3);
+    padding: 12px 20px;
+    margin: 18px 0;
+    font-style: italic;
+  }
+
+  /* --- timeline strip --- */
+  .timeline {
+    max-width: 1280px;
+    margin: 40px auto 24px;
+    padding: 0 32px;
+  }
+  .timeline-bar {
+    display: flex;
+    gap: 0;
+    border-top: 2px solid var(--rule);
+    padding-top: 18px;
+    position: relative;
+  }
+  .timeline-bar::before {
+    content: '';
+    position: absolute;
+    top: -2px; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(to right,
+      var(--c-heimat-city) 0%, var(--c-heimat-city) 25%,
+      var(--c-diaspora-person) 30%, var(--c-diaspora-person) 70%,
+      var(--c-heimat-city) 75%, var(--c-heimat-city) 100%);
+  }
+  .timeline-item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 4px;
+    transition: background 0.12s ease;
+    border-right: 1px dotted var(--rule);
+  }
+  .timeline-item:last-child { border-right: none; }
+  .timeline-item:hover { background: var(--paper-2); }
+  .timeline-item .year {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--c-heimat-city);
+  }
+  .timeline-item .place {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ink-muted);
+  }
+
+  /* --- letter cards --- */
+  main.letters { max-width: 1280px; margin: 0 auto; padding: 0 32px 80px; }
+
+  .letter {
+    background: var(--paper-3);
+    border: 1.5px solid var(--rule);
+    border-radius: 4px;
+    margin-bottom: 56px;
+    padding: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    scroll-margin-top: 20px;
+  }
+  .letter-head {
+    background: var(--paper-2);
+    padding: 20px 28px;
+    border-bottom: 1.5px solid var(--rule);
+  }
+  .letter-head .kicker {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ink-muted);
+    margin-bottom: 4px;
+  }
+  .letter-head h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 26px;
+    margin: 0 0 6px;
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .letter-head .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .letter-head .meta b { color: var(--ink); font-weight: 600; }
+
+  .letter-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 22px 24px;
+  }
+  /* facsimile hidden by default; shown in side-by-side and facsimile modes */
+  .letter-body .facsimile { display: none; text-align: center; }
+  .letter-body .facsimile img { max-width: 100%; height: auto; border: 1px solid var(--rule); background: #fff; cursor: zoom-in; box-shadow: 0 2px 6px rgba(60, 40, 10, 0.10); }
+  .letter-body .facsimile .cap { font-family: 'Inter', sans-serif; font-size: 11px; color: var(--ink-muted); margin-top: 4px; letter-spacing: 0.4px; direction: ltr; }
+
+  .frame-center.view-sbs .letter-body { grid-template-columns: 1fr 1fr; align-items: start; }
+  .frame-center.view-sbs .letter-body .facsimile { display: block; position: sticky; top: 110px; }
+  .frame-center.view-sbs .letter-body .facsimile img { max-height: 78vh; object-fit: contain; }
+  .frame-center.view-facs .letter-body .transcription { display: none; }
+  .frame-center.view-facs .letter-body .facsimile { display: block; }
+
+  .transcription {
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+    line-height: 1.85;
+    color: var(--ink);
+    white-space: pre-wrap;
+  }
+  .transcription .salutation { font-weight: 600; display: block; margin-bottom: 6px; }
+  .transcription .signature  { font-style: italic; color: var(--ink-soft); }
+
+  .sidebar { font-size: 14px; }
+  .sidebar img.scan {
+    width: 100%;
+    border: 1.5px solid var(--rule);
+    border-radius: 3px;
+    background: white;
+    margin-bottom: 16px;
+    cursor: zoom-in;
+    transition: transform 0.15s ease;
+  }
+  .sidebar img.scan:hover { transform: scale(1.02); }
+  .sidebar .summary {
+    background: var(--paper-2);
+    border-left: 3px solid var(--c-heimat-city);
+    padding: 12px 16px;
+    margin-bottom: 14px;
+    font-style: italic;
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+  .sidebar .quote {
+    background: #fff;
+    border: 1px solid var(--rule);
+    padding: 12px 16px;
+    margin-bottom: 14px;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: var(--ink);
+  }
+  .sidebar .quote .label {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--c-heimat-word);
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .sidebar .person-card {
+    border: 1px solid var(--rule);
+    background: var(--paper-3);
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+  }
+  .sidebar .person-card .role {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--c-diaspora-person);
+    font-weight: 600;
+  }
+  .sidebar .person-card h4 {
+    margin: 4px 0;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 17px;
+    color: var(--ink);
+  }
+  .sidebar .person-card .bio {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  /* --- entity span styles ---
+     Neutral by default; coloured only when the matching NER toggle is on
+     (handled by .show-place / .show-person / .show-org / .show-date on .frame-center) --- */
+  .entity {
+    border-radius: 2px;
+    padding: 0 1px;
+    cursor: help;
+    transition: background 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+  }
+  .entity:hover { filter: brightness(0.92); }
+
+  /* Place-like classes light up with .show-place */
+  .frame-center.show-place .entity.k-heimat-city        { background: var(--c-heimat-city-bg);        color: var(--c-heimat-city);        font-weight: 600; box-shadow: inset 0 -2px 0 var(--c-heimat-city); }
+  .frame-center.show-place .entity.k-current-address    { background: var(--c-current-address-bg);    color: var(--c-current-address);    box-shadow: inset 0 -2px 0 var(--c-current-address); }
+  .frame-center.show-place .entity.k-recovery-place     { background: var(--c-recovery-place-bg);     color: var(--c-recovery-place);     box-shadow: inset 0 -2px 0 var(--c-recovery-place); }
+  .frame-center.show-place .entity.k-heimat-institution { background: var(--c-heimat-institution-bg); color: var(--c-heimat-institution); box-shadow: inset 0 -2px 0 var(--c-heimat-institution); }
+
+  /* Person-like classes light up with .show-person */
+  .frame-center.show-person .entity.k-diaspora-person   { background: var(--c-diaspora-person-bg);    color: var(--c-diaspora-person);    font-weight: 600; box-shadow: inset 0 -2px 0 var(--c-diaspora-person); }
+  .frame-center.show-person .entity.k-heimat-lineage    { background: var(--c-heimat-lineage-bg);     color: var(--c-heimat-lineage);     font-weight: 600; box-shadow: inset 0 -2px 0 var(--c-heimat-lineage); }
+
+  /* Org-like classes light up with .show-org */
+  .frame-center.show-org .entity.k-heimat-institution   { background: var(--c-heimat-institution-bg); color: var(--c-heimat-institution); box-shadow: inset 0 -2px 0 var(--c-heimat-institution); }
+  .frame-center.show-org .entity.k-citizenship          { background: var(--c-citizenship-bg);        color: var(--c-citizenship);        box-shadow: inset 0 -2px 0 var(--c-citizenship); }
+
+  /* Date / temporal light up with .show-date */
+  .frame-center.show-date .entity.k-temporal            { background: var(--c-temporal-bg);           color: var(--c-temporal);           font-style: italic; box-shadow: inset 0 -2px 0 var(--c-temporal); }
+
+  /* Cultural references are not a NER category — leave neutral; do not assign to a toggle */
+  .entity.k-cultural { /* neutral */ }
+
+  /* Heimat-word kept as a stable marker — always visible */
+  .entity.heimat-word, .heimat-word { color: var(--c-heimat-word); font-weight: 700; }
+
+  /* the literal word "Heimat" — special */
+  .heimat-word {
+    background: #ffe3e3;
+    color: var(--c-heimat-word);
+    font-weight: 800;
+    padding: 1px 6px;
+    border-radius: 3px;
+    border-bottom: 3px solid var(--c-heimat-word);
+    font-size: 1.05em;
+  }
+
+  /* --- legend --- */
+  .legend {
+    max-width: 1280px;
+    margin: 24px auto 40px;
+    padding: 22px 28px;
+    background: var(--paper-3);
+    border: 1.5px solid var(--rule);
+    border-radius: 4px;
+  }
+  .legend h3 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 18px;
+    margin: 0 0 14px;
+    color: var(--ink);
+  }
+  .legend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+  }
+  .legend-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    border: 1px solid var(--rule);
+    flex-shrink: 0;
+  }
+
+  /* --- footer --- */
+  footer.site {
+    border-top: 2px solid var(--rule-2);
+    padding: 24px 32px;
+    background: var(--paper-3);
+    color: var(--ink-muted);
+    font-size: 13px;
+    text-align: center;
+  }
+
+  /* image lightbox */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(20,20,20,0.92);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox img { max-width: 92vw; max-height: 92vh; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+</style>
+<link rel="stylesheet" href="../_shared/frame.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../_shared/frame.js"></script>
+</head>
+<body>
+
+<div class="mockup-banner">
+  JeckeArchive — Letters Mockup / Diasporic Memory project
+  <span class="small">Heimat-axis annotation on 8 letters from Transkribus doc 853306 (F-0047-042)</span>
+</div>
+
+<nav class="frame-timeline" aria-label="Timeline">
+  <div class="tl-track"><div class="tl-axis"></div></div>
+</nav>
+
+<header class="site">
+  <div class="site-inner">
+    <div class="kicker">JeckeArchive · life-arc mockup</div>
+    <h1>The Diasporic Memory of Leoni Frank, 1932–1971</h1>
+    <p class="subtitle">Eight letters across forty years, anchored on Wiesbaden</p>
+  </div>
+</header>
+
+<div class="frame-grid">
+
+  <aside class="frame-left">
+    <div class="frame-block summary">
+      <h3>Summary</h3>
+      <p>Leoni Frank (1900–after 1971) was born in Wiesbaden, married Dr. Alfred Landsberg there in 1921, emigrated with him to Palestine in 1932, and — uniquely among her cohort — moved back to Wiesbaden in the 1950s, where she lived in Gustav-Freytag-Str. 1.II and considered a further remigration to East Berlin.</p>
+      <p>Eight letters span forty years; the literal word <em>Heimat</em> appears once (25 March 1932, on the eve of emigration).</p>
+    </div>
+    <div class="frame-block frame-topics">
+      <h3>Topics</h3>
+      <ul class="topic-list"></ul>
+    </div>
+  </aside>
+
+  <main class="frame-center">
+
+    <div class="frame-highlight-bar">
+      <span class="hl-label">highlight:</span>
+    </div>
+
+<div class="intro">
+  <p>
+    Leoni Frank (1900–after 1971) was born in <span class="entity k-heimat-city" title="Heimat-city of Leoni's birth and return">Wiesbaden</span>,
+    married Dr. Alfred Landsberg there in 1921, emigrated with him to Palestine in 1932, and — uniquely among her cohort —
+    <em>moved back to Wiesbaden in the 1950s</em>, where she lived in <span class="entity k-current-address" title="Leoni's Wiesbaden address from 1955">Gustav-Freytag-Str. 1.II</span>
+    and considered another remigration, this time to East Berlin.
+  </p>
+  <p>
+    The eight letters below — selected from doc <code>853306</code> (sub-series <code>IL-MTFN-001-G-F-0047-042</code>) — trace the full
+    Heimat-arc of one German-Jewish woman as she moves through the categories the Miron-Roemer project is trying to map.
+    Inline annotation follows a 9-class Heimat palette (see legend at bottom). The literal word
+    <span class="heimat-word">Heimat</span> appears once in the corpus, on 25 March 1932 — see letter 2.
+  </p>
+  <div class="pull">
+    "Jch wünsche nur dass ich dieses Land auch bald als <span class="heimat-word">Heimat</span> empfinden kann."<br>
+    <small>— Leoni Landsberg, Wiesbaden, 25 March 1932, on the eve of her family's emigration to Palestine</small>
+  </div>
+</div>
+
+<div class="timeline">
+  <div class="timeline-bar">
+    <a class="timeline-item" href="#l1"><span class="year">1932</span><span class="place">Wiesbaden</span></a>
+    <a class="timeline-item" href="#l2"><span class="year">1932</span><span class="place">Wiesbaden</span></a>
+    <a class="timeline-item" href="#l3"><span class="year">1934</span><span class="place">Jerusalem</span></a>
+    <a class="timeline-item" href="#l4"><span class="year">1945</span><span class="place">Tel Aviv</span></a>
+    <a class="timeline-item" href="#l5"><span class="year">1946</span><span class="place">Tel Aviv</span></a>
+    <a class="timeline-item" href="#l6"><span class="year">~1953</span><span class="place">Hamburg</span></a>
+    <a class="timeline-item" href="#l7"><span class="year">1956</span><span class="place">Wiesbaden</span></a>
+    <a class="timeline-item" href="#l8"><span class="year">late</span><span class="place">Wiesbaden?</span></a>
+  </div>
+</div>
+
+<section class="letters">
+
+  <!-- ============ LETTER 1 ============ -->
+  <article class="letter" id="l1">
+    <div class="letter-head">
+      <div class="kicker">Letter 1 · p. 133</div>
+      <h2>Leoni Landsberg → Dr. Schmarja Levin</h2>
+      <div class="meta">
+        <span><b>Date:</b> 3 March 1932</span>
+        <span><b>From:</b> Wiesbaden, Parkstr. 20</span>
+        <span><b>To:</b> Dr. Levin, London (en route to Paris)</span>
+        <span><b>Language:</b> German, typewritten</span>
+      </div>
+    </div>
+    <div class="letter-body">
+      <div class="transcription"><span class="entity k-heimat-city" title="Wiesbaden — Heimat city of the Landsberg family">Wiesbaden</span>
+<span class="entity k-current-address" title="The Landsberg family residence in Wiesbaden">Parkstr. 20</span>
+am 3. März 1932.
+
+<span class="salutation">Mein lieber, verehrter Freund,</span>
+
+herzlichen Dank für Ihre lieben Zeilen, doch bitte ich Sie, mir nicht zu danken. Ich konnte nicht viel tun, um Ihnen die schwere Zeit der Krankheit zu erleichtern, vor allem nicht Ihre Schmerzen beheben. […]
+
+Meine ganze Hoffnung ist, dass es Ihren <span class="entity k-diaspora-person" title="Shmarja Levin's friends in London where he was being treated">Londoner Freunden</span> gelingen möge, Ihnen die Sorgen zu nehmen […]
+
+<span class="entity k-diaspora-person" title="Dr. Alfred Landsberg, Leoni's husband, sailed for Palestine this Monday evening">Alfred</span> ist Montagabend weg und hat mich bis zur Abfahrt des Schiffes "nur" viermal benachrichtigt […] Er schrieb, er wäre froh, Ihrem Rat gefolgt zu sein und den Winterpaletot mitgenommen zu haben.
+
+Ich verbringe meine Vormittage arbeitend, die Nachmittage mit den Kindern, zum Teil lernend, oder bei meiner Mutter und die Abende gehören der <span class="entity k-heimat-institution" title="Leoni's Wiesbaden social work">sozialen Arbeit</span> oder dem <span class="entity k-temporal" title="Hebrew study — preparing for emigration">Hebräisch</span>. Ich habe manches Versäumte nachzuholen und Alfreds Abwesenheit kann ich dazu gut benutzen. Einmal war ich in einem herrlichen <span class="entity k-cultural" title="The Beethoven Violin Concerto in D major">Beethovenkonzert</span>: <span class="entity k-cultural" title="Polish-Jewish violin virtuoso who fled Nazism, founded the Palestine Symphony Orchestra in 1936">Bronislaw Huberman</span> spielte das D-Dur Violinkonzert. Noch klingt es in mir nach. […]
+
+Was haben Sie für Nachrichten von <span class="entity k-diaspora-person" title="Shmarja Levin's family">Enja, dem kleinen Dan und Ihrer Schwiegertochter</span>? Was hört man von <span class="entity k-diaspora-person" title="Chaim Weizmann">Weizmann</span>? Fahren Ihre Freunde mit Ihnen zusammen nach <span class="entity k-recovery-place" title="Palestine as destination — recovery + future home">Palästina</span>? Wie ist es mit dem Pen-Klub geworden, wie mit dem Verleger und die anderen wichtigen Erledigungen?
+
+<span class="signature">Ihre ergebene Leonie Landsberg</span></div>
+
+      <div class="facsimile">
+        <img src="images/p0133.jpg" alt="page scan">
+        <div class="cap">F-0047-042 . p. 133</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ LETTER 2 ============ -->
+  <article class="letter" id="l2">
+    <div class="letter-head">
+      <div class="kicker">Letter 2 · p. 135 · <span style="color:var(--c-heimat-word);font-weight:700;">★ HEIMAT</span></div>
+      <h2>Leoni Landsberg → Dr. Shmarja Levin</h2>
+      <div class="meta">
+        <span><b>Date:</b> 25 March 1932</span>
+        <span><b>From:</b> Wiesbaden</span>
+        <span><b>To:</b> Dr. Levin, Paris (at his son's)</span>
+        <span><b>Language:</b> German, typewritten</span>
+      </div>
+    </div>
+    <div class="letter-body">
+      <div class="transcription"><span class="entity k-heimat-city" title="Wiesbaden">Wiesbaden</span>, den 25. 3. 1932.
+
+<span class="salutation">Mein lieber Freund,</span>
+
+Dank für Ihren Brief. Ich nehme an, dass es der letzte von <span class="entity k-recovery-place" title="London — Shmarja Levin's medical treatment">London</span> war, und dass Sie bereits in <span class="entity k-recovery-place" title="Paris — Shmarja Levin's son">Paris</span> bei Ihrem Sohn angekommen sind. […]
+
+Es wäre schön gewesen, hätten wir uns noch vor Ihrer Heimkehr nach <span class="entity k-recovery-place" title="Palestine as Levin's return-destination">Palästina</span> sehen und sprechen können, aber es ist nicht möglich. […]
+
+Sie schreiben mir so schön über <span class="entity k-recovery-place" title="Palestine — the future home, not yet Heimat">Palästina</span> und <span class="entity k-diaspora-person" title="Dr. Alfred Landsberg">Alfred</span> auch, der voller Zuversicht und Glück ist, ungeachtet aller Schwierigkeiten.
+
+<span class="relevant r-strong">Ich wünsche nur dass ich dieses Land auch bald als <span class="heimat-word">Heimat</span> empfinden kann.</span> Bis jetzt quäle ich mich mit <span class="entity k-temporal" title="Hebrew">der Sprache</span> herum und mache mir viele Gedanken über meine Unzulänglichkeit, was meinen Mut nicht aufkommen lässt. Mein Mann meint, es gäbe ausser der Sprache doch nur noch eine Schwierigkeit und das wäre, mit sehr, sehr wenig Geld auszukommen. […]
+
+Den Kindern geht es schon wieder besser. […] Ich las ihnen Ihren Brief vor und da sagten beide — "Levin braucht er doch wirklich nicht zu schreiben, für uns ist er <span class="entity k-heimat-lineage" title="The children's intimate name for the friend">Dr. Schmarja</span>".
+
+Ich gehe täglich zu meiner kranken Mutter und sitze voller Wehmut bei ihr, die mir immer wieder sagt, was es für sie bedeute, dass ich am selben Platze bin.
+
+<span class="signature">Lieber Dr. Levin […] Meine innigsten Wünsche + Grüße</span></div>
+
+      <div class="facsimile">
+        <img src="images/p0135.jpg" alt="page scan">
+        <div class="cap">F-0047-042 . p. 135</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ LETTER 3 ============ -->
+  <article class="letter" id="l3">
+    <div class="letter-head">
+      <div class="kicker">Letter 3 · p. 153 · the diasporic kreis</div>
+      <h2>Hugo Bergmann → Dr. Alfred Landsberg</h2>
+      <div class="meta">
+        <span><b>Date:</b> 22 January 1934</span>
+        <span><b>From:</b> Jerusalem</span>
+        <span><b>To:</b> Alfred Landsberg</span>
+        <span><b>Language:</b> German, handwritten</span>
+      </div>
+    </div>
+    <div class="letter-body">
+      <div class="transcription">22. I. 34
+
+<span class="salutation">Lieber Herr Landsberg,</span>
+
+Haben Sie recht herzlichen Dank für Ihre lieben Worte. Ich habe einen Brief an Sie begonnen, der über das von Ihnen berührte Thema unserer <span class="entity k-temporal" title="The diasporic loneliness as theme">Einsamkeit in dieser Welt</span> handeln sollte, aber ich sehe, daß ich brieflich nicht weiterkomme und auf ein Gespräch mit Ihnen warten muß.
+
+Ich glaube gar nicht, daß wir einsam sind. <b>Der Kreis ist da, es fehlt ihm nur ein Mittelpunkt, so etwas wie einmal <span class="entity k-heimat-lineage" title="Martin Buber, philosopher, editor of Der Jude (1916–24)">Buber</span> und <span class="entity k-cultural" title="Der Jude, the Buber-edited German-Jewish journal of cultural Zionism, 1916–24">der „Jude"</span> war.</b>
+
+Aber vorläufig nur herzlichsten Dank und alle guten Grüße für Sie und Ihre Frau
+
+<span class="signature">Ihr ergebener und zugetan, <span class="entity k-heimat-lineage" title="Samuel Hugo Bergmann (1883–1975), philosopher of religion, first rector of Hebrew University">Hugo Bergmann</span>
+Hugo Bergmann Jerusalem</span></div>
+
+      <div class="facsimile">
+        <img src="images/p0153.jpg" alt="page scan">
+        <div class="cap">F-0047-042 . p. 153</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ LETTER 4 ============ -->
+  <article class="letter" id="l4">
+    <div class="letter-head">
+      <div class="kicker">Letter 4 · p. 159</div>
+      <h2>Leonie Landsberg → Chaim Weizmann</h2>
+      <div class="meta">
+        <span><b>Date:</b> 20 February 1945</span>
+        <span><b>From:</b> Tel Aviv</span>
+        <span><b>To:</b> Chaim Weizmann, Rehovoth</span>
+        <span><b>Language:</b> German, handwritten</span>
+      </div>
+    </div>
+    <div class="letter-body">
+      <div class="transcription">Tel-Aviv, den 20. II. 45.
+
+<span class="salutation">Dear Dr. <span class="entity k-diaspora-person" title="Chaim Weizmann (1874–1952), president of the World Zionist Organization, family friend of the Landsbergs since the 1920s">Weizmann</span>,</span>
+
+darf ich Sie hiermit bitten, meiner Tochter <span class="entity k-diaspora-person" title="Lea Landsberg, the elder daughter">Lea</span> + mir eine Zeit anzugeben, in der Sie uns empfangen können. Wir wollen nur Ihren Rat betreffs <span class="entity k-diaspora-person" title="Dr. Alfred Landsberg, Leoni's husband, founding figure of RASCO settlement company in Kfar Shmaryahu">Dr. Landsberg</span>, der in einem <span class="entity k-temporal" title="The mental crisis that would lead to the divorce in 1946">besorgniserregenden Zustand</span> ist.
+
+Ich darf wohl sagen, daß ich als diejenige, die ihn am besten + längsten kennt, weiß daß ihm nur zu helfen ist, wenn Sie, als der Einzige, der auf ihn Einfluß hat, ihm Rat geben, damit er wieder zu Selbstbewusstsein kommt + seine Kräfte in die richtigen Bahnen lenken kann.
+
+Ich erwarte Ihren Bescheid an m. Anwalt Dr. Sussmann, Telefon Nr. 4258 Allenby 37, <span class="entity k-current-address" title="Leoni's wartime Tel Aviv address (lawyer's office)">Tel-Aviv</span> […]
+
+<span class="signature">Mit besten Grüßen, Ihre Leonie Landsberg Frank</span></div>
+
+      <div class="facsimile">
+        <img src="images/p0159.jpg" alt="page scan">
+        <div class="cap">F-0047-042 . p. 159</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ LETTER 5 ============ -->
+  <article class="letter" id="l5">
+    <div class="letter-head">
+      <div class="kicker">Letter 5 · p. 165 · reinvention</div>
+      <h2>Leonie Landsberg-Frank → Chaim Weizmann</h2>
+      <div class="meta">
+        <span><b>Date:</b> 1946</span>
+        <span><b>From:</b> Tel Aviv (c/o Königstein, Allenby Road)</span>
+        <span><b>To:</b> Chaim Weizmann</span>
+        <span><b>Language:</b> German, handwritten</span>
+      </div>
+    </div>
+    <div class="letter-body">
+      <div class="transcription">(1946)
+<span class="relevant r-strong">Leonie Landsberg - Frank</span>
+z.Zt. <span class="entity k-current-address" title="Leoni's Tel Aviv address in 1946">Tel Aviv, c/o Koenigstein, Allenby Road</span>
+
+<span class="salutation">Lieber Dr. <span class="entity k-diaspora-person" title="Chaim Weizmann">Weizmann</span>.</span>
+
+Sicher freut es Sie zu hören, dass es meinen Kindern und mir gut geht. <span class="entity k-diaspora-person" title="Evchen, Leoni's elder daughter">Evchen</span> hat einen goldigen Buben und erwartet schon ihr zweites Kind. Sie lebt mit ihrer Familie wie Sie sich erinnern werden, in <span class="entity k-current-address" title="Ein Gev kibbutz on the Sea of Galilee">Ein Gev</span>.
+
+<span class="entity k-diaspora-person" title="Lea Landsberg, Leoni's younger daughter">Lea</span> ist noch in der <span class="entity k-heimat-institution" title="ATS — British Army's Auxiliary Territorial Service, women's branch">A.T.S.</span>-Clerk in <span class="entity k-current-address" title="Cairo where Lea is stationed">Cairo</span>, und nur im Augenblick zu einem Kochkursus für abgehende Soldatinnen im <span class="entity k-heimat-institution" title="Strauss Center in Jerusalem">Strauss-Centrum</span> in <span class="entity k-current-address" title="Jerusalem">Jerusalem</span> für wenige Wochen.
+
+<span class="relevant r-strong">Ich bin seit Januar geschieden — Alfred ist vom Get direkt unter die Chuppah gegangen.</span> Er wird so glücklich werden wie er es verdient.
+
+Das Häuschen hier in <span class="entity k-current-address" title="Kfar Shmaryahu — the village named for Shmarja Levin">Kfar Schmajahu</span> habe ich mir, nach grossen Kämpfen erhalten & vermiete während der sogenannten Saison Zimmer mit, ohne Pension.
+
+Ich schlage mich ganz gut durch, habe mich endlich von der furchtbaren Enttäuschung, die Alfred mir bereitet hat, erholt & ein neues Leben begonnen, auf eigene Initiative & Arbeit gestellt — & wirklich, es geht ganz gut & meine Freunde behaupten sogar dass ich jünger, zufriedener und lebenstüchtiger & froher sei als je in <span class="entity k-recovery-place" title="Palestine — site of reinvention">Palästina</span>.
+
+Von Herzen würde ich mich freuen Sie wieder einmal zu sehen. Eine besondere Freude wäre es, Sie, Ihre Gattin […] hier bei mir begrüssen zu dürfen, <b>ein Dorf, das den Namen Schmarjahu trägt</b>, in m. Haus auf dem <span class="entity k-current-address" title="The Wauchope-Hügel where Leoni's house stood — named after the British High Commissioner of Palestine">Wauchope-Hügel</span>.
+
+<span class="signature">Ihre Leonie Frank</span></div>
+
+      <div class="facsimile">
+        <img src="images/p0165.jpg" alt="page scan">
+        <div class="cap">F-0047-042 . p. 165</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ LETTER 6 ============ -->
+  <article class="letter" id="l6">
+    <div class="letter-head">
+      <div class="kicker">Letter 6 · p. 84 · Wiedergutmachung</div>
+      <h2>Leoni Frank → (unnamed correspondent)</h2>
+      <div class="meta">
+        <span><b>Date:</b> early 1950s</span>
+        <span><b>From:</b> Hamburg (German port)</span>
+        <span><b>To:</b> unknown — possibly Weizmann or family</span>
+        <span><b>Language:</b> German, handwritten, page 3 of multi-page letter</span>
+      </div>
+    </div>
+    <div class="letter-body">
+      <div class="transcription">in <span class="entity k-heimat-city" title="Hamburg — Leoni's restitution work site in early 1950s">Hamburg</span> tun — in dieser jüdischen Aufgabe, <b>die der materiellen <span class="entity k-citizenship" title="Wiedergutmachung — the post-war German restitution programme">Wiedergutmachung</span> dient und ohne private und persönliche Berührung mit diesen Deutschen.</b> Schwer, daß das jetzt über ein Jahr dauert und schwerer, daß es einen vielleicht noch ein Jahr festhält.
+
+Da war es heute ein Erlebnis daß wir <span class="entity k-recovery-place" title="Stepping onto Israeli soil — the freight ship as small Israel">Israelboden</span> betreten konnten. Wir nahmen hier im Hafen an einer schlichten Feier teil, die auf unserem Frachtschiff "<span class="entity k-cultural" title="The freight ship Rimon — pomegranate">רימון</span>" stattfand. Dem Schiff und seinem Kapitän <span class="entity k-diaspora-person" title="Captain Freudenberg of the freight ship Rimon">Freudenberg</span> wurden die <span class="entity k-temporal" title="A symbolic act of post-Shoah reparation — bringing the body of Herzl's successor home">sterblichen Überreste <span class="entity k-heimat-lineage" title="David Wolffsohn (1856–1914) — successor to Herzl as president of the WZO, buried in Cologne since his death">David Wolffsohn</span> und seiner Frau</span> übergeben, die nach <span class="entity k-recovery-place" title="Israel as destination of Wolffsohn's reburial">ישראל</span> überführt werden.
+
+David Wolffsohn war bekanntlich der Nachfolger Herzl's, 1917 etwa verstorben und <span class="entity k-heimat-city" title="Cologne — original burial site of Wolffsohn">in Köln beigesetzt</span>. Unser Konsul <span class="entity k-diaspora-person" title="Israeli consul Livni — accredited to the Allies, not the Germans, seated in Munich">ליבני</span> der bei den Alliierten und nicht bei den Deutschen akkreditiert ist (Sitz <span class="entity k-current-address" title="Munich — Israeli consulate of the period">München</span>), sprach ein paar Worte, eine ansehnliche Gemeinde, die aufs Schiff gekommen war, stand <span class="entity k-cultural" title="Stand at attention / El Maleh Rachamim (mourning prayer) / Hatikvah (anthem) — full Israeli memorial liturgy">דום = אל מול = רחמים = התקוה</span> und die Feier war beendet.
+
+Dann Führung durch das saubere Schiff und kleiner Imbiss. Man hörte viel <span class="entity k-cultural" title="Much Hebrew was heard">עברית</span>, der Steward (<span class="entity k-cultural" title="waiter, in Hebrew">מלצר</span>) erkannte mich, <b>es war eine erhebende <span class="entity k-cultural" title="Israeli">אשראל</span> Stunde.</b> Und die Sehnsucht wuchs. Das Schiff braucht nur 12 Tage bis <span class="entity k-current-address" title="Haifa">חיפה</span>. Es hat 6 Passagierkabinen mit 12 Betten. Mal fahr ich mit!
+
+Ich habe natürlich hier viel Arbeit vorge[…]</div>
+
+      <div class="facsimile">
+        <img src="images/p0084.jpg" alt="page scan">
+        <div class="cap">F-0047-042 . p. 84</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ LETTER 7 — THE ZWEIG LETTER ============ -->
+  <article class="letter" id="l7" style="border-color: var(--c-heimat-word); border-width: 2.5px;">
+    <div class="letter-head" style="background: #fff3f0;">
+      <div class="kicker" style="color: var(--c-heimat-word);">Letter 7 · p. 178 · ★ THE ZWEIG LETTER · the remigration imagination</div>
+      <h2>Leoni Frank → Arnold Zweig</h2>
+      <div class="meta">
+        <span><b>Date:</b> 18 May 1956</span>
+        <span><b>From:</b> Wiesbaden, Gustav-Freytag-Str. 1.II</span>
+        <span><b>To:</b> Arnold Zweig, East Berlin</span>
+        <span><b>Language:</b> German, typewritten</span>
+      </div>
+    </div>
+    <div class="letter-body">
+      <div class="transcription"><span class="entity k-heimat-city" title="Wiesbaden — Leoni's Heimat-city of birth, marriage, and now return">Wiesbaden</span>, den 18.5.56.
+<span class="entity k-current-address" title="Leoni's Wiesbaden address from 1955 onwards">Gustav-Freytagstr. 1.II.</span>
+
+<span class="salutation">Lieber Herr <span class="entity k-diaspora-person" title="Arnold Zweig (1887–1968) — German-Jewish novelist of WWI, emigrated to Palestine 1933, returned to East Berlin 1948 as honored GDR citizen">Zweig</span>,</span>
+
+ich bin Ihnen sehr dankbar für Ihr Bemühen und habe jetzt wirklich hier Anschluss an sehr liebe und interessante Menschen gefunden.
+
+Ich habe nach <span class="entity k-temporal" title="The years of restitution work in Hamburg + post-Shoah life-rebuilding">ein paar sorgenvollen und arbeitsreichen Jahren</span> mich 4 Wochen in <span class="entity k-recovery-place" title="Baden-Baden — German spa town, classic recovery destination">Baden-Baden</span> erholt und fühle mich wieder als die alte L.F., die Abstand von kleinen Dingen hat und jedenfalls zwischen kleinen und grossen zu unterscheiden versteht.
+
+<span class="relevant r-strong">Ich möchte nun doch gern mit der Zeit meinen Wohnsitz ändern</span>, denn es passt mir gar nicht, dass ich mich jetzt sozusagen <span class="entity k-temporal" title="To be retired / sidelined — the condition she refuses">"zur Ruhe gesetzt"</span> habe. <b>Ich möchte etwa in der zweiten Juniwoche nach <span class="entity k-heimat-city" title="East Berlin — Zweig's home, location of Germany's largest postwar Jewish community">Berlin</span> kommen und mich dort umsehen.</b> In Berlin ist die <span class="entity k-heimat-institution" title="The largest Jewish community in postwar Germany — a Heimat-institutional draw">grösste jüdische Gemeinde</span>, da bin ich überzeugt, dass ich eine meinen Kenntnissen entsprechende Tätigkeit bekommen kann. Vielleicht hat <span class="entity k-diaspora-person" title="Karl Marx (1897–1966) — editor of Allgemeine Wochenzeitung der Juden in Deutschland, post-war German-Jewish press">Karl Marx</span>, der dort auch ein Büro hat, eine Möglichkeit für mich.
+
+Ich arbeite allerdings am liebsten auf <span class="entity k-heimat-institution" title="Social work — Leoni's professional identity">sozialem Gebiet</span> und habe einst in <span class="entity k-heimat-city" title="Frankfurt — site of Leoni's pre-emigration training">Frankfurt</span> <span class="entity k-heimat-institution" title="Job placement and career counseling — the pre-emigration Heimat profession">Arbeitsvermittlung und Berufsberatung</span> gelernt — <b>durch <span class="entity k-heimat-lineage" title="Bertha Pappenheim (1859–1936) — pioneer of Jewish women's welfare, founder of Jüdischer Frauenbund">Bertha Pappenheim</span></b> — und habe mich auch noch in einer <span class="entity k-heimat-city" title="Hamburg — Leoni's other professional Heimat-anchor">Hamburger</span> Kinderklinik mit Babypflege beschäftigt. Ich habe sowohl von der <span class="entity k-heimat-institution" title="The Frankfurt Welfare Center under Rabbi Horowitz">Frankfurter Wohlfahrtszentrale</span>, damals unter <span class="entity k-heimat-lineage" title="Rabbi Dr. Horowitz of the Frankfurt Welfare Center">Rab. Dr. Horowitz</span> und jetzt von dem <span class="entity k-heimat-institution" title="The Hamburg hospital where she had recently worked">Hamburger Spital</span> Empfehlungen.
+
+Ich möchte aber nur dann nach Berlin kommen, wenn ich sicher bin, dass Sie zu dieser Zeit zu Hause sind, weil ich Sie und Ihre Gattin doch gerne wiedersehen und sprechen möchte. Ich bitte Sie deshalb mir mitteilen zu wollen, ob Sie in der zweiten Junihälfte sich in Berlin befinden.
+
+<span class="relevant r-strong">Ich habe jetzt meine <span class="entity k-citizenship" title="Restored German citizenship — Wiedergutmachung-axis restoration of legal Heimat status">deutsche Staatsangehörigkeit</span> wieder und sicher keine Schwierigkeiten zu Ihnen zu gelangen.</span>
+
+Per Drucksache sende ich Ihnen einen Artikel über <span class="entity k-cultural" title="Sigmund Freud — shared German-Jewish cultural patrimony">Prof. Freud</span>, der Sie interessieren wird — mit gleicher Post.
+
+Ich sende Ihnen und Ihrer Gattin die herzlichsten Grüsse
+
+<span class="signature">Ihre [Leonie Frank — handwritten annotation by archivist]
+<span style="font-style:normal;color:var(--c-temporal);font-size:0.85em;">[archival annotation, bottom of page: "von Leonie Frank / נכתב ע״י לאוני פרנק"]</span></span></div>
+
+      <div class="facsimile">
+        <img src="images/p0178.jpg" alt="page scan">
+        <div class="cap">F-0047-042 . p. 178</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ LETTER 8 ============ -->
+  <article class="letter" id="l8">
+    <div class="letter-head">
+      <div class="kicker">Letter 8 · p. 184 · Heimat-ambivalence</div>
+      <h2>Leoni Frank → Arnold Zweig (later in life)</h2>
+      <div class="meta">
+        <span><b>Date:</b> 28 April, undated year (late 1950s–1960s)</span>
+        <span><b>From:</b> Wiesbaden or Tel Aviv (uncertain)</span>
+        <span><b>To:</b> Arnold Zweig</span>
+        <span><b>Language:</b> German, typewritten, page 2 of multi-page letter</span>
+      </div>
+    </div>
+    <div class="letter-body">
+      <div class="transcription">[…] <span class="entity k-cultural" title="Jewish mourning customs — sitting shiva, not shaving four weeks, rending garments">Juden, die zum Zeichen der Trauer 4 Wochen lang sich weder rasieren, noch die Haare schneiden lassen und mit einem Riss in ihrer Kleidung herumgehen. Zu Hause sitzen sie auf einem Schemel.</span> Das alles natürlich nur beim Tod naher Angehöriger.
+
+Ich sagte den Freunden, dass Sie gerade <span class="entity k-temporal" title="Zweig became great-grandfather">Urgrossvater geworden wären</span> und sich mit Ihrem älter machenden Bart auf die neue Urgrossvaterwürde vorbereitet hätten.
+
+<span class="relevant r-strong">Ich spiele mit dem Gedanken im Sommer nach <span class="entity k-heimat-city" title="Germany — destination of planned summer trip">Deutschland</span> zu kommen.</span> Eine meiner Freundinnen, 40 Jahre jünger als ich hat mich dringend nach <span class="entity k-heimat-city" title="Nuremberg — friend's invitation">Nürnberg</span> in ihr neues Häuschen eingeladen. Es geht da eine verbilligte Reise nach <span class="entity k-heimat-city" title="Berlin — second leg of the planned trip">Berlin</span> und danach, nach Absolvierung des Programms kann man noch länger in Europa bleiben. Die Rückreise kann man bis <span class="entity k-heimat-city" title="Frankfurt — return-leg city">Frankfurt</span> mitmachen.
+
+<span class="relevant r-strong">28. 4.</span>
+
+<span class="relevant r-strong">Gestern Abend wurde vom <span class="entity k-heimat-institution" title="Cultural Center of the German Embassy in Tel Aviv">Kulturzentrum der Deutschen Botschaft</span>, gemeinsam mit der <span class="entity k-heimat-institution" title="Begegnung — Jecke-diasporic German-language organization">„Begegnung"</span> ein deutscher Film gegeben: <span class="entity k-cultural" title="Fontane's classic novel Effi Briest, filmed in 1955">Fontanes Effi Briest</span>.</span> <span class="entity k-cultural" title="Theodor Fontane (1819–1898), realist novelist">Fontane</span> war in meiner Jugend einer meiner Lieblingsschriftsteller und sicherlich habe ich das Buch 3 Mal gelesen. Ich war etwas enttäuscht, denn in meiner Phantasie hatte ich eine schönere Vorstellung darüber. Würde sich nicht <span class="entity k-cultural" title="Arnold Zweig's 1925 memoir / novel — confirming this letter is to Zweig">Ihr Buch „Viel Steine Lagen Am Weg"</span> nicht auch zu einer Verfilmung eignen?
+
+Ich bin ganz glücklich, dass ich wieder laufen kann, das heisst gehen kann, langsam der Urgrossmutterwürde angepasst. Kennen Sie die Geschichte von dem Böckchen, das <span class="entity k-heimat-lineage" title="Shmarja Levin — the same friend Leoni wrote to in 1932 (letters 1 and 2)">Shmarja Levin</span> mir erzählte? Ich habe sie viele Male erzählt, denn sie passt auf viele viele tägliche Geschehnisse.
+
+Nachdem ich den ganzen Winter nicht ausging habe ich jetzt viele Verabredungen und Besorgungen und Korrespondenz — aber doch wollte ich Ihnen ausführlich schreiben, nachdem ich Sie nach so langer Zeit einmal wieder gesehen habe und mich so sehr gefreut habe über Ihre Geburtstagsrede und Ihr neues Einvernehmen mit <span class="entity k-diaspora-person" title="Fritz Berger — German-Jewish literary figure in Zweig's circle">Fritz Berger</span>.
+
+<span class="signature">Leben Sie wohl und bleiben Sie wie Sie sind — mit oder ohne Bart — ohne gefällt mir natürlich besser!</span></div>
+
+      <div class="facsimile">
+        <img src="images/p0184.jpg" alt="page scan">
+        <div class="cap">F-0047-042 . p. 184</div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- ============ LEGEND ============ -->
+<div class="legend">
+  <h3>Heimat-axis annotation palette · 9 classes</h3>
+  <div class="legend-grid">
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-heimat-city-bg);border-color:var(--c-heimat-city);"></span><span>Heimat-city (Wiesbaden, Frankfurt, Berlin, Hamburg, Köln, Nürnberg)</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-current-address-bg);border-color:var(--c-current-address);"></span><span>Current address (specific street / locale)</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-recovery-place-bg);border-color:var(--c-recovery-place);"></span><span>Recovery / transit place (Baden-Baden, London, Paris, Palästina)</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-heimat-institution-bg);border-color:var(--c-heimat-institution);"></span><span>Heimat-institution (welfare centre, Jewish community, German Embassy cultural arm)</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-heimat-lineage-bg);border-color:var(--c-heimat-lineage);"></span><span>Heimat-person-lineage (Pappenheim, Horowitz, Bergmann, Levin)</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-diaspora-person-bg);border-color:var(--c-diaspora-person);"></span><span>Diaspora-person (Zweig, Weizmann, K. Marx, family)</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-citizenship-bg);border-color:var(--c-citizenship);"></span><span>Citizenship / Wiedergutmachung marker</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-cultural-bg);border-color:var(--c-cultural);"></span><span>Cultural marker (Freud, Fontane, Buber's <em>Der Jude</em>, Effi Briest)</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--c-temporal-bg);border-color:var(--c-temporal);"></span><span>Temporal / phase marker ("sorgenvolle Jahre", "zur Ruhe gesetzt")</span></div>
+    <div class="legend-item"><span class="legend-swatch" style="background:#ffe3e3;border-color:var(--c-heimat-word);"></span><span><b style="color:var(--c-heimat-word);">Heimat</b> — the literal word (1 occurrence in 184 pages)</span></div>
+  </div>
+</div>
+
+  </main><!-- /frame-center -->
+
+  <aside class="frame-right">
+    <div class="frame-map-wrap">
+      <h3>Places</h3>
+      <div id="frame-map" class="frame-map"></div>
+      <div class="frame-map-legend">
+        <span><span class="leg-pin pin-heimat"></span>Heimat (Wiesbaden)</span>
+        <span><span class="leg-pin pin-current"></span>life path</span>
+        <span><span class="leg-pin pin-mention"></span>mentioned</span>
+      </div>
+    </div>
+    <div class="frame-entities">
+      <h3>People &amp; Organizations</h3>
+      <ul class="ent-list"></ul>
+    </div>
+  </aside>
+
+</div><!-- /frame-grid -->
+
+<footer class="site">
+  JeckeArchive mockup · Diasporic Memory project (Miron / Rusinek) · Transkribus doc 853306 · CC-BY for the mockup, archival rights with the Jeckes Archive
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+  // image lightbox
+  document.querySelectorAll('.sidebar img.scan').forEach(img => {
+    img.addEventListener('click', () => {
+      const lb = document.getElementById('lightbox');
+      const lbImg = document.getElementById('lightbox-img');
+      lbImg.src = img.dataset.full;
+      lb.classList.add('open');
+    });
+  });
+  document.getElementById('lightbox').addEventListener('click', () => {
+    document.getElementById('lightbox').classList.remove('open');
+  });
+  // smooth scroll for timeline links
+  document.querySelectorAll('.timeline-item').forEach(a => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.querySelector(a.getAttribute('href'));
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+</script>
+
+<script>
+window.FRAME_DATA = {
+  timeline: [
+    { year: 1900, label: 'Leoni b. Wiesbaden' },
+    { year: 1921, label: 'm. Landsberg' },
+    { year: 1932, label: 'aliyah → Jerusalem', anchor: '#l1', pivot: true },
+    { year: 1934, label: 'Jerusalem', anchor: '#l3' },
+    { year: 1945, label: 'Tel Aviv', anchor: '#l4' },
+    { year: 1946, label: 'Tel Aviv', anchor: '#l5' },
+    { year: 1955, label: 'return to Wiesbaden', pivot: true },
+    { year: 1965, label: 'Tel Aviv letter', anchor: '#l6' },
+    { year: 1971, label: 'Fontane evening', anchor: '#l7', pivot: true }
+  ],
+  mapCenter: [42.0, 18.0],
+  mapZoom: 4,
+  places: [
+    { name: 'Wiesbaden',       lat: 50.0826, lng: 8.2493,  kind: 'heimat',  note: "Leoni's birthplace; she returned to live here from 1955" },
+    { name: 'Gustav-Freytag-Str. 1.II', lat: 50.0850, lng: 8.2400, kind: 'heimat', note: "Leoni's Wiesbaden address from 1955" },
+    { name: 'Nuremberg',       lat: 49.4521, lng: 11.0767, kind: 'mention', note: "Planned 1971 trip — friend's invitation" },
+    { name: 'Berlin',          lat: 52.5200, lng: 13.4050, kind: 'mention', note: "Planned remigration to East Berlin; planned 1971 trip leg" },
+    { name: 'Frankfurt',       lat: 50.1109, lng: 8.6821,  kind: 'mention', note: "1971 trip return-leg city" },
+    { name: 'Jerusalem',       lat: 31.7683, lng: 35.2137, kind: 'current', note: "Letters 1, 2, 3 (1932, 1934)" },
+    { name: 'Tel Aviv',        lat: 32.0853, lng: 34.7818, kind: 'current', note: "Letters 4, 5, 6, 7" },
+    { name: 'Haifa',           lat: 32.7940, lng: 34.9896, kind: 'mention' }
+  ],
+  entities: [
+    { type: 'person', name: 'Leoni Frank / Landsberg', altname: '1900–after 1971',
+      bio: 'The letter-writer. B. Wiesbaden; m. Dr. Alfred Landsberg 1921; aliyah 1932; uniquely among her cohort she moved back to Wiesbaden in the 1950s.' },
+    { type: 'person', name: 'Dr. Alfred Landsberg',
+      bio: "Leoni's husband. Lawyer; subject of the separate G-F-0047 collection." },
+    { type: 'person', name: 'Shmarja Levin', altname: '1867–1935',
+      bio: "Russian-Jewish Zionist, friend of the Landsbergs; addressed in letters 1, 2 and named again in 1971 (letter 7) — bookending the arc." },
+    { type: 'person', name: 'Arnold Zweig', altname: '1887–1968',
+      bio: "Author of «Viel Steine lagen am Weg» (1925). Addressee of letter 7 (the Fontane-evening letter, Tel Aviv 1971)." },
+    { type: 'person', name: 'Fritz Berger',
+      bio: "German-Jewish literary figure in Zweig's circle; mentioned in letter 7." },
+    { type: 'person', name: 'Theodor Fontane', altname: '1819–1898',
+      bio: 'Realist novelist; «Effi Briest» (1895). The 1955 film was shown at the German Embassy cultural evening in Tel Aviv reported in letter 7.' },
+    { type: 'org',    name: 'Kulturzentrum der Deutschen Botschaft', altname: 'Tel Aviv',
+      bio: 'Cultural Centre of the German Embassy in Israel; the Fontane evening referenced in letter 7.' },
+    { type: 'org',    name: 'Begegnung', altname: 'Tel Aviv',
+      bio: 'Jecke-diasporic German-language cultural organisation; co-host of the Fontane evening.' }
+  ],
+  topics: ['Wiesbaden', 'aliyah 1932', 'Jerusalem flat', 'Tel Aviv letters', 'return to Wiesbaden', 'East-Berlin remigration', 'Wiedergutmachung', 'Hebrew language', 'Zweig correspondence', 'Fontane evening', 'Shmarja Levin'],
+  ner:       ['place', 'person', 'org', 'date'],
+  relevance: true,
+  views:     ['reading', 'side-by-side', 'facsimile']
+};
+document.addEventListener('DOMContentLoaded', FrameInit);
+</script>
+
+</body>
+</html>

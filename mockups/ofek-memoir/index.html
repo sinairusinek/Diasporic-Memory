@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>זיכרון מתוק מארץ המלח — חוה אופק | JeckeArchive mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;800&family=Heebo:wght@400;500;700&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:       #f6f1e6;
+    --paper-2:     #efe7d4;
+    --paper-3:     #fbf7eb;
+    --ink:         #1a1a1a;
+    --ink-soft:    #3a3a3a;
+    --ink-muted:   #6b6354;
+    --rule:        #c9bfa6;
+    --rule-2:      #a89c7e;
+    --place:       #5a4a2a;
+    --salt:        #8a6a2a;   /* "ארץ המלח" thread color (Salzkammergut wordplay) */
+    --note:        #b91c1c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Heebo', 'Frank Ruhl Libre', sans-serif;
+    font-size: 17px;
+    line-height: 1.85;
+  }
+
+  .mockup-banner {
+    background: #fff4cc;
+    color: #5a4400;
+    border-bottom: 2px solid #d6b94a;
+    padding: 10px 24px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    direction: ltr;
+  }
+  .mockup-banner .small { font-weight: 400; opacity: 0.8; margin-inline-start: 12px; }
+
+  header.site {
+    background: var(--paper-3);
+    border-bottom: 3px solid var(--rule-2);
+    padding: 28px 32px;
+  }
+  .site-inner { max-width: 1180px; margin: 0 auto; }
+  header.site .kicker {
+    font-family: 'Inter', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ink-muted);
+    direction: ltr;
+    text-align: left;
+  }
+  header.site h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 40px;
+    margin: 8px 0 4px;
+    color: var(--ink);
+    font-weight: 800;
+    letter-spacing: -0.3px;
+  }
+  header.site .subtitle {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 21px;
+    color: var(--ink-soft);
+    margin: 0;
+    font-weight: 500;
+  }
+  header.site .byline {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    color: var(--ink-muted);
+    margin-top: 6px;
+    font-size: 17px;
+  }
+
+  .intro {
+    max-width: 880px;
+    margin: 32px auto 0;
+    padding: 0 32px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 19px;
+    color: var(--ink-soft);
+  }
+  .intro p { margin: 0 0 14px; }
+
+  .meta-card {
+    max-width: 880px;
+    margin: 24px auto 0;
+    padding: 16px 24px;
+    background: var(--paper-3);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  .meta-card dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; column-gap: 18px; row-gap: 6px; }
+  .meta-card dt { font-weight: 600; color: var(--ink-muted); font-family: 'Inter', sans-serif; font-size: 13px; padding-top: 2px; }
+  .meta-card dd { margin: 0; color: var(--ink-soft); }
+
+  .dramatis {
+    max-width: 880px;
+    margin: 28px auto 0;
+    padding: 18px 24px;
+    background: var(--paper-3);
+    border-inline-start: 4px solid var(--rule-2);
+  }
+  .dramatis h3 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 17px;
+    margin: 0 0 10px;
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .dramatis ul { margin: 0; padding-inline-start: 22px; font-size: 15.5px; color: var(--ink-soft); }
+  .dramatis li { margin-bottom: 4px; }
+  .dramatis .nm { font-weight: 600; color: var(--ink); }
+
+  .section-rule {
+    max-width: 880px;
+    margin: 40px auto 8px;
+    padding: 0 32px;
+    border: 0;
+  }
+  .section-rule h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 26px;
+    margin: 0 0 4px;
+    color: var(--ink);
+    font-weight: 700;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 6px;
+  }
+  .section-rule .lead {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: var(--ink-muted);
+    margin: 8px 0 0;
+  }
+
+  .excerpt {
+    max-width: 880px;
+    margin: 22px auto 0;
+    padding: 0 32px;
+  }
+  .excerpt-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+  }
+  .excerpt-head .where {
+    font-family: 'Inter', monospace;
+    font-size: 12px;
+    color: var(--ink-muted);
+    letter-spacing: 1px;
+    direction: ltr;
+  }
+  .excerpt-head .stamp {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    color: var(--ink-muted);
+    font-size: 15px;
+  }
+  .excerpt blockquote {
+    margin: 0;
+    padding: 0;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 18px;
+    color: var(--ink);
+    line-height: 1.85;
+  }
+  .excerpt blockquote p { margin: 0 0 12px; }
+  .place {
+    color: var(--place);
+    font-weight: 500;
+    border-bottom: 1px dotted var(--place);
+    padding-bottom: 1px;
+    cursor: help;
+  }
+  .salt {
+    color: var(--salt);
+    font-weight: 600;
+  }
+  .editor-note {
+    margin: 10px 0 0;
+    padding: 10px 14px;
+    background: var(--paper-2);
+    border-inline-start: 3px solid var(--rule-2);
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 15.5px;
+    color: var(--ink-soft);
+  }
+  .editor-note .lbl {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--note);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .closing {
+    max-width: 880px;
+    margin: 48px auto 0;
+    padding: 0 32px 60px;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: var(--ink-soft);
+    font-size: 17px;
+  }
+  .closing h3 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+    color: var(--ink);
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 4px;
+  }
+  .closing ul { padding-inline-start: 22px; }
+
+  footer.site {
+    background: var(--paper-3);
+    border-top: 3px solid var(--rule-2);
+    padding: 18px 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: var(--ink-muted);
+    text-align: center;
+    direction: ltr;
+  }
+</style>
+<link rel="stylesheet" href="../_shared/frame.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../_shared/frame.js"></script>
+</head>
+<body>
+
+<div class="mockup-banner">
+  JeckeArchive — Memoir Mockup
+  <span class="small">Source: Lamberg-Scheck-Ofek folder G-F-0410, Transkribus docId 3087705</span>
+</div>
+
+<!-- shared sticky timeline -->
+<nav class="frame-timeline" aria-label="Timeline">
+  <div class="tl-track"><div class="tl-axis"></div></div>
+</nav>
+
+<header class="site">
+  <div class="site-inner">
+    <div class="kicker">JeckeArchive · genre mockup · memoir</div>
+    <h1>זיכרון מתוק מארץ המלח</h1>
+    <p class="subtitle">A Sweet Memory from Salt-Land — a family memoir by Chava Ofek</p>
+    <p class="byline">From the Lamberg-Scheck-Ofek collection (MTFN G-F-0410). Hebrew autograph memoir, 97 pp., written by the author in her sixties (c. 2005–2010).</p>
+  </div>
+</header>
+
+<div class="frame-grid">
+
+  <aside class="frame-left">
+    <div class="frame-block summary">
+      <h3>Summary</h3>
+      <p>A Hebrew family memoir by Chava Ofek (b. Salzburg 1949), written in her sixties for her three children.</p>
+      <p>The memoir stages diasporic memory twice: the grandparents' Olmütz / Vienna / Prague world that they could not return to, and the author's own Salzburg childhood — the <em>Salzkammergut</em>, the "salt-land" of the title — which she herself lost in 1955 when the family emigrated to Israel.</p>
+    </div>
+    <div class="frame-block frame-topics">
+      <h3>Topics</h3>
+      <ul class="topic-list"></ul>
+    </div>
+  </aside>
+
+  <main class="frame-center">
+
+    <div class="frame-highlight-bar">
+      <span class="hl-label">highlight:</span>
+    </div>
+
+
+    <!-- CHAPTER 0 — preface address -->
+    <article class="chapter" id="c-preface">
+      <div class="chapter-head">
+        <span class="label">Preface · address at the opening of the museum</span>
+        <span class="meta">Tefen, 2005</span>
+      </div>
+      <div class="chapter-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              הרשו לי מילה אישית על החיבור שלי למוזיאון הזה. <span class="relevant r-strong">הגעתי לכאן כ-30 שנה אחרי גלי העלייה הייקית לארץ. כילדה קטנה הגעתי ביום חמסין אופייני לחודש מאי. לבושה בדירדל המסורתי, דוברת גרמנית בלבד, מכופפת ברכיים בקניקס כנהוג לכל לוחץ יד, נועלת סנדלים עם גרביים ולא מבינה מה קורה כאן.</span>
+              לא מבינה מה זאת השמש היוקדת, הלבוש המוזר, האכילה ברחוב, הדיבור הקולני, הבתים חסרי גגות הרעפים, הים, השפה והפירות.
+            </p>
+            <p>
+              ילדה שמעשייה והתנהגותה מעוררים גלי צחוק, לא לעג, אך מעוררים במבוגרים מבטים מצועפים ובקשות חוזרות ונשנות לומר מילה זו או אחרת שוב. אלו היו המבוגרים והילדים לעומתם
+              ... לא נרחיב את הדיבור. השפה המדוברת בין המבוגרים הייתה גרמנית. אותי, הילדה המוזרה שהגיעה מהאלפים, לימדו לדבר גרמנית בשקט, שלא ישמעו, ובכלל עדיף היה לעבור לעברית ברחוב.
+            </p>
+            <p>
+              <span class="relevant r-strong">לימים הבנתי כי הייתי עבורם תזכורת לעולמם שלהם, עולם שהשאירו שם ב<span class="hl-place">אירופה</span>.</span>
+              ולכן המפגש עם המוזיאון היה, מעבר למפגש המקצועי, מעורב בזכרונות, אמוציות והרבה אהבה והבנה אל האנשים, הייקים, שאני מלווה כבר 15 שנה מאז עבר המוזיאון ל<span class="hl-place">תפן</span>.
+              <span class="relevant">כאן חזרתי לראשונה לדבר גרמנית בקול רם ולשנן לעצמי את דברי <span class="hl-person">אבי</span> ז"ל, שאגב לא למד לדבר עברית מעולם, וטען "שהשפה אינה אשמה״.</span>
+            </p>
+            <p style="opacity:.7;font-size:.93em">מתוך דברי הפתיחה למוזיאון ליהדות דוברת גרמנית בשנת <span class="hl-date">2005</span> ב<span class="hl-place">תפן</span>.</p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0002.jpg" alt="Ofek memoir page 2 — opening address">
+          <div class="cap">G-F-0410 · p. 2</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CHAPTER 1 — Scheck family -->
+    <article class="chapter" id="c-scheck">
+      <div class="chapter-head">
+        <span class="label">Chapter I · משפחת שק (Scheck)</span>
+        <span class="meta">Olmütz · 1880 – 1939</span>
+      </div>
+      <div class="chapter-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              משפחת שק הייתה משפחה של נוודים. (כך גילה <span class="hl-person">יונתן כוהן</span> שכתב את תולדות המשפחה, בן דוד רחוק מ<span class="hl-place">ניו יורק</span>, שמצא לנכון לערוך אילן יוחסין לבני המשפחה.) לדעתו למשפחת שק במאה ה-19 וה-20 היו נציגים בכל רחבי <span class="hl-place">אירופה</span> למטרות מסחר. שקים מוזכרים בארצות שהשתייכו לאימפריה האוסטרו-הונגרית, <span class="hl-place">גליציה</span>, <span class="hl-place">מורביה</span>, מ<span class="hl-place">וינה</span> עד <span class="hl-place">אודסה</span>.
+            </p>
+            <p>
+              <span class="hl-person">סבא שלי, פסח שק</span>, נולד ב<span class="hl-place">אודסה</span> בשנת <span class="hl-date">1880</span>. הוא היגר, דרך שהות כנראה די ארוכה ב<span class="hl-place">פולין</span>, ל<span class="hl-place">צ'כיה</span>. רעייתו הייתה <span class="hl-person">חיה קלפהולץ</span>, סבתי, וארבעת ילדיהם הראשונים נולדו ב<span class="hl-place">פולין</span>, כנראה בעיר בשם <span class="hl-place">דוברומיל</span>. הוא המשיך את נדודיו לעיר <span class="hl-place">אולמיץ</span> ב<span class="hl-place">צ'כיה</span>. העיר נמצאת בחבל <span class="hl-place">מורביה</span> אשר השתייך לאימפריה האוסטרו-הונגרית — ומכאן שהשפה הייתה גרמנית. ב<span class="hl-place">אולמיץ</span> נולדה ביתם, ילדה חמישית במשפחה, אימא שלי <span class="hl-person">פאולה</span>.
+            </p>
+            <p>
+              הוא דגל באמרתו של <span class="hl-person">משה מנדלסון</span>: <em>"היה יהודי בביתך ואיש בצאתך"</em>. הבית היה ברחוב ראשי, כאשר בקומת הקרקע הייתה ממוקמת חנות הפרוות ואילו בקומות העליונות גרו בני המשפחה.
+            </p>
+            <p>
+              אחד מהעובדים בחנות, שאני זוכרת בשם הכינוי באצ'י, שמו היה <span class="hl-person">יוסף הרצוג</span>, נתן עדות בבית המשפט במסגרת תביעת פיצויים ובה נמצאים הנתונים על החנות.
+              […] באצ'י מספר בעדותו כיצד הולאמה החנות ותכולתה על ידי הנאצים בשנת <span class="hl-date">1939</span>. הבית עמד ברחוב <span class="hl-place" dir="ltr">Englisch 16</span> ב<span class="hl-place">אולמיץ׳</span>.
+            </p>
+            <p>
+              <span class="relevant r-strong"><span class="hl-person">סבא שלי</span> ביקר ב<span class="hl-place">פלסטינה</span> בשנת <span class="hl-date">1934</span>. הוא היה כאן לרגל משחקי המכביה. בחזרו לביתו סיפר על הארץ בהתרגשות, אך ציין כי הארץ אינה מתאימה לפרוון כמותו.</span>
+            </p>
+            <p>
+              עם פרוץ המלחמה נעצר <span class="hl-person">סבא שלי</span> ונשלח ל<span class="hl-place">בוכנוולד</span>. […] לאחר כשלושה חודשים שלחו הנאצים הביתה, ל<span class="hl-place">אולמיץ</span>, כד ובו אפרו של <span class="hl-person">סבי פסח שק</span>. ב<span class="hl-place">אולמיץ</span>, בנוכחות כל ילדיו, נקבר <span class="hl-person">פסח שק</span> — שלדברי אימי מת על קידוש השם, מרעב, כי סרב לאכול אוכל לא כשר.
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0003.jpg" alt="Ofek memoir page 3 — Scheck chapter">
+          <div class="cap">G-F-0410 · p. 3</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CHAPTER 2 — Lamberg family / father's story -->
+    <article class="chapter" id="c-lamberg">
+      <div class="chapter-head">
+        <span class="label">Chapter II · משפחת למברג (Lamberg)</span>
+        <span class="meta">Vienna · 1908 – 1949</span>
+      </div>
+      <div class="chapter-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              <span class="hl-person">אבי, פאול למברג</span>, נולד ב<span class="hl-place">וינה</span> בעשרים ואחת לפברואר בשנת <span class="hl-date">1908</span> ל<span class="hl-person">הוגו</span> ו<span class="hl-person">סטפני למברג</span> לבית קליין. <span class="hl-person">סבתי סטפני</span> נולדה ב<span class="hl-place">וינה</span> ואף קבורה בה בבית הקברות היהודי המרכזי של העיר.
+            </p>
+            <p>
+              היה חבר באגודת <span class="hl-org">"הכוח וינה"</span> שהייתה כל עולמו שנים רבות. הוא היה ספורטאי מוביל בעל מדליות ופרסים. בספר על <span class="hl-org">הכוח וינה</span> שיצא ב-<span class="hl-date">1960</span> הוא מוזכר בצניעות יחסית, אבל בספר על הספורט היהודי ב<span class="hl-place">אוסטריה</span> בין השנים <span class="hl-date">1900–1938</span> הוא מוזכר בהרחבה.
+            </p>
+            <p>
+              לארץ הגיע בעלייה לא לגאלית על סיפנה של אניית קייאק שנהגה לשייט על ה<span class="hl-place">דנובה</span>. […] שנאתו לנאצים ומעלליהם גרמה לו, לאחר תשעה חודשים בארץ, לעזוב ולהתגייס לצבא הבריטי. בצבא הבריטי נדד דרך מדבר סיני ל<span class="hl-place">מצרים</span> ול<span class="hl-place">לוב</span>. הוא השתתף בקרבות הבלימה ב<span class="hl-place">טוברוק</span>.
+            </p>
+            <p>
+              לאחר המלחמה הוא חצה את הגבול ב-<span class="hl-date">1949</span> אחרי שירד מסך הברזל. וכאן החל הפרק המשותף של חייו עם אימא שלי ב<span class="hl-place">זלצבורג</span>, אליה הגיעה.
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0011.jpg" alt="Ofek memoir page 11 — Lamberg chapter">
+          <div class="cap">G-F-0410 · p. 11</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CHAPTER 3 — Salzburg years -->
+    <article class="chapter" id="c-salzburg">
+      <div class="chapter-head">
+        <span class="label">Chapter III · "ארץ המלח" — Salzburg years</span>
+        <span class="meta">Salzburg & St. Wolfgang · 1949 – 1955</span>
+      </div>
+      <div class="chapter-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              <span class="hl-person">אמי</span> הגיעה ל<span class="hl-place">זלצבורג</span> בתחילת <span class="hl-date">1949</span>. <span class="hl-person">אבי</span> המתין לה שם. כאשר היא הייתה בהריון איתי, הם קבעו את מקום מושבם הזמני ב<span class="hl-place">סנט וולפגאנג</span>.
+              <span class="relevant r-strong">הוא בחר ב<span class="hl-place">זלצבורג</span> וסביבתה כי ל<span class="hl-place">וינה</span> לא יכול היה לחזור. <span class="hl-place">וינה</span> הייתה מחולקת בין ארבעת המעצמות — <span class="hl-place">רוסיה</span>, <span class="hl-place">ארצות הברית</span>, <span class="hl-place">בריטניה</span> ו<span class="hl-place">צרפת</span>.</span>
+              <span class="relevant"><span class="hl-person">אבי</span> חשש להיעצר על ידי הרוסים, כי ברח מ<span class="hl-place">פראג</span> באופן לא לגאלי עם סכום כסף אדיר.</span>
+            </p>
+            <p>
+              את החודשים הראשונים לשהותם ב<span class="hl-place">אוסטריה</span> בילו על שפת ה<span class="hl-place">וולפגאנג</span> — זה שם אימי המתינה בסבלנות להיוולדי. זו עיירה ציורית מדהימה ביופייה על שפת האגם מוקפת בהרים.
+            </p>
+            <p>
+              <span class="relevant">שמי ניתן לי מתוך בחירה של שם שלא יאזכר את מי שכבר אינם.</span>
+            </p>
+            <p>
+              העצים והנופים המרחיבים שכל כך אופייניים לאזור ה<span class="hl-place">זלצקמרגוט</span>.
+              <span class="relevant"><em>ארץ המלח</em> — בעלת המכרות, ארץ הנופים היפים ביותר שניתן לעלות על הדעת.</span>
+              מרחבים אינסופיים […].
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0013.jpg" alt="Ofek memoir page 13 — Salzburg years">
+          <div class="cap">G-F-0410 · p. 13</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CHAPTER 4 — arrival in Haifa -->
+    <article class="chapter" id="c-haifa">
+      <div class="chapter-head">
+        <span class="label">Chapter IV · "חיפה, ארץ הים, ההר והשמש הנצחית"</span>
+        <span class="meta">Salzburg → Tel Aviv → Haifa · 1955</span>
+      </div>
+      <div class="chapter-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              ביוצאי מהבית באמצע הלילה ב<span class="hl-place">זלצבורג</span>. הגענו ל<span class="hl-place">תל אביב</span>. <span class="hl-person">אבא שלי</span> עבר בין מכריו הרבים כאן […]. אני בלבוש הדירדל לא הבנתי באמת מה קורה כאן. הכל היה כל כך מביך לרוב האנשים.
+            </p>
+            <p>
+              כך הגענו ל<span class="hl-place">חיפה</span>.
+              <span class="relevant r-strong">למה ל<span class="hl-place">חיפה</span>? כי זו העיר ש<span class="hl-person">אבי</span> היה בטוח בעתידה. הוא זכר כי ב<span class="hl-place">חיפה</span> היה הכול. נמל, חיי לילה, ים, כן, גם קצת הר. בקיצור, הוא היה בטוח כי מה שזכר אכן קיים.</span>
+              <span class="relevant">[—] לא היה כאן. הכל השתנה. המרכז הפך להיות ב<span class="hl-place">תל אביב</span>.</span>
+            </p>
+            <p>
+              לי הכל היה כעוד טיול נחמד שבסיומו אחזור לי אל ארצי מולדתי, אל הבית, הגינה, הצעצועים, בית הכרמל הירוק שעליו פרחו שלגיות ופרחי בר אחרים.
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0014.jpg" alt="Ofek memoir page 14 — arrival in Haifa">
+          <div class="cap">G-F-0410 · p. 14</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CHAPTER 5 — return to Salzburg -->
+    <article class="chapter" id="c-return">
+      <div class="chapter-head">
+        <span class="label">Chapter V · "הנחת הזר או הפרח" — Returning to Salzburg</span>
+        <span class="meta">date not stated</span>
+      </div>
+      <div class="chapter-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              <span class="relevant r-strong">חזרתי לראשונה ל<span class="hl-place">זלצבורג</span> מאז שעזבנו אותה באישון ליל, שכנעתי את <span class="hl-person">אימא שלי</span> לעשות את [המסע] איתי.</span>
+            </p>
+            <p>
+              <span class="relevant">הנחת הזר או הפרח היא מעשה של יום יום ולא של תאריכי אזכרות.</span>
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0017.jpg" alt="Ofek memoir page 17 — return to Salzburg">
+          <div class="cap">G-F-0410 · p. 17</div>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <aside class="frame-right">
+    <div class="frame-map-wrap">
+      <h3>Places</h3>
+      <div id="frame-map" class="frame-map"></div>
+      <div class="frame-map-legend">
+        <span><span class="leg-pin pin-heimat"></span>parents' lost world</span>
+        <span><span class="leg-pin pin-current"></span>author's path</span>
+        <span><span class="leg-pin pin-mention"></span>mentioned</span>
+      </div>
+    </div>
+    <div class="frame-entities">
+      <h3>People &amp; Organizations</h3>
+      <ul class="ent-list"></ul>
+    </div>
+  </aside>
+
+</div><!-- /frame-grid -->
+
+<div class="closing">
+  <h3>Notes on this mockup</h3>
+  <ul>
+    <li>Excerpts are drawn directly from Transkribus HTR output (doc 3087705, Hebrew model). Light editorial regularisation (punctuation, paragraph breaks) has been applied; no words have been changed.</li>
+    <li>This mockup deliberately under-annotates. Place names are softly marked but <em>not</em> coded as Heimat / current-address / etc. Literary, religious or atmospheric mentions are left as plain text. Only passages where the Heimat-axis signal is explicit — return, refusal-to-return, memory-driven place choice, the author's own framing — carry an editorial note.</li>
+    <li>The piece is more naturally read as a memoir than as a data extract; the mockup is meant to test whether the genre-template (Memoir) of the planned Omeka site can carry a multi-chapter Hebrew text without flattening it.</li>
+    <li>Next steps: pair this with the Aufhäuser <em>speeches</em> document (G-F-0034) as a contrasting Memoir/Political-Memoir sub-genre, and with Schiff Fritz's English family-history (G-F-0042) as the Family-History mockup.</li>
+  </ul>
+</div>
+
+<footer class="site">
+  JeckeArchive · genre mockup: Memoir · built 2026-06-09 · source MTFN G-F-0410 (Transkribus 3087705) · text under restitution-archive terms; mockup for project review only
+</footer>
+
+<script>
+window.FRAME_DATA = {
+  timeline: [
+    { year: 1880, label: 'Pesach Scheck b. Odessa' },
+    { year: 1908, label: 'Paul Lamberg b. Vienna' },
+    { year: 1916, label: 'Paula b. Olmütz', pivot: true },
+    { year: 1934, label: 'Pesach visits Palestine' },
+    { year: 1939, label: 'Pesach → Buchenwald', pivot: true },
+    { year: 1945, label: 'Łódź → Auschwitz' },
+    { year: 1949, label: 'Salzburg / parents meet', pivot: true },
+    { year: 1955, label: 'Salzburg → Haifa', pivot: true },
+    { year: 2005, label: 'Tefen museum speech' }
+  ],
+  mapCenter: [47.5, 14.0],
+  mapZoom: 4,
+  places: [
+    { name: 'Olmütz / Olomouc', lat: 49.5938, lng: 17.2509, kind: 'heimat', note: "Scheck family fur shop, Englisch Strasse 16" },
+    { name: 'Odessa',           lat: 46.4825, lng: 30.7233, kind: 'mention', note: "Pesach Scheck's birthplace, 1880" },
+    { name: 'Vienna',           lat: 48.2082, lng: 16.3738, kind: 'heimat', note: "Paul Lamberg b. 1908; Paula's tailoring year, 1935" },
+    { name: 'Prague',           lat: 50.0755, lng: 14.4378, kind: 'mention', note: "Paula & Menasche Stark marry; later Łódź transport" },
+    { name: 'Łódź',             lat: 51.7592, lng: 19.4560, kind: 'mention', note: "Ghetto 1940–44; Paula heads tailoring brigade" },
+    { name: 'Auschwitz',        lat: 50.0359, lng: 19.1783, kind: 'mention', note: "Menasche murdered; Paula transferred to forced labour" },
+    { name: 'Buchenwald',       lat: 51.0220, lng: 11.2486, kind: 'mention', note: "Pesach Scheck d. 1939" },
+    { name: 'Salzburg',         lat: 47.8095, lng: 13.0550, kind: 'current', note: "Author b. 1949; Turnerstr. 21 in Gnigl" },
+    { name: 'St. Wolfgang',     lat: 47.7397, lng: 13.4475, kind: 'current', note: "Mother's pregnancy lodging" },
+    { name: 'Tel Aviv',         lat: 32.0853, lng: 34.7818, kind: 'current', note: "First landing, 1955" },
+    { name: 'Haifa',            lat: 32.7940, lng: 34.9896, kind: 'current', note: "Father chose Haifa from a pre-war memory" },
+    { name: 'Tefen',            lat: 32.9483, lng: 35.2308, kind: 'current', note: "Museum of German-Speaking Jewry; author's 2005 address" }
+  ],
+  entities: [
+    { type: 'person', name: 'Pesach Scheck (פסח שק)', altname: '1880–1939',
+      bio: 'Born Odessa; furrier in Olmütz at Englisch 16. Religious; visited Palestine for the Maccabiah 1934; died of starvation at Buchenwald.' },
+    { type: 'person', name: 'Rachel (née Weitz)', altname: '?–c.1944',
+      bio: "Pesach's second wife, raised five Scheck stepchildren after Chaya's death in 1916; insisted Paula learn a trade." },
+    { type: 'person', name: 'Paula ("Pauli/Mutti") Scheck', altname: 'b. Olmütz 1916',
+      bio: 'The author\'s mother. Vienna tailoring 1935; m. Menasche Stark in Prague; survived Łódź ghetto as head of a tailoring brigade.' },
+    { type: 'person', name: 'Paul Lamberg', altname: 'b. Vienna 1908',
+      bio: 'The author\'s father. Hakoach Wien athlete; left Vienna by Danube kajak ship; British Army, Tobruk; refused to return to occupied Vienna postwar.' },
+    { type: 'person', name: 'Zeev (Wilhelm/Wolf) Scheck', altname: '1920–1978',
+      bio: "Paula's beloved half-brother. Survived Theresienstadt; Israeli Foreign Service; d. Rome." },
+    { type: 'person', name: 'Chava Ofek', altname: 'b. Salzburg 1949',
+      bio: 'The author. Brought to Haifa as a small child in 1955.' },
+    { type: 'person', name: 'Menasche Stark', altname: '?–1944',
+      bio: "Paula's first husband; Dr. of Law; murdered at Auschwitz." },
+    { type: 'org', name: 'Hakoach Wien', altname: 'Vienna',
+      bio: "Jewish sports club; Paul Lamberg won medals here pre-war." },
+    { type: 'org', name: 'Museum of German-Speaking Jewry, Tefen', altname: 'Israel',
+      bio: "Where the author works; the memoir's opening passage is her 2005 address there." }
+  ],
+  topics: ['Olmütz', 'fur trade', 'Vienna', 'Hakoach Wien', 'Łódź ghetto', 'sewing brigade', 'Salzburg', 'Salzkammergut', 'four-power Vienna', 'arrival in Haifa', 'language', 'return visit'],
+  ner:       ['place', 'person', 'org', 'date'],
+  relevance: true,
+  views:     ['reading', 'side-by-side', 'facsimile']
+};
+document.addEventListener('DOMContentLoaded', FrameInit);
+</script>
+
+</body>
+</html>

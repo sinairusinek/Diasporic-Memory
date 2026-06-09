@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alfred Landsberg — diary entries, 1932 / 1951 / 1956 / 1959 | JeckeArchive mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;800&family=Heebo:wght@400;500;700&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../_shared/frame.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../_shared/frame.js"></script>
+<style>
+  :root {
+    --paper:       #f6f1e6;
+    --paper-2:     #efe7d4;
+    --paper-3:     #fbf7eb;
+    --ink:         #1a1a1a;
+    --ink-soft:    #3a3a3a;
+    --ink-muted:   #6b6354;
+    --rule:        #c9bfa6;
+    --rule-2:      #a89c7e;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    line-height: 1.85;
+  }
+  .mockup-banner {
+    background: #fff4cc; color: #5a4400;
+    border-bottom: 2px solid #d6b94a;
+    padding: 10px 24px; font-size: 13px; text-align: center; font-weight: 600;
+    direction: ltr;
+  }
+  .mockup-banner .small { font-weight: 400; opacity: 0.8; margin-inline-start: 12px; }
+
+  header.site {
+    background: var(--paper-3);
+    border-bottom: 3px solid var(--rule-2);
+    padding: 28px 32px;
+  }
+  .site-inner { max-width: 1180px; margin: 0 auto; }
+  header.site .kicker {
+    font-family: 'Inter', monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 2px;
+    color: var(--ink-muted); direction: ltr; text-align: left;
+  }
+  header.site h1 {
+    font-family: 'Frank Ruhl Libre', serif; font-size: 36px;
+    margin: 8px 0 4px; font-weight: 800; letter-spacing: -0.3px;
+  }
+  header.site .subtitle {
+    font-family: 'Frank Ruhl Libre', serif; font-size: 19px;
+    color: var(--ink-soft); margin: 0; font-weight: 500;
+  }
+  header.site .byline {
+    font-family: 'EB Garamond', serif; font-style: italic;
+    color: var(--ink-muted); margin-top: 6px; font-size: 16px;
+  }
+
+  /* per-entry body styles */
+  .entry blockquote {
+    margin: 0; padding: 0;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 18px; color: var(--ink); line-height: 1.9;
+  }
+  .entry blockquote p { margin: 0 0 12px; }
+  .lang-de {
+    font-family: 'EB Garamond', serif; direction: ltr;
+    text-align: left; unicode-bidi: embed;
+  }
+
+  footer.site {
+    background: var(--paper-3); border-top: 3px solid var(--rule-2);
+    padding: 18px 32px; font-family: 'Inter', sans-serif;
+    font-size: 12px; color: var(--ink-muted); text-align: center; direction: ltr;
+  }
+</style>
+</head>
+<body>
+
+<div class="mockup-banner">
+  JeckeArchive — Diary Mockup
+  <span class="small">Source: Landsberg folder G-F-0047-23, Transkribus docId 942484 — multiple short diary / report pieces by Dr. Alfred Landsberg, 1932–1959</span>
+</div>
+
+<nav class="frame-timeline" aria-label="Timeline">
+  <div class="tl-track"><div class="tl-axis"></div></div>
+</nav>
+
+<header class="site">
+  <div class="site-inner">
+    <div class="kicker">JeckeArchive · genre mockup · diary</div>
+    <h1>Alfred Landsberg — diary entries, 1932 / 1951 / 1956 / 1959</h1>
+    <p class="subtitle">Five short Landsberg texts on Palestine, Germany and East Berlin, written across the Heimat-axis arc</p>
+    <p class="byline">All five pieces are short — reports, surveys, essays — by Dr. Alfred Landsberg, husband of Leoni Frank-Landsberg (see the Letters mockup). They are filed together in MTFN G-F-0047-23 (<em>דיווחים ויומנים</em>, "Reports &amp; Diaries"), with Hebrew translations done years later, in part by their daughter.</p>
+  </div>
+</header>
+
+<div class="frame-grid">
+
+  <aside class="frame-left">
+    <div class="frame-block summary">
+      <h3>Summary</h3>
+      <p>A composite Landsberg diary corpus, five pieces by Alfred Landsberg spanning 27 years.</p>
+      <p>The 1932 piece reports back to the Zionist Federation in Germany on a pre-aliyah trip to Palestine. The 1951 piece is the <em>Deutschlandfahrt eines Israeli</em> — his return to Germany nineteen years after leaving. A 1956 essay continues the German engagement; a 1959 entry records a trip to East Berlin.</p>
+      <p>Together they sketch the Heimat-arc of one man through outbound and inbound voyages.</p>
+    </div>
+    <div class="frame-block frame-topics">
+      <h3>Topics</h3>
+      <ul class="topic-list"></ul>
+    </div>
+  </aside>
+
+  <main class="frame-center">
+
+    <div class="frame-highlight-bar">
+      <span class="hl-label">controls:</span>
+    </div>
+
+    <!-- ENTRY 1: 1932 Palestine report -->
+    <article class="entry" id="e-1932">
+      <div class="entry-head">
+        <span class="label">Entry 1 · 1932 · "Bericht VII" / "זה דן"</span>
+        <span class="meta">a Palestine report, sent back to the Zionist Federation in Germany</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote class="lang-de">
+            <p>
+              <span class="hl-date">1932</span> · <span class="hl-org">Zionistische Vereinigung für Deutschland</span> · pre-aliyah inspection
+            </p>
+            <p>
+              <span class="relevant">Es ist immer schwerer die Gedanken in Ruhe zu sammeln. […]
+              Wenn man von <span class="hl-place">Beth Alpha</span> an <span class="hl-place">En Charod</span> und <span class="hl-place">Tel Josef</span> vorbeifährt, müsste man beides für einen grossen Kurort halten.</span>
+              Die neuen Gebäude, ganz modern in Beton hochgeführt, müssten <span class="hl-place">grosse Hotels</span> sein. Alles macht einen gefestigten Eindruck, wenn auch noch Schwierigkeiten im einzelnen bestehen.
+            </p>
+            <p>
+              Vor allem wächst hier die Jugend erfreulicher auf, als in der Stadt. Hier gibt es nicht diesen Riss zwischen Eltern und Kindern, wie vielfach in der Stadt.
+              <span class="relevant">Damit wird auch die Gefahr des Levantinertums überwunden, die man in der Stadt empfindet.</span>
+            </p>
+            <p>
+              In <span class="hl-place">Beth Alpha</span> ist jetzt eine Synagoge aus dem 4. Jahrhundert nach Christi offen gelegt. […]
+              <span class="relevant">So finden die Juden ihre alte Kultstätte wieder: sie ziehen Wassergräben und stossen auf Synagogen, die dort vor 1500 Jahren standen.</span>
+            </p>
+            <p>
+              <span class="relevant">In den <span class="hl-date">8 Jahren</span>, seitdem ich im Land [war], ist auch die Ene ganz verändert, äusserlich gesehen ein blühendes Land, herrlich gerade jetzt im Frühling […].</span>
+            </p>
+          </blockquote>
+          <blockquote dir="rtl">
+            <p>
+              <span class="relevant">ביקור בעמק, <span class="hl-place">עין חרוד</span> ו<span class="hl-place">תל יוסף</span> עושים רושם של מקומות הבראה גדולים. בקיבוץ הנוער גדל עם שמחה יותר מאשר בעיר, הקשר עם ההורים טוב בעוד בעיר קיים לעיתים קרע בין הילדים להורים.</span>
+              בקיבוץ אין מרגישים את המציאות הרלוונטית שמרגישים בעיר. ילדי הקיבוץ רוצים להמשיך ולחיות במסגרת זאת ולא לחיות בעיר. ב<span class="hl-place">נהלל</span> ההתלבטות היחידה שלהם היא אם להמשיך כקבוצה או כיחיד.
+            </p>
+            <p>
+              בעמק נטעו אשכוליות ולדעת המומחים ההצלחה טובה, דבר שיקל על הפרנסה. בעמק מתרשמים, שחיים שם חקלאים מצליחים ומאושרים. השנה השחונה משפיעה על יבול הדגנים, ב<span class="hl-place">דגניה</span> לגרגירי התבואה לא היה שום ערך.
+            </p>
+            <p>
+              ב<span class="hl-place">פורים</span>, 3 ימים של חגיגות ב<span class="hl-place">תל אביב</span> — המולה גדולה. כ-15,000 אורחים הגיעו לעיר. […]
+              <span class="relevant">באחת הפינות הוצגו כל ה"המנים" של כל הזמנים — והאחרון מביניהם — <span class="hl-person">היטלר</span>.</span>
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0111.jpg" alt="Bericht VII, page 111">
+          <div class="cap">G-F-0047-23 · pp. 110–111</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ENTRY 2: 1951 Deutschlandfahrt, opening -->
+    <article class="entry" id="e-1951a">
+      <div class="entry-head">
+        <span class="label">Entry 2 · <span class="hl-date">1951</span> · "נסיעה לגרמניה של ישראלי" — opening</span>
+        <span class="meta">Hamburg · written on a postwar work assignment</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              אמרתי לעצמי לחכות ולא מיד לקבוע דעות שונות. אני תחילה רוצה רק לספר כמה שאפשר ללא רגשות.
+            </p>
+            <p>
+              <span class="relevant r-strong">אני ב<span class="hl-place">גרמניה</span> זו נולדתי והשפה שלה היא שפת אם שלי ונשארה כך, למרות שבבית ביום יום ובעבודה משתדלים לדבר בשפת העם שלנו.</span>
+              <span class="relevant r-strong">את ה<span class="hl-place">גרמניה</span> הזו עזבתי בשנת <span class="hl-date">1932</span>, ז.א <span class="hl-date">19 שנה</span> לא הייתי פה. עכשיו חזרתי לזמן מה למלא תפקיד שקשור עם הפשע הנורא ביותר שאי פעם נעשה בהסטוריה ובמיוחד נעשה לעמי.</span>
+            </p>
+            <p>
+              <span class="relevant">לעיתים מצפוני לא נקי — לא בגלל שאני נמצא בארץ של תנורי הגז, אלא בגלל שלא הייתי פה כש-<span class="hl-date">6 מיליון</span> של אחיי ואחיותיי נרצחו.
+              בשם המדינה הזו ובסדר מופתי, במטרה לעקור את העם השנוא כולו.</span>
+            </p>
+            <p>
+              בזמן שפה קרו הדברים הנוראים — הנוער שלנו לחם שם — ב<span class="hl-place">פלסטינה</span> — נגד ההתנגדות וגם אכזריות, להשיג את החופש.
+              בכל השנים האלה שחיינו בארץ עם כל הקשיים וכל הקורבנות שנפלו, ועם כל הכאב שהרגשנו, כששמענו על הנורא שקרה פה — חיינו בבניית הארץ, לחמנו עבור החופש והקמנו ארץ עצמאית.
+            </p>
+            <p>
+              כל הניגודים הנוראים בין חורבן ובניין ויותר נורא עוד שהם קשורים אחד בשני — מחייב את אלה שאז היו שם ונמצאים עתה פה כפול כפליים, למרות שלא כל כך ברור עוד למה הוא מחויב.
+            </p>
+            <p>
+              אני רוצה לכתוב על הנחישה שלי פה:
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0119.jpg" alt="1951 diary opening, page 119">
+          <div class="cap">G-F-0047-23 · p. 119 (Hebrew translation by Karla, c. 2011)</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ENTRY 3: 1951 Hamburg as un-Heimat -->
+    <article class="entry" id="e-1951b">
+      <div class="entry-head">
+        <span class="label">Entry 3 · <span class="hl-date">1951</span> · Hamburg as an unfamiliar city</span>
+        <span class="meta">Hamburg · Frankfurt visit, parents' graves</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              <span class="relevant r-strong">היה לי מזל שמקום העבודה הוא <span class="hl-place">Hamburg</span>, עיר שלפני זה לא הכרתי. כך שאין לי גם זכרונות מקודם.</span>
+              גם האנשים זרים לי ואין מי שבא לקראתי מושיט ידיים ואומר שכל השנים חשב עליי וכל כך שמח שאני עוד פה!
+            </p>
+            <p>
+              <span class="relevant">כבר קרה לי שהייתי ב<span class="hl-place">Frankfurt</span> בקשר עבודתי ולבקר את קבר הוריי.</span>
+              <span class="relevant r-strong">פה ב<span class="hl-place">Hamburg</span> אני מרגיש כמו בארץ זרה, רק שאני מבין את השפה.</span>
+              היא עיר יפה במיוחד באביב.
+            </p>
+            <p>
+              תיאור של העיר ועל ה-*** מעט הרס שהמלחמה השאירה.
+              תיאור של החנויות, הסחורות הטובות, יפות, שבהן אפשר הכל לקנות.
+              הוא היה בתיאטרון בהצגה והקהל בה נלהב.
+              <span class="relevant">הוא משוכנע שהיה היהודי היחיד בהצגה.</span>
+            </p>
+            <p>
+              ואם מסתכלים מקרוב יותר רואים בכל זה הרבה פנים עם צער וסובלים מתת-תזונה.
+              במיוחד אנשים צעירים, שרואים אותם ברכבת תחתית או בהזדמנויות אחרות.
+              אם אתה לא בקשר איתם במקרה או דרך העבודה, אתה יכול לשמוע שכמעט אין אף אחד שלא קרה לו דבר נורא בזמן המלחמה. היו במלחמה, חלקם היו פצועים או אסירים.
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0120.jpg" alt="1951 diary, page 120">
+          <div class="cap">G-F-0047-23 · p. 120</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ENTRY 4: 1951 the architect / "Heimat lost forever" -->
+    <article class="entry" id="e-1951c">
+      <div class="entry-head">
+        <span class="label">Entry 4 · <span class="hl-date">1951</span> · The expelled architect</span>
+        <span class="meta">Hamburg · an encounter with a displaced German</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              למשל, <span class="hl-person">אדריכל</span> שבא אליי בקשר עבודתי, בחור צעיר בעל מקצוע טוב.
+              <span class="relevant r-strong">גורש ממולדתו על יד ים המזרח — שם למשפחה היה בית, אדמות כבר מאות שנים.</span>
+              במשפחה היו חובלים או אנשי הכנסיה.
+              הוא חזר מהשבי וגורש (החלק הזה של גרמניה הלך ל-**).
+            </p>
+            <p>
+              עכשיו הוא מנסה לבנות לעצמו ולמשפחתו עתיד חדש,
+              <span class="relevant r-strong">אבל הרגשתו היא שפה, ב<span class="hl-place">Hamburg</span>, הוא בנכר — והמולדת שלו נאבדה לו לתמיד.</span>
+            </p>
+            <p>
+              הוא רצה להגר לדרום אמריקה, שם מקבלים אותו ברצון, הוא בעל מקצוע טוב, אבל הוא [מחכה] לקבל אישור ממשל הכיבוש.
+            </p>
+            <p>
+              הוא מתאר עוד סיפור של גרמני ומשפחתו.
+              <span class="relevant r-strong">אני לא חש רחמים, אם גם הגורלות היחידיים של המשפחות הם קשים, אי אפשר לדבר בנשימה אחת או לחשוב במחשבה אחת על אלה ועל מה שקרה לנו.</span>
+              אבל העובדות ומה שרואים לא מאפשרים את הסיפור — שגם אצלנו בארץ נשמע — שהגרמנים לא מכפרים את הפשעים שלהם.
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0121.jpg" alt="1951 diary, page 121">
+          <div class="cap">G-F-0047-23 · p. 121</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ENTRY 5: 1951 Second survey -->
+    <article class="entry" id="e-1951d">
+      <div class="entry-head">
+        <span class="label">Entry 5 · <span class="hl-date">1951</span> · "סקירה שניה" — Second survey</span>
+        <span class="meta">on the prosperity of West-German cities and the dancing on a volcano</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote>
+            <p>
+              מתוך נסיעה בגרמניה של ישראלי — סקירה שניה.
+            </p>
+            <p>
+              האיש כותב על האושר ועל הפאר והמוארות שנמצאים בהרבה ערים גדולות בגרמניה. על החנויות שבהן אפשר למצוא מכל דבר ורק הכי טוב.
+            </p>
+            <p>
+              מדובר על עיר מסוימת, אבל הכותב אינו יודע באיזו עיר מדובר. הוא לוקח את הדברים מתוך דברי קריאה טובים כמו ****.
+            </p>
+            <p>
+              <span class="relevant r-strong">הוא רוצה להוסיף שב<span class="hl-place">גרמניה המערבית</span> הזאת רבע אוכלוסיה, ב-8 מיליונים, הם מגורשים ופליטים, ושני מיליונים שעבדו את הכל בזמן ההפצצות.</span>
+              מי שעובד לא מרוויח יותר מ-250 **, כך נשארת שכבה דקה מאד שיכולה להרשות לעצמה את חיי הגרגרנות.
+              <span class="relevant r-strong">וכולם יודעים שרוקדים על הר געש.</span>
+            </p>
+            <p>
+              הוא עוד משווה עם זה את החיים ב<span class="hl-place">ישראל</span>, והרבה ועוד.
+              <span class="relevant">כותב על הספרים החדשים שיצאו בהשואה לחיי המותרות שבהם תלך של האוכלוסיה חיה.</span>
+              במיוחד, הוא מציין את הספר האחרון *** המשורר הגדול ביותר של <span class="hl-place">גרמניה</span> המרוסקת.
+              הוא מצטט קצת מתוך הספר. דוח מעניין מאוד.
+            </p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0127.jpg" alt="1951 second survey, page 127">
+          <div class="cap">G-F-0047-23 · p. 127</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ENTRY 6: 1956 Berlin essay (cover sheet) -->
+    <article class="entry" id="e-1956">
+      <div class="entry-head">
+        <span class="label">Entry 6 · <span class="hl-date">1956</span> · "חיבור" — Berlin essay</span>
+        <span class="meta">draft + 2 copies, no body text yet transcribed</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote>
+            <p>חיבור</p>
+            <p>ב<span class="hl-place">ברלין</span> <span class="hl-date">1956</span></p>
+            <p>ד"ר <span class="hl-person">אלפרד לנדסברג</span></p>
+            <p>(טיוטה + 2 עותקים)</p>
+            <p style="opacity:.6;font-style:italic;font-size:.92em">— body text not in this transcription pass —</p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0133.jpg" alt="1956 Berlin essay cover, page 133">
+          <div class="cap">G-F-0047-23 · p. 133 (cover sheet only)</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ENTRY 7: 1959 East Berlin -->
+    <article class="entry" id="e-1959">
+      <div class="entry-head">
+        <span class="label">Entry 7 · <span class="hl-date">1959?</span> · "נסיעה לברלין המזרחית" — East Berlin</span>
+        <span class="meta">cover sheet only</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote>
+            <p>(<span class="hl-date">1959?</span>)</p>
+            <p>נסיעה ל<span class="hl-place">ברלין המזרחית</span></p>
+            <p>ד"ר <span class="hl-person">אלפרד לנדסברג</span></p>
+            <p style="opacity:.6;font-style:italic;font-size:.92em">— body text not in this transcription pass —</p>
+          </blockquote>
+        </div>
+        <div class="facsimile">
+          <img src="images/p0148.jpg" alt="1959 East Berlin cover, page 148">
+          <div class="cap">G-F-0047-23 · p. 148 (cover sheet only)</div>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <aside class="frame-right">
+    <div class="frame-map-wrap">
+      <h3>Places</h3>
+      <div id="frame-map" class="frame-map"></div>
+      <div class="frame-map-legend">
+        <span><span class="leg-pin pin-heimat"></span>Germany</span>
+        <span><span class="leg-pin pin-current"></span>Palestine / Israel</span>
+        <span><span class="leg-pin pin-mention"></span>mentioned</span>
+      </div>
+    </div>
+    <div class="frame-entities">
+      <h3>People &amp; Organizations</h3>
+      <ul class="ent-list"></ul>
+    </div>
+  </aside>
+
+</div><!-- /frame-grid -->
+
+<footer class="site">
+  JeckeArchive · genre mockup: Diary · 2026-06-09 · source MTFN G-F-0047-23 (Transkribus 942484) · five Alfred Landsberg pieces, 1932–1959 · mockup for project review only
+</footer>
+
+<script>
+window.FRAME_DATA = {
+  timeline: [
+    { year: 1924, label: 'Leoni & Alfred Palestine trip' },
+    { year: 1932, label: '"Bericht VII"', anchor: '#e-1932', pivot: true },
+    { year: 1932, label: 'aliyah' },
+    { year: 1951, label: 'Hamburg work trip',  anchor: '#e-1951a', pivot: true },
+    { year: 1951, label: 'Second survey',      anchor: '#e-1951d' },
+    { year: 1956, label: 'Berlin essay',       anchor: '#e-1956' },
+    { year: 1959, label: 'East Berlin',        anchor: '#e-1959', pivot: true }
+  ],
+  mapCenter: [45, 18],
+  mapZoom: 4,
+  places: [
+    { name: 'Hamburg',          lat: 53.5511, lng:  9.9937, kind: 'heimat',  note: "1951 work trip; 'I felt like in a foreign land'" },
+    { name: 'Frankfurt',        lat: 50.1109, lng:  8.6821, kind: 'heimat',  note: "1951: visited parents' graves on an earlier work trip" },
+    { name: 'Berlin',           lat: 52.5200, lng: 13.4050, kind: 'mention', note: "1956 essay" },
+    { name: 'East Berlin',      lat: 52.5200, lng: 13.4050, kind: 'mention', note: "1959 trip" },
+    { name: 'West Germany',     lat: 51.1657, lng: 10.4515, kind: 'mention', note: "1951 second survey: 'dancing on a volcano'" },
+    { name: 'Tel Aviv',         lat: 32.0853, lng: 34.7818, kind: 'current', note: "Landsbergs' home from 1932" },
+    { name: 'En Charod',        lat: 32.5500, lng: 35.3833, kind: 'current', note: "1932: kibbutz 'looks like a great spa town'" },
+    { name: 'Beth Alpha',       lat: 32.5167, lng: 35.4333, kind: 'current', note: "1932: 4th-century synagogue mosaic uncovered while digging a water trench" },
+    { name: 'Tel Josef',        lat: 32.5500, lng: 35.4000, kind: 'current', note: "1932 kibbutz visit" },
+    { name: 'Degania',          lat: 32.7136, lng: 35.5736, kind: 'current', note: "1932: drought wiped out grain crop" },
+    { name: 'Nahalal',          lat: 32.6883, lng: 35.1944, kind: 'current', note: "1932: children chose country over town" }
+  ],
+  entities: [
+    { type: 'person', name: 'Dr. Alfred Landsberg', altname: 'b. Germany; aliyah 1932',
+      bio: 'Author of all five pieces in this folder. Lawyer; left Germany in 1932. Husband of Leoni Frank-Landsberg (see Letters mockup). Returned to Germany 1951 for work and continued to record German trips through 1959.' },
+    { type: 'person', name: 'Leoni Frank-Landsberg',
+      bio: "Alfred's wife. Her own 1924 Egypt+Palestine travel diary is also filed in this folder (G-F-0047-23 pp. 173 ff.) but is not included in this mockup per scope ('Alfred only')." },
+    { type: 'person', name: 'Karla', altname: 'translator (c. 2011)',
+      bio: 'Translated the 1951 Deutschlandfahrt into Hebrew, part 2 first, then part 1 — see the cover letter from "Niel" filed at p. 118.' },
+    { type: 'person', name: 'an architect (un-named)', altname: 'Hamburg 1951',
+      bio: "Young German professional, expelled from his family's ancestral lands on the eastern Baltic; the figure for 'Heimat lost forever' in entry 4." },
+    { type: 'org', name: 'Zionistische Vereinigung für Deutschland', altname: 'ZVfD',
+      bio: 'Addressee of the 1932 Palestine report (entry 1); published the report under the title "זה דן".' },
+    { type: 'org', name: 'En Charod / Tel Josef / Beth Alpha kibbutzim',
+      bio: "Subjects of the 1932 inspection. Landsberg notes the discovery of a 4th-century synagogue mosaic at Beth Alpha while digging a water trench." }
+  ],
+  topics: ['1932 pre-aliyah inspection', 'kibbutz', 'Levantinertum', 'Beth Alpha mosaic', '1951 return', 'Hamburg as un-Heimat', "Frankfurt parents' graves", 'displaced architect', 'Heimat lost forever', 'refusal of pity', 'dancing on a volcano', 'West-German prosperity', '1956 Berlin essay', '1959 East Berlin'],
+  ner:     ['place', 'person', 'org', 'date'],
+  relevance: true,
+  views:   ['reading', 'side-by-side', 'facsimile']
+};
+document.addEventListener('DOMContentLoaded', FrameInit);
+</script>
+
+</body>
+</html>
