@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JeckeArchive — Return Visits to Germany</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Frank+Ruhl+Libre:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:     #f3ead7;
+    --paper-2:   #ece1c5;
+    --paper-3:   #faf3e2;
+    --ink:       #1a1612;
+    --ink-soft:  #3a3024;
+    --ink-muted: #6b5a40;
+    --rule:      #c9b88e;
+    --rule-2:    #a8915f;
+    --accent:    #8a2418;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.65;
+  }
+  header.site {
+    background: var(--paper-3);
+    border-bottom: 3px solid var(--rule-2);
+    padding: 30px 32px 24px;
+    text-align: center;
+  }
+  header.site .kicker {
+    font-family: 'Inter', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--ink-muted);
+  }
+  header.site h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 42px;
+    margin: 10px 0 4px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+  }
+  header.site .subtitle {
+    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    font-style: italic;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+  header.site .breadcrumb {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  header.site .breadcrumb a { color: var(--accent); text-decoration: none; }
+
+  main {
+    max-width: 1240px;
+    margin: 36px auto 60px;
+    padding: 0 28px;
+  }
+
+  /* ---- featured flagship ---- */
+  .featured {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 0;
+    background: var(--paper-3);
+    border: 1px solid var(--rule-2);
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 0 rgba(120, 100, 60, 0.08);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+  }
+  .featured:hover { transform: translateY(-3px); box-shadow: 0 12px 26px rgba(70,50,20,0.20); }
+  .featured .illus { position: relative; min-height: 280px; background: #eadfc4; overflow: hidden; }
+  .featured .illus img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; transform: scale(1.12); }
+  .featured .fbody { padding: 26px 30px; }
+  .featured .fbody h2 { font-size: 30px; margin: 6px 0 6px; font-weight: 600; }
+  .featured .fbody .sub { font-style: italic; font-size: 18px; color: var(--ink-soft); margin: 0 0 14px; }
+  .featured .fbody p { font-size: 16.5px; margin: 0 0 12px; }
+  .featured .fbody .meta { font-family: 'Inter', sans-serif; font-size: 12px; color: var(--ink-muted); letter-spacing: 0.4px; }
+  .open-pill {
+    display: inline-block; margin-top: 8px;
+    font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 1px;
+    text-transform: uppercase; color: #fff; background: var(--accent);
+    padding: 6px 14px; border-radius: 3px;
+  }
+
+  /* ---- section headings ---- */
+  h3.section {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--ink-muted);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 8px; margin: 40px 0 20px;
+  }
+  h3.section .count { color: var(--rule-2); font-weight: 400; }
+
+  /* ---- case grid ---- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  @media (max-width: 980px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+
+  .card {
+    position: relative;
+    background: var(--paper-3);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 0;
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    box-shadow: 0 2px 0 rgba(120, 100, 60, 0.08);
+  }
+  a.card { text-decoration: none; color: inherit; transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease; }
+  a.card:hover { transform: translateY(-3px); box-shadow: 0 10px 22px rgba(70,50,20,0.18); border-color: var(--rule-2); }
+
+  /* year plate header band */
+  .plate {
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding: 14px 18px 10px;
+    background: linear-gradient(180deg, var(--paper-2), var(--paper-3));
+    border-bottom: 1px solid var(--rule);
+  }
+  .plate .year { font-family: 'EB Garamond', serif; font-size: 30px; font-weight: 700; line-height: 1; color: var(--ink-soft); }
+  .plate .cat {
+    font-family: 'Inter', sans-serif; font-size: 9.5px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--ink-muted); border: 1px solid var(--rule-2); padding: 3px 7px; border-radius: 2px; white-space: nowrap;
+  }
+  .cbody { padding: 12px 18px 16px; display: flex; flex-direction: column; flex: 1; }
+  .cbody h4 { font-family: 'EB Garamond', serif; font-size: 20px; margin: 0 0 1px; font-weight: 600; }
+  .cbody .city { font-style: italic; font-size: 15px; color: var(--accent); margin: 0 0 8px; }
+  .cbody .ev { font-size: 15px; color: var(--ink-soft); margin: 0 0 12px; flex: 1; }
+  .cbody .src { font-family: 'Inter', sans-serif; font-size: 11px; color: var(--ink-muted); letter-spacing: 0.3px; border-top: 1px dotted var(--rule); padding-top: 8px; }
+  .cbody .src a { color: var(--accent); text-decoration: none; }
+  .link-flag { font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); margin-top: 6px; }
+
+  /* category accent stripes (left edge) */
+  .card.trip    { border-left: 3px solid #8a2418; }
+  .card.invite  { border-left: 3px solid #6b5a40; }
+  .card.remig   { border-left: 3px solid #4a6b3a; }
+  .card.context { border-left: 3px solid #b8b8b8; }
+
+  .note {
+    max-width: 860px; margin: 40px auto 0; padding: 16px 22px;
+    background: var(--paper-3); border-left: 3px solid var(--rule-2);
+    font-style: italic; font-size: 15.5px; color: var(--ink-soft);
+  }
+  .note b { font-style: normal; }
+
+  footer.site {
+    margin-top: 50px; border-top: 1px solid var(--rule);
+    padding: 18px 32px; font-family: 'Inter', sans-serif; font-size: 12px;
+    color: var(--ink-muted); text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="kicker">JeckeArchive · Diasporic Memory pilot</div>
+  <h1>Return Visits to Germany</h1>
+  <p class="subtitle">German-Jewish émigrés who went back — trips, invitations, refusals, remigration</p>
+  <div class="breadcrumb"><a href="../index.html">← genre mockups</a></div>
+</header>
+
+<main>
+
+  <!-- FLAGSHIP -->
+  <a class="featured" href="../landsberg-deutschlandfahrt/index.html">
+    <div class="illus"><img src="../landsberg-deutschlandfahrt/images/p0119.jpg" alt="Deutschlandfahrt manuscript page"></div>
+    <div class="fbody">
+      <div class="plate" style="background:none;border:none;padding:0;"><span class="cat">Flagship · trip diary</span></div>
+      <h2>Alfred Landsberg — <em>Deutschlandfahrt eines Israeli</em></h2>
+      <p class="sub">An Israeli back in Hamburg, 1951 — nineteen years after leaving</p>
+      <p>The canonical return-visit text of the corpus: Landsberg leaves Germany in 1932, returns in 1951 for work, reads Hamburg as a foreign city (he never lived there — no memories to disturb), visits his parents' graves in Frankfurt, meets displaced Germans, refuses pity. Followed by companion essays <em>Berlin 1956</em> and <em>Eine Fahrt nach Ostberlin</em> (~1959).</p>
+      <p class="meta">MTFN G-F-0047-023 · Transkribus 942484 · full HTR + page images held locally</p>
+      <span class="open-pill">Open full presentation →</span>
+    </div>
+  </a>
+
+  <!-- TRIP ACCOUNTS -->
+  <h3 class="section">Trip accounts &amp; diaries <span class="count">— actual journeys back</span></h3>
+  <div class="grid" id="g-trip"></div>
+
+  <!-- INVITATIONS -->
+  <h3 class="section">Invitations, honours &amp; refusals <span class="count">— the municipal return-visit programme</span></h3>
+  <div class="grid" id="g-invite"></div>
+
+  <!-- REMIGRATION -->
+  <h3 class="section">Remigration <span class="count">— moved back to live in Germany</span></h3>
+  <div class="grid" id="g-remig"></div>
+
+  <!-- CONTEXT -->
+  <h3 class="section">Context <span class="count">— related but off the post-war return axis</span></h3>
+  <div class="grid" id="g-context"></div>
+
+  <p class="note">
+    <b>Twenty cases, one corpus.</b> Every confirmed return-to-Germany case in our holdings is here. Of 228 CJH archival collections swept, exactly one (Ernest Michel) carried a documented return — the theme lives almost entirely in the MTFN / Tefen material. Source descriptions are drawn from the catalogue and Transkribus HTR; only the flagship is fully transcribed and presented. Cases without a local scan cite their MTFN folder for retrieval from the Drive archive.
+  </p>
+
+</main>
+
+<footer class="site">
+  JeckeArchive · Return Visits to Germany · data/post_war_visits.tsv · Diasporic Memory pilot
+</footer>
+
+<script>
+const CASES = [
+  // --- trip accounts & diaries ---
+  {g:'trip', year:'1949', cat:'first visit', person:'A child (Strauss family?)', city:'Germany', ev:'"Erster Besuch des Kindes im Nachkriegsdeutschland" — the earliest documented post-war return in the collection.', src:'MTFN G-F-0180-002-R0020'},
+  {g:'trip', year:'1950', cat:'travel report', person:'Otto Mayer', city:'Westphalia (Wiedenbrück, Rheda)', ev:'Reisebericht of a trip to Germany — reparations negotiations and visits to friends and relatives.', src:'MTFN G-F-0030-011-R0007'},
+  {g:'trip', year:'1951', cat:'trip diary', person:'Otto Mayer', city:'Germany', ev:'A second, separate handwritten German Reisetagebuch of a journey back to Germany.', src:'MTFN G-F-0030-011-R0013'},
+  {g:'trip', year:'1950–53', cat:'letters home', person:'Otto Mayer', city:'Germany', ev:'Letters written from Germany to his wife Gertrud in Nahariya — meetings and financial matters.', src:'MTFN G-F-0030-011-R0006'},
+  {g:'trip', year:'1951', cat:'travel document', person:'Gertrud Mayer', city:'Germany', ev:'Israeli passport with Israeli-authority approval to visit Germany and a German entry visa — proof of authorised post-war travel.', src:'MTFN G-F-0030-012-R0001'},
+  {g:'trip', year:'1957', cat:'trip photos', person:'Mayer family', city:'Germany', ev:'Photographs of a family return trip to Germany (Andreas, Esther, Gertrud).', src:'MTFN G-F-0030-005-R0001'},
+  {g:'trip', year:'1957 / 1964', cat:'letters home', person:'Andreas &amp; Esther Mayer', city:'Bielefeld; various cities', ev:'Write home to Nahariya while in Germany; Andreas sits the Meister exam there; 1964 letters span several German cities + the Höpner family in Bielefeld.', src:'MTFN G-F-0030-059-R0001'},
+  {g:'trip', year:'1956', cat:'trip essay', person:'Alfred Landsberg', city:'Berlin', ev:'Companion essay "Berlin 1956" — a second post-war Berlin visit (typed German, draft + 2 copies).', src:'MTFN G-F-0047-023-R0005', link:'../landsberg-deutschlandfahrt/index.html'},
+  {g:'trip', year:'~1959', cat:'trip essay', person:'Alfred Landsberg', city:'East Berlin', ev:'Essay "Eine Fahrt nach Ostberlin" — a trip into East Berlin.', src:'MTFN G-F-0047-023-R0005', link:'../landsberg-deutschlandfahrt/index.html'},
+  {g:'trip', year:'1957', cat:'visit report', person:'Raga (to Shiloni)', city:'Berlin', ev:'Letter of 4 July 1957 describing her last visit to Shiloni\'s mother and aunt in Berlin; the visit passage was translated into Hebrew by Carla Wolf.', src:'MTFN G-F-0313-009-R0001'},
+  {g:'trip', year:'1969', cat:'trip lecture', person:'Wizo Nahariya lecturer', city:'Germany', ev:'"Deutschland, eine Winterreise" — a 15-page lecture for the Golden Age Club of Wizo Nahariya (a Heine echo). 1969 is a project pilot anchor year.', src:'MTFN G-F-0113-041-R0016'},
+  {g:'trip', year:'n.d.', cat:'lecture tour', person:'Shimon Berlinger', city:'Baden-Württemberg', ev:'German-language publications gathered on his travels and lectures across cities of Baden-Württemberg.', src:'MTFN G-F-0422-003-R0001'},
+  {g:'trip', year:'1975', cat:'published account', person:'Ernest W. Michel', city:'Mannheim / Germany', ev:'Mannheim-born Auschwitz survivor (→ US 1946). His papers hold "Germany Revisited by Ernest Michel" (JTA feature, 1975). The sole confirmed return case among 228 CJH collections.', src:'<a href="https://archives.cjh.org/repositories/3/resources/6730" target="_blank">CJH / AJHS resource 6730</a>'},
+  // --- invitations / honours / refusals ---
+  {g:'invite', year:'1964', cat:'municipal invitation', person:'Hans Hanan Mannheimer', city:'Worms', ev:'Official invitation from the city of Worms to a former resident — the canonical municipal return-visit invitation.', src:'MTFN G-F-0444-003-R0001'},
+  {g:'invite', year:'1985', cat:'honour refused', person:'Hans Hanan Mannheimer', city:'Worms', ev:'Worms recommends honorary citizenship; Mannheimer declines over the disrespectful process — memory work as refusal.', src:'MTFN G-F-0444-003-R0012'},
+  {g:'invite', year:'1960s–90s', cat:'emigrant org / delegation', person:'Heinrich (Zvi) Schopler', city:'Cologne (Köln)', ev:'Chairman of the Organization of Cologne Emigrants; corresponds with Mayors Burger &amp; Brügelmann; publications cover an Israeli-delegation visit to Cologne.', src:'MTFN G-F-0276-006-R0005'},
+  // --- remigration ---
+  {g:'remig', year:'1959 / 1962', cat:'remigration', person:'Leoni Frank-Landsberg', city:'Germany', ev:'Writes to Moshe Sharett "from Germany where she lives" — a documented move back to Germany.', src:'MTFN G-F-0047-002-R0004'},
+  {g:'remig', year:'post-1945', cat:'remigration', person:'Wilma Adam', city:'Germany', ev:'Garzon\'s cousin; lived in Givat Brenner, then returned with her husband to live in Germany.', src:'MTFN G-F-0185-002-R0012'},
+  // --- context ---
+  {g:'context', year:'1934', cat:'pre-war observation', person:'Arthur Ruppin', city:'Berlin', ev:'Visits Berlin under Nazi rule — "outwardly nothing has changed." An iconic Heimat-observation, but pre-war, not a post-war return; kept for context.', src:'MTFN G-F-0047-004-R0007'},
+];
+
+function render(){
+  for(const c of CASES){
+    const grid = document.getElementById('g-'+c.g);
+    if(!grid) continue;
+    const tag = c.link ? 'a' : 'div';
+    const el = document.createElement(tag);
+    el.className = 'card '+c.g;
+    if(c.link){ el.href = c.link; }
+    el.innerHTML =
+      '<div class="plate"><span class="year">'+c.year+'</span><span class="cat">'+c.cat+'</span></div>'+
+      '<div class="cbody">'+
+        '<h4>'+c.person+'</h4>'+
+        '<p class="city">'+c.city+'</p>'+
+        '<p class="ev">'+c.ev+'</p>'+
+        '<div class="src">'+c.src+(c.link?'<div class="link-flag">Full presentation →</div>':'')+'</div>'+
+      '</div>';
+    grid.appendChild(el);
+  }
+}
+render();
+</script>
+
+</body>
+</html>
