@@ -146,9 +146,16 @@
   .cbody h4 { font-family: 'EB Garamond', serif; font-size: 20px; margin: 0 0 1px; font-weight: 600; }
   .cbody .city { font-style: italic; font-size: 15px; color: var(--accent); margin: 0 0 8px; }
   .cbody .ev { font-size: 15px; color: var(--ink-soft); margin: 0 0 12px; flex: 1; }
-  .cbody .src { font-family: 'Inter', sans-serif; font-size: 11px; color: var(--ink-muted); letter-spacing: 0.3px; border-top: 1px dotted var(--rule); padding-top: 8px; }
-  .cbody .src a { color: var(--accent); text-decoration: none; }
-  .link-flag { font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); margin-top: 6px; }
+  .cbody .src { border-top: 1px dotted var(--rule); padding-top: 8px; }
+  .cbody .folder { font-family: 'Inter', sans-serif; font-size: 11px; color: var(--ink-muted); letter-spacing: 0.3px; margin-bottom: 6px; }
+  .cbody .action {
+    display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.4px;
+    text-decoration: none; color: var(--accent); margin-right: 14px;
+  }
+  .cbody a.action:hover { text-decoration: underline; }
+  .cbody .action.pending { color: var(--ink-muted); font-weight: 400; font-style: italic; }
+  .cbody .action.deep { color: var(--ink-soft); }
+  .open-pill.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); margin-left: 8px; }
 
   /* category accent stripes (left edge) */
   .card.trip    { border-left: 3px solid #8a2418; }
@@ -191,6 +198,7 @@
       <p>The canonical return-visit text of the corpus: Landsberg leaves Germany in 1932, returns in 1951 for work, reads Hamburg as a foreign city (he never lived there — no memories to disturb), visits his parents' graves in Frankfurt, meets displaced Germans, refuses pity. Followed by companion essays <em>Berlin 1956</em> and <em>Eine Fahrt nach Ostberlin</em> (~1959).</p>
       <p class="meta">MTFN G-F-0047-023 · Transkribus 942484 · full HTR + page images held locally</p>
       <span class="open-pill">Open full presentation →</span>
+      <a class="open-pill ghost" href="https://drive.google.com/drive/folders/1Y0QDQbwoyNy0O2c72lVh4684Gminyv3z" target="_blank" rel="noopener" onclick="event.stopPropagation();">Scans in Drive →</a>
     </div>
   </a>
 
@@ -211,7 +219,10 @@
   <div class="grid" id="g-context"></div>
 
   <p class="note">
-    <b>Twenty cases, one corpus.</b> Every confirmed return-to-Germany case in our holdings is here. Of 228 CJH archival collections swept, exactly one (Ernest Michel) carried a documented return — the theme lives almost entirely in the MTFN / Tefen material. Source descriptions are drawn from the catalogue and Transkribus HTR; only the flagship is fully transcribed and presented. Cases without a local scan cite their MTFN folder for retrieval from the Drive archive.
+    <b>Twenty cases, one corpus.</b> Every confirmed return-to-Germany case in our holdings is here. Of 228 CJH archival collections swept, exactly one (Ernest Michel) carried a documented return — the theme lives almost entirely in the MTFN / Tefen material. Twelve cases link straight to their scanned pages in the Drive archive; the remaining eight — chiefly the rich Otto Mayer family cluster (G-F-0030) — are catalogued but not yet digitised, and are marked <i>scan pending</i>.
+  </p>
+  <p class="note" style="border-left-color: var(--accent);">
+    <b>Access note.</b> The "Open scans in Drive" links resolve to folders in the project Google Drive. They open only for accounts the archive has been shared with — if a reviewer hits a permissions wall, share the parent archive folder (or enable link-sharing) with their Google account.
   </p>
 
 </main>
@@ -221,47 +232,58 @@
 </footer>
 
 <script>
+// drive: Google Drive scan-folder URL (null = catalogued but not digitised in the archive Drive)
+// deep:  link to a full in-site presentation, where one exists
+const DRIVE_0047_23 = 'https://drive.google.com/drive/folders/1Y0QDQbwoyNy0O2c72lVh4684Gminyv3z';
 const CASES = [
   // --- trip accounts & diaries ---
-  {g:'trip', year:'1949', cat:'first visit', person:'A child (Strauss family?)', city:'Germany', ev:'"Erster Besuch des Kindes im Nachkriegsdeutschland" — the earliest documented post-war return in the collection.', src:'MTFN G-F-0180-002-R0020'},
-  {g:'trip', year:'1950', cat:'travel report', person:'Otto Mayer', city:'Westphalia (Wiedenbrück, Rheda)', ev:'Reisebericht of a trip to Germany — reparations negotiations and visits to friends and relatives.', src:'MTFN G-F-0030-011-R0007'},
-  {g:'trip', year:'1951', cat:'trip diary', person:'Otto Mayer', city:'Germany', ev:'A second, separate handwritten German Reisetagebuch of a journey back to Germany.', src:'MTFN G-F-0030-011-R0013'},
-  {g:'trip', year:'1950–53', cat:'letters home', person:'Otto Mayer', city:'Germany', ev:'Letters written from Germany to his wife Gertrud in Nahariya — meetings and financial matters.', src:'MTFN G-F-0030-011-R0006'},
-  {g:'trip', year:'1951', cat:'travel document', person:'Gertrud Mayer', city:'Germany', ev:'Israeli passport with Israeli-authority approval to visit Germany and a German entry visa — proof of authorised post-war travel.', src:'MTFN G-F-0030-012-R0001'},
-  {g:'trip', year:'1957', cat:'trip photos', person:'Mayer family', city:'Germany', ev:'Photographs of a family return trip to Germany (Andreas, Esther, Gertrud).', src:'MTFN G-F-0030-005-R0001'},
-  {g:'trip', year:'1957 / 1964', cat:'letters home', person:'Andreas &amp; Esther Mayer', city:'Bielefeld; various cities', ev:'Write home to Nahariya while in Germany; Andreas sits the Meister exam there; 1964 letters span several German cities + the Höpner family in Bielefeld.', src:'MTFN G-F-0030-059-R0001'},
-  {g:'trip', year:'1956', cat:'trip essay', person:'Alfred Landsberg', city:'Berlin', ev:'Companion essay "Berlin 1956" — a second post-war Berlin visit (typed German, draft + 2 copies).', src:'MTFN G-F-0047-023-R0005', link:'../landsberg-deutschlandfahrt/index.html'},
-  {g:'trip', year:'~1959', cat:'trip essay', person:'Alfred Landsberg', city:'East Berlin', ev:'Essay "Eine Fahrt nach Ostberlin" — a trip into East Berlin.', src:'MTFN G-F-0047-023-R0005', link:'../landsberg-deutschlandfahrt/index.html'},
-  {g:'trip', year:'1957', cat:'visit report', person:'Raga (to Shiloni)', city:'Berlin', ev:'Letter of 4 July 1957 describing her last visit to Shiloni\'s mother and aunt in Berlin; the visit passage was translated into Hebrew by Carla Wolf.', src:'MTFN G-F-0313-009-R0001'},
-  {g:'trip', year:'1969', cat:'trip lecture', person:'Wizo Nahariya lecturer', city:'Germany', ev:'"Deutschland, eine Winterreise" — a 15-page lecture for the Golden Age Club of Wizo Nahariya (a Heine echo). 1969 is a project pilot anchor year.', src:'MTFN G-F-0113-041-R0016'},
-  {g:'trip', year:'n.d.', cat:'lecture tour', person:'Shimon Berlinger', city:'Baden-Württemberg', ev:'German-language publications gathered on his travels and lectures across cities of Baden-Württemberg.', src:'MTFN G-F-0422-003-R0001'},
-  {g:'trip', year:'1975', cat:'published account', person:'Ernest W. Michel', city:'Mannheim / Germany', ev:'Mannheim-born Auschwitz survivor (→ US 1946). His papers hold "Germany Revisited by Ernest Michel" (JTA feature, 1975). The sole confirmed return case among 228 CJH collections.', src:'<a href="https://archives.cjh.org/repositories/3/resources/6730" target="_blank">CJH / AJHS resource 6730</a>'},
+  {g:'trip', year:'1949', cat:'first visit', person:'A child (Strauss family?)', city:'Germany', ev:'"Erster Besuch des Kindes im Nachkriegsdeutschland" — the earliest documented post-war return in the collection.', folder:'G-F-0180-002-R0020', drive:null},
+  {g:'trip', year:'1950', cat:'travel report', person:'Otto Mayer', city:'Westphalia (Wiedenbrück, Rheda)', ev:'Reisebericht of a trip to Germany — reparations negotiations and visits to friends and relatives.', folder:'G-F-0030-011-R0007', drive:null},
+  {g:'trip', year:'1951', cat:'trip diary', person:'Otto Mayer', city:'Germany', ev:'A second, separate handwritten German Reisetagebuch of a journey back to Germany.', folder:'G-F-0030-011-R0013', drive:null},
+  {g:'trip', year:'1950–53', cat:'letters home', person:'Otto Mayer', city:'Germany', ev:'Letters written from Germany to his wife Gertrud in Nahariya — meetings and financial matters.', folder:'G-F-0030-011-R0006', drive:null},
+  {g:'trip', year:'1951', cat:'travel document', person:'Gertrud Mayer', city:'Germany', ev:'Israeli passport with Israeli-authority approval to visit Germany and a German entry visa — proof of authorised post-war travel.', folder:'G-F-0030-012-R0001', drive:null},
+  {g:'trip', year:'1957', cat:'trip photos', person:'Mayer family', city:'Germany', ev:'Photographs of a family return trip to Germany (Andreas, Esther, Gertrud).', folder:'G-F-0030-005-R0001', drive:null},
+  {g:'trip', year:'1957 / 1964', cat:'letters home', person:'Andreas &amp; Esther Mayer', city:'Bielefeld; various cities', ev:'Write home to Nahariya while in Germany; Andreas sits the Meister exam there; 1964 letters span several German cities + the Höpner family in Bielefeld.', folder:'G-F-0030-059-R0001', drive:null},
+  {g:'trip', year:'1956', cat:'trip essay', person:'Alfred Landsberg', city:'Berlin', ev:'Companion essay "Berlin 1956" — a second post-war Berlin visit (typed German, draft + 2 copies). Part of the Deutschlandfahrt folder (see flagship above).', folder:'G-F-0047-023-R0005', drive:DRIVE_0047_23, deep:'../landsberg-deutschlandfahrt/index.html'},
+  {g:'trip', year:'~1959', cat:'trip essay', person:'Alfred Landsberg', city:'East Berlin', ev:'Essay "Eine Fahrt nach Ostberlin" — a trip into East Berlin.', folder:'G-F-0047-023-R0005', drive:DRIVE_0047_23, deep:'../landsberg-deutschlandfahrt/index.html'},
+  {g:'trip', year:'1957', cat:'visit report', person:'Raga (to Shiloni)', city:'Berlin', ev:'Letter of 4 July 1957 describing her last visit to Shiloni\'s mother and aunt in Berlin; the visit passage was translated into Hebrew by Carla Wolf.', folder:'G-F-0313-009-R0001', drive:null},
+  {g:'trip', year:'1969', cat:'trip lecture', person:'Wizo Nahariya lecturer', city:'Germany', ev:'"Deutschland, eine Winterreise" — a 15-page lecture for the Golden Age Club of Wizo Nahariya (a Heine echo). 1969 is a project pilot anchor year.', folder:'G-F-0113-041-R0016', drive:'https://drive.google.com/drive/folders/1loyGgsVUdq5KOweB-6KjmcpnGwFTMTc4'},
+  {g:'trip', year:'n.d.', cat:'lecture tour', person:'Shimon Berlinger', city:'Baden-Württemberg', ev:'German-language publications gathered on his travels and lectures across cities of Baden-Württemberg.', folder:'G-F-0422-003-R0001', drive:'https://drive.google.com/drive/folders/12Y2FwnHj8kqF1YGlnUwc3pafn-wT5u_q'},
+  {g:'trip', year:'1975', cat:'published account', person:'Ernest W. Michel', city:'Mannheim / Germany', ev:'Mannheim-born Auschwitz survivor (→ US 1946). His papers hold "Germany Revisited by Ernest Michel" (JTA feature, 1975). The sole confirmed return case among 228 CJH collections.', folder:'CJH / AJHS resource 6730', drive:'https://archives.cjh.org/repositories/3/resources/6730', driveLabel:'Open finding aid at CJH →'},
   // --- invitations / honours / refusals ---
-  {g:'invite', year:'1964', cat:'municipal invitation', person:'Hans Hanan Mannheimer', city:'Worms', ev:'Official invitation from the city of Worms to a former resident — the canonical municipal return-visit invitation.', src:'MTFN G-F-0444-003-R0001'},
-  {g:'invite', year:'1985', cat:'honour refused', person:'Hans Hanan Mannheimer', city:'Worms', ev:'Worms recommends honorary citizenship; Mannheimer declines over the disrespectful process — memory work as refusal.', src:'MTFN G-F-0444-003-R0012'},
-  {g:'invite', year:'1960s–90s', cat:'emigrant org / delegation', person:'Heinrich (Zvi) Schopler', city:'Cologne (Köln)', ev:'Chairman of the Organization of Cologne Emigrants; corresponds with Mayors Burger &amp; Brügelmann; publications cover an Israeli-delegation visit to Cologne.', src:'MTFN G-F-0276-006-R0005'},
+  {g:'invite', year:'1964', cat:'municipal invitation', person:'Hans Hanan Mannheimer', city:'Worms', ev:'Official invitation from the city of Worms to a former resident — the canonical municipal return-visit invitation.', folder:'G-F-0444-003-R0001', drive:'https://drive.google.com/drive/folders/1rpo85nfk5RFq7xZWvROIk2tX5A87mlLg'},
+  {g:'invite', year:'1985', cat:'honour refused', person:'Hans Hanan Mannheimer', city:'Worms', ev:'Worms recommends honorary citizenship; Mannheimer declines over the disrespectful process — memory work as refusal.', folder:'G-F-0444-003-R0012', drive:'https://drive.google.com/drive/folders/1rpo85nfk5RFq7xZWvROIk2tX5A87mlLg'},
+  {g:'invite', year:'1960s–90s', cat:'emigrant org / delegation', person:'Heinrich (Zvi) Schopler', city:'Cologne (Köln)', ev:'Chairman of the Organization of Cologne Emigrants; corresponds with Mayors Burger &amp; Brügelmann; publications cover an Israeli-delegation visit to Cologne.', folder:'G-F-0276-006-R0005', drive:'https://drive.google.com/drive/folders/1MWkzFHOEpS9fQHq0kB88M1_72mYEFrJW'},
   // --- remigration ---
-  {g:'remig', year:'1959 / 1962', cat:'remigration', person:'Leoni Frank-Landsberg', city:'Germany', ev:'Writes to Moshe Sharett "from Germany where she lives" — a documented move back to Germany.', src:'MTFN G-F-0047-002-R0004'},
-  {g:'remig', year:'post-1945', cat:'remigration', person:'Wilma Adam', city:'Germany', ev:'Garzon\'s cousin; lived in Givat Brenner, then returned with her husband to live in Germany.', src:'MTFN G-F-0185-002-R0012'},
+  {g:'remig', year:'1959 / 1962', cat:'remigration', person:'Leoni Frank-Landsberg', city:'Germany', ev:'Writes to Moshe Sharett "from Germany where she lives" — a documented move back to Germany.', folder:'G-F-0047-002-R0004', drive:'https://drive.google.com/drive/folders/1AI1PA5XTtDzmFCOTZwCA0n2mu0EUQCDC'},
+  {g:'remig', year:'post-1945', cat:'remigration', person:'Wilma Adam', city:'Germany', ev:'Garzon\'s cousin; lived in Givat Brenner, then returned with her husband to live in Germany.', folder:'G-F-0185-002-R0012', drive:'https://drive.google.com/drive/folders/1CdAbq59wCF31zRUxQHes7nPKPH3Ses12'},
   // --- context ---
-  {g:'context', year:'1934', cat:'pre-war observation', person:'Arthur Ruppin', city:'Berlin', ev:'Visits Berlin under Nazi rule — "outwardly nothing has changed." An iconic Heimat-observation, but pre-war, not a post-war return; kept for context.', src:'MTFN G-F-0047-004-R0007'},
+  {g:'context', year:'1934', cat:'pre-war observation', person:'Arthur Ruppin', city:'Berlin', ev:'Visits Berlin under Nazi rule — "outwardly nothing has changed." An iconic Heimat-observation, but pre-war, not a post-war return; kept for context.', folder:'G-F-0047-004-R0007', drive:'https://drive.google.com/drive/folders/1hiuDoM3tdfwviBM16AgQ3hscwBOs_GHH'},
 ];
 
 function render(){
   for(const c of CASES){
     const grid = document.getElementById('g-'+c.g);
     if(!grid) continue;
-    const tag = c.link ? 'a' : 'div';
-    const el = document.createElement(tag);
+    const el = document.createElement('div');
     el.className = 'card '+c.g;
-    if(c.link){ el.href = c.link; }
+    let actions = '<div class="folder">'+c.folder+'</div>';
+    if(c.drive){
+      const label = c.driveLabel || 'Open scans in Drive →';
+      actions += '<a class="action" href="'+c.drive+'" target="_blank" rel="noopener">'+label+'</a>';
+    } else {
+      actions += '<span class="action pending">catalogue only · scan pending</span>';
+    }
+    if(c.deep){
+      actions += '<a class="action deep" href="'+c.deep+'">Full presentation →</a>';
+    }
     el.innerHTML =
       '<div class="plate"><span class="year">'+c.year+'</span><span class="cat">'+c.cat+'</span></div>'+
       '<div class="cbody">'+
         '<h4>'+c.person+'</h4>'+
         '<p class="city">'+c.city+'</p>'+
         '<p class="ev">'+c.ev+'</p>'+
-        '<div class="src">'+c.src+(c.link?'<div class="link-flag">Full presentation →</div>':'')+'</div>'+
+        '<div class="src">'+actions+'</div>'+
       '</div>';
     grid.appendChild(el);
   }
