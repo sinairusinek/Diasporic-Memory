@@ -11,3 +11,10 @@ data/cjh-oai/fill_ead_failures.tsv
 # Python
 __pycache__/
 *.pyc
+
+# Recatalog pipeline: large rclone-downloaded scan images (keep TSVs/text, not JPEGs)
+data/recatalog/*/scans/
+
+# Hecht accession register source PDF (large scanned register)
+ארכיון גרמני הכט.pdf
+data/hecht/raw.txt
