@@ -1,0 +1,67 @@
+===== 0113-41 (1loyGgsVUdq5KOweB-6KjmcpnGwFTMTc4) =====
++ rclone copy jeckedrive: --drive-root-folder-id 1loyGgsVUdq5KOweB-6KjmcpnGwFTMTc4 /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0113-41/scans --drive-acknowledge-abuse --transfers 8 --progress --include *.jpg --include *.jpeg
+pages.tsv: 396 pages -> /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0113-41/pages.tsv
+  0113-41: 396 pages, OCR...
+  escalation set (handwriting/image/blank): 87 pages (21%)
+  print                  298
+  handwriting_or_image   68
+  print_degraded         11
+  script:latin           371
+  script:none            19
+  0113-41 DONE
+===== 0422-3 (12Y2FwnHj8kqF1YGlnUwc3pafn-wT5u_q) =====
++ rclone copy jeckedrive: --drive-root-folder-id 12Y2FwnHj8kqF1YGlnUwc3pafn-wT5u_q /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0422-3/scans --drive-acknowledge-abuse --transfers 8 --progress --include *.jpg --include *.jpeg
+pages.tsv: 404 pages -> /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0422-3/pages.tsv
+  0422-3: 404 pages, OCR...
+  escalation set (handwriting/image/blank): 12 pages (2%)
+  print                  376
+  print_degraded         16
+  handwriting_or_image   8
+  script:latin           381
+  script:hebrew          14
+  0422-3 DONE
+===== 0276-6 (1MWkzFHOEpS9fQHq0kB88M1_72mYEFrJW) =====
++ rclone copy jeckedrive: --drive-root-folder-id 1MWkzFHOEpS9fQHq0kB88M1_72mYEFrJW /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0276-6/scans --drive-acknowledge-abuse --transfers 8 --progress --include *.jpg --include *.jpeg
+pages.tsv: 147 pages -> /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0276-6/pages.tsv
+  0276-6: 147 pages, OCR...
+  escalation set (handwriting/image/blank): 34 pages (23%)
+  print                  103
+  handwriting_or_image   18
+  print_degraded         10
+  script:latin           138
+  script:none            9
+  0276-6 DONE
+===== 0047-2 (1AI1PA5XTtDzmFCOTZwCA0n2mu0EUQCDC) =====
++ rclone copy jeckedrive: --drive-root-folder-id 1AI1PA5XTtDzmFCOTZwCA0n2mu0EUQCDC /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0047-2/scans --drive-acknowledge-abuse --transfers 8 --progress --include *.jpg --include *.jpeg
+pages.tsv: 158 pages -> /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0047-2/pages.tsv
+  0047-2: 158 pages, OCR...
+  escalation set (handwriting/image/blank): 103 pages (65%)
+  handwriting_or_image   47
+  print                  29
+  print_degraded         26
+  script:none            56
+  script:latin           56
+  0047-2 DONE
+===== 0185-2 (1CdAbq59wCF31zRUxQHes7nPKPH3Ses12) =====
++ rclone copy jeckedrive: --drive-root-folder-id 1CdAbq59wCF31zRUxQHes7nPKPH3Ses12 /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0185-2/scans --drive-acknowledge-abuse --transfers 8 --progress --include *.jpg --include *.jpeg
+pages.tsv: 223 pages -> /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0185-2/pages.tsv
+  0185-2: 223 pages, OCR...
+  escalation set (handwriting/image/blank): 50 pages (22%)
+  print                  146
+  handwriting_or_image   34
+  print_degraded         27
+  script:latin           175
+  script:mixed           25
+  0185-2 DONE
+===== 0047-4 (1hiuDoM3tdfwviBM16AgQ3hscwBOs_GHH) =====
++ rclone copy jeckedrive: --drive-root-folder-id 1hiuDoM3tdfwviBM16AgQ3hscwBOs_GHH /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0047-4/scans --drive-acknowledge-abuse --transfers 8 --progress --include *.jpg --include *.jpeg
+pages.tsv: 106 pages -> /Users/sinairusinek/Documents/GitHub/JeckeArchive/data/recatalog/0047-4/pages.tsv
+  0047-4: 106 pages, OCR...
+  escalation set (handwriting/image/blank): 85 pages (80%)
+  handwriting_or_image   50
+  print_degraded         16
+  print                  5
+  script:latin           51
+  script:none            38
+  0047-4 DONE
+ALL DONE

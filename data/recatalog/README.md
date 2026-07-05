@@ -54,6 +54,13 @@ Stage 3 cataloguing and gives Stage 2 a known target list), but assigning
 **scan-page ranges to each item is still done by Stage 2 OCR boundary-detection**.
 Segmentation is therefore *alignment against a known item list*, not blind hunting.
 
+**IMPORTANT (pilot finding):** a register card is **NOT reliably present** — only 1 of
+the 7 pilot folders (Worms 0444) opened with one. The others begin directly with
+content (a poem, press clippings, Yad Vashem pages of testimony, a conference program).
+So segmentation must work from the OCR spine **without** an answer-key in most folders —
+which it did successfully. Do not assume a register card exists; detect and use it when
+present, fall back to pure boundary-detection otherwise.
+
 ## Per-folder output layout
 
 ```
