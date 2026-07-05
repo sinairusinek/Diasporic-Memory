@@ -1,7 +1,29 @@
 # Feasibility & pricing — re-cataloguing pilot
 
-Status: **pilot folder G-F-0444-3 (Worms / Hans Mannheimer) processed end-to-end.**
-Date: 2026-07-03. Remaining pilot folders queued.
+Status: **7 pilot folders OCR'd + classified (1,686 pages); Worms fully catalogued;
+6 folders segmentation in progress.** Date: 2026-07-05.
+
+## Escalation is bimodal by folder type (the key scaling finding)
+
+The free-Tesseract-handled share depends almost entirely on whether a folder is
+print/book or handwritten correspondence:
+
+| Folder | Person | Pages | Escalation (paid tail) |
+|---|---|---|---|
+| 0422-3 | Berlinger (publications) | 404 | **2%** |
+| 0444-3 | Mannheimer / Worms (books+letters) | 252 | 14% |
+| 0113-41 | Winterreise (lecture+mixed) | 396 | 21% |
+| 0185-2 | Garzon / Wilma Adam | 223 | 22% |
+| 0276-6 | Schopler / Cologne (corresp.) | 147 | 23% |
+| 0047-2 | Leoni Frank (handwritten letters) | 158 | **65%** |
+| 0047-4 | Ruppin/Landsberg (handwritten letters) | 106 | **80%** |
+| **TOTAL** | | **1,686** | **24%** |
+
+So a print/book-heavy folder costs almost nothing (2–22% tail); a
+handwritten-correspondence folder flips to 65–80% paid tail. **The collection cost is
+therefore driven by the print:handwriting ratio, not page count** — this is the number
+to estimate before committing (the accession register's document-type fields can
+predict it per folder in advance). Worms's 14% badly understated pure correspondence.
 
 ## What was measured (Worms 0444-3)
 
