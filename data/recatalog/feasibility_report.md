@@ -45,14 +45,25 @@ layout **and got "an 3–5 Volkshochschulen" correct where Vision hallucinated "
 scale, would cost ~$1.50/1000 pages via the Cloud Vision API. Reserve Vision for the
 mid-confidence pages where Tesseract's layout parsing struggles.
 
-**HANDWRITING — Claude vision vs Transkribus.** Tesseract returns near-zero on
-cursive (confirmed). Google Vision *also* returns empty on the German/Hebrew
-handwriting here. Claude vision read a faint-pencil Hebrew note only partially
-(got the "1964" header + gist) — **faint pencil needs an image-preprocessing pass
-(contrast/levels via sips/ImageMagick) before any engine.** Transkribus was **not**
-run: our `transkribus_client.py` is download-only, so a proper comparison needs an
-upload+recognise path (public German-Kurrent model) — a ~half-day build, worth doing
-before committing the collection, since handwriting is the residual cost driver.
+**HANDWRITING — three-way bake-off DONE (Tesseract vs Transkribus vs Claude vision).**
+The Transkribus path is now built (`code/recatalog/transkribus_htr.py`) using the **new
+Processing API** (`transkribus.eu/processing/v1`, OAuth2, base64 server-to-server — the
+old TrpServer trigger endpoints are gone; upload is unnecessary). Tested on Ruppin/
+Landsberg cursive letters (folder 0047-4), model **German Giant I (50870, CER 9.8%)**:
+
+| Engine | Result on a 1939 German cursive letter | Cost | Throughput |
+|---|---|---|---|
+| **Tesseract** (free) | **Fails** — printed letterhead only, handwriting = garbage | $0 | fast |
+| **Transkribus German Giant** | **~90% legible**; errs on semantically-hard words ("Waad hemmi" for *leumi*, "Vase" for *Tage*) | credits/page | batch, fast |
+| **Claude vision** | **~95%**; resolves the hard words via context (*Waad leumi*, *langweile*, *Tage*) | tokens/page | one page at a time |
+
+**Verdict:** both handwriting engines are usable and vastly beat Tesseract on cursive.
+**Transkribus** wins for *bulk* (batch base64 submit, no per-page reasoning cost);
+**Claude vision** wins for *accuracy on hard/semantic tokens* (names, Hebrew loanwords,
+places). Recommended routing: Transkribus for the bulk handwriting tail, escalate only
+the low-confidence / high-value pages (flagship letters) to Claude vision. Google Vision
+also returns empty on cursive, so it is print-only. Faint-pencil pages still need a
+contrast/levels preprocessing pass before either engine.
 
 ## The cost split that matters
 

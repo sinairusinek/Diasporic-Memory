@@ -4,3 +4,6 @@ folder	stage	engine	pages	unit_cost	cost_usd	tokens	minutes	note
 0444-3	bakeoff_print	vision	1	0	0	0	0	page6 German print: fluent but hallucinated 35 vs correct 3-5
 0444-3	bakeoff_hw	claude	1	0	0	1500	0	page5 faint-pencil Hebrew cursive: Claude got 1964+gist only; needs contrast preprocessing; Tesseract=0
 0444-3	classify	tesseract	252	0	0	0	0	86% print handled free; 14% (36pp) escalation set
+0047-4	bakeoff_hw	tesseract	1	0	0	0	0	page24 cursive: FAILED (printed letterhead only, handwriting=garbage)
+0047-4	bakeoff_hw	transkribus	6	0	0	0	0	German Giant (50870) via new Processing API base64; page24 ~90% legible, errs on hard words (Waad hemmi/leumi, Vase/Tage)
+0047-4	bakeoff_hw	claude	1	0	0	1600	0	page24 ~95%, resolves Waad leumi/langweile/Tage via context; 1 page at a time, token cost
