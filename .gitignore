@@ -18,3 +18,14 @@ data/recatalog/*/scans/
 # Hecht accession register source PDF (large scanned register)
 ארכיון גרמני הכט.pdf
 data/hecht/raw.txt
+
+# Transkribus HTR downloads: keep plain-text transcripts, not re-downloadable images/PAGE-XML/fulldoc
+data/transkribus/htr/**/*.jpg
+data/transkribus/htr/**/*.xml
+data/transkribus/htr/**/fulldoc.json
+
+# Copyrighted book-chapter scans (public repo — do not publish)
+data/diaspora book chapters/
+
+# ISF grant guidelines (external document, not project output)
+GuidelinesPersonalGrant_Heb_3058_1.pdf
