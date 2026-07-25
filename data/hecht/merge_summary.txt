@@ -1,0 +1,17 @@
+Hecht ↔ catalogue merge summary
+================================
+
+Catalogue items                  : 6932
+Catalogue distinct folders       : 1103
+Hecht records                    : 958
+
+Hecht records by collection:
+  G-F: 958
+
+Folders matched (Hecht ↔ cat)    : 701
+Catalogue items enriched         : 4119
+
+Hecht-only folders (new content) : 252
+  G-F: 255
+
+Catalogue-only folders (no Hecht record): 402
