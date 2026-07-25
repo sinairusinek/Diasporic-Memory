@@ -1,0 +1,122 @@
+{
+  "EgoDocument": {
+    "label": "EgoDocuments",
+    "template_id": 11,
+    "item_set_id": 7610,
+    "resource_class_id": 1024
+  },
+  "Image": {
+    "label": "Images",
+    "template_id": 12,
+    "item_set_id": 7611,
+    "resource_class_id": 26
+  },
+  "Certificate": {
+    "label": "Certificates",
+    "template_id": 13,
+    "item_set_id": 7612,
+    "resource_class_id": 1016
+  },
+  "Ephemera": {
+    "label": "Ephemera",
+    "template_id": 14,
+    "item_set_id": 7613,
+    "resource_class_id": 1025
+  },
+  "Creative Fiction": {
+    "label": "Creative Fiction",
+    "template_id": 15,
+    "item_set_id": 7614,
+    "resource_class_id": 1019
+  },
+  "Legal Document": {
+    "label": "Legal Documents",
+    "template_id": 16,
+    "item_set_id": 7615,
+    "resource_class_id": 64
+  },
+  "Organization Papertrail": {
+    "label": "Organization Papertrails",
+    "template_id": 17,
+    "item_set_id": 7616,
+    "resource_class_id": 1041
+  },
+  "Report": {
+    "label": "Reports",
+    "template_id": 18,
+    "item_set_id": 7617,
+    "resource_class_id": 1047
+  },
+  "Financial_Document": {
+    "label": "Financial Documents",
+    "template_id": 19,
+    "item_set_id": 7618,
+    "resource_class_id": 1027
+  },
+  "Object": {
+    "label": "Objects",
+    "template_id": 20,
+    "item_set_id": 7619,
+    "resource_class_id": 32
+  },
+  "Medical Document": {
+    "label": "Medical Documents",
+    "template_id": 21,
+    "item_set_id": 7620,
+    "resource_class_id": 1037
+  },
+  "Newspaper": {
+    "label": "Newspapers",
+    "template_id": 22,
+    "item_set_id": 7621,
+    "resource_class_id": 72
+  },
+  "Article": {
+    "label": "Articles",
+    "template_id": 23,
+    "item_set_id": 7622,
+    "resource_class_id": 36
+  },
+  "Academic Paper": {
+    "label": "Academic Papers",
+    "template_id": 24,
+    "item_set_id": 7623,
+    "resource_class_id": 35
+  },
+  "Translated Document": {
+    "label": "Translated Documents",
+    "template_id": 25,
+    "item_set_id": 7624,
+    "resource_class_id": 1039
+  },
+  "Catalog": {
+    "label": "Catalogs",
+    "template_id": 26,
+    "item_set_id": 7625,
+    "resource_class_id": null
+  },
+  "Religious Material": {
+    "label": "Religious Materials",
+    "template_id": 27,
+    "item_set_id": 7626,
+    "resource_class_id": null
+  },
+  "School Material": {
+    "label": "School Materials",
+    "template_id": 28,
+    "item_set_id": 7627,
+    "resource_class_id": null
+  },
+  "Unrecognized": {
+    "label": "Unrecognized",
+    "template_id": 29,
+    "item_set_id": 7628,
+    "resource_class_id": null
+  },
+  "MISC": {
+    "label": "Misc",
+    "template_id": 30,
+    "item_set_id": 7629,
+    "resource_class_id": null
+  }
+}

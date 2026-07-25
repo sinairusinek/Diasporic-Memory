@@ -1,0 +1,182 @@
+[
+  {
+    "class": "Academic Paper",
+    "file": "data/omeka-audit/csv-import/academic_paper.csv",
+    "rows": 5,
+    "template_id": 24,
+    "item_set_id": 7623,
+    "resource_class_id": 35,
+    "label": "Academic Papers"
+  },
+  {
+    "class": "Article",
+    "file": "data/omeka-audit/csv-import/article.csv",
+    "rows": 7,
+    "template_id": 23,
+    "item_set_id": 7622,
+    "resource_class_id": 36,
+    "label": "Articles"
+  },
+  {
+    "class": "Catalog",
+    "file": "data/omeka-audit/csv-import/catalog.csv",
+    "rows": 10,
+    "template_id": 26,
+    "item_set_id": 7625,
+    "resource_class_id": null,
+    "label": "Catalogs"
+  },
+  {
+    "class": "Certificate",
+    "file": "data/omeka-audit/csv-import/certificate.csv",
+    "rows": 421,
+    "template_id": 13,
+    "item_set_id": 7612,
+    "resource_class_id": 1016,
+    "label": "Certificates"
+  },
+  {
+    "class": "Creative Fiction",
+    "file": "data/omeka-audit/csv-import/creative_fiction.csv",
+    "rows": 197,
+    "template_id": 15,
+    "item_set_id": 7614,
+    "resource_class_id": 1019,
+    "label": "Creative Fiction"
+  },
+  {
+    "class": "EgoDocument",
+    "file": "data/omeka-audit/csv-import/egodocument.csv",
+    "rows": 710,
+    "template_id": 11,
+    "item_set_id": 7610,
+    "resource_class_id": 1024,
+    "label": "EgoDocuments"
+  },
+  {
+    "class": "Ephemera",
+    "file": "data/omeka-audit/csv-import/ephemera.csv",
+    "rows": 348,
+    "template_id": 14,
+    "item_set_id": 7613,
+    "resource_class_id": 1025,
+    "label": "Ephemera"
+  },
+  {
+    "class": "Financial_Document",
+    "file": "data/omeka-audit/csv-import/financial_document.csv",
+    "rows": 51,
+    "template_id": 19,
+    "item_set_id": 7618,
+    "resource_class_id": 1027,
+    "label": "Financial Documents"
+  },
+  {
+    "class": "Image",
+    "file": "data/omeka-audit/csv-import/image.csv",
+    "rows": 481,
+    "template_id": 12,
+    "item_set_id": 7611,
+    "resource_class_id": 26,
+    "label": "Images"
+  },
+  {
+    "class": "Legal Document",
+    "file": "data/omeka-audit/csv-import/legal_document.csv",
+    "rows": 150,
+    "template_id": 16,
+    "item_set_id": 7615,
+    "resource_class_id": 64,
+    "label": "Legal Documents"
+  },
+  {
+    "class": "MISC",
+    "file": "data/omeka-audit/csv-import/misc.csv",
+    "rows": 22,
+    "template_id": 30,
+    "item_set_id": 7629,
+    "resource_class_id": null,
+    "label": "Misc"
+  },
+  {
+    "class": "Medical Document",
+    "file": "data/omeka-audit/csv-import/medical_document.csv",
+    "rows": 11,
+    "template_id": 21,
+    "item_set_id": 7620,
+    "resource_class_id": 1037,
+    "label": "Medical Documents"
+  },
+  {
+    "class": "Newspaper",
+    "file": "data/omeka-audit/csv-import/newspaper.csv",
+    "rows": 11,
+    "template_id": 22,
+    "item_set_id": 7621,
+    "resource_class_id": 72,
+    "label": "Newspapers"
+  },
+  {
+    "class": "Object",
+    "file": "data/omeka-audit/csv-import/object.csv",
+    "rows": 20,
+    "template_id": 20,
+    "item_set_id": 7619,
+    "resource_class_id": 32,
+    "label": "Objects"
+  },
+  {
+    "class": "Organization Papertrail",
+    "file": "data/omeka-audit/csv-import/organization_papertrail.csv",
+    "rows": 119,
+    "template_id": 17,
+    "item_set_id": 7616,
+    "resource_class_id": 1041,
+    "label": "Organization Papertrails"
+  },
+  {
+    "class": "Religious Material",
+    "file": "data/omeka-audit/csv-import/religious_material.csv",
+    "rows": 10,
+    "template_id": 27,
+    "item_set_id": 7626,
+    "resource_class_id": null,
+    "label": "Religious Materials"
+  },
+  {
+    "class": "Report",
+    "file": "data/omeka-audit/csv-import/report.csv",
+    "rows": 65,
+    "template_id": 18,
+    "item_set_id": 7617,
+    "resource_class_id": 1047,
+    "label": "Reports"
+  },
+  {
+    "class": "School Material",
+    "file": "data/omeka-audit/csv-import/school_material.csv",
+    "rows": 5,
+    "template_id": 28,
+    "item_set_id": 7627,
+    "resource_class_id": null,
+    "label": "School Materials"
+  },
+  {
+    "class": "Translated Document",
+    "file": "data/omeka-audit/csv-import/translated_document.csv",
+    "rows": 5,
+    "template_id": 25,
+    "item_set_id": 7624,
+    "resource_class_id": 1039,
+    "label": "Translated Documents"
+  },
+  {
+    "class": "Unrecognized",
+    "file": "data/omeka-audit/csv-import/unrecognized.csv",
+    "rows": 47,
+    "template_id": 29,
+    "item_set_id": 7628,
+    "resource_class_id": null,
+    "label": "Unrecognized"
+  }
+]
