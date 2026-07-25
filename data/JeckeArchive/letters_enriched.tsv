@@ -1,0 +1,161 @@
+item_id	from_person	to_person	from_place	to_place	send_date	mentioned_places	mentioned_persons	is_heimat_relevant	notes
+IL-MTFN-001-G-F-0102-001-R0004	Hugo Mainz		NULL	NULL	1929	Frankfurt	Hugo Mainz	false	Pre-1933 German communal life
+IL-MTFN-001-G-F-0102-001-R0005	Dorfzaun	Hugo Mainz	NULL	NULL	1929-1931	Frankfurt	Hugo Mainz; Dorfzaun	false	Pre-1933 German association meetings
+IL-MTFN-001-G-F-0102-001-R0007	Bürgervereinigung Harvestehude-Rotherbaum	Mrs. Hugo Mainz	Hamburg	NULL	1932	Hamburg; Harvestehude; Rotherbaum	Hugo Mainz	false	1932 pre-emigration; Hamburg neighborhood association
+IL-MTFN-001-G-F-0102-001-R0010	Dr. Carlebach; Rabbi Maarsen; Willi Mainz; parents	Hugo Mainz	NULL	NULL	1927		Hugo Mainz; Carlebach; Maarsen; Willi Mainz	false	1927 family/communal letters; pre-1933
+IL-MTFN-001-G-F-0102-003-R0001	NULL	NULL	NULL	NULL	NULL		NULL	false	Undated leather envelope with Hebrew letter of appreciation
+IL-MTFN-001-G-F-0444-003-R0001	City of Worms (Mayor's office)	Hans Hanan Mannheimer	Worms	NULL	1964	Worms	Hans Hanan Mannheimer	true	**Official 1964 invitation from Worms to former resident**; canonical return-visit case
+IL-MTFN-001-G-F-0444-003-R0007	NULL	NULL	Worms	NULL	NULL	Worms		true	Postcards of Worms Jewish cemetery; Heimat-memorial material
+IL-MTFN-001-G-F-0444-003-R0008	Chanan Hans Mannheimer	Rashi (fictive)	NULL	NULL	NULL	Worms	Chanan Hans Mannheimer; Rashi	true	Fictive letter to Rashi narrating ancestors in Worms; explicit Heimat-memory genre
+IL-MTFN-001-G-F-0444-003-R0011	Green Party Worms	NULL	Worms	NULL	1985-05-07	Worms	Hans Mannheimer	true	1985 recommendation for honorary citizenship of Worms
+IL-MTFN-001-G-F-0444-003-R0012	Hans Mannheimer	Green Party Worms	NULL	Worms	1985-05-22	Worms	Hans Mannheimer	true	Mannheimer declines honorary citizenship over disrespectful process
+IL-MTFN-001-G-F-0166-001-R0001	Revisionist Zionism Berlin	NULL	Berlin	NULL	NULL	Berlin		false	Pre-emigration Zionist circulars; not diasporic-memory per se
+IL-MTFN-001-G-F-0166-001-R0002	Zionist Organization Berlin	NULL	Berlin	NULL	NULL	Berlin		false	Pre-emigration Zionist circulars
+IL-MTFN-001-G-F-0166-001-R0003	Zionist friends in Germany	NULL	Germany	NULL	NULL	Germany		false	Pre-emigration; sender side German, unclear date
+IL-MTFN-001-G-F-0166-001-R0004	Jewish community library Berlin	NULL	Berlin	NULL	NULL	Berlin		false	Library overdue notices; pre-1933 trivial
+IL-MTFN-001-G-F-0166-001-R0005	L. Aronstamm	Uriah	Israel (post-1933); earlier Berlin/Dresden	NULL	NULL	Berlin; Dresden	L. Aronstamm; Uriah	false	Emigration-prep; excluded per tightened criterion (case 1)
+IL-MTFN-001-G-F-0490-002-R0003	Fritz Weiler	NULL	WWI front	NULL	1914-1918		Fritz Weiler	false	WWI Feldpost; pre-1933
+IL-MTFN-001-G-F-0490-002-R0004	NULL	Fritz Weiler	NULL	NULL	1915		Fritz Weiler	false	WWI Feldpost in Russian; pre-1933
+IL-MTFN-001-G-F-0490-002-R0005	NULL	Dr. Weiler	NULL	NULL	1918-01-09		Dr. Weiler	false	WWI Ludendorff donation receipt; pre-1933
+IL-MTFN-001-G-F-0490-002-R0010	NULL	Fritz Weiler	NULL	NULL	1915		Fritz Weiler	false	WWI Feldpost in Russian; pre-1933
+IL-MTFN-001-G-F-0490-002-R0011	Gefr. Moritz	Lise Leibholz	POW camp	NULL	1918-06-27		Lise Leibholz; Moritz	false	WWI POW letter; pre-1933
+IL-MTFN-001-G-F-0276-001-R0001	multiple	Schopfler family	California; USA; Johannesburg; Australia	NULL	1937-1984	California; USA; Johannesburg, South Africa; Australia	Dores Landsberg; Minna Kaufman; Otto Kaufman; Edith Horn; Herbert Arndt; Sabine Jordan	true	**Diasporic correspondence network 1937-1984** across US/SA/Australia — classic Jecke dispersal
+IL-MTFN-001-G-F-0276-002-R0001	Heinrich Schopler	officials of German Embassy Tel Aviv	NULL	Tel Aviv	1997-2001	Germany; Tel Aviv	Heinrich Schopler	true	Late-life Jecke-Germany institutional correspondence
+IL-MTFN-001-G-F-0276-006-R0002	Heinrich Schopler	Norbert Burger (Mayor of Cologne)	NULL	Cologne	NULL	Cologne (Köln)	Heinrich Schopler; Norbert Burger	true	**Correspondence with Mayor of Heimat city Cologne** — canonical return-axis
+IL-MTFN-001-G-F-0276-006-R0003	Heinrich Schopler	Klaus Ladda	NULL	Cologne	NULL	Cologne (Köln)	Heinrich Schopler; Klaus Ladda	true	Cologne mayor's office staff correspondence
+IL-MTFN-001-G-F-0276-008-R0001	Heinrich Zvi Schopfler	Alice Schwartz-Gardosh	NULL	NULL	1975-2001		Heinrich Zvi Schopfler; Alice Schwartz-Gardosh	true	**Chairman of Organization of Cologne Emigrants** corresponds with editor of Nachrichten Israel (German-language paper) — diasporic-memory institutional core
+IL-MTFN-001-G-F-0524-001-R0001	friends	Rudi	Nahalal; Tel Aviv; Leipzig	NULL	1929-1934	Nahalal; Tel Aviv; Leipzig	Rudi	false	Emigration-prep/Chalutz; excluded per case 1
+IL-MTFN-001-G-F-0524-001-R0002	Hechalutz Germany; Habonim; Zionist Org. Germany	Rudi Rudberg	Berlin	NULL	1935	Berlin	Rudi Rudberg	false	Emigration-prep; excluded per case 1
+IL-MTFN-001-G-F-0524-001-R0003	Hechalutz Galil Südwest; friends; parents; Ernst Horowitz	Rudi Herzberg	NULL	NULL	1936	Germany; Palestine	Rudi Herzberg; Ernst Horowitz	false	Emigration-prep; excluded per case 1
+IL-MTFN-001-G-F-0524-001-R0004	Hechalutz; friends in Palestine; parents	Rudi Herzberg	NULL	NULL	1937	Germany; Palestine	Rudi Herzberg	false	Emigration-prep; excluded per case 1
+IL-MTFN-001-G-F-0524-001-R0005	Kassenärztliche Vereinigung Deutschland	NULL	Berlin	NULL	NULL	Berlin	NULL	false	Nazi-era persecution document; excluded per case 3
+IL-MTFN-001-G-F-0391-004-R0001	Hella Zech; Walter Zech	NULL	Germany	NULL	1976-1984	Germany	Hella Zech; Walter Zech	true	German correspondence to Jecke recipient 1976-1984; likely Heimat contacts
+IL-MTFN-001-G-F-0391-004-R0002	Gerda Kuhnert	NULL	Berlin	NULL	1970s-1980s	Berlin	Gerda Kuhnert	true	Berlin relative writing in German 1970s-80s; Heimat-axis correspondence
+IL-MTFN-001-G-F-0391-004-R0003	Claudia (daughter of Walter Hoder)	Josepha	Berlin	NULL	1980s	Berlin	Claudia; Walter Hoder; Josepha	true	1980s Berlin correspondence; Akademie der Künste connection
+IL-MTFN-001-G-F-0391-004-R0004	Dr. Max Kreutzberger	Mini	NULL	NULL	NULL		Max Kreutzberger; Mini; Jakob Steinhardt	true	**Kreutzberger (LBI founder) on preserving Jakob Steinhardt's artistic legacy** — Jecke cultural memory
+IL-MTFN-001-G-F-0391-004-R0005	NULL	Josefa	Locarno	NULL	1970s		Josefa; Mini	true	Condolence in German from Locarno on death of Mini; diasporic German-speaking network
+IL-MTFN-001-G-F-0353-004-R0008	NULL	NULL	NULL	NULL	1900	NULL	NULL	false	1900 Friedrich Gymnasium 50th anniversary postcard; pre-emigration
+IL-MTFN-001-G-F-0353-004-R0009	Ernst Reichenheim Foundation board	Struck (Hermann)	Berlin	NULL	1899-1900	Berlin	Hermann Struck; Ernst Reichenheim	false	1899-1900 pension/work agreement; pre-emigration
+IL-MTFN-001-G-F-0353-005-R0001	Edwin Samuel	Meli Struck	Jerusalem	NULL	1937; 1945	Jerusalem	Edwin Samuel; Meli Struck	false	Palestine-internal correspondence; Heimat dimension absent
+IL-MTFN-001-G-F-0353-005-R0002	Henrietta Szold; Emma G. Ehrlich	Hermann Struck; Mally Struck	Jerusalem	NULL	1936; 1944	Jerusalem	Henrietta Szold; Hermann Struck; Mally Struck; Emma Ehrlich	false	Photographs of Szold letters; Palestine context
+IL-MTFN-001-G-F-0353-005-R0003	Abraham Schwadron	Meli Struck	Jerusalem (National Library)	NULL	1952	Jerusalem; Mount Scopus; Jordan	Abraham Schwadron; Meli Struck; Hermann Struck	false	Palestine-internal cultural-memory; excluded per case 2
+IL-MTFN-001-G-F-0202-001-R0001	NULL	NULL	Germany	Israel	NULL	Germany	Gershon	true	Suitcase of letters/photos brought from Germany; archival memory object
+IL-MTFN-001-G-F-0202-001-R0012	NULL	NULL	NULL	NULL	1935	Lwów; Palestine	NULL	false	Unused postcards Lwów + Palestine 1935; not correspondence
+IL-MTFN-001-G-F-0202-001-R0015	NULL	NULL	NULL	NULL	1943	Italy	NULL	false	Unused Italian postcards; not correspondence
+IL-MTFN-001-G-F-0202-001-R0019	Martin; Bertl (Berta)	Wally	Gut Neuendorf	Mishmar HaSharon	1943-07-16	Gut Neuendorf; Mishmar HaSharon; Theresienstadt; Monowitz	Wally; Martin; Bertl; Gretchen; Renate; Georg; Alfons	false	1943 Nazi-trauma deportation correspondence; excluded per case 3
+IL-MTFN-001-G-F-0202-009-R0003	Nathan Arnheim	Ben-Aharon (HaChalutz Center)	Zwickau	Berlin	1935	Zwickau; Berlin; Gut-Winkel; Degania Alef; Palestine	Nathan Arnheim; Ben-Aharon; Manfred Garson	false	Emigration-prep/Chalutz; excluded per case 1
+IL-MTFN-001-G-F-0185-001-R0003	Reali School Haifa	Manfred Garson	Haifa	Mikveh Israel	1932		Manfred Garson; Dr. Biram	false	1932 Palestine-internal administrative; pre-1933 and not Heimat
+IL-MTFN-001-G-F-0185-001-R0008	NULL	NULL	NULL	NULL	1946		Moshe Garzon	false	1946 family correspondence about presumed-dead relative; relates to Shoah but content unspecified
+IL-MTFN-001-G-F-0185-001-R0009	Prof. Ruth Enis	Judith Garson	NULL	NULL	NULL		Manfred Garson; Ruth Enis; Judith Garson	true	Biographical research memo on Manfred Garson 1931-1982; family-memory document
+IL-MTFN-001-G-F-0185-001-R0010	Judith; Adi	descendants of Alphonse Garzon	NULL	NULL	2009		Alphonse Garzon; Trudel Garzon	true	**Family memory text on Trudel Garzon's 1943 Rosenstrasse protest in Berlin** — explicit diasporic-memory narrative
+IL-MTFN-001-G-F-0185-002-R0001	Wally	Judith; Adi	NULL	NULL	1996		Wally; Judith; Adi	true	1996 family-research correspondence
+IL-MTFN-001-G-F-0478-001-R0004	Hedwig Meyer	Gertrud Meyer	Germany	NULL	NULL	Germany	Hedwig Meyer; Gertrud Meyer; Britta; Otto; Leni	false	Undated intra-Germany family letter; pre-emigration
+IL-MTFN-001-G-F-0478-004-R0001	Susanna Meyer's correspondents	Susanna Meyer	NULL	NULL	1883		Susanna Meyer; Dina Meyer; Justus Meyer; Otto Meyer	true	1883 family letters preserved & reprinted by descendant Dina Meyer — Jecke family-history memory project
+IL-MTFN-001-G-F-0478-004-R0002	Sarah Michael (née Warburg)	Susanna Meyer (née Michael)	NULL	NULL	1883		Sarah Michael; Susanna Meyer	true	1883 mother-daughter letters reprinted by descendant — same memory project
+IL-MTFN-001-G-F-0478-004-R0003	NULL	NULL	NULL	NULL	NULL		NULL	true	Family-context introduction for the Meyer letters reprint; part of the family-memory project
+IL-MTFN-001-G-F-0478-005-R0001	Dr. Otto Mayer	Bund der Auslanddeutschen	Rade	Berlin	1924-07-18	Berlin; England; Rade	Otto Mayer	false	1924 pre-emigration finance about pre-WWI English assets
+IL-MTFN-001-G-F-0214-001-R0002	Miriam Polin	NULL	Kfar Vradim	NULL	2010		Miriam Polin	true	2010 German typewritten by Israeli Jecke (likely family-history text)
+IL-MTFN-001-G-F-0214-001-R0005	Swedish industrial worker	Miriam Polin	Karlsborg, Sweden	NULL	1943	Karlsborg, Sweden	Miriam Polin	false	1943 admirer's note in Swedish; no Heimat dimension
+IL-MTFN-001-G-F-0214-001-R0006	Miriam Polin	Eva Warburg	Cyprus detention camp	NULL	1947-05-15	Cyprus	Miriam Polin; Eva Warburg; Oshi	false	1947 Cyprus camp life letter; transit/post-emigration but not Heimat-memory
+IL-MTFN-001-G-F-0214-003-R0007	Franky Kurz	Thea (Miriam Polin)	NULL	NULL	1977		Franky Kurz; Georg Kurzbert; Thea/Miriam Polin	true	1977 son's biographical letter on father Georg Kurzbert after his death — family-memory genre
+IL-MTFN-001-G-F-0214-003-R0009	WWI comrades (362nd Brigade)	Georg Kurzbert	Germany	NULL	1934		Georg Kurzbert	false	1934 NS-era solidarity letters; persecution-context document
+IL-MTFN-001-G-F-0459-008-R0006	NULL	NULL	Givat HaShlosha	NULL	1937		Meir Mintz; Hans (founder of Kfar Sold)	false	Palestine-internal Hebrew memorial 1937
+IL-MTFN-001-G-F-0459-008-R0007	NULL	NULL	NULL	NULL	NULL		Amati Nachmani; Adi Nachmani; Jenny Nachmani	false	Memorial for IDF soldier killed in 1973 Yom Kippur War
+IL-MTFN-001-G-F-0459-010-R0001	Adi	Gideon Ostrowski	Verda	NULL	1933-08-07	Danzig; Poland; Germany	Adi; Gideon Ostrowski	false	1933 emigration-prep correspondence; excluded per case 1
+IL-MTFN-001-G-F-0459-010-R0002	Adi	Gideon Ostrowski	Verda	Berlin	1933-09-15	Verda; Berlin; Poland	Adi; Gideon Ostrowski	false	1933 emigration-prep; excluded per case 1
+IL-MTFN-001-G-F-0459-010-R0003	Adi	Ben Zion	Gedera	NULL	1936-02-02	Gedera; Danzig	Adi; Ben Zion; Berl Katznelson	false	Palestine-internal Zionist organizational
+IL-MTFN-001-G-F-0104-001-R0002	Hadassah	Truda	Safed	Germany	1912	Safed; Germany	Hadassah; Truda	false	1912 pre-1933 friendship across emigration; pre-Nazi
+IL-MTFN-001-G-F-0104-001-R0006	Israel Weinstein	Hadassah Perlmann	Safed	NULL	1914	Safed; Germany	Israel Weinstein; Hadassah	false	1914 grandfather warning granddaughter; pre-1933
+IL-MTFN-001-G-F-0104-002-R0005	NULL	NULL	NULL	NULL	NULL		NULL	false	Unidentified enlarged Hebrew letter fragment
+IL-MTFN-001-G-F-0104-003-R0001	parents of Ella Perlmann	Ella Perlmann (Hadassah)	Bad Nauheim	Berlin	1916	Bad Nauheim; Berlin	Ella Perlmann	false	1916 vacation postcard intra-Germany; pre-1933
+IL-MTFN-001-G-F-0104-003-R0002	Hadassah	Nathan	Crossen	NULL	1917-1924	Crossen; Palestine; Halberstadt	Hadassah; Nathan; Walter Moses	false	Pre-1933 Blau-Weiss / emigration prep excerpts; case 1
+IL-MTFN-001-G-F-0313-005-R0001	Anita & Shlomo Eliakim; Heinz & Guschi Bock	Shiloni family	São Paulo; Germany	Israel	1940s-1980s	São Paulo	Shiloni family; Anita Eliakim; Shlomo Eliakim; Heinz Bock; Guschi Bock; Miriam Shiloni	true	**Diasporic correspondence network São Paulo↔Israel & Germany↔Israel** across decades
+IL-MTFN-001-G-F-0313-005-R0002	Jacob (Heinz) Bok; Gushi Bok	Shiloni family	Jerusalem	NULL	NULL	Jerusalem	Jacob Bok; Gushi Bok	false	Palestine-internal Hebrew-language correspondence
+IL-MTFN-001-G-F-0313-005-R0003	Heinz Bok	Israel Shiloni	NULL	NULL	1962-11-01	São Paulo	Anita Eliakim	true	**1962 letter reflecting on daughter's life in "the ghetto she chose voluntarily" in São Paulo** — Jecke diasporic consciousness
+IL-MTFN-001-G-F-0313-005-R0004	Heinz Bok; Miriam Shiloni	Israel Shiloni	Jerusalem	NULL	1964-07-09	Jerusalem; New York	Heinz Bok; Miriam Shiloni; Jabotinsky; Levi Eshkol	false	Israeli-internal political content
+IL-MTFN-001-G-F-0313-005-R0005	Emil Frank	Heinz Buck	London	NULL	1950	London	Emil Frank; Heinz Buck	true	1950 German-language letter London→Israel; Jecke diasporic network
+IL-MTFN-001-G-F-0070-003-R0004	Ruth	Rabbi Kalter	NULL	NULL	NULL		Ruth; Rabbi Kalter	false	Undated "confession" letter; no Heimat context indicated
+IL-MTFN-001-G-F-0070-010-R0001	Technion colleague	P. Ollendorff	NULL	NULL	NULL		P. Ollendorff	false	Palestine-internal Technion correspondence
+IL-MTFN-001-G-F-0070-010-R0011	Shaul Dagan	NULL	NULL	NULL	NULL		Shaul Dagan; P. Ollendorff; Janusz Korczak	false	Palestine-internal pedagogical conversation
+IL-MTFN-001-G-F-0070-010-R0012	Ruth Ollendorf	NULL	NULL	NULL	NULL		Ruth Ollendorf	false	Vague description of husband's work
+IL-MTFN-001-G-F-0070-010-R0016	NULL	NULL	NULL	NULL	NULL		NULL	false	Vague research/science correspondences
+IL-MTFN-001-G-F-0267-002-R0001	multiple	E.M. Lilien	Hungary; Lemberg; New York	NULL	1920s-1930s	Hungary; Lemberg (Lviv); New York; Sachsen	E.M. Lilien; Otto Lilien	true	**Album III: son Otto Lilien curates artist-father's correspondence and reception** — biographical-artistic memory
+IL-MTFN-001-G-F-0267-002-R0002	multiple	E.M. Lilien	NULL	NULL	NULL		E.M. Lilien; Otto Lilien	true	**Album IV: ex-libris with son's German commentary** — explicit father-memory project
+IL-MTFN-001-G-F-0267-002-R0003	E.M. Lilien	wife	NULL	NULL	1905	Braunschweig	E.M. Lilien; Boris Schatz; Otto Magnus; Helena Lilien	true	Excerpts incl. 1905 letter on founding Bezalel; family-art memory compilation
+IL-MTFN-001-G-F-0267-003-R0001	E.M. Lilien	wife	NULL	NULL	NULL		E.M. Lilien; Otto Lilien	true	German book "Briefe an seine Frau" with Otto Lilien's curatorial inserts
+IL-MTFN-001-G-F-0267-005-R0002	Sigmund Mayer	Emma Eisler	NULL	NULL	1839-1853		Sigmund Mayer; Emma Eisler	true	19th-c sibling correspondence preserved across emigration as family heritage
+IL-MTFN-001-G-F-0113-004-R0001	Fritz Wolf	Dr. Edmund Weidenfeld	Nahariya	NULL	1947	Nahariya	Fritz Wolf; Edmund Weidenfeld	false	1947 Palestine-internal Jecke colleagues
+IL-MTFN-001-G-F-0113-004-R0002	Dr. Fritz Wolf	Kulli Weidenfeld	Nahariya	NULL	1979	Nahariya	Fritz Wolf; Edmund Weidenfeld; Kulli Weidenfeld	true	**"Sich an einen edelen Arzt erinnern" — German memorial manuscript** for Weidenfeld's birthday; Jecke biographical-memory genre
+IL-MTFN-001-G-F-0113-0063 #2-R0001	Dr. P.W.	Sonja & Wilherm Krall	NULL	Düsseldorf	1960-1970	Düsseldorf	Sonja Krall; Wilherm Krall	true	1960s-70s post-emigration Israel↔Düsseldorf correspondence
+IL-MTFN-001-G-F-0113-0063 #2-R0002	Dr. P.W.	Elsi von Kaltenborn	NULL	Garmisch-Partenkirchen	1960-1970	Garmisch-Partenkirchen	Elsi von Kaltenborn	true	1960s-70s post-emigration Israel↔Bavaria correspondence
+IL-MTFN-001-G-F-0113-007-R0001	Dr. Fritz Wolf	Rabbi Dr. Kler	Nahariya	NULL	1976	Nahariya	Fritz Wolf; Rabbi Kler; Uri Wolf	false	Personal plea about son's mental health; Palestine-internal
+IL-MTFN-001-G-F-0030-005-R0002	Rudi Mayer	Otto Mayer	WWI front	NULL	1915		Rudi Mayer; Otto Mayer	false	WWI brother postcards; pre-1933
+IL-MTFN-001-G-F-0030-006-R0016	NULL	NULL	Berlin	NULL	1890	Berlin	Emanuel Mayer; Georg Mayer; Susanne Mayer (née Michael)	false	1890 photos + factory letterhead; preserved artifact, not memory text
+IL-MTFN-001-G-F-0030-008-R0001	Otto Mayer	NULL	WWI front	NULL	1914-1918		Otto Mayer	false	WWI photos/postcards; pre-1933
+IL-MTFN-001-G-F-0030-008-R0003	Otto Mayer	NULL	NULL	NULL	1914-1917		Otto Mayer	false	WWI-era documents; pre-1933
+IL-MTFN-001-G-F-0030-008-R0005	Otto Mayer	NULL	WWI front	NULL	1914-1918		Otto Mayer	false	WWI photos/postcards; pre-1933
+IL-MTFN-001-G-F-0047-001-R0002	Shmarja Levin	Landsberg couple; Leoni Landsberg	NULL	NULL	1931-1935		Shmarja Levin; Alfred Landsberg; Leoni Landsberg	false	Pre-1933 Zionist-organizational correspondence; case 1
+IL-MTFN-001-G-F-0047-002-R0001	Rabbi Emil Hoffmann	Leoni Landsberg	NULL	NULL	1947		Emil Hoffmann; Leoni Landsberg	true	1947 post-emigration German-language rabbinical letter
+IL-MTFN-001-G-F-0047-002-R0002	Robert Weltsch	Alfred Landsberg	NULL	NULL	1934		Robert Weltsch; Alfred Landsberg; Shmarja Levin	false	1934 financial organizational; not memory work
+IL-MTFN-001-G-F-0047-002-R0003	Moshe Sharett	Leoni Frank	Israel	NULL	1956-1962		Moshe Sharett; Leoni Frank	true	**Israeli PM Sharett writes in German to Jecke Leoni Frank 1956-1962** — diasporic-language correspondence between elites
+IL-MTFN-001-G-F-0047-002-R0004	Leoni Frank	Moshe Sharett	Germany	Israel	1959-1962	Germany	Leoni Frank; Moshe Sharett	true	**Leoni writes to Sharett from GERMANY where she lives — remigration case**
+IL-MTFN-001-G-F-0005-001-R0001	NULL	NULL	NULL	NULL	NULL		Lotte Engel née Ker	true	Bilingual DE/HE memorial manuscript for Jecke woman; memoir/memorial genre
+IL-MTFN-001-G-F-0005-001-R0002	"Unsere Stimme" (1965)	NULL	NULL	NULL	1965		Max Mordechai Hecker	true	1965 German Jecke-diaspora newspaper article on Max Hecker — biographical-memory journalism
+IL-MTFN-001-G-F-0005-001-R0003	Hecker family	NULL	NULL	NULL	NULL		Hecker family	true	Printed pages from family-history website with photos — online family-memory project
+IL-MTFN-001-G-F-0353-018-R0001	Josef Duveen	Miller	NULL	NULL	1928		Josef Duveen; Hermann Struck; Miller	false	1928 NYC art-world introduction letter; commercial, not Heimat
+IL-MTFN-001-G-F-0353-018-R0002	NULL	NULL	NULL	New York	NULL	New York; Brooklyn Bridge	Hermann Struck	false	1928 NYC exhibition invitation; commercial art event
+IL-MTFN-001-G-F-0353-018-R0003	Felix Warburg	Hermann Struck	NULL	NULL	1928		Felix Warburg; Hermann Struck	false	1928 NYC art-purchase correspondence; commercial
+IL-MTFN-001-G-F-0353-018-R0004	Felix Warburg	Hermann Struck	NULL	NULL	1928		Felix Warburg; Hermann Struck	false	1928 commercial art transaction
+IL-MTFN-001-G-F-0353-018-R0005	NULL	NULL	NULL	NULL	NULL		NULL	false	Missing document
+IL-MTFN-001-G-F-0353-018-R0006	Eli Bernheim	Hermann Struck	NULL	NULL	1928		Eli Bernheim; Hermann Struck	false	1928 commercial art transaction
+IL-MTFN-001-G-F-0353-018-R0007	Eli Bernheim	Hermann Struck	NULL	NULL	1928		Eli Bernheim; Hermann Struck	false	1928 commercial art transaction
+IL-MTFN-001-G-F-0353-018-R0008	Frances Friedman	Hermann Struck	NULL	NULL	1928		Frances Friedman; Hermann Struck; Weisgal; Loeb	false	1928 New Palestine magazine cover business
+IL-MTFN-001-G-F-0353-018-R0009	Josef Duveen	Hermann Struck	NULL	NULL	1928		Josef Duveen; Hermann Struck	false	1928 commercial art correspondence
+IL-MTFN-001-G-F-0353-018-R0010	Henry Keller (Jewish Academy of Arts and Sciences)	Hermann Struck	NULL	NULL	1928		Henry Keller; Hermann Struck	false	1928 academy membership election
+IL-MTFN-001-G-F-0353-018-R0011	Josef Duveen	Hermann Struck	NULL	NULL	1928	New York	Josef Duveen; Hermann Struck; Roger van der Weyden; Mellon; Albert Einstein	false	1928 commercial art + German press clipping on Struck's NY success; commercial
+IL-MTFN-001-G-F-0047-045-R0001	Arthur Ruppin	Leoni Landsberg	Palestine	NULL	1938-1940		Arthur Ruppin; Leoni Landsberg	true	1938-1940 intimate German handwritten letters with dried plants — post-emigration Jecke-elite diasporic correspondence
+IL-MTFN-001-G-F-0047-045-R0002	Arthur Ruppin	Dr. Landsberg	Jerusalem	NULL	1926	Jerusalem	Arthur Ruppin; Alfred Landsberg	false	Pre-1933 Palestine-internal birthday thanks
+IL-MTFN-001-G-F-0047-045-R0003	Arthur Wannhofer	Arthur Ruppin	Jerusalem	NULL	NULL	Jerusalem	Arthur Ruppin; Arthur Wannhofer; Shmarja Levin	false	Palestine-internal park dedication
+IL-MTFN-001-G-F-0047-045-R0004	Arthur Ruppin	Leoni Landsberg	Germany	NULL	NULL	Germany	Arthur Ruppin; Leoni Landsberg	true	**Ruppin postcard from Germany during a lecture trip — return-visit type document**
+IL-MTFN-001-G-F-0047-045-R0005	Arthur Ruppin	Landsberg family	Jericho	Tel Aviv	1934	Jericho; Tel Aviv	Arthur Ruppin	false	Palestine-internal postcard
+IL-MTFN-001-G-F-0047-045-R0006	Alfred Landsberg & friends	Leoni Landsberg	Lucerne	NULL	1935	Lucerne	Alfred Landsberg; Leoni Landsberg	false	1935 Zionist Congress postcard
+IL-MTFN-001-G-F-0047-045-R0007	Arthur Ruppin	Landsberg couple	Argentina; Chile	NULL	1935	Argentina; Chile	Arthur Ruppin	false	Ruppin Latin America trip postcards
+IL-MTFN-001-G-F-0047-045-R0008	Arthur Ruppin	Landsberg couple	Baalbek, Lebanon	NULL	1936	Baalbek; Lebanon	Arthur Ruppin	false	Lebanon trip postcard
+IL-MTFN-001-G-F-0047-045-R0009	Arthur Ruppin	Leoni Landsberg	Tel Aviv	NULL	1938	Tel Aviv; Trieste; Warsaw	Arthur Ruppin	false	Keren Hayesod mission to Warsaw
+IL-MTFN-001-G-F-0047-045-R0010	Arthur Ruppin	Leoni Landsberg	Paris	NULL	NULL	Paris	Arthur Ruppin; Leoni Landsberg	false	Postcard from Paris
+IL-MTFN-001-G-F-0047-045-R0011	Arthur Ruppin	Leoni Landsberg	Zurich	NULL	1937	Zurich	Arthur Ruppin; Leoni Landsberg	false	Zurich Zionist Congress
+IL-MTFN-001-G-F-0047-045-R0012	NULL	guests	London	NULL	NULL	London	Michael Oser Weizmann; Chaim Weizmann	false	Weizmann son's bar mitzvah invitation
+IL-MTFN-001-G-F-0047-045-R0013	Arthur Ruppin	Leoni Landsberg	SS Mariette Pascha	NULL	1939		Arthur Ruppin; Carmela Ruppin	false	Ship correspondence en route to Switzerland
+IL-MTFN-001-G-F-0047-045-R0014	Arthur Ruppin	Alfred Landsberg	Jerusalem	NULL	1940	Jerusalem; Tel Aviv	Arthur Ruppin; Leoni Landsberg; Alfred Landsberg	false	Palestine-internal health concern
+IL-MTFN-001-G-F-0047-045-R0015	Arthur Ruppin	Landsberg couple	Binyamina	NULL	1941	Binyamina	Arthur Ruppin; Alfred Landsberg	false	Palestine-internal personal letter
+IL-MTFN-001-G-F-0047-045-R0016	Arthur Ruppin	Leoni Landsberg	NULL	Tel Aviv	1941	Tel Aviv; Givat Brenner	Arthur Ruppin; Leoni Landsberg	false	Palestine-internal kibbutz consultation
+IL-MTFN-001-G-F-0187-002-R0001	NULL	NULL	NULL	NULL	NULL	Tel Aviv	Hermann Rudolf Windmuller	true	Pages from German biographical book on Capt. Windmuller (Dutch navy, Tel Aviv 1937) — family-history genre
+IL-MTFN-001-G-F-0187-002-R0002	NULL	NULL	NULL	NULL	NULL	**Essen**	Elly Samson; Samson family	true	**Genealogy of Samson family in Essen** — explicit Heimat-city genealogy
+IL-MTFN-001-G-F-0187-002-R0003	NULL	NULL	NULL	NULL	NULL	**Essen**	Samson family	true	Photos of Samson shoe store in Essen — Heimat-city commercial memory
+IL-MTFN-001-G-F-0187-002-R0004	NULL	NULL	NULL	NULL	NULL	Germany; Israel	Windmiller family	true	Multi-generation family photos Germany & Israel — diasporic family-history visual archive
+IL-MTFN-001-G-F-0187-002-R0005	Shimshon Windmiller-Rechaim	NULL	NULL	NULL	2002		Shimshon Windmiller-Rechaim	true	**"The Life Path of My Family and Me" (2002) — explicit family memoir** in Hebrew
+IL-MTFN-001-G-F-0187-002-R0006	Shimshon Windmiller-Rechaim	NULL	NULL	NULL	NULL		Shimshon Windmiller-Rechaim	true	German-language photo of same memoir
+IL-MTFN-001-G-F-0187-002-R0007	Shimshon Windmiller-Rechaim	bar mitzvah students	NULL	NULL	1993		Shimshon Windmiller-Rechaim	false	1993 bar mitzvah guidance booklet; not Heimat
+IL-MTFN-001-G-F-0187-002-R0008	Israel News (Nachrichten Israel)	NULL	NULL	NULL	1985	Nahariya	Shimshon Windmiller-Rechaim	true	1985 article "Nahariya: Herberge und Heim" — **Nahariya as Jecke Heimat-substitute**; central diasporic-memory theme
+IL-MTFN-001-G-F-0187-002-R0009	NULL	NULL	NULL	NULL	NULL	Nahariya	Shimshon Windmiller-Rechaim	false	Article on Mandate-era Nahariya bombardment; political not memory
+IL-MTFN-001-G-F-0187-002-R0010	Shimshon Windmiller-Rechaim	NULL	NULL	NULL	NULL	Germany	Shimshon Windmiller-Rechaim	true	**Hebrew essay on Germany WWI→WWII development** — reflective historical writing on Heimat period
+IL-MTFN-001-G-F-0187-002-R0011	Shimshon Windmiller-Rechaim	NULL	NULL	NULL	NULL	Nahariya	Shimshon Windmiller-Rechaim	true	German translation of Hebrew article on Nahariya history — cross-language Jecke historical writing
+IL-MTFN-001-G-F-0021-003-R0001	Esther & Yoram Noter (compilers); Benjamin Ben Tzadok (translator)	NULL	NULL	NULL	2010		Esther Noter; Yoram Noter; Benjamin Ben Tzadok	true	**2010 Hebrew translation of family memoir manuscript** from German — descendant memory project
+IL-MTFN-001-G-F-0021-003-R0002	Sonia Friedman (née Wolf)	NULL	NULL	NULL	NULL		Sonia Friedman; Wolf family	true	**Hebrew translation of Sonia Friedman's autobiography (206 pages)** — explicit Jecke memoir
+IL-MTFN-001-G-F-0047-004-R0001	Menachem Ussischkin	Leoni Landsberg	NULL	NULL	NULL		Menachem Ussischkin; Leoni Landsberg	false	Hebrew letters from Zionist leader; Palestine-internal
+IL-MTFN-001-G-F-0047-004-R0002	Selig Eugen Soskin	Alfred Landsberg	NULL	NULL	NULL		Selig Eugen Soskin; Alfred Landsberg	false	German letters, no Heimat content described
+IL-MTFN-001-G-F-0047-004-R0003	Henrietta Szold	Alfred Landsberg	NULL	NULL	NULL		Henrietta Szold; Alfred Landsberg	false	Library deposit at Israeli educational institution; Palestine-internal
+IL-MTFN-001-G-F-0047-004-R0004	Shmarja Levin	Alfred Landsberg	NULL	NULL	1932		Shmarja Levin; Alfred Landsberg	false	Pre-1933 Zionist correspondence
+IL-MTFN-001-G-F-0047-004-R0005	Arthur Ruppin	Leoni & Alfred Landsberg	NULL	NULL	1930s		Arthur Ruppin; Leoni Landsberg; Alfred Landsberg	false	1930s Palestine-internal organizational
+IL-MTFN-001-G-F-0047-004-R0006	Arthur Ruppin	Alfred Landsberg	NULL	NULL	1932-11-16	Tel Aviv	Arthur Ruppin; Alfred Landsberg; Dizengoff	false	Pre-1933 Zionist 'Transfer' negotiations
+IL-MTFN-001-G-F-0047-004-R0007	Arthur Ruppin	Leoni Landsberg	Marienbad	NULL	1934-07-22	Marienbad; Trieste; Berlin; Italy; Palestine	Arthur Ruppin; Ruth Ruppin; Dr. Grünfelder; Schocken; Samburski; Wilenski; Hans Cohn; Brünn	true	**1934 Ruppin describes visiting Berlin under Nazi rule: "outwardly nothing has changed" — direct Heimat-observation document, central diasporic-memory case**
+IL-MTFN-001-G-F-0047-004-R0008	Arthur Ruppin	Leoni Landsberg	NULL	NULL	1939-07-31	Kfar Shmaryahu	Arthur Ruppin; Leoni Landsberg	false	Palestine-internal real-estate
+IL-MTFN-001-G-F-0047-004-R0009	Kurt Blumenfeld	Leoni Landsberg	NULL	NULL	1931		Kurt Blumenfeld; Leoni Landsberg	false	Pre-1933 Zionist correspondence
+IL-MTFN-001-G-F-0047-004-R0010	Leo Hermann	Leoni Landsberg	NULL	NULL	NULL		Leo Hermann; Leoni Landsberg	false	Undated, no Heimat content
+IL-MTFN-001-G-F-0047-004-R0011	Bertold Feiwel	Leoni & Alfred Landsberg	NULL	NULL	1920s-1930s		Bertold Feiwel; Leoni Landsberg; Alfred Landsberg	false	1920s-30s German letters, content unspecified
+IL-MTFN-001-G-F-0047-004-R0012	Alfred Landsberg	Leoni Landsberg	NULL	NULL	1925		Alfred Landsberg; Leoni Landsberg	false	Pre-1933 marital letters
+IL-MTFN-001-G-F-0047-004-R0013	Chief Rabbi Chajes of Vienna	Landsberg couple	Vienna	NULL	1926	Vienna	Chajes; Landsberg daughters	false	Pre-1933 rabbinic correspondence
+IL-MTFN-001-G-F-0047-004-R0014	Bertha Pappenheim	Leoni Frank	NULL	NULL	1919		Bertha Pappenheim; Leoni Frank	false	1919 Jewish women's org; pre-1933
+IL-MTFN-001-G-F-0047-004-R0015	NULL	NULL	NULL	NULL	1925		Jacob Hahn; Sara Berliner (née Hahn)	false	1925 family photo
+IL-MTFN-001-G-F-0047-004-R0016	NULL	NULL	NULL	NULL	NULL		Edgar Heilbrunner	false	Portrait photos chemist
+IL-MTFN-001-G-F-0047-004-R0017	NULL	NULL	NULL	NULL	1935-36		NULL	false	Unidentified children winter 1935-36

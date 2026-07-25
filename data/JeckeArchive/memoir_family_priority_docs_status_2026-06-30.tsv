@@ -1,0 +1,10 @@
+bucket	doc_id	linked_img	folder	subseries	folder_title	nr_of_pages	status_breakdown	local_jpg_count	local_dir_exists
+relevant	1250990	IL-MTFN-001-G-F-0021-3	IL-MTFN-001-G-F-0021	IL-MTFN-001-G-F-0021-003	Ruben & Wolf & Friedmann, רובן & וולף & פרידמן, תרגום לעברית של האוטוביוגרפיה של	205	FINAL:195,IN_PROGRESS:8,GT:2	0	no
+relevant	1242511	IL-MTFN-001-G-F-0141_0001_0076	IL-MTFN-001-G-F-0141	IL-MTFN-001-G-F-0141-001	Pinner-Wiener Hanna, פינר-וינר חנה	76	IN_PROGRESS:66,GT:8,FINAL:2	0	yes
+relevant	1253236	IL-MTFN-001-G-F-0457	IL-MTFN-001-G-F-0457	IL-MTFN-001-G-F-0457-001	Wohl Chava, וול חוה, זכרונות	196	FINAL:110,IN_PROGRESS:86	0	no
+relevant	1242548	IL-MTFN-001-G-F-0149_0001_0138	IL-MTFN-001-G-F-0149	IL-MTFN-001-G-F-0149-001	Rosenbaum & Makover, רוזנבאום & מקובר, קהילה, משפחה	138	FINAL:82,IN_PROGRESS:56	0	no
+relevant	1242509	IL-MTFN-001-G-F-0047-19_0001_0099	IL-MTFN-001-G-F-0047	IL-MTFN-001-G-F-0047-019	Landsberg Alfred Abraham & Leoni, לנדסברג אלפרד אברהם & לאוני, לנושא קורות החיים	99	IN_PROGRESS:89,FINAL:10	99	yes
+done_escriptorium_note	1243735	IL-MTFN-001-G-F-0005-1_0001_0317	IL-MTFN-001-G-F-0005	IL-MTFN-001-G-F-0005-001	Hecker Max Mordechai, הקר מקס מרדכי - זכרונות	317	IN_PROGRESS:317	0	yes
+done_escriptorium_note	1242506	IL-MTFN-001-G-F-0042_0001_0181	IL-MTFN-001-G-F-0042	IL-MTFN-001-G-F-0042-001	Schiff Fritz, שיף פריץ, תולדות משפחת שיף & וולפסון	181	IN_PROGRESS:181	9	yes
+done_escriptorium_note	1242496	IL-MTFN-001-G-F-0136_0001_0077	IL-MTFN-001-G-F-0136	IL-MTFN-001-G-F-0136-001	Schmal Hans u. Rina, שמל הנס ורנה	77	FINAL:46,IN_PROGRESS:30,GT:1	0	no
+done_escriptorium_note	1242487	IL-MTFN-001-G-F-0187-2_0001_0006	IL-MTFN-001-G-F-0187	IL-MTFN-001-G-F-0187-002	Windmiller-Rechaim Shimshon, וינדמילר-ריחיים שמשון	263	IN_PROGRESS:222,GT:41	0	no
