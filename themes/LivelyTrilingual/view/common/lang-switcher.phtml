@@ -1,0 +1,29 @@
+<?php
+/**
+ * Language switcher — included from header.phtml and footer.phtml.
+ *
+ * Renders three text buttons (EN / DE / HE). Each rebuilds the current URL
+ * with the ?lang= param swapped. layout.phtml reads ?lang and sets the cookie.
+ */
+$current = $this->layout()->shortLang ?? 'en';
+$placement = $placement ?? 'header';
+$buttons = ['en' => 'EN', 'de' => 'DE', 'he' => 'HE'];
+
+$qs = $_SERVER['QUERY_STRING'] ?? '';
+parse_str($qs, $q);
+$path = strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
+?>
+<nav class="lang-switcher lang-switcher-<?= $this->escapeHtmlAttr($placement) ?>"
+     aria-label="<?= $this->escapeHtmlAttr($this->translate('Language')) ?>">
+  <ul>
+    <?php foreach ($buttons as $code => $label): ?>
+      <?php $q['lang'] = $code; $url = $path . '?' . http_build_query($q); ?>
+      <li>
+        <a href="<?= $this->escapeHtmlAttr($url) ?>"
+           class="<?= $current === $code ? 'active' : '' ?>"
+           aria-current="<?= $current === $code ? 'true' : 'false' ?>"
+           lang="<?= $this->escapeHtmlAttr($code) ?>"><?= $this->escapeHtml($label) ?></a>
+      </li>
+    <?php endforeach; ?>
+  </ul>
+</nav>

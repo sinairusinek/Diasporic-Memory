@@ -1,0 +1,40 @@
+/* LivelyTrilingual language switcher styling.
+ * Loaded for all locales. RTL adjustments live in rtl.css. */
+
+.lang-switcher ul {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lang-switcher li { padding: 0; }
+.lang-switcher a {
+  text-decoration: none;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid currentColor;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0.55;
+  color: inherit;
+  letter-spacing: 0.04em;
+}
+.lang-switcher a:hover { opacity: 0.85; }
+.lang-switcher a.active { opacity: 1; font-weight: 700; }
+
+.lang-switcher-header {
+  margin-left: 1rem;
+  align-self: center;
+}
+.lang-switcher-footer {
+  margin: 1rem 0;
+  text-align: center;
+}
+.lang-switcher-footer ul { justify-content: center; }
+
+/* Missing-translation placeholder */
+.value.placeholder .value-content {
+  font-style: italic;
+  opacity: 0.65;
+}

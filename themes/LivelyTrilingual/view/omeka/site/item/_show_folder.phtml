@@ -1,0 +1,128 @@
+<?php
+/**
+ * Folder (resource_template_id=2) — refined layout.
+ * Variables in scope: $item, $shortLang, $tr(), $pickLocal(), $identifier, $escape, $escAttr, $labelMap
+ */
+
+$title = $pickLocal($item, 'dcterms:title') ?: $tr('folder');
+$desc  = $pickLocal($item, 'dcterms:description');
+$dateRange = $pickLocal($item, 'ric-o:hasCreationDate', false) ?: $pickLocal($item, 'dcterms:date', false);
+
+// Find items under this folder by identifier prefix:  {identifier}-R%
+$api = $this->api();
+$childItems = [];
+if ($identifier) {
+    // Use property search: dcterms:identifier starts-with "{identifier}-R"
+    $results = $api->search('items', [
+        'property' => [
+            ['property' => 10, 'type' => 'sw', 'text' => $identifier . '-R'],
+        ],
+        'per_page' => 200,
+    ])->getContent();
+    foreach ($results as $r) $childItems[] = $r;
+    // Sort by identifier ascending
+    usort($childItems, function ($a, $b) use ($pickLocal) {
+        return strcmp($pickLocal($a, 'dcterms:identifier', false) ?: '',
+                      $pickLocal($b, 'dcterms:identifier', false) ?: '');
+    });
+}
+
+// Map a resource template to one of our visual "kinds" for the colour bar.
+$templateKind = function ($r) {
+    $tpl = $r->resourceTemplate();
+    if (!$tpl) return 'doc_other';
+    $name = $tpl->label();
+    if ($name === 'Images') return 'image';
+    if (in_array($name, ['Communication Document', 'EgoDocuments'])) return 'letter';
+    if (in_array($name, ['Objects'])) return 'object';
+    return 'document';
+};
+
+// Sibling folders (within parent collection) for prev/next nav.
+$parentIdent = preg_replace('/-\d{3}$/', '', $identifier ?: '');
+$prev = $next = null; $position = 0; $totalFolders = 0;
+if ($parentIdent && $parentIdent !== $identifier) {
+    $sibs = $api->search('items', [
+        'property' => [['property' => 10, 'type' => 'sw', 'text' => $parentIdent . '-']],
+        'resource_template_id' => 2,
+        'per_page' => 200,
+    ])->getContent();
+    usort($sibs, function ($a, $b) use ($pickLocal) {
+        return strcmp($pickLocal($a, 'dcterms:identifier', false) ?: '',
+                      $pickLocal($b, 'dcterms:identifier', false) ?: '');
+    });
+    $totalFolders = count($sibs);
+    foreach ($sibs as $i => $s) {
+        if ($s->id() === $item->id()) {
+            $position = $i + 1;
+            $prev = $i > 0 ? $sibs[$i - 1] : null;
+            $next = $i + 1 < count($sibs) ? $sibs[$i + 1] : null;
+            break;
+        }
+    }
+}
+?>
+
+<section class="tr-hero">
+    <h1><?= $escape($title) ?></h1>
+    <div class="tr-meta">
+        <?= $escape($tr('folder')) ?>
+        <?php if ($identifier && preg_match('/G-F-(.+)$/', $identifier, $m)): ?> · <?= $escape($m[1]) ?><?php endif; ?>
+        <?php if (count($childItems)): ?> · <?= count($childItems) ?> <?= $escape($tr('items')) ?><?php endif; ?>
+        <?php if ($dateRange): ?> · <?= $escape($dateRange) ?><?php endif; ?>
+    </div>
+</section>
+
+<?php if ($desc): ?>
+<section class="tr-folder-desc-block">
+    <p><?= nl2br($escape($desc)) ?></p>
+</section>
+<?php endif; ?>
+
+<?php if ($childItems): ?>
+<h2 class="tr-section-heading"><?= $escape($tr('items_in_folder')) ?></h2>
+<div class="tr-items-grid">
+    <?php foreach ($childItems as $ci):
+        $kind = $templateKind($ci);
+        $ciTitle = $pickLocal($ci, 'dcterms:title') ?: '[' . ($ci->resourceTemplate() ? $ci->resourceTemplate()->label() : '?') . ']';
+        $ciDesc = $pickLocal($ci, 'ric-o:generalDescription') ?: $pickLocal($ci, 'dcterms:description');
+        $ciIdent = $pickLocal($ci, 'dcterms:identifier', false) ?: '';
+        $ciDate = $pickLocal($ci, 'ric-o:hasCreationDate', false) ?: $pickLocal($ci, 'dcterms:date', false);
+        $ciLangs = $pickLocal($ci, 'dcterms:language', false);
+        $rTag = preg_match('/(R\d+)$/', $ciIdent, $rm) ? $rm[1] : '';
+        $kindLabel = $labelMap[$kind][$shortLang] ?? $labelMap[$kind]['en'];
+    ?>
+    <a class="tr-item-card" data-kind="<?= $escAttr($kind) ?>" href="<?= $escAttr($ci->url()) ?>">
+        <div class="tr-item-kind"><?= $escape($kindLabel) ?><?= $ciDate ? ' · ' . $escape($ciDate) : '' ?></div>
+        <h3><?= $escape($ciTitle) ?></h3>
+        <?php if ($ciDesc): ?>
+            <div class="tr-item-snippet"><?= $escape(mb_substr($ciDesc, 0, 200)) ?><?= mb_strlen($ciDesc) > 200 ? '…' : '' ?></div>
+        <?php endif; ?>
+        <div class="tr-item-footer">
+            <?php if ($ciLangs): ?><span><?= $escape($ciLangs) ?></span><?php endif; ?>
+            <?php if ($rTag): ?><span class="tr-item-ref"><?= $escape($rTag) ?></span><?php endif; ?>
+        </div>
+    </a>
+    <?php endforeach; ?>
+</div>
+<?php endif; ?>
+
+<?php if ($prev || $next || $totalFolders > 1): ?>
+<div class="tr-sibling-nav">
+    <div class="tr-sib-prev">
+        <?php if ($prev): ?>
+            <a href="<?= $escAttr($prev->url()) ?>">← <?= $escape($pickLocal($prev, 'dcterms:title') ?: '') ?></a>
+        <?php endif; ?>
+    </div>
+    <div class="tr-sib-center">
+        <?php if ($position && $totalFolders): ?>
+            <?= $escape(sprintf($tr('folder_of'), $position, $totalFolders)) ?>
+        <?php endif; ?>
+    </div>
+    <div class="tr-sib-next">
+        <?php if ($next): ?>
+            <a href="<?= $escAttr($next->url()) ?>"><?= $escape($pickLocal($next, 'dcterms:title') ?: '') ?> →</a>
+        <?php endif; ?>
+    </div>
+</div>
+<?php endif; ?>

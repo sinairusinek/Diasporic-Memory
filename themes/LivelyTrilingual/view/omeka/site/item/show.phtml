@@ -1,0 +1,93 @@
+<?php
+/**
+ * LivelyTrilingual item show — branches on resource_template_id to render
+ * bespoke layouts for Family Collection, Folder, and Item levels.
+ *
+ * Falls back to the default Lively block-based layout for unknown templates.
+ */
+
+$translate = $this->plugin('translate');
+$escape = $this->plugin('escapeHtml');
+$escAttr = $this->plugin('escapeHtmlAttr');
+
+$this->headLink()->appendStylesheet($this->assetUrl('css/resource-page-blocks.css', 'Omeka'));
+$this->headLink()->appendStylesheet($this->assetUrl('css/trilingual.css'));
+$this->htmlElement('body')->appendAttribute('class', 'item resource show');
+
+// Locale resolution — same logic as layout.phtml / resource-values.phtml.
+$rawLang = $_GET['lang'] ?? ($_COOKIE['site_lang'] ?? 'en');
+$shortLang = strtolower(substr((string) $rawLang, 0, 2));
+if (!in_array($shortLang, ['en', 'de', 'he'], true)) {
+    $shortLang = 'en';
+}
+$placeholderMap = ['en' => '[English TBA]', 'de' => '[German TBA]', 'he' => '[Hebrew TBA]'];
+$placeholder = $placeholderMap[$shortLang];
+
+$labelMap = [
+    'document'  => ['en' => 'Document',         'de' => 'Dokument',         'he' => 'מסמך'],
+    'letter'    => ['en' => 'Letter',           'de' => 'Brief',            'he' => 'מכתב'],
+    'image'     => ['en' => 'Photograph',       'de' => 'Fotografie',       'he' => 'תצלום'],
+    'object'    => ['en' => 'Object',           'de' => 'Objekt',           'he' => 'חפץ'],
+    'doc_other' => ['en' => 'Document',         'de' => 'Dokument',         'he' => 'מסמך'],
+];
+
+// Translation strings the templates use (small, kept inline for speed).
+$T = [
+    'family_collection'   => ['en' => 'Family Collection',   'de' => 'Familiensammlung', 'he' => 'אוסף משפחה'],
+    'folder'              => ['en' => 'Folder',              'de' => 'Akte',             'he' => 'תיקיה'],
+    'folders'             => ['en' => 'folders',             'de' => 'Akten',            'he' => 'תיקיות'],
+    'items'               => ['en' => 'items',               'de' => 'Objekte',          'he' => 'פריטים'],
+    'item_of'             => ['en' => 'Item %d of %d',       'de' => 'Objekt %d von %d', 'he' => 'פריט %d מתוך %d'],
+    'folder_of'           => ['en' => 'Folder %d of %d',     'de' => 'Akte %d von %d',   'he' => 'תיקיה %d מתוך %d'],
+    'folders_in_collection' => ['en' => 'Folders in this collection', 'de' => 'Akten in dieser Sammlung', 'he' => 'תיקיות באוסף'],
+    'items_in_folder'     => ['en' => 'Items in this folder', 'de' => 'Objekte in dieser Akte', 'he' => 'פריטים בתיקיה'],
+    'themes_in_collection'=> ['en' => 'Themes in this collection', 'de' => 'Themen dieser Sammlung', 'he' => 'נושאים באוסף'],
+    'catalogue_info'      => ['en' => 'Catalogue info',      'de' => 'Katalogangaben',   'he' => 'נתוני קטלוג'],
+    'catalogue_facts'     => ['en' => 'Catalogue facts',     'de' => 'Katalogangaben',   'he' => 'נתוני קטלוג'],
+    'identifier'          => ['en' => 'Identifier',          'de' => 'Signatur',         'he' => 'מזהה'],
+    'date_range'          => ['en' => 'Date range',          'de' => 'Zeitraum',         'he' => 'טווח תאריכים'],
+    'date'                => ['en' => 'Date',                'de' => 'Datum',            'he' => 'תאריך'],
+    'languages'           => ['en' => 'Languages',           'de' => 'Sprachen',         'he' => 'שפות'],
+    'source'              => ['en' => 'Source',              'de' => 'Quelle',           'he' => 'מקור'],
+    'format'              => ['en' => 'Format',              'de' => 'Format',           'he' => 'פורמט'],
+    'subject'             => ['en' => 'Subject',             'de' => 'Thema',            'he' => 'נושא'],
+    'part_of'             => ['en' => 'Part of',             'de' => 'Teil von',         'he' => 'חלק מ'],
+    'no_description'      => ['en' => 'No description available in this language yet.', 'de' => 'Keine Beschreibung in dieser Sprache verfügbar.', 'he' => 'אין תיאור זמין בשפה זו.'],
+    'and'                 => ['en' => 'and', 'de' => 'und', 'he' => 'ו-'],
+];
+$tr = function (string $key) use ($T, $shortLang) {
+    return $T[$key][$shortLang] ?? $T[$key]['en'] ?? $key;
+};
+
+// Helper: pick a property value in current short lang, falling back to untagged,
+// or returning the placeholder if only other-lang values exist.
+$pickLocal = function ($resource, $term, $allowPlaceholder = true) use ($shortLang, $placeholder) {
+    $vals = $resource->value($term, ['all' => true, 'default' => []]);
+    if (!$vals) return null;
+    $untagged = []; $current = []; $otherLang = false;
+    foreach ($vals as $v) {
+        $vl = (string) $v->lang();
+        if ($vl === '') $untagged[] = $v;
+        elseif (strcasecmp(substr($vl, 0, 2), $shortLang) === 0) $current[] = $v;
+        else $otherLang = true;
+    }
+    if ($current) return (string) $current[0]->value();
+    if ($untagged) return (string) $untagged[0]->value();
+    return ($allowPlaceholder && $otherLang) ? $placeholder : null;
+};
+
+// Identifier for this resource (used for sibling nav and theme lookup).
+$identifier = $pickLocal($item, 'dcterms:identifier', false);
+$templateId = $item->resourceTemplate() ? $item->resourceTemplate()->id() : null;
+
+// Render dispatch
+if ($templateId == 5) {
+    // ----- Family Collection -----
+    include __DIR__ . '/_show_collection.phtml';
+} elseif ($templateId == 2) {
+    // ----- Folder -----
+    include __DIR__ . '/_show_folder.phtml';
+} else {
+    // ----- Single item -----
+    include __DIR__ . '/_show_item.phtml';
+}

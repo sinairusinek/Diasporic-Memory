@@ -1,0 +1,6636 @@
+{
+  "G-F-0001": [
+    {
+      "de": "Politische Tätigkeit",
+      "en": "Political activity",
+      "he": "פעילות פוליטית"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0003": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Internierungslager",
+      "en": "Internment camps",
+      "he": "מחנות מעצר"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Internierungslager",
+      "en": "Internment camps",
+      "he": "מחנות מעצר"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    }
+  ],
+  "G-F-0004": [
+    {
+      "de": "Naharija",
+      "en": "Nahariya",
+      "he": "נהריה"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Literatur",
+      "en": "Literature",
+      "he": "ספרות"
+    }
+  ],
+  "G-F-0005": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "עלייה",
+      "en": "עלייה",
+      "he": "עלייה"
+    },
+    {
+      "de": "פלסטינה",
+      "en": "פלסטינה",
+      "he": "פלסטינה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    }
+  ],
+  "G-F-0006": [
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    }
+  ],
+  "G-F-0007": [
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    }
+  ],
+  "G-F-0008": [
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Wirtschaft",
+      "en": "Economy",
+      "he": "כלכלה"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אומנות"
+    },
+    {
+      "de": "Literatur",
+      "en": "Literature",
+      "he": "ספרות"
+    },
+    {
+      "de": "Postkarten",
+      "en": "Postcards",
+      "he": "גלויות"
+    },
+    {
+      "de": "Sport",
+      "en": "Sport",
+      "he": "ספורט"
+    }
+  ],
+  "G-F-0009": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "פלסתינה",
+      "en": "פלסתינה",
+      "he": "פלסתינה"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0010": [
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "ספרים",
+      "en": "ספרים",
+      "he": "ספרים"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    }
+  ],
+  "G-F-0011": [
+    {
+      "de": "התיישבות.1",
+      "en": "התיישבות.1",
+      "he": "התיישבות.1"
+    },
+    {
+      "de": "חקלאות.2",
+      "en": "חקלאות.2",
+      "he": "חקלאות.2"
+    },
+    {
+      "de": "אדריכלות נוף.3",
+      "en": "אדריכלות נוף.3",
+      "he": "אדריכלות נוף.3"
+    },
+    {
+      "de": "השקיה.4",
+      "en": "השקיה.4",
+      "he": "השקיה.4"
+    },
+    {
+      "de": "פלסתינה.5",
+      "en": "פלסתינה.5",
+      "he": "פלסתינה.5"
+    },
+    {
+      "de": "נהריה.6",
+      "en": "נהריה.6",
+      "he": "נהריה.6"
+    }
+  ],
+  "G-F-0012": [
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "המאה ה 20-",
+      "en": "המאה ה 20-",
+      "he": "המאה ה 20-"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    }
+  ],
+  "G-F-0013": [
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "כתיבה אישית  /חברתית",
+      "en": "כתיבה אישית  /חברתית",
+      "he": "כתיבה אישית  /חברתית"
+    },
+    {
+      "de": "חקלאות",
+      "en": "חקלאות",
+      "he": "חקלאות"
+    }
+  ],
+  "G-F-0014": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    }
+  ],
+  "G-F-0015": [
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "המאה ה 20-",
+      "en": "המאה ה 20-",
+      "he": "המאה ה 20-"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    }
+  ],
+  "G-F-0016": [
+    {
+      "de": "הבאות:",
+      "en": "הבאות:",
+      "he": "הבאות:"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0017": [
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "Recht",
+      "en": "Law",
+      "he": "משפט"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    }
+  ],
+  "G-F-0020": [
+    {
+      "de": "עזרה הדדית",
+      "en": "עזרה הדדית",
+      "he": "עזרה הדדית"
+    },
+    {
+      "de": "נרדפים",
+      "en": "נרדפים",
+      "he": "נרדפים"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פירסומים"
+    },
+    {
+      "de": "יהדות",
+      "en": "יהדות",
+      "he": "יהדות"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    }
+  ],
+  "G-F-0021": [
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Politische Tätigkeit",
+      "en": "Political activity",
+      "he": "פעילות פוליטית"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "חברה",
+      "en": "חברה",
+      "he": "חברה"
+    },
+    {
+      "de": "מפלגות",
+      "en": "מפלגות",
+      "he": "מפלגות"
+    },
+    {
+      "de": "ארגונים",
+      "en": "ארגונים",
+      "he": "ארגונים"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "ראה כרטיס G.F. 0021 /2",
+      "en": "ראה כרטיס G.F. 0021 /2",
+      "he": "ראה כרטיס G.F. 0021 /2"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    }
+  ],
+  "G-F-0022": [
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "Naharija",
+      "en": "Nahariya",
+      "he": "נהריה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    }
+  ],
+  "G-F-0042": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "מנהגים/הנצחה",
+      "en": "מנהגים/הנצחה",
+      "he": "מנהגים/הנצחה"
+    }
+  ],
+  "G-F-0045": [
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    }
+  ],
+  "G-F-0046": [
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "חינוך  /חינוך גופני",
+      "en": "חינוך  /חינוך גופני",
+      "he": "חינוך  /חינוך גופני"
+    },
+    {
+      "de": "Sport",
+      "en": "Sport",
+      "he": "ספורט"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "האפשרויות בפלשתינה ,פרנסה ,דיור וכו'",
+      "en": "האפשרויות בפלשתינה ,פרנסה ,דיור וכו'",
+      "he": "האפשרויות בפלשתינה ,פרנסה ,דיור וכו'"
+    },
+    {
+      "de": "עזרה הדדית",
+      "en": "עזרה הדדית",
+      "he": "עזרה הדדית"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0047": [
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    }
+  ],
+  "G-F-0077": [
+    {
+      "de": "מלה\"ע I",
+      "en": "מלה\"ע I",
+      "he": "מלה\"ע I"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "קורות חיים",
+      "en": "קורות חיים",
+      "he": "קורות חיים"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "יהדות",
+      "en": "יהדות",
+      "he": "יהדות"
+    },
+    {
+      "de": "Dr. Shlomo (Friedrich) Rülf",
+      "en": "Dr. Shlomo (Friedrich) Rülf",
+      "he": "Dr. Shlomo (Friedrich) Rülf"
+    }
+  ],
+  "G-F-0093": [
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0094": [
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "עלית נוער",
+      "en": "עלית נוער",
+      "he": "עלית נוער"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    }
+  ],
+  "G-F-0096": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "בצלאל ,מוזיאון רוקפלר",
+      "en": "בצלאל ,מוזיאון רוקפלר",
+      "he": "בצלאל ,מוזיאון רוקפלר"
+    }
+  ],
+  "G-F-0098": [
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0104": [
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "חברה",
+      "en": "חברה",
+      "he": "חברה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "פלשתינה  /ארץ ישראל",
+      "en": "פלשתינה  /ארץ ישראל",
+      "he": "פלשתינה  /ארץ ישראל"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    }
+  ],
+  "G-F-0105": [
+    {
+      "de": "מלח\"ע",
+      "en": "מלח\"ע",
+      "he": "מלח\"ע"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Theater",
+      "en": "Theatre",
+      "he": "תיאטרון"
+    }
+  ],
+  "G-F-0108": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0139": [
+    {
+      "de": "מלחמות ישראל  /הפלייר הסורי טרום המדינה",
+      "en": "מלחמות ישראל  /הפלייר הסורי טרום המדינה",
+      "he": "מלחמות ישראל  /הפלייר הסורי טרום המדינה"
+    },
+    {
+      "de": "פרעות בישוב בארץ",
+      "en": "פרעות בישוב בארץ",
+      "he": "פרעות בישוב בארץ"
+    }
+  ],
+  "G-F-0142": [
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0145": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    }
+  ],
+  "G-F-0149": [
+    {
+      "de": "קהילות",
+      "en": "קהילות",
+      "he": "קהילות"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פירסומים"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "מילים עבריות לשפה הגרמנית",
+      "en": "מילים עבריות לשפה הגרמנית",
+      "he": "מילים עבריות לשפה הגרמנית"
+    },
+    {
+      "de": "כתיבה בספר תפילה",
+      "en": "כתיבה בספר תפילה",
+      "he": "כתיבה בספר תפילה"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "מלחמות ישראל",
+      "en": "מלחמות ישראל",
+      "he": "מלחמות ישראל"
+    }
+  ],
+  "G-F-0166": [
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    }
+  ],
+  "G-F-0167": [
+    {
+      "de": "Literatur",
+      "en": "Literature",
+      "he": "ספרות"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    }
+  ],
+  "G-F-0183": [
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "ביוגרפיה/קורות משפחה",
+      "en": "ביוגרפיה/קורות משפחה",
+      "he": "ביוגרפיה/קורות משפחה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0184": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "התישבות",
+      "en": "התישבות",
+      "he": "התישבות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    }
+  ],
+  "G-F-0185": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "חנוך",
+      "en": "חנוך",
+      "he": "חנוך"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "חקלאות",
+      "en": "חקלאות",
+      "he": "חקלאות"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    }
+  ],
+  "G-F-0186": [
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "חקלאות",
+      "en": "חקלאות",
+      "he": "חקלאות"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Lager",
+      "en": "Camps",
+      "he": "מחנות"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    }
+  ],
+  "G-F-0187": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Naharija",
+      "en": "Nahariya",
+      "he": "נהריה"
+    }
+  ],
+  "G-F-0192": [
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    }
+  ],
+  "G-F-0202": [
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "חגים",
+      "en": "חגים",
+      "he": "חגים"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פירסומים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    }
+  ],
+  "G-F-0207": [
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "2003",
+      "en": "2003",
+      "he": "2003"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    }
+  ],
+  "G-F-0214": [
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "העפלה",
+      "en": "העפלה",
+      "he": "העפלה"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "מלה\"ע II",
+      "en": "מלה\"ע II",
+      "he": "מלה\"ע II"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    }
+  ],
+  "G-F-0219": [
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0224": [
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    }
+  ],
+  "G-F-0226": [
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    }
+  ],
+  "G-F-0232": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    }
+  ],
+  "G-F-0236": [
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    }
+  ],
+  "G-F-0239": [
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "מלח\"ע",
+      "en": "מלח\"ע",
+      "he": "מלח\"ע"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0245": [
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Wirtschaft",
+      "en": "Economy",
+      "he": "כלכלה"
+    },
+    {
+      "de": "תעשייה",
+      "en": "תעשייה",
+      "he": "תעשייה"
+    }
+  ],
+  "G-F-0250": [
+    {
+      "de": "חברה",
+      "en": "חברה",
+      "he": "חברה"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "תעשייה",
+      "en": "תעשייה",
+      "he": "תעשייה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "תעשייה",
+      "en": "תעשייה",
+      "he": "תעשייה"
+    },
+    {
+      "de": "Wirtschaft",
+      "en": "Economy",
+      "he": "כלכלה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    }
+  ],
+  "G-F-0254": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0256": [
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "חגים",
+      "en": "חגים",
+      "he": "חגים"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    }
+  ],
+  "G-F-0257": [
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "ראה בספר      .2 מחנות מעצר",
+      "en": "ראה בספר      .2 מחנות מעצר",
+      "he": "ראה בספר      .2 מחנות מעצר"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "פריטים  /ילדים",
+      "en": "פריטים  /ילדים",
+      "he": "פריטים  /ילדים"
+    }
+  ],
+  "G-F-0259": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0261": [
+    {
+      "de": "Recht",
+      "en": "Law",
+      "he": "משפט"
+    }
+  ],
+  "G-F-0264": [
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    }
+  ],
+  "G-F-0267": [
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "כתיבה אישית )ראיון(",
+      "en": "כתיבה אישית )ראיון(",
+      "he": "כתיבה אישית )ראיון("
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "חגים",
+      "en": "חגים",
+      "he": "חגים"
+    }
+  ],
+  "G-F-0268": [
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    }
+  ],
+  "G-F-0272": [
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    }
+  ],
+  "G-F-0273": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "חגים",
+      "en": "חגים",
+      "he": "חגים"
+    }
+  ],
+  "G-F-0274": [
+    {
+      "de": "-אירגונים",
+      "en": "-אירגונים",
+      "he": "-אירגונים"
+    },
+    {
+      "de": "-ספורט",
+      "en": "-ספורט",
+      "he": "-ספורט"
+    },
+    {
+      "de": "-תעודות אישיות",
+      "en": "-תעודות אישיות",
+      "he": "-תעודות אישיות"
+    },
+    {
+      "de": "-פעילות תרבותית",
+      "en": "-פעילות תרבותית",
+      "he": "-פעילות תרבותית"
+    },
+    {
+      "de": "-פלשתינה",
+      "en": "-פלשתינה",
+      "he": "-פלשתינה"
+    }
+  ],
+  "G-F-0276": [
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "ארגונים",
+      "en": "ארגונים",
+      "he": "ארגונים"
+    },
+    {
+      "de": "פעילות תרבותית",
+      "en": "פעילות תרבותית",
+      "he": "פעילות תרבותית"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "פעילות תרבותית",
+      "en": "פעילות תרבותית",
+      "he": "פעילות תרבותית"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "הרייר השלישי )מבצע רדטצקי(",
+      "en": "הרייר השלישי )מבצע רדטצקי(",
+      "he": "הרייר השלישי )מבצע רדטצקי("
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "נוער )עבודה סוצילית והדרכת נוער בגרמניה(",
+      "en": "נוער )עבודה סוצילית והדרכת נוער בגרמניה(",
+      "he": "נוער )עבודה סוצילית והדרכת נוער בגרמניה("
+    }
+  ],
+  "G-F-0277": [
+    {
+      "de": "ספרים",
+      "en": "ספרים",
+      "he": "ספרים"
+    },
+    {
+      "de": "פריטים )יודאיקה מכסף(",
+      "en": "פריטים )יודאיקה מכסף(",
+      "he": "פריטים )יודאיקה מכסף("
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "סיעוד",
+      "en": "סיעוד",
+      "he": "סיעוד"
+    },
+    {
+      "de": "ציור",
+      "en": "ציור",
+      "he": "ציור"
+    }
+  ],
+  "G-F-0279": [
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Naharija",
+      "en": "Nahariya",
+      "he": "נהריה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    }
+  ],
+  "G-F-0283": [
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    }
+  ],
+  "G-F-0284": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "המאה ה 18-",
+      "en": "המאה ה 18-",
+      "he": "המאה ה 18-"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Zweiter Weltkrieg",
+      "en": "Second World War",
+      "he": "מלח\"ע II"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "Internierungslager",
+      "en": "Internment camps",
+      "he": "מחנות מעצר"
+    },
+    {
+      "de": "עלייה",
+      "en": "עלייה",
+      "he": "עלייה"
+    },
+    {
+      "de": "התישבות",
+      "en": "התישבות",
+      "he": "התישבות"
+    }
+  ],
+  "G-F-0287": [
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "Sport",
+      "en": "Sport",
+      "he": "ספורט"
+    }
+  ],
+  "G-F-0289": [
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0290": [
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "פרסומים )ספר(",
+      "en": "פרסומים )ספר(",
+      "he": "פרסומים )ספר("
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Recht",
+      "en": "Law",
+      "he": "משפט"
+    }
+  ],
+  "G-F-0292": [
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "תולדות משפחה )גרמניה ,שנחאי ,ישראל(",
+      "en": "תולדות משפחה )גרמניה ,שנחאי ,ישראל(",
+      "he": "תולדות משפחה )גרמניה ,שנחאי ,ישראל("
+    },
+    {
+      "de": "Naharija",
+      "en": "Nahariya",
+      "he": "נהריה"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    }
+  ],
+  "G-F-0293": [
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "אמנות  /צילום",
+      "en": "אמנות  /צילום",
+      "he": "אמנות  /צילום"
+    }
+  ],
+  "G-F-0294": [
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    }
+  ],
+  "G-F-0295": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "אמנות )רקמה  +ציור(",
+      "en": "אמנות )רקמה  +ציור(",
+      "he": "אמנות )רקמה  +ציור("
+    }
+  ],
+  "G-F-0297": [
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    }
+  ],
+  "G-F-0298": [
+    {
+      "de": "עליה  /האניה \"אטלנטיק\"  /שהות במאוריציוס",
+      "en": "עליה  /האניה \"אטלנטיק\"  /שהות במאוריציוס",
+      "he": "עליה  /האניה \"אטלנטיק\"  /שהות במאוריציוס"
+    }
+  ],
+  "G-F-0299": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    }
+  ],
+  "G-F-0300": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Zweiter Weltkrieg",
+      "en": "Second World War",
+      "he": "מלח\"ע II"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    }
+  ],
+  "G-F-0301": [
+    {
+      "de": "Zweiter Weltkrieg",
+      "en": "Second World War",
+      "he": "מלח\"ע II"
+    },
+    {
+      "de": "Internierungslager",
+      "en": "Internment camps",
+      "he": "מחנות מעצר"
+    }
+  ],
+  "G-F-0302": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0303": [
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "סיעוד",
+      "en": "סיעוד",
+      "he": "סיעוד"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "מדעי הרוח  /יהדות מפי סולוביצ'יק",
+      "en": "מדעי הרוח  /יהדות מפי סולוביצ'יק",
+      "he": "מדעי הרוח  /יהדות מפי סולוביצ'יק"
+    },
+    {
+      "de": "עלייה",
+      "en": "עלייה",
+      "he": "עלייה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "פרעות בישוב בארץ",
+      "en": "פרעות בישוב בארץ",
+      "he": "פרעות בישוב בארץ"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    }
+  ],
+  "G-F-0304": [
+    {
+      "de": "אמנות  /ציור",
+      "en": "אמנות  /ציור",
+      "he": "אמנות  /ציור"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "ספרים",
+      "en": "ספרים",
+      "he": "ספרים"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0308": [
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Naharija",
+      "en": "Nahariya",
+      "he": "נהריה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    }
+  ],
+  "G-F-0310": [
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    }
+  ],
+  "G-F-0311": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "ההכשרה",
+      "en": "ההכשרה",
+      "he": "ההכשרה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "מנהגים  -תיאור לחג סוכות בחוברת לזכר זאב מיינהרט",
+      "en": "מנהגים  -תיאור לחג סוכות בחוברת לזכר זאב מיינהרט",
+      "he": "מנהגים  -תיאור לחג סוכות בחוברת לזכר זאב מיינהרט"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    }
+  ],
+  "G-F-0313": [
+    {
+      "de": "Zweiter Weltkrieg",
+      "en": "Second World War",
+      "he": "מלח\"ע II"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Internierungslager",
+      "en": "Internment camps",
+      "he": "מחנות מעצר"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "Sport",
+      "en": "Sport",
+      "he": "ספורט"
+    }
+  ],
+  "G-F-0315": [
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0316": [
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "עליית הנוער",
+      "en": "עליית הנוער",
+      "he": "עליית הנוער"
+    }
+  ],
+  "G-F-0320": [
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "פרעות בישוב בארץ",
+      "en": "פרעות בישוב בארץ",
+      "he": "פרעות בישוב בארץ"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    }
+  ],
+  "G-F-0321": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "עליית נוער",
+      "en": "עליית נוער",
+      "he": "עליית נוער"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Naharija",
+      "en": "Nahariya",
+      "he": "נהריה"
+    }
+  ],
+  "G-F-0323": [
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "אמנות  /תיאטרון",
+      "en": "אמנות  /תיאטרון",
+      "he": "אמנות  /תיאטרון"
+    }
+  ],
+  "G-F-0324": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "העבודה",
+      "en": "העבודה",
+      "he": "העבודה"
+    }
+  ],
+  "G-F-0325": [
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    }
+  ],
+  "G-F-0326": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "ארגונים",
+      "en": "ארגונים",
+      "he": "ארגונים"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    }
+  ],
+  "G-F-0327": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    }
+  ],
+  "G-F-0329": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "מדעי הרוח",
+      "en": "מדעי הרוח",
+      "he": "מדעי הרוח"
+    },
+    {
+      "de": "תיאולוגיה",
+      "en": "תיאולוגיה",
+      "he": "תיאולוגיה"
+    },
+    {
+      "de": "שלהם יחד עם הרב לודויג פיליפסון",
+      "en": "שלהם יחד עם הרב לודויג פיליפסון",
+      "he": "שלהם יחד עם הרב לודויג פיליפסון"
+    }
+  ],
+  "G-F-0330": [
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "פרעות בישוב בארץ",
+      "en": "פרעות בישוב בארץ",
+      "he": "פרעות בישוב בארץ"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0331": [
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    }
+  ],
+  "G-F-0332": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    }
+  ],
+  "G-F-0333": [
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "קהילות",
+      "en": "קהילות",
+      "he": "קהילות"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    }
+  ],
+  "G-F-0334": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    }
+  ],
+  "G-F-0335": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    }
+  ],
+  "G-F-0336": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    }
+  ],
+  "G-F-0339": [
+    {
+      "de": "חינוך נוער ספורט",
+      "en": "חינוך נוער ספורט",
+      "he": "חינוך נוער ספורט"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    }
+  ],
+  "G-F-0340": [
+    {
+      "de": "אמנות  /ציור  /מחזות )ראה תסקית( אדריכלות-באוהאוז",
+      "en": "אמנות  /ציור  /מחזות )ראה תסקית( אדריכלות-באוהאוז",
+      "he": "אמנות  /ציור  /מחזות )ראה תסקית( אדריכלות-באוהאוז"
+    },
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    }
+  ],
+  "G-F-0341": [
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "Sport",
+      "en": "Sport",
+      "he": "ספורט"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "תעופה",
+      "en": "תעופה",
+      "he": "תעופה"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    }
+  ],
+  "G-F-0342": [
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "יחסי יהודים & גרמנים",
+      "en": "יחסי יהודים & גרמנים",
+      "he": "יחסי יהודים & גרמנים"
+    }
+  ],
+  "G-F-0343": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    }
+  ],
+  "G-F-0344": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Zweiter Weltkrieg",
+      "en": "Second World War",
+      "he": "מלח\"ע II"
+    },
+    {
+      "de": "Internierungslager",
+      "en": "Internment camps",
+      "he": "מחנות מעצר"
+    },
+    {
+      "de": "פעילות תרבותית",
+      "en": "פעילות תרבותית",
+      "he": "פעילות תרבותית"
+    },
+    {
+      "de": "Dr. Kurt Epstein",
+      "en": "Dr. Kurt Epstein",
+      "he": "Dr. Kurt Epstein"
+    }
+  ],
+  "G-F-0345": [
+    {
+      "de": "קורות חיים",
+      "en": "קורות חיים",
+      "he": "קורות חיים"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    }
+  ],
+  "G-F-0346": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    }
+  ],
+  "G-F-0347": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0349": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0350": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0351": [
+    {
+      "de": "Wirtschaft",
+      "en": "Economy",
+      "he": "כלכלה"
+    },
+    {
+      "de": "פעילות תרבותית",
+      "en": "פעילות תרבותית",
+      "he": "פעילות תרבותית"
+    }
+  ],
+  "G-F-0352": [
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Recht",
+      "en": "Law",
+      "he": "משפט"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "ההכשרה",
+      "en": "ההכשרה",
+      "he": "ההכשרה"
+    }
+  ],
+  "G-F-0353": [
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "אופרנסטורף",
+      "en": "אופרנסטורף",
+      "he": "אופרנסטורף"
+    },
+    {
+      "de": "קהילות",
+      "en": "קהילות",
+      "he": "קהילות"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "פולק מ",
+      "en": "פולק מ",
+      "he": "פולק מ"
+    },
+    {
+      "de": "ארגונים",
+      "en": "ארגונים",
+      "he": "ארגונים"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    }
+  ],
+  "G-F-0354": [
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    }
+  ],
+  "G-F-0355": [
+    {
+      "de": "מלח\"ע",
+      "en": "מלח\"ע",
+      "he": "מלח\"ע"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "אונא קרלסברג",
+      "en": "אונא קרלסברג",
+      "he": "אונא קרלסברג"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    }
+  ],
+  "G-F-0356": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0357": [
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Naharija",
+      "en": "Nahariya",
+      "he": "נהריה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "שירים",
+      "en": "שירים",
+      "he": "שירים"
+    }
+  ],
+  "G-F-0358": [
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0360": [
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "חקלאות",
+      "en": "חקלאות",
+      "he": "חקלאות"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "היטלר\"",
+      "en": "היטלר\"",
+      "he": "היטלר\""
+    }
+  ],
+  "G-F-0361": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "-פרסומים",
+      "en": "-פרסומים",
+      "he": "-פרסומים"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0362": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "ועוד",
+      "en": "ועוד",
+      "he": "ועוד"
+    },
+    {
+      "de": "שערה",
+      "en": "שערה",
+      "he": "שערה"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "-הרייך השלישי",
+      "en": "-הרייך השלישי",
+      "he": "-הרייך השלישי"
+    },
+    {
+      "de": "-הגירה",
+      "en": "-הגירה",
+      "he": "-הגירה"
+    },
+    {
+      "de": "-פלשתינה",
+      "en": "-פלשתינה",
+      "he": "-פלשתינה"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "פעילות תרבותית",
+      "en": "פעילות תרבותית",
+      "he": "פעילות תרבותית"
+    }
+  ],
+  "G-F-0363": [
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    }
+  ],
+  "G-F-0364": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0365": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0366": [
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    }
+  ],
+  "G-F-0367": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0368": [
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    }
+  ],
+  "G-F-0369": [
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "אילן יוחסין",
+      "en": "אילן יוחסין",
+      "he": "אילן יוחסין"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Sport",
+      "en": "Sport",
+      "he": "ספורט"
+    }
+  ],
+  "G-F-0370": [
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0371": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    },
+    {
+      "de": "ביוגרפיה  /קורות משפחה",
+      "en": "ביוגרפיה  /קורות משפחה",
+      "he": "ביוגרפיה  /קורות משפחה"
+    },
+    {
+      "de": "מלח\"ע",
+      "en": "מלח\"ע",
+      "he": "מלח\"ע"
+    }
+  ],
+  "G-F-0372": [
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0373": [
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    }
+  ],
+  "G-F-0375": [
+    {
+      "de": "יהדות",
+      "en": "יהדות",
+      "he": "יהדות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    }
+  ],
+  "G-F-0377": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    }
+  ],
+  "G-F-0378": [
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Recht",
+      "en": "Law",
+      "he": "משפט"
+    }
+  ],
+  "G-F-0380": [
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "תפסני מפית אוכל לילדים",
+      "en": "תפסני מפית אוכל לילדים",
+      "he": "תפסני מפית אוכל לילדים"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Sport",
+      "en": "Sport",
+      "he": "ספורט"
+    }
+  ],
+  "G-F-0381": [
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "עליית נוער",
+      "en": "עליית נוער",
+      "he": "עליית נוער"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    }
+  ],
+  "G-F-0382": [
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "קהילות",
+      "en": "קהילות",
+      "he": "קהילות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "מסורת",
+      "en": "מסורת",
+      "he": "מסורת"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "מקצועות חופשים",
+      "en": "מקצועות חופשים",
+      "he": "מקצועות חופשים"
+    }
+  ],
+  "G-F-0383": [
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    }
+  ],
+  "G-F-0384": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    }
+  ],
+  "G-F-0385": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "תולדות משפחה & משפחה",
+      "en": "תולדות משפחה & משפחה",
+      "he": "תולדות משפחה & משפחה"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "מלח\"ע",
+      "en": "מלח\"ע",
+      "he": "מלח\"ע"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    }
+  ],
+  "G-F-0386": [
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0389": [
+    {
+      "de": "פילוסופיה )של האמנות(",
+      "en": "פילוסופיה )של האמנות(",
+      "he": "פילוסופיה )של האמנות("
+    },
+    {
+      "de": "ספרים",
+      "en": "ספרים",
+      "he": "ספרים"
+    },
+    {
+      "de": "Literatur",
+      "en": "Literature",
+      "he": "ספרות"
+    },
+    {
+      "de": "מחזות",
+      "en": "מחזות",
+      "he": "מחזות"
+    }
+  ],
+  "G-F-0390": [
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "קורות חיים",
+      "en": "קורות חיים",
+      "he": "קורות חיים"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "עזרה הדדית",
+      "en": "עזרה הדדית",
+      "he": "עזרה הדדית"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0391": [
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "בהיסטוריה",
+      "en": "בהיסטוריה",
+      "he": "בהיסטוריה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    }
+  ],
+  "G-F-0392": [
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0393": [
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "מקצועות חפשיים",
+      "en": "מקצועות חפשיים",
+      "he": "מקצועות חפשיים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0394": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0396": [
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "ארגונים",
+      "en": "ארגונים",
+      "he": "ארגונים"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "העפלה",
+      "en": "העפלה",
+      "he": "העפלה"
+    }
+  ],
+  "G-F-0397": [
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    }
+  ],
+  "G-F-0398": [
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "מלחמות ישראל",
+      "en": "מלחמות ישראל",
+      "he": "מלחמות ישראל"
+    },
+    {
+      "de": "עלייה",
+      "en": "עלייה",
+      "he": "עלייה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    }
+  ],
+  "G-F-0399": [
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "Literatur",
+      "en": "Literature",
+      "he": "ספרות"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    }
+  ],
+  "G-F-0400": [
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "עלית הנוער",
+      "en": "עלית הנוער",
+      "he": "עלית הנוער"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "מלחמות ישראל",
+      "en": "מלחמות ישראל",
+      "he": "מלחמות ישראל"
+    },
+    {
+      "de": "פרעות בישוב בארץ",
+      "en": "פרעות בישוב בארץ",
+      "he": "פרעות בישוב בארץ"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "תעשייה",
+      "en": "תעשייה",
+      "he": "תעשייה"
+    }
+  ],
+  "G-F-0401": [
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0402": [
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "תעשיה",
+      "en": "תעשיה",
+      "he": "תעשיה"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    },
+    {
+      "de": "Literatur",
+      "en": "Literature",
+      "he": "ספרות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    }
+  ],
+  "G-F-0403": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "Zweiter Weltkrieg",
+      "en": "Second World War",
+      "he": "מלח\"ע II"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Internierungslager",
+      "en": "Internment camps",
+      "he": "מחנות מעצר"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    }
+  ],
+  "G-F-0404": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "עלייה",
+      "en": "עלייה",
+      "he": "עלייה"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    }
+  ],
+  "G-F-0405": [
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    }
+  ],
+  "G-F-0406": [
+    {
+      "de": "Postkarten",
+      "en": "Postcards",
+      "he": "גלויות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "העפלה",
+      "en": "העפלה",
+      "he": "העפלה"
+    },
+    {
+      "de": "מלחמות ישראל",
+      "en": "מלחמות ישראל",
+      "he": "מלחמות ישראל"
+    }
+  ],
+  "G-F-0407": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "שנה",
+      "en": "שנה",
+      "he": "שנה"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "מלה\"ע",
+      "en": "מלה\"ע",
+      "he": "מלה\"ע"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "מלחמות ישראל",
+      "en": "מלחמות ישראל",
+      "he": "מלחמות ישראל"
+    }
+  ],
+  "G-F-0408": [
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "מלה\"ע",
+      "en": "מלה\"ע",
+      "he": "מלה\"ע"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Rabbiner Dr. Adolf Altmann",
+      "en": "Rabbiner Dr. Adolf Altmann",
+      "he": "Rabbiner Dr. Adolf Altmann"
+    }
+  ],
+  "G-F-0409": [
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    }
+  ],
+  "G-F-0411": [
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "פרעות בישוב",
+      "en": "פרעות בישוב",
+      "he": "פרעות בישוב"
+    },
+    {
+      "de": "מלחמות ישראל",
+      "en": "מלחמות ישראל",
+      "he": "מלחמות ישראל"
+    }
+  ],
+  "G-F-0413": [
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0414": [
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "מלחמות ישראל",
+      "en": "מלחמות ישראל",
+      "he": "מלחמות ישראל"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    }
+  ],
+  "G-F-0415": [
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    }
+  ],
+  "G-F-0416": [
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "בחיפה",
+      "en": "בחיפה",
+      "he": "בחיפה"
+    },
+    {
+      "de": "יחסי יהודים גרמנים",
+      "en": "יחסי יהודים גרמנים",
+      "he": "יחסי יהודים גרמנים"
+    }
+  ],
+  "G-F-0417": [
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0418": [
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    }
+  ],
+  "G-F-0419": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "תעשייה",
+      "en": "תעשייה",
+      "he": "תעשייה"
+    }
+  ],
+  "G-F-0421": [
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "מלחמ\"ע II",
+      "en": "מלחמ\"ע II",
+      "he": "מלחמ\"ע II"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    }
+  ],
+  "G-F-0422": [
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "Korrespondenz",
+      "en": "Correspondence",
+      "he": "התכתבות"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "יחסי יהודים וגרמנים אחרי השואה",
+      "en": "יחסי יהודים וגרמנים אחרי השואה",
+      "he": "יחסי יהודים וגרמנים אחרי השואה"
+    }
+  ],
+  "G-F-0423": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "קהילות/מנהגים",
+      "en": "קהילות/מנהגים",
+      "he": "קהילות/מנהגים"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    },
+    {
+      "de": "Postkarten",
+      "en": "Postcards",
+      "he": "גלויות"
+    },
+    {
+      "de": "עיתונות",
+      "en": "עיתונות",
+      "he": "עיתונות"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "יהדות",
+      "en": "יהדות",
+      "he": "יהדות"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    }
+  ],
+  "G-F-0424": [
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "חנוך",
+      "en": "חנוך",
+      "he": "חנוך"
+    }
+  ],
+  "G-F-0425": [
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    }
+  ],
+  "G-F-0426": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    }
+  ],
+  "G-F-0427": [
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    }
+  ],
+  "G-F-0428": [
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    }
+  ],
+  "G-F-0429": [
+    {
+      "de": "קהילות",
+      "en": "קהילות",
+      "he": "קהילות"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    }
+  ],
+  "G-F-0430": [
+    {
+      "de": "הנצחה",
+      "en": "הנצחה",
+      "he": "הנצחה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    }
+  ],
+  "G-F-0431": [
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    }
+  ],
+  "G-F-0432": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "-מנהגים",
+      "en": "-מנהגים",
+      "he": "-מנהגים"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    }
+  ],
+  "G-F-0433": [
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    },
+    {
+      "de": "במלח\"ע I",
+      "en": "במלח\"ע I",
+      "he": "במלח\"ע I"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    }
+  ],
+  "G-F-0434": [
+    {
+      "de": "ספרים",
+      "en": "ספרים",
+      "he": "ספרים"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    }
+  ],
+  "G-F-0435": [
+    {
+      "de": "פלשתינה  /ארץ ישראל",
+      "en": "פלשתינה  /ארץ ישראל",
+      "he": "פלשתינה  /ארץ ישראל"
+    }
+  ],
+  "G-F-0436": [
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    }
+  ],
+  "G-F-0437": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    }
+  ],
+  "G-F-0438": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "קהילות",
+      "en": "קהילות",
+      "he": "קהילות"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "ארץ ישראל",
+      "en": "ארץ ישראל",
+      "he": "ארץ ישראל"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    }
+  ],
+  "G-F-0439": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "חברה",
+      "en": "חברה",
+      "he": "חברה"
+    }
+  ],
+  "G-F-0440": [
+    {
+      "de": "Organisationen",
+      "en": "Organisations",
+      "he": "אירגונים"
+    },
+    {
+      "de": "Wirtschaft",
+      "en": "Economy",
+      "he": "כלכלה"
+    },
+    {
+      "de": "תעשיה",
+      "en": "תעשיה",
+      "he": "תעשיה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "חקלאות",
+      "en": "חקלאות",
+      "he": "חקלאות"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "של עשייה",
+      "en": "של עשייה",
+      "he": "של עשייה"
+    },
+    {
+      "de": "הנושא הערבי",
+      "en": "הנושא הערבי",
+      "he": "הנושא הערבי"
+    },
+    {
+      "de": "הערבית\"",
+      "en": "הערבית\"",
+      "he": "הערבית\""
+    }
+  ],
+  "G-F-0441": [
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    }
+  ],
+  "G-F-0442": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Zweiter Weltkrieg",
+      "en": "Second World War",
+      "he": "מלח\"ע II"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "בספרד",
+      "en": "בספרד",
+      "he": "בספרד"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    }
+  ],
+  "G-F-0443": [
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "העפלה",
+      "en": "העפלה",
+      "he": "העפלה"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "על האניה 'הילדה' ,יחד עם היינץ פאייס",
+      "en": "על האניה 'הילדה' ,יחד עם היינץ פאייס",
+      "he": "על האניה 'הילדה' ,יחד עם היינץ פאייס"
+    }
+  ],
+  "G-F-0444": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "היסטוריה",
+      "en": "היסטוריה",
+      "he": "היסטוריה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "מדעי הרוח",
+      "en": "מדעי הרוח",
+      "he": "מדעי הרוח"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0445": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "Internierungslager",
+      "en": "Internment camps",
+      "he": "מחנות מעצר"
+    },
+    {
+      "de": "אילן יוחסין בתחילת הספר",
+      "en": "אילן יוחסין בתחילת הספר",
+      "he": "אילן יוחסין בתחילת הספר"
+    },
+    {
+      "de": "עליית הנוער",
+      "en": "עליית הנוער",
+      "he": "עליית הנוער"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    }
+  ],
+  "G-F-0446": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    }
+  ],
+  "G-F-0447": [
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    }
+  ],
+  "G-F-0448": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "Erster Weltkrieg",
+      "en": "First World War",
+      "he": "מלח\"ע I"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    }
+  ],
+  "G-F-0449": [
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "עליית הנוער",
+      "en": "עליית הנוער",
+      "he": "עליית הנוער"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "חקלאות",
+      "en": "חקלאות",
+      "he": "חקלאות"
+    }
+  ],
+  "G-F-0450": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0451": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "עלית הנוער",
+      "en": "עלית הנוער",
+      "he": "עלית הנוער"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "הבדולח",
+      "en": "הבדולח",
+      "he": "הבדולח"
+    },
+    {
+      "de": "עליה",
+      "en": "עליה",
+      "he": "עליה"
+    }
+  ],
+  "G-F-0452": [
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "ישראל",
+      "en": "ישראל",
+      "he": "ישראל"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "חקלאות",
+      "en": "חקלאות",
+      "he": "חקלאות"
+    }
+  ],
+  "G-F-0453": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "מלח\"ע",
+      "en": "מלח\"ע",
+      "he": "מלח\"ע"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "פריטים",
+      "en": "פריטים",
+      "he": "פריטים"
+    }
+  ],
+  "G-F-0455": [
+    {
+      "de": "שירה",
+      "en": "שירה",
+      "he": "שירה"
+    }
+  ],
+  "G-F-0456": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "קהילה",
+      "en": "קהילה",
+      "he": "קהילה"
+    },
+    {
+      "de": "Palästina",
+      "en": "Palestine",
+      "he": "פלשתינה"
+    },
+    {
+      "de": "Fotografien",
+      "en": "Photographs",
+      "he": "תמונות"
+    }
+  ],
+  "G-F-0457": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "התיישבות",
+      "en": "התיישבות",
+      "he": "התיישבות"
+    },
+    {
+      "de": "Militär",
+      "en": "Military",
+      "he": "צבא"
+    },
+    {
+      "de": "מוזיקה",
+      "en": "מוזיקה",
+      "he": "מוזיקה"
+    },
+    {
+      "de": "מדעים",
+      "en": "מדעים",
+      "he": "מדעים"
+    }
+  ],
+  "G-F-0458": [
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פרסומים"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    }
+  ],
+  "G-F-0459": [
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "חברה",
+      "en": "חברה",
+      "he": "חברה"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "תנועות נוער",
+      "en": "תנועות נוער",
+      "he": "תנועות נוער"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "הכשרה",
+      "en": "הכשרה",
+      "he": "הכשרה"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "ארגוני נוער",
+      "en": "ארגוני נוער",
+      "he": "ארגוני נוער"
+    }
+  ],
+  "G-F-0460": [
+    {
+      "de": "Sport",
+      "en": "Sport",
+      "he": "ספורט"
+    },
+    {
+      "de": "נוער",
+      "en": "נוער",
+      "he": "נוער"
+    },
+    {
+      "de": "עיתונות",
+      "en": "עיתונות",
+      "he": "עיתונות"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    },
+    {
+      "de": "תולדות המשפחה",
+      "en": "תולדות המשפחה",
+      "he": "תולדות המשפחה"
+    },
+    {
+      "de": "יחסי יהודים ערבים",
+      "en": "יחסי יהודים ערבים",
+      "he": "יחסי יהודים ערבים"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    }
+  ],
+  "G-F-0461": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    },
+    {
+      "de": "תולדות המשפחה",
+      "en": "תולדות המשפחה",
+      "he": "תולדות המשפחה"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "עלייה",
+      "en": "עלייה",
+      "he": "עלייה"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    },
+    {
+      "de": "תנועות הנוער",
+      "en": "תנועות הנוער",
+      "he": "תנועות הנוער"
+    },
+    {
+      "de": "העפלה",
+      "en": "העפלה",
+      "he": "העפלה"
+    },
+    {
+      "de": "Antisemitismus",
+      "en": "Antisemitism",
+      "he": "אנטישמיות"
+    },
+    {
+      "de": "מלחמת העולם הראשונה",
+      "en": "מלחמת העולם הראשונה",
+      "he": "מלחמת העולם הראשונה"
+    }
+  ],
+  "G-F-0462": [
+    {
+      "de": "המאה ה 18-",
+      "en": "המאה ה 18-",
+      "he": "המאה ה 18-"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "קהילות",
+      "en": "קהילות",
+      "he": "קהילות"
+    },
+    {
+      "de": "תעשייה",
+      "en": "תעשייה",
+      "he": "תעשייה"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "אילן יוחסין",
+      "en": "אילן יוחסין",
+      "he": "אילן יוחסין"
+    }
+  ],
+  "G-F-0463": [
+    {
+      "de": "קהילות",
+      "en": "קהילות",
+      "he": "קהילות"
+    },
+    {
+      "de": "הירש ,בפרנקפורט",
+      "en": "הירש ,בפרנקפורט",
+      "he": "הירש ,בפרנקפורט"
+    },
+    {
+      "de": "Bildung",
+      "en": "Education",
+      "he": "חינוך"
+    },
+    {
+      "de": "Familie",
+      "en": "Family",
+      "he": "משפחה"
+    },
+    {
+      "de": "קורות משפחה",
+      "en": "קורות משפחה",
+      "he": "קורות משפחה"
+    },
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "והאירועי משפחה למיניהם .בין היתר מנהג חיתול תורה",
+      "en": "והאירועי משפחה למיניהם .בין היתר מנהג חיתול תורה",
+      "he": "והאירועי משפחה למיניהם .בין היתר מנהג חיתול תורה"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    },
+    {
+      "de": "Persönliche Schriften",
+      "en": "Personal writing",
+      "he": "כתיבה אישית"
+    }
+  ],
+  "G-F-0466": [
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Handel",
+      "en": "Commerce",
+      "he": "מסחר"
+    },
+    {
+      "de": "המאה ה 19-",
+      "en": "המאה ה 19-",
+      "he": "המאה ה 19-"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    },
+    {
+      "de": "Migration",
+      "en": "Migration",
+      "he": "הגירה"
+    }
+  ],
+  "G-F-0467": [
+    {
+      "de": "Wirtschaft",
+      "en": "Economy",
+      "he": "כלכלה"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    }
+  ],
+  "G-F-0468": [
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    },
+    {
+      "de": "Drittes Reich",
+      "en": "Third Reich",
+      "he": "הרייך השלישי"
+    },
+    {
+      "de": "ציונות",
+      "en": "ציונות",
+      "he": "ציונות"
+    }
+  ],
+  "G-F-0470": [
+    {
+      "de": "ארכיאולוגיה",
+      "en": "ארכיאולוגיה",
+      "he": "ארכיאולוגיה"
+    },
+    {
+      "de": "מלח\"ע",
+      "en": "מלח\"ע",
+      "he": "מלח\"ע"
+    },
+    {
+      "de": "מקצועות חופשיים",
+      "en": "מקצועות חופשיים",
+      "he": "מקצועות חופשיים"
+    },
+    {
+      "de": "Kunst",
+      "en": "Art",
+      "he": "אמנות"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "היסטוריה יהודית",
+      "en": "היסטוריה יהודית",
+      "he": "היסטוריה יהודית"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "Publikationen",
+      "en": "Publications",
+      "he": "פירסומים"
+    },
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0471": [
+    {
+      "de": "Biographie",
+      "en": "Biography",
+      "he": "ביוגרפיה"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    },
+    {
+      "de": "תעשייה",
+      "en": "תעשייה",
+      "he": "תעשייה"
+    },
+    {
+      "de": "פוליטיקה",
+      "en": "פוליטיקה",
+      "he": "פוליטיקה"
+    }
+  ],
+  "G-F-0472": [
+    {
+      "de": "חברה",
+      "en": "חברה",
+      "he": "חברה"
+    },
+    {
+      "de": "Medizin",
+      "en": "Medicine",
+      "he": "רפואה"
+    },
+    {
+      "de": "ביוגרפיות",
+      "en": "ביוגרפיות",
+      "he": "ביוגרפיות"
+    },
+    {
+      "de": "Familiengeschichte",
+      "en": "Family history",
+      "he": "תולדות משפחה"
+    }
+  ],
+  "G-F-0473": [
+    {
+      "de": "ההכשרה",
+      "en": "ההכשרה",
+      "he": "ההכשרה"
+    },
+    {
+      "de": "Persönliche Dokumente",
+      "en": "Personal documents",
+      "he": "תעודות אישיות"
+    }
+  ],
+  "G-F-0474": [
+    {
+      "de": "Bräuche",
+      "en": "Customs",
+      "he": "מנהגים"
+    },
+    {
+      "de": "Schoah",
+      "en": "Holocaust",
+      "he": "שואה"
+    },
+    {
+      "de": "ילדים",
+      "en": "ילדים",
+      "he": "ילדים"
+    },
+    {
+      "de": "Briefe",
+      "en": "Letters",
+      "he": "מכתבים"
+    }
+  ]
+}

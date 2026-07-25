@@ -1,0 +1,113 @@
+<?php
+/**
+ * LivelyTrilingual layout — fork of Lively layout.phtml with EN/DE/HE locale
+ * resolution from ?lang= query param (fallback to cookie, fallback to en),
+ * RTL support, and lang-aware <html> attributes.
+ */
+
+// 1. Resolve UI locale from ?lang= or cookie.
+$rawLang = $this->params()->fromQuery('lang');
+if (!$rawLang && isset($_COOKIE['site_lang'])) {
+    $rawLang = $_COOKIE['site_lang'];
+}
+$shortLang = strtolower(substr((string) $rawLang, 0, 2));
+$localeMap = ['en' => 'en_US', 'de' => 'de_DE', 'he' => 'he_IL'];
+if (!isset($localeMap[$shortLang])) {
+    $shortLang = 'en';
+}
+$omekaLocale = $localeMap[$shortLang];
+
+if (!headers_sent() && (($_COOKIE['site_lang'] ?? null) !== $shortLang)) {
+    setcookie('site_lang', $shortLang, time() + 86400 * 365, '/');
+}
+
+// Apply the locale to the translator so $this->translate() and $this->lang()
+// reflect the chosen language for the rest of this request.
+try {
+    $this->plugin('translate')->getTranslator()->setLocale($omekaLocale);
+} catch (\Throwable $e) {
+    // Translator may be unavailable in some early-bootstrap paths; ignore.
+}
+
+// Expose to partials.
+$this->layout()->shortLang = $shortLang;
+$this->layout()->omekaLocale = $omekaLocale;
+$htmlDir = ($shortLang === 'he') ? 'rtl' : 'ltr';
+
+// 2. The rest is Lively's layout, with html/body attrs adjusted.
+$siteTitle = $site->title();
+$userBar = $this->userBar();
+$bannerHeading = $this->themeSetting('banner_heading');
+$bannerDescription = $this->themeSetting('banner_description');
+$bannerHeightProperty = $bannerHeading || $bannerDescription ? 'min-height' : 'height';
+$primaryColor = $this->themeSetting('primary_color') ?? '#d62d6a';
+$secondaryColor = $this->themeSetting('secondary_color') ?? '#4D1068';
+$accentColor = $this->themeSetting('accent_color') ?? '#0a4f9e';
+$complementaryColor = $this->themeSetting('complementary_color') ?? '#F0B247';
+
+$this->htmlElement('html')->setAttribute('lang', $shortLang);
+$this->htmlElement('html')->setAttribute('dir', $htmlDir);
+$this->htmlElement('body')->appendAttribute('class', 'lang-' . $shortLang);
+$this->headMeta()->setCharset('utf-8');
+$this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1');
+$this->headTitle($siteTitle)->setSeparator(' · ');
+$this->headTitle()->append($this->setting('installation_title', 'Omeka S'));
+$this->headLink()->prependStylesheet($this->assetUrl('css/style.css'));
+$this->headLink()->prependStylesheet($this->assetUrl('css/iconfonts.css', 'Omeka'));
+$this->headLink()->prependStylesheet('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;700;800&display=swap');
+$this->headLink()->appendStylesheet($this->assetUrl('css/lang-switcher.css'));
+if ($shortLang === 'he') {
+    $this->headLink()->appendStylesheet($this->assetUrl('css/rtl.css'));
+}
+$this->headScript()->prependFile($this->assetUrl('js/global.js', 'Omeka'));
+$this->headScript()->prependFile($this->assetUrl('vendor/jquery/jquery.min.js', 'Omeka'));
+$this->jsTranslate();
+$this->trigger('view.layout');
+
+if ($userBar) {
+    $this->htmlElement('body')->appendAttribute('class', 'user-bar');
+}
+?>
+
+<?php echo $this->doctype(); ?>
+<?php echo $this->htmlElement('html'); ?>
+	<head>
+		<?php echo $this->headMeta(); ?>
+		<?php echo $this->headTitle(); ?>
+		<?php echo $this->headLink(); ?>
+		<?php echo $this->headStyle(); ?>
+		<?php echo $this->headScript(); ?>
+
+		<style type="text/css" media="screen">
+			:root {
+				--primary: <?php echo $primaryColor; ?>;
+				--primary-dark: <?php echo $this->ShadeColor($primaryColor, -10); ?>;
+				--secondary: <?php echo $secondaryColor; ?>;
+				--secondary-dark: <?php echo $this->ShadeColor($secondaryColor, -10); ?>;
+				--accent: <?php echo $accentColor; ?>;
+				--complementary: <?php echo $complementaryColor; ?>;
+			}
+		</style>
+	</head>
+
+	<?php echo $this->htmlElement('body'); ?>
+		<a id="skipnav" href="#content"><?php echo $this->translate('Skip to main content'); ?></a>
+
+		<?php echo $this->partial('common/header', ['userBar' => $userBar, 'site' => $site]); ?>
+
+		<?php echo $this->partial('common/banner'); ?>
+
+		<div id="main-content" class="container" role="main">
+			<?php echo $this->content; ?>
+		</div>
+
+		<?php echo $this->partial('common/footer'); ?>
+		<?php echo $this->partial('common/menu-drawer'); ?>
+
+		<?php
+		echo $this->inlineScript()
+			->prependFile($this->assetUrl('js/navigation.js'))
+			->prependFile($this->assetUrl('js/script.js'));
+		?>
+	</body>
+</html>

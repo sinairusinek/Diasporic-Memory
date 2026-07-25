@@ -1,0 +1,126 @@
+<?php
+/**
+ * LivelyTrilingual resource-values.phtml — locale-aware rendering.
+ *
+ * Rules (PI, 2026-06-08):
+ *   - Values with no @language tag (identifiers, dates, URLs) always render.
+ *   - Values tagged in the current short lang (en/de/he) render.
+ *   - If a property has ONLY values tagged in OTHER langs, render an explicit
+ *     "[English TBA]" / "[German TBA]" / "[Hebrew TBA]" placeholder, never a
+ *     silent fallback to another language.
+ *   - Properties with no values at all are still hidden (nothing to surface).
+ */
+$translate = $this->plugin('translate');
+$escape = $this->plugin('escapeHtml');
+$decoration = $this->themeSetting('image_decoration');
+
+if ($this->status()->isSiteRequest()) {
+    $labelInfo = $this->siteSetting('property_label_information');
+    $showLocale = (bool) $this->siteSetting('show_locale_label', true);
+    $showValueAnnotations = (bool) $this->siteSetting('show_value_annotations', false);
+} else {
+    $labelInfo = $this->setting('property_label_information');
+    $showLocale = true;
+    $showValueAnnotations = true;
+}
+
+// Re-derive locale here: $this->layout()->shortLang isn't reliably reachable
+// from partials rendered through displayValues(). Match layout.phtml exactly.
+$rawLang = $_GET['lang'] ?? ($_COOKIE['site_lang'] ?? 'en');
+$shortLang = strtolower(substr((string) $rawLang, 0, 2));
+if (!in_array($shortLang, ['en', 'de', 'he'], true)) {
+    $shortLang = 'en';
+}
+$placeholderMap = [
+    'en' => '[English TBA]',
+    'de' => '[German TBA]',
+    'he' => '[Hebrew TBA]',
+];
+$placeholderText = $placeholderMap[$shortLang] ?? $placeholderMap['en'];
+?>
+
+<dl>
+<?php
+foreach ($values as $term => $propertyData):
+    $allValues = $propertyData['values'];
+    $untagged = [];
+    $currentLangValues = [];
+    $hasOtherLangValues = false;
+    foreach ($allValues as $v) {
+        $vl = (string) $v->lang();
+        if ($vl === '') {
+            $untagged[] = $v;
+        } elseif (strcasecmp(substr($vl, 0, 2), $shortLang) === 0) {
+            $currentLangValues[] = $v;
+        } else {
+            $hasOtherLangValues = true;
+        }
+    }
+
+    $propertyValues = array_merge($untagged, $currentLangValues);
+    $showPlaceholder = empty($propertyValues) && $hasOtherLangValues;
+
+    if (empty($propertyValues) && !$showPlaceholder) {
+        continue;
+    }
+
+    $property = $propertyData['property'];
+    $propertyLabel = $propertyData['alternate_label'] ?: $translate($property->label());
+    if ('term' === $labelInfo) {
+        $propertyTerm = $property->term();
+    } elseif ('vocab' === $labelInfo) {
+        $propertyTerm = $property->vocabulary()->label();
+    } else {
+        $propertyTerm = null;
+    }
+    ?>
+    <div class="property">
+        <dt>
+        <?php echo $escape($propertyLabel); ?>
+        <?php if ($propertyTerm !== null) : ?>
+        <span class="field-term">(<?php echo $escape($propertyTerm); ?>)</span>
+        <?php endif; ?>
+        </dt>
+        <?php if ($showPlaceholder): ?>
+            <dd class="value placeholder" lang="<?php echo $escape($shortLang); ?>">
+                <span class="value-content"><?php echo $escape($placeholderText); ?></span>
+            </dd>
+        <?php else: ?>
+            <?php foreach ($propertyValues as $value):
+                $valueType = $value->type();
+                $valueLang = $value->lang();
+                $valueAnnotation = $value->valueAnnotation();
+                $class = ['value'];
+                if ('resource' == $valueType || strpos($valueType, 'resource') !== false) {
+                    $class[] = 'resource';
+                    $class[] = $escape($value->valueResource()->resourceName());
+                } elseif ('uri' == $valueType) {
+                    $class[] = 'uri';
+                }
+                ?>
+                <dd class="<?php echo implode(' ', $class); ?>" lang="<?php echo $escape($valueLang); ?>">
+                    <?php if ($showLocale && $valueLang) : ?>
+                        <span class="language"><?php echo $valueLang; ?></span>
+                    <?php endif; ?>
+                    <span class="value-content"><?php echo $value->asHtml(); ?></span>
+                    <?php if(!$value->isPublic()) : ?>
+                        <span class="o-icon-private" aria-role="tooltip" title="<?php echo $this->escapeHtml($translate('Private')); ?>" aria-label="<?php echo $this->escapeHtml($translate('Private')); ?>"></span>
+                    <?php endif; ?>
+                    <?php if ($valueAnnotation && $showValueAnnotations) : ?>
+                        <div class="annotation-btn">
+                            <span class="has-annotation o-icon-annotation" aria-role="tooltip" title="<?php echo $this->escapeHtml($translate('Has annotation')); ?>" aria-label="<?php echo $this->escapeHtml($translate('Has annotation')); ?>"></span>
+                            <div class="annotation-tooltip">
+                                <div class="annotation-tooltip__wrapper">
+                                    <h6 class="annotation-tooltip__heading"><?php echo $this->escapeHtml($translate('Value Annotations')); ?></h6>
+                                    <?php echo $valueAnnotation->displayValues(); ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+                    <?php $this->trigger('view.show.value', ['value' => $value]); ?>
+                </dd>
+            <?php endforeach; ?>
+        <?php endif; ?>
+    </div>
+<?php endforeach; ?>
+</dl>

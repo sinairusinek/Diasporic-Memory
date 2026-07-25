@@ -1,0 +1,106 @@
+<?php
+/**
+ * Family Collection (resource_template_id=5) — refined layout.
+ * Variables in scope: $item, $shortLang, $tr(), $pickLocal(), $identifier, $escape, $escAttr
+ */
+
+$title = $pickLocal($item, 'dcterms:title', false) ?: $tr('family_collection');
+
+// hasPart values: list of folder items (from dcterms:hasPart or ric-o:hasPart)
+$folderResources = [];
+foreach (['dcterms:hasPart', 'ric-o:hasPart'] as $term) {
+    $vals = $item->value($term, ['all' => true, 'default' => []]);
+    foreach ($vals as $v) {
+        if ($v->type() === 'resource' || strpos($v->type(), 'resource') !== false) {
+            $vr = $v->valueResource();
+            if ($vr) $folderResources[$vr->id()] = $vr;
+        }
+    }
+}
+
+// Themes from packaged JSON, keyed by G-F-NNNN suffix.
+$themes = [];
+if ($identifier && preg_match('/G-F-(\d+)$/', $identifier, $m)) {
+    $fid = 'G-F-' . $m[1];
+    $themesPath = $this->resolver('omeka/site/item/show.phtml');  // theme path
+    $jsonPath = OMEKA_PATH . '/themes/LivelyTrilingual/data/themes.json';
+    if (file_exists($jsonPath)) {
+        $allThemes = json_decode((string) file_get_contents($jsonPath), true) ?: [];
+        $themes = $allThemes[$fid] ?? [];
+    }
+}
+
+// Catalogue facts to surface in the sidebar.
+$dateRange = $pickLocal($item, 'ric-o:hasCreationDate', false)
+          ?: $pickLocal($item, 'dcterms:date', false)
+          ?: $pickLocal($item, 'dcterms:created', false);
+$source = $pickLocal($item, 'dcterms:source', false);
+$languages = $pickLocal($item, 'dcterms:language', false)
+          ?: $pickLocal($item, 'ric-o:hasOrHadLanguage', false);
+
+$folderCount = count($folderResources);
+?>
+
+<section class="tr-hero">
+    <h1><?= $escape($title) ?></h1>
+    <div class="tr-meta">
+        <?= $escape($tr('family_collection')) ?>
+        <?php if ($folderCount): ?> · <?= $folderCount ?> <?= $escape($tr('folders')) ?><?php endif; ?>
+        <?php if ($dateRange): ?> · <?= $escape($dateRange) ?><?php endif; ?>
+    </div>
+</section>
+
+<?php if ($themes): ?>
+<section class="tr-themes">
+    <h4><?= $escape($tr('themes_in_collection')) ?></h4>
+    <div class="tr-chips">
+        <?php foreach ($themes as $t): ?>
+            <span class="tr-chip"><?= $escape($t[$shortLang] ?? $t['en'] ?? $t['he']) ?></span>
+        <?php endforeach; ?>
+    </div>
+</section>
+<?php endif; ?>
+
+<div class="tr-with-sidebar">
+    <div class="tr-main">
+        <?php if ($folderResources): ?>
+        <h2 class="tr-section-heading"><?= $escape($tr('folders_in_collection')) ?></h2>
+        <div class="tr-folder-list">
+            <?php foreach ($folderResources as $folder): ?>
+                <?php
+                $fIdent = $pickLocal($folder, 'dcterms:identifier', false) ?: '';
+                $fShort = preg_match('/G-F-(.+)$/', $fIdent, $mm) ? $mm[1] : $fIdent;
+                $fTitle = $pickLocal($folder, 'dcterms:title');
+                $fDesc  = $pickLocal($folder, 'dcterms:description', false);
+                ?>
+                <div class="tr-folder-row">
+                    <div class="tr-folder-num"><?= $escape($fShort) ?></div>
+                    <div class="tr-folder-titlewrap">
+                        <a class="tr-folder-title" href="<?= $escAttr($folder->url()) ?>"><?= $escape($fTitle) ?></a>
+                        <?php if ($fDesc): ?>
+                            <div class="tr-folder-desc"><?= $escape(mb_substr($fDesc, 0, 200)) ?><?= mb_strlen($fDesc) > 200 ? '…' : '' ?></div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+        <?php endif; ?>
+    </div>
+
+    <aside class="tr-sidebar">
+        <h4><?= $escape($tr('catalogue_info')) ?></h4>
+        <dl>
+            <?php if ($identifier): ?><dt><?= $escape($tr('identifier')) ?></dt><dd><?= $escape($identifier) ?></dd><?php endif; ?>
+            <?php if ($dateRange): ?><dt><?= $escape($tr('date_range')) ?></dt><dd><?= $escape($dateRange) ?></dd><?php endif; ?>
+            <?php if ($languages): ?><dt><?= $escape($tr('languages')) ?></dt><dd><?= $escape($languages) ?></dd><?php endif; ?>
+            <?php if ($source): ?>
+                <dt><?= $escape($tr('source')) ?></dt>
+                <dd><?php if (filter_var($source, FILTER_VALIDATE_URL)): ?>
+                    <a href="<?= $escAttr($source) ?>" target="_blank" rel="noopener"><?= $escape(parse_url($source, PHP_URL_HOST) ?: $source) ?></a>
+                <?php else: ?>
+                    <?= $escape($source) ?>
+                <?php endif; ?></dd>
+            <?php endif; ?>
+        </dl>
+    </aside>
+</div>

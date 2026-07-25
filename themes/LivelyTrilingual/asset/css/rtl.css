@@ -1,0 +1,44 @@
+/* LivelyTrilingual — RTL overrides for Hebrew.
+ * Loaded conditionally by layout.phtml when lang === 'he'.
+ * Goal: keep Lively's grid intact but flip directionality. */
+
+body.lang-he {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Flip the main grid for RTL */
+body.lang-he .container,
+body.lang-he .row,
+body.lang-he main {
+  direction: rtl;
+}
+
+/* Logo + nav: switch sides */
+body.lang-he header .logo { float: right; margin-left: 1rem; margin-right: 0; }
+body.lang-he header nav { float: left; }
+
+/* Forms */
+body.lang-he input, body.lang-he textarea, body.lang-he select { text-align: right; }
+
+/* Lists */
+body.lang-he ul, body.lang-he ol { padding-right: 1.25rem; padding-left: 0; }
+
+/* Language switcher: keep buttons in source order in both modes */
+.lang-switcher ul { display: flex; gap: 0.5rem; list-style: none; padding: 0; margin: 0; }
+.lang-switcher li { padding: 0; }
+.lang-switcher a {
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid currentColor;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  opacity: 0.6;
+}
+.lang-switcher a.active { opacity: 1; font-weight: 700; }
+
+/* Placeholder styling */
+.value.placeholder {
+  font-style: italic;
+  color: #888;
+}

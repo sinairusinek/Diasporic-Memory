@@ -1,0 +1,145 @@
+<?php
+/**
+ * Single item (any document template) — refined layout.
+ * Variables in scope: $item, $shortLang, $tr(), $pickLocal(), $identifier, $escape, $escAttr, $T
+ */
+
+$title = $pickLocal($item, 'dcterms:title') ?: '';
+$desc  = $pickLocal($item, 'ric-o:generalDescription') ?: $pickLocal($item, 'dcterms:description');
+$date    = $pickLocal($item, 'ric-o:hasCreationDate', false) ?: $pickLocal($item, 'dcterms:date', false);
+$place   = $pickLocal($item, 'ric-o:hasOrHadMainSubject', false);
+$format  = $pickLocal($item, 'dcterms:format', false);
+$languages = $pickLocal($item, 'dcterms:language', false);
+$tplLabel = $item->resourceTemplate() ? $item->resourceTemplate()->label() : '';
+
+// Parent folder and collection (derived from identifier prefix)
+$parentFolder = null; $parentCollection = null;
+if ($identifier) {
+    $folderIdent = preg_replace('/-R\d+$/', '', $identifier);
+    if ($folderIdent !== $identifier) {
+        $hits = $this->api()->search('items', [
+            'property' => [['property' => 10, 'type' => 'eq', 'text' => $folderIdent]],
+            'per_page' => 1,
+        ])->getContent();
+        if ($hits) $parentFolder = $hits[0];
+    }
+    $collIdent = preg_replace('/-\d{3}-R\d+$/', '', $identifier);
+    if ($collIdent !== $identifier && $collIdent !== ($folderIdent ?? '')) {
+        $hits = $this->api()->search('items', [
+            'property' => [['property' => 10, 'type' => 'eq', 'text' => $collIdent]],
+            'per_page' => 1,
+        ])->getContent();
+        if ($hits) $parentCollection = $hits[0];
+    }
+}
+
+// Sibling items within the same folder
+$prev = $next = null; $position = 0; $totalItems = 0;
+if ($identifier && $parentFolder) {
+    $folderIdent = $pickLocal($parentFolder, 'dcterms:identifier', false);
+    if ($folderIdent) {
+        $sibs = $this->api()->search('items', [
+            'property' => [['property' => 10, 'type' => 'sw', 'text' => $folderIdent . '-R']],
+            'per_page' => 200,
+        ])->getContent();
+        usort($sibs, function ($a, $b) use ($pickLocal) {
+            return strcmp($pickLocal($a, 'dcterms:identifier', false) ?: '',
+                          $pickLocal($b, 'dcterms:identifier', false) ?: '');
+        });
+        $totalItems = count($sibs);
+        foreach ($sibs as $i => $s) {
+            if ($s->id() === $item->id()) {
+                $position = $i + 1;
+                $prev = $i > 0 ? $sibs[$i - 1] : null;
+                $next = $i + 1 < count($sibs) ? $sibs[$i + 1] : null;
+                break;
+            }
+        }
+    }
+}
+
+// Subject chips (multiple values)
+$subjects = [];
+foreach (['ric-o:hasOrHadSubject', 'dcterms:subject', 'ric-o:hasOrHadMainSubject'] as $term) {
+    $vals = $item->value($term, ['all' => true, 'default' => []]);
+    foreach ($vals as $v) {
+        $vl = (string) $v->lang();
+        if ($vl === '' || strcasecmp(substr($vl, 0, 2), $shortLang) === 0) {
+            $subjects[] = (string) $v->value();
+        }
+    }
+}
+$subjects = array_values(array_unique(array_filter($subjects)));
+?>
+
+<section class="tr-hero">
+    <h1><?= $escape($title) ?></h1>
+    <div class="tr-meta">
+        <?php if ($tplLabel): ?><?= $escape($tplLabel) ?><?php endif; ?>
+        <?php if ($date): ?> · <?= $escape($date) ?><?php endif; ?>
+        <?php if ($format): ?> · <?= $escape($format) ?><?php endif; ?>
+        <?php if ($languages): ?> · <?= $escape($languages) ?><?php endif; ?>
+    </div>
+</section>
+
+<div class="tr-item-layout">
+    <div class="tr-item-body">
+        <?php if ($desc): ?>
+            <div class="tr-item-description">
+                <?php foreach (preg_split('/\n\s*\n/', $desc) as $para): ?>
+                    <p><?= nl2br($escape(trim($para))) ?></p>
+                <?php endforeach; ?>
+            </div>
+        <?php else: ?>
+            <p class="tr-no-desc"><?= $escape($tr('no_description')) ?></p>
+        <?php endif; ?>
+    </div>
+
+    <aside class="tr-item-side">
+        <h4><?= $escape($tr('catalogue_facts')) ?></h4>
+        <?php if ($date): ?><div class="tr-fact"><span class="tr-lbl"><?= $escape($tr('date')) ?></span><?= $escape($date) ?></div><?php endif; ?>
+        <?php if ($place): ?><div class="tr-fact"><span class="tr-lbl"><?= $escape($tr('subject')) ?></span><?= $escape($place) ?></div><?php endif; ?>
+        <?php if ($format): ?><div class="tr-fact"><span class="tr-lbl"><?= $escape($tr('format')) ?></span><?= $escape($format) ?></div><?php endif; ?>
+        <?php if ($languages): ?><div class="tr-fact"><span class="tr-lbl"><?= $escape($tr('languages')) ?></span><?= $escape($languages) ?></div><?php endif; ?>
+        <?php if ($identifier): ?><div class="tr-fact"><span class="tr-lbl"><?= $escape($tr('identifier')) ?></span><span class="tr-mono"><?= $escape($identifier) ?></span></div><?php endif; ?>
+
+        <?php if ($subjects): ?>
+            <h4><?= $escape($tr('subject')) ?></h4>
+            <div>
+                <?php foreach ($subjects as $s): ?>
+                    <span class="tr-tag"><?= $escape($s) ?></span>
+                <?php endforeach; ?>
+            </div>
+        <?php endif; ?>
+
+        <?php if ($parentFolder || $parentCollection): ?>
+            <h4><?= $escape($tr('part_of')) ?></h4>
+            <?php if ($parentFolder): ?>
+                <div class="tr-fact"><a href="<?= $escAttr($parentFolder->url()) ?>"><?= $escape($pickLocal($parentFolder, 'dcterms:title') ?: '') ?></a></div>
+            <?php endif; ?>
+            <?php if ($parentCollection): ?>
+                <div class="tr-fact"><a href="<?= $escAttr($parentCollection->url()) ?>"><?= $escape($pickLocal($parentCollection, 'dcterms:title') ?: '') ?></a></div>
+            <?php endif; ?>
+        <?php endif; ?>
+    </aside>
+</div>
+
+<?php if ($prev || $next): ?>
+<div class="tr-sibling-nav">
+    <div class="tr-sib-prev">
+        <?php if ($prev): ?>
+            <a href="<?= $escAttr($prev->url()) ?>">← <?= $escape($pickLocal($prev, 'dcterms:title') ?: '') ?></a>
+        <?php endif; ?>
+    </div>
+    <div class="tr-sib-center">
+        <?php if ($position && $totalItems): ?>
+            <?= $escape(sprintf($tr('item_of'), $position, $totalItems)) ?>
+        <?php endif; ?>
+    </div>
+    <div class="tr-sib-next">
+        <?php if ($next): ?>
+            <a href="<?= $escAttr($next->url()) ?>"><?= $escape($pickLocal($next, 'dcterms:title') ?: '') ?> →</a>
+        <?php endif; ?>
+    </div>
+</div>
+<?php endif; ?>

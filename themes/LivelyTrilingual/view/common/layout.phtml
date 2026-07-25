@@ -1,0 +1,67 @@
+<?php
+/**
+ * LivelyTrilingual — patched layout.phtml.
+ *
+ * On TOP of Lively's existing layout.phtml, this file:
+ *   1. Resolves the current locale (?lang= override, else cookie, else 'en').
+ *   2. Sets <html lang> and dir for RTL languages.
+ *   3. Conditionally loads asset/css/rtl.css for Hebrew.
+ *   4. Includes the language switcher partial in both header and footer slots.
+ *
+ * When you set up the fork on the server, replace Lively's layout.phtml with
+ * this one — keeping the rest of Lively's layout markup intact (copy the
+ * <header> and <footer> content from Lively unchanged into the marked slots).
+ */
+
+// 1. Resolve locale.
+$lang = $this->params()->fromQuery('lang');
+if (!$lang && isset($_COOKIE['site_lang'])) {
+    $lang = $_COOKIE['site_lang'];
+}
+$allowed = ['en', 'de', 'he'];
+if (!in_array($lang, $allowed, true)) {
+    $lang = 'en';
+}
+if (($_COOKIE['site_lang'] ?? null) !== $lang) {
+    setcookie('site_lang', $lang, time() + 86400 * 365, '/');
+}
+
+// 2. Make available to other view templates.
+$this->vars()->lang = $lang;
+$this->layout()->lang = $lang;
+
+// 3. RTL handling.
+$htmlDir = ($lang === 'he') ? 'rtl' : 'ltr';
+
+// 4. Tell Omeka core to switch locale for translate().
+$this->plugin('translate')->getTranslator()->setLocale($lang);
+
+?>
+<!DOCTYPE html>
+<html lang="<?= $this->escapeHtmlAttr($lang) ?>" dir="<?= $this->escapeHtmlAttr($htmlDir) ?>">
+<head>
+    <?= $this->headTitle() ?>
+    <?= $this->headMeta() ?>
+    <?= $this->headLink() ?>
+    <?= $this->headStyle() ?>
+    <?= $this->headScript() ?>
+    <?php if ($lang === 'he'): ?>
+    <link rel="stylesheet" href="<?= $this->assetUrl('css/rtl.css') ?>">
+    <?php endif; ?>
+</head>
+<body class="lang-<?= $this->escapeHtmlAttr($lang) ?>">
+<header>
+    <?php /* TODO: paste Lively's existing <header> markup here unchanged */ ?>
+    <?= $this->partial('common/lang-switcher.phtml', ['lang' => $lang, 'placement' => 'header']) ?>
+</header>
+
+<main>
+    <?= $this->content ?>
+</main>
+
+<footer>
+    <?php /* TODO: paste Lively's existing <footer> markup here unchanged */ ?>
+    <?= $this->partial('common/lang-switcher.phtml', ['lang' => $lang, 'placement' => 'footer']) ?>
+</footer>
+</body>
+</html>
