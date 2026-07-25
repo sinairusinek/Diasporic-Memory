@@ -1,0 +1,2664 @@
+{
+  "A": [
+    {
+      "id": 4471,
+      "title": "Jüdischer Almanach. Die Jeckes",
+      "creators": [
+        "Gisela Dachs",
+        "Micha Bar-Am"
+      ],
+      "date": "2005-09-19",
+      "lang": "German",
+      "publisher": "Frankfurt am Main Jüdischer Verlag im Suhrkamp Verlag",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4472,
+      "title": "Jeckes erzählen: Aus dem Leben deutschsprachiger Einwanderer in Israel",
+      "creators": [
+        "Shlomo Erel"
+      ],
+      "date": "2004",
+      "lang": "German",
+      "publisher": "Wien LIT",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4476,
+      "title": "Auf nach Jerusalem, dem Himmel so nah: Templer und Jeckes im Heiligen Land",
+      "creators": [
+        "Hans Hermann Cordes"
+      ],
+      "date": "2018",
+      "lang": "ger",
+      "publisher": "Leipzig Engelsdorfer Verlag",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4479,
+      "title": "Israels fleißige Jeckes: Zwölf Unternehmerportraits deutschsprachiger Juden aus Nahariya",
+      "creators": [
+        "Klaus Kreppel",
+        "Paul Spiegel"
+      ],
+      "date": "2002-01-01",
+      "lang": "",
+      "publisher": "Westfalen, Bielefeld",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4481,
+      "title": "Zwischen allen Bühnen: Die Jeckes und das hebräische Theater 1933–1948",
+      "creators": [
+        "Thomas Lewy"
+      ],
+      "date": "2016-09-29",
+      "lang": "Englisch",
+      "publisher": "Berlin Neofelis",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4486,
+      "title": "Zweimal Heimat: Die Jeckes zwischen Mitteleuropa und Nahost",
+      "creators": [
+        "Moshe Zimmermann",
+        "Yotam Hotam"
+      ],
+      "date": "2005-08-04",
+      "lang": "Deutsch",
+      "publisher": "Frankfurt am Main beerenverlag",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4497,
+      "title": "Jeckes die deutschsprachigen Juden in Israel",
+      "creators": [
+        "Sarah, Stiftung Neue Synagoge Berlin - Centrum Iudaicum Kuznicki"
+      ],
+      "date": "2008",
+      "lang": "German",
+      "publisher": "Berlin",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4499,
+      "title": "Kunstpioniere in Eretz Israel die Geschichte des Bildhauers Rudi Lehmann und der Keramikerin Hedwig Grossmann ; [Begleitband zur Ausstellung Jeckes. Die Deutschsprachigen Juden in Israel ; eine Ausstellung des Museums der Deutschsprachigen Juden - Kulturzentrum der Jeckes, Tefen/Israel und der Stiftung Neue Synagoge Berlin - Centrum Judaicum ; 14. September bis 31. Dezember 2008, Stiftung Neue Synagoge Berlin - Centrum Judaicum",
+      "creators": [
+        "Helga, Schütz, Chana, Lehmann, Rudi, Museum der Deutschsprachigen Juden, Stiftung Neue Synagoge Berlin - Centrum Iudaicum, Ausstellung Jeckes. Die Deutschsprachigen Juden in Israel Keller"
+      ],
+      "date": "2008",
+      "lang": "German",
+      "publisher": "",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4500,
+      "title": "Jeckes",
+      "creators": [
+        "Anat, Brill Feinberg"
+      ],
+      "date": "2016",
+      "lang": "English",
+      "publisher": "",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4503,
+      "title": "Sprachheimat vs. Familiensprache: die Transformation der deutschen Sprache von der 1. zur 2. Generation der Jeckes.",
+      "creators": [
+        "Anne Betten"
+      ],
+      "date": "2011",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4504,
+      "title": "Kontingenz und Visualität im israelischen Film: die Jeckes und was bleibt...",
+      "creators": [
+        "Frank Stern"
+      ],
+      "date": "2016",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4506,
+      "title": "\"Die Jeckes\" - ein Klischee und Faszinosum neu verhandelt: Plädoyer für ein vielfarbiges Mosaik.",
+      "creators": [
+        "Anja Siegemund"
+      ],
+      "date": "2015",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4507,
+      "title": "Nie gehörten wir zum inneren Kreis: über die \"Jeckes\", die deutschen Juden in Israel.",
+      "creators": [
+        "Henri Zoller"
+      ],
+      "date": "1992",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4510,
+      "title": "Die Jeckes: wie wird man ein neuer Mensch (und ist das eine gute Idee)?.",
+      "creators": [
+        "Joachim Schlör"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4511,
+      "title": "Die Sprachinsel der Jeckes.",
+      "creators": [
+        "Anne Betten"
+      ],
+      "date": "2007",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4512,
+      "title": "\"Jeckes\" in Israel.",
+      "creators": [
+        "Katharina Hoba"
+      ],
+      "date": "2005",
+      "lang": "eng",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4513,
+      "title": "Jeckes - Ursprung und Wandel einer Zuschreibung.",
+      "creators": [
+        "Dan Diner"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4514,
+      "title": "Die Jeckes.",
+      "creators": [
+        "Gidʻon Graif"
+      ],
+      "date": "2006",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4515,
+      "title": "(Rück-)Blicke auf die Jeckes.",
+      "creators": [
+        "Anja Siegemund"
+      ],
+      "date": "2015",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4516,
+      "title": "Abbild oder Zerrbild?: die Darstellung der Jeckes in der hebräischen Literatur.",
+      "creators": [
+        "Anat Feinberg"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4517,
+      "title": "Exilanten, Flüchtlinge, Migranten und Einwanderer: Jeckes im palästinischen Theater.",
+      "creators": [
+        "Tom Lewy"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4518,
+      "title": "Wienerisch versus Burgtheaterdeutsch: soziolinguistische Überlegungen zur Sprache der österreichischen Jeckes.",
+      "creators": [
+        "Maria Gierlinger"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4519,
+      "title": "Jeckes im Dienst des israelischen Außenministeriums.",
+      "creators": [
+        "Yissakhar Ben-Yaacov"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4520,
+      "title": "Jeckes in der DDR.",
+      "creators": [
+        "Anetta Kahane"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4526,
+      "title": "Die \"Jeckes\" in Israel. Der Beitrag der deutschsprachigen Einwanderer zum Aufbau Israels",
+      "creators": [],
+      "date": "1995",
+      "lang": "",
+      "publisher": "Bonn Deutsch-Israelische Gesellschaft, Arbeitsgemeinschaft Bonn",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4555,
+      "title": "Der \"Orient\": Exil der letzten Europäer.",
+      "creators": [
+        "Adi Gordon"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4559,
+      "title": "Siegfried Moses: der Jecke vom Dienst.",
+      "creators": [
+        "Rachel Heuberger"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4562,
+      "title": "Der \"Aufbau\" - \"unser aller Tagebuch\".",
+      "creators": [
+        "Tekla Szymanski"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4580,
+      "title": "Die Rolle der Einwanderer aus Mitteleuropa bei der politischen Entscheidung über die \"Wiedergutmachung\".",
+      "creators": [
+        "Yehiʻam Vaits"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4590,
+      "title": "Deutsche Juden vor Hitler.",
+      "creators": [
+        "Amos Elon"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4595,
+      "title": "The (re-)discovery of the \"Yekke\" in Hebrew literature.",
+      "creators": [
+        "Anat Feinberg"
+      ],
+      "date": "2000",
+      "lang": "eng;ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4598,
+      "title": "Akademische Jeckes: Vertriebene deutsch-jüdische Wissenschaftler und ihr Beitrag zur Entwicklung der isralischen Wissenschaften - ein Überblick.",
+      "creators": [
+        "Lothar Mertens"
+      ],
+      "date": "2006",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4668,
+      "title": "מולדת חדשה [מאמר ביקורת] / מרגלית שילה",
+      "creators": [
+        "מרגלית שילה",
+        "Margalit Shilo"
+      ],
+      "date": "1990",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4670,
+      "title": "בעיות חינוך של עולי יהדות תורה עם דרך ארץ [זכרון דברים מהרצאת הרב יחיאל שלזינגר ומדיון בירושלים בשנת תש\"ג]",
+      "creators": [],
+      "date": "1991",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4695,
+      "title": "במבט לאחור מארץ הקודש: יהדות ודפוסי זיכרון יהודים בזכרונותיהם של יוצאי גרמניה בישראל / גיא מירון",
+      "creators": [
+        "גיא מירון",
+        "Gai Miron"
+      ],
+      "date": "2003",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4706,
+      "title": "Jerusalem wird verkauft, oder, Gold auf der Strasse: ein Tatsachenroman (Tagebuch 1917) / M.Y. Ben-Gavriêl (Eugen Hoeflich) ; herausgegeben und mit einem Nachwort von Sebastian Schirrmeister.",
+      "creators": [
+        "M. Y. Ben-Gavriêl",
+        "Sebastian Schirrmeister"
+      ],
+      "date": "2016",
+      "lang": "ger",
+      "publisher": "Wuppertal Arco",
+      "type": "bibo:Book"
+    }
+  ],
+  "B": [
+    {
+      "id": 4473,
+      "title": "On the Point of Return: Heute und Morgen and the German-speaking Left-wing Émigrés in Palestine",
+      "creators": [
+        "Yonatan Shiloh Dayan",
+        "Bettina Bannasch",
+        "Michael Rupp"
+      ],
+      "date": "2018",
+      "lang": "en",
+      "publisher": "Göttingen V&R unipress GmbH",
+      "type": "bibo:BookSection"
+    },
+    {
+      "id": 4477,
+      "title": "Fremde im neuen Land: deutsche Juden in Palästina und ihr Blick auf Deutschland nach 1945",
+      "creators": [
+        "Klaus Hillenbrand"
+      ],
+      "date": "2015",
+      "lang": "",
+      "publisher": "Frankfurt am Main S. Fischer",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4483,
+      "title": "German Jews in Palestine, 1920-1948: Between Dream and Reality",
+      "creators": [
+        "Claudia Sonino"
+      ],
+      "date": "2016",
+      "lang": "English",
+      "publisher": "",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4488,
+      "title": "The Creation of the German-Jewish Diaspora: Interwar German-Jewish Immigration to Palestine, the USA, and England",
+      "creators": [
+        "Hagit Hadassa Lavsky"
+      ],
+      "date": "2017-01-11",
+      "lang": "en",
+      "publisher": "De Gruyter Oldenbourg",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4505,
+      "title": "Die Jeckes: Emigration nach Palästina, Einwanderung ins Land Israel.",
+      "creators": [
+        "Katharina Hoba",
+        "Joachim Schlör"
+      ],
+      "date": "2006",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4508,
+      "title": "Jeckes in Palästina/Israel: Versuch einer Männlichkeitsgeschichte.",
+      "creators": [
+        "Patrick Farges"
+      ],
+      "date": "2014",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4509,
+      "title": "Der Ort der Jeckes in der Literatur von Palästina/Israel: über Else Lasker-Schüler und Ludwig Strauß.",
+      "creators": [
+        "Itta Shedletzky"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4596,
+      "title": "Nahrung für \"Muskeljuden\" ?: Konsum, Küche und Geschlechterverhältnisse am Beispiel der deutschsprachigen Juden [Jeckes] in Palästina/Israel.",
+      "creators": [
+        "Patrick Farges"
+      ],
+      "date": "2018",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4597,
+      "title": "\"Israels fleißige Jeckes\": der deutsch-jüdische Einwanderer als wirtschaftlicher Pionier und erfolgreicher Entrepreneur in Palästina/Israel.",
+      "creators": [
+        "Patrick Farges"
+      ],
+      "date": "2015",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4604,
+      "title": "Pioneers, Losers, Whites Collars: Narratives of Masculinity Among German-Speaking Jews in Palestine/Israel / Patrick Farges",
+      "creators": [
+        "Patrick Farges"
+      ],
+      "date": "2018",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    }
+  ],
+  "C": [
+    {
+      "id": 4467,
+      "title": "Stimmen aus Jerusalem: zur deutschen Sprache und Literatur in Palästina/Israel",
+      "creators": [
+        "Hermann Zabel"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "Berlin; Münster",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4468,
+      "title": "יקים: גלגוליו של כינוי.",
+      "creators": [
+        "דן דינר"
+      ],
+      "date": "2006",
+      "lang": "heb",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4469,
+      "title": "הגירה, פליטות ועוני כגורם מעצב בחייהם וביצירתם של שלושה מחזאים יקים בארץ-ישראל: סמי גרונמן, מקס צוויג ומרטין רוסט.",
+      "creators": [
+        "תום לוי"
+      ],
+      "date": "2015",
+      "lang": "heb",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4470,
+      "title": "תרומת ה\"יקים\" בהעברת גישה חדשה להוראת האמנות בבתי ספר בארץ.",
+      "creators": [
+        "מירי שטיינהרדט"
+      ],
+      "date": "2009",
+      "lang": "heb",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4474,
+      "title": "Aber die Sprache bleibt: Begegnungen mit deutschsprachigen Juden in Israel",
+      "creators": [
+        "Salean A. Maiwald"
+      ],
+      "date": "1 May 2008",
+      "lang": "Alemán",
+      "publisher": "Berlin",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4475,
+      "title": "Deutschsprachige Filme als Kulturinsel: Zur kulturellen Integration der deutschsprachigen Juden in Palästina 1933-1945",
+      "creators": [
+        "Ulrike Heikaus"
+      ],
+      "date": "2009-11-01",
+      "lang": "German",
+      "publisher": "Potsdam Universitätsverlag Potsdam",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4478,
+      "title": "Generation im Übergang: Beheimatungsprozesse deutscher Juden in Israel",
+      "creators": [
+        "Katharina Hoba"
+      ],
+      "date": "2017",
+      "lang": "de",
+      "publisher": "Böhlau Verlag Köln Weimar",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4484,
+      "title": "German Jerusalem: The Remarkable Life of a German-Jewish Neighborhood in the Holy City",
+      "creators": [
+        "Thomas Sparr"
+      ],
+      "date": "30 יוני 2021",
+      "lang": "",
+      "publisher": "London",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4485,
+      "title": "Flucht nach Palästina: Lebenswege Nürnberger Juden",
+      "creators": [
+        "Peter Zinke"
+      ],
+      "date": "2003-11-01",
+      "lang": "Deutsch",
+      "publisher": "Nürnberg ANTOGO",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4496,
+      "title": "״דוקטור מול דוקטור גר״: שכונת רחביה בירושלים : הסטוריה, הווי, מסלולי סיור",
+      "creators": [
+        "אמנון רמון"
+      ],
+      "date": "1998",
+      "lang": "Hebrew",
+      "publisher": "ירושלים הוצאת יד יצחק בן צבי",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4501,
+      "title": "Nahariyya und die deutsche Einwanderung nach Eretz Israel: die Geschichte seiner Einwohner von 1935 bis 1941",
+      "creators": [
+        "Klaus Kreppel",
+        "Andreas Meyer",
+        "Michael Dror-Dreyer",
+        "Klaus, Muzeʼon ha-patuaḥ (Tefen, Israel), Muzeʼon le-Yahadut doveret Germanit (Tefen, Israel) Kreppel"
+      ],
+      "date": "2010",
+      "lang": "German",
+      "publisher": "",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4521,
+      "title": "ה'יקים' בשדה המשפט ודפוסים של תרבות בורגנית בתקופת המנדט.",
+      "creators": [
+        "רקפת סלע-שפי"
+      ],
+      "date": "2003",
+      "lang": "heb",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4522,
+      "title": "גולים, פליטים, מהגרים ועולים יקים בתאטרון הארץ ישראלי.",
+      "creators": [
+        "תום לוי"
+      ],
+      "date": "2006",
+      "lang": "heb",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4523,
+      "title": "צלמים יקים והתפתחות הצילום בארץ.",
+      "creators": [
+        "מיכה בר עם"
+      ],
+      "date": "2006",
+      "lang": "heb",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4524,
+      "title": "Heimisch werden - Lebenswege deutscher Juden in Palästina",
+      "creators": [
+        "Gabriele Koppel"
+      ],
+      "date": "2000",
+      "lang": "",
+      "publisher": "Hamburg Europäische Verlagsanstalt",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4525,
+      "title": "Sprachbewahrung nach der Emigration - das Deutsch der 20er Jahre in Israel / Transkripte und Tondokumente",
+      "creators": [
+        "Betten"
+      ],
+      "date": "2011",
+      "lang": "en-DE",
+      "publisher": "",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4527,
+      "title": "Deutsche Sprachkultur in Palästina/Israel: Geschichte und Bibliographie",
+      "creators": [
+        "Andreas Kilcher",
+        "Eva Edelmann-Ohler"
+      ],
+      "date": "2016-12-19",
+      "lang": "de",
+      "publisher": "De Gruyter Oldenbourg",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4529,
+      "title": "נהריה מושבת ה'יקים': סיפור דור המייסדים 1941-1935",
+      "creators": [
+        "קלאוס קרפל"
+      ],
+      "date": "2011",
+      "lang": "",
+      "publisher": "תפן המוזיאון הפתוח, גן התעשייה",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4530,
+      "title": "נהריה - כפר הייקים: יסוד המושבה לבני המעמד הבינוני מבין עולי גרמניה בארץ ישראל, 1935-1934",
+      "creators": [
+        "קלאוס קרפל"
+      ],
+      "date": "2005",
+      "lang": "he",
+      "publisher": "תפן המוזיאון הפתוח, גן התעשייה",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4531,
+      "title": "בין המולדות: היקים במחוזותיהם",
+      "creators": [
+        "משה צימרמן",
+        "יותם חותם"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "ירושלים מרכז זלמן שזר לתולדות ישראל",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4532,
+      "title": "מילון בן יהודה שטראסה: ייקית מדוברת בארץ ישראל",
+      "creators": [],
+      "date": "2012",
+      "lang": "",
+      "publisher": "תל אביב ידיעות אחרונות",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4533,
+      "title": "מהגרים או פליטים?: עיון בדפוסי ההגירה בין שתי מלחמות העולם",
+      "creators": [
+        "דורון נידרלנדר"
+      ],
+      "date": "1996",
+      "lang": "",
+      "publisher": "ירושלים מאגנס",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4534,
+      "title": "מ'שם' ל'כאן' בגוף ראשון : זיכרונותיהם של יוצאי גרמניה בישראל",
+      "creators": [
+        "גיא מירון"
+      ],
+      "date": "2004",
+      "lang": "",
+      "publisher": "ירושלים מאגנס",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4535,
+      "title": "היקים",
+      "creators": [
+        "אנדריאס מאייר"
+      ],
+      "date": "2010",
+      "lang": "",
+      "publisher": "נהריה נוגה",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4536,
+      "title": "היקים והתיאטרון העברי: במאבק בין מזרח למערב אירופה",
+      "creators": [
+        "תום לוי"
+      ],
+      "date": "2016",
+      "lang": "",
+      "publisher": "תל אביב רסלינג",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4537,
+      "title": "Sprachbewahrung nach der Emigration",
+      "creators": [
+        "Anne Betten",
+        "Miriam Du-nour",
+        "Monika Dannerer"
+      ],
+      "date": "2000",
+      "lang": "en",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4538,
+      "title": "יקים וטמפלרים: עקבות גרמניים במטרופולין ישראלית",
+      "creators": [
+        "גיל ירון"
+      ],
+      "date": "2010",
+      "lang": "ar",
+      "publisher": "",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4539,
+      "title": "יהודים דוברי גרמנית בארץ-ישראל בספרים עבריים: בפרסומים עיונים וספרותיים",
+      "creators": [
+        "אסתר יפתח-אל"
+      ],
+      "date": "2003",
+      "lang": "",
+      "publisher": "מצובה",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4541,
+      "title": "זכרונות של יקה",
+      "creators": [
+        "סמי גרונימן"
+      ],
+      "date": "1946",
+      "lang": "",
+      "publisher": "תל אביב עם עובד",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4542,
+      "title": "בפלסטינה, בנכר: השבועון אוריינט בין \"גלות גרמנית\" ל\"עלייה ייקית\"",
+      "creators": [
+        "עדי גורדון"
+      ],
+      "date": "2004",
+      "lang": "",
+      "publisher": "ירושלים מאגנס",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4543,
+      "title": "היקים / חמישים שנות עליית דוברי גרמנית",
+      "creators": [
+        "שלמה אראל"
+      ],
+      "date": "תשמ״ו",
+      "lang": "",
+      "publisher": "ירושלים ר. מס",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4544,
+      "title": "המוזיאון ליהדות דוברת גרמנית – מרכז מורשת הייקים",
+      "creators": [
+        "רותי אופק"
+      ],
+      "date": "2011",
+      "lang": "",
+      "publisher": "תפן המוזיאון הפתוח, גן התעשייה",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4545,
+      "title": "‏מ״שם״ ל״כאן״ בגוף ראשון :‏ ‏זיכרונותיהם של יוצאי גרמניה בישראל /‏",
+      "creators": [
+        "Gai Miron"
+      ],
+      "date": "2004",
+      "lang": "",
+      "publisher": "Yerushalayim ‏ירושלים :‏ ‏המרכז להיסטוריה גרמנית ע״ש ר׳ קבנר, האוניברסיטה העברית בירושלים :‏ ‏הוצאת ספרים ע״ש י״ל מאגנס, האוניברסיטה העברית,‏ ‏2004.",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4546,
+      "title": "'Be-Falesṭinah. ba-nekhar': ha-shavuʻon 'Oryenṭ' ben 'galut Germanit' le-'ʻaliyah Yeḳit'",
+      "creators": [
+        "Adi Gordon"
+      ],
+      "date": "2004",
+      "lang": "",
+      "publisher": "Yerushalayim ha-Merkaz le-hisṭoryah Germanit ʻal shem R. Ḳovner,ha-Universiṭah ha-ʻIvrit bi-Yerushalayim ʻal yede Hotsaʼat ha-sefarim ʻal shem Y.L. Magnes, ha-Universiṭah ha-ʻIvrit",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4547,
+      "title": "Willkommen im Gelobten Land?: Deutschstämmige Juden in Israel",
+      "creators": [
+        "Jörg Armbruster"
+      ],
+      "date": "17 Septiembre 2016",
+      "lang": "Alemán",
+      "publisher": "Hamburg",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4548,
+      "title": "Neue Wurzeln: 50 Jahre Immigration deutschsprachiger Juden in Israel",
+      "creators": [
+        "Shlomo Erel"
+      ],
+      "date": "1983",
+      "lang": "German",
+      "publisher": "Gerlingen Bleicher Verlag",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4549,
+      "title": "ראיונות אוטוביוגרפיים עם יקים בישראל: פרויקט שהופקד במדור לתיעוד בעל פה / פרופ' אנה בטן",
+      "creators": [
+        "אנה בטן"
+      ],
+      "date": "2009",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4550,
+      "title": "הגירה, פליטות ועוני כגורם מעצב בחייהם וביצירתם של שלושה מחזאים יקים בארץ-ישראל - סמי גרונמן, מקס צווייג ומרטין רוסט / תום לוי",
+      "creators": [
+        "תום לוי",
+        "Tom Lewy"
+      ],
+      "date": "2015",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4551,
+      "title": "צלמים יקים והתפתחות הצילום בארץ / מיכה בר-עם",
+      "creators": [
+        "מיכה ברעם",
+        "Micha Bar-Am"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4552,
+      "title": "יקים - גלגוליו של כינוי / דן דינר",
+      "creators": [
+        "דן דינר"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4553,
+      "title": "יקים בפוליטיקה ובתקשורת / ארי רט",
+      "creators": [
+        "ארי רט"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4554,
+      "title": "יקים שלי / בן ציון אורגד",
+      "creators": [
+        "בן-ציון אורגד"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4556,
+      "title": "Deutsch-jüdische Forschungsinseln: die Leo Baeck Institute in Jerusalem, London und New York.",
+      "creators": [
+        "Avraham Barkai"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4557,
+      "title": "The secret German sources of the Israeli Supreme Court.",
+      "creators": [
+        "Fania Oz-Salzberger",
+        "Eli M. Salzberger"
+      ],
+      "date": "1998",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4558,
+      "title": "Heinrich Loewe und die jeckische Bibliophilie.",
+      "creators": [
+        "Joachim Schlör"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4560,
+      "title": "Die \"Nahariyade\".",
+      "creators": [
+        "David Witzthum"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4561,
+      "title": "Lotte Cohn: die erste Architektin im Lande Israel.",
+      "creators": [
+        "Ines Sonder"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4563,
+      "title": "\"Wo es Distanz gibt, entsteht keine Liebe\": Juden und Deutsche vorher und nachher.",
+      "creators": [
+        "Yfaat Weiss"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4564,
+      "title": "Salman Schocken: eine jeckische Heldensaga.",
+      "creators": [
+        "Amos Elon"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4565,
+      "title": "\"Ach, gäbe es doch noch einmal Karpfen wie an der Rehwiese!\".",
+      "creators": [
+        "Tom Segev"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4566,
+      "title": "Die deutsch-jüdischen Komponisten und das musikalische Schaffen in Israel.",
+      "creators": [
+        "Jehoash Hirshberg"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4567,
+      "title": "Berlin - Jerusalem: Kulturhelden.",
+      "creators": [
+        "Gideon Ofrat"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4568,
+      "title": "Das Theater von Sammy Gronemann: Vermittlung zwischen Alt und Neu.",
+      "creators": [
+        "Hanni Mittelmann"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4569,
+      "title": "Die deutsche Kultur und das Kammerie Theater an seinem Anfang.",
+      "creators": [
+        "Leah Gilula"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4570,
+      "title": "Deutsche Einwanderer und die bildende Kunst in der israelischen Gesellschaft.",
+      "creators": [
+        "Nurith Kenaan-Kedar"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4571,
+      "title": "Deutsch-jüdische Fotografen und die visuelle Kultur in Palästina.",
+      "creators": [
+        "Micha Bar-Am"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4572,
+      "title": "Otto Warburg: die Geschichte eines praktischen Zionisten.",
+      "creators": [
+        "Gabriel Warburg"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4573,
+      "title": "Von einer hebräischen Sudiobühne zum Nationaltheater: die Transformation von Habima in Berlin.",
+      "creators": [
+        "Shelly Zer-Zion"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4574,
+      "title": "Erziehung bis zu unseren Tagen: Arthur Biram und die Reali-Schule.",
+      "creators": [
+        "Yuval Dror"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4575,
+      "title": "Deutsch-jüdische Komponisten zwischen Traditionalismus und Modernismus.",
+      "creators": [
+        "Michael Wolpe"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4576,
+      "title": "Rechavia: das \"Jeckenland\" von Jerusalem.",
+      "creators": [
+        "David Kroyanker"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4577,
+      "title": "\"Palästina ist kein Land für alle möglichen Luftzirkusse\": die Geschichte der Hölzernen Truppe von Paul Löwy.",
+      "creators": [
+        "Dorit Yerushalmi"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4578,
+      "title": "Zwischen den Bergen Jerusalems und den Stränden Tel Avivs: die deutsche Kultur und die Ausformung der israelischen Kunst.",
+      "creators": [
+        "Ziva Sternhell"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4579,
+      "title": "Der Volkstanz in Israel: zwei Generationen von Einwanderern aus Deutschland.",
+      "creators": [
+        "Ayala Goren Kadman"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4581,
+      "title": "Entrepreneure: Einwanderer aus Mitteleuropa in der Wirtschaft Palästinas.",
+      "creators": [
+        "Nachum Gross"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4582,
+      "title": "Der Sonderweg des Zionismus in Deutschland.",
+      "creators": [
+        "Avraham Barkai"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4583,
+      "title": "1933 - Das Schlüsseljahr.",
+      "creators": [
+        "Mosche Zimmermann",
+        "Zwi Bachrach"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4584,
+      "title": "Deutsche Presse in hebräischer Sprache: drei Wenden und ihre Bedeutung.",
+      "creators": [
+        "David Witzthum"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4585,
+      "title": "Im Perimeter Europas: über die \"deutsch-jüdische\" israelische Gesellschaft und eine Gegenstrategie.",
+      "creators": [
+        "Yotam Hotam"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4586,
+      "title": "Migration Idee: der \"deutsche Tanz\" in Israel 1921-1954.",
+      "creators": [
+        "Gaby Aldor"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4587,
+      "title": "Der neue Jude und die Körperkultur in Israel.",
+      "creators": [
+        "Haim Kaufmann"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4588,
+      "title": "Musiker und Dirigenten: die Einwanderer aus Mitteleuropa und das Musikleben in Israel.",
+      "creators": [
+        "Michal Smoira"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4589,
+      "title": "Die Besonderheit des deutschen Zionismus.",
+      "creators": [
+        "Hagit Lavsky"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4591,
+      "title": "War Deutschland die Wiege des jüdischen religiösen Pluralismus?.",
+      "creators": [
+        "Mordechai Breuer"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4592,
+      "title": "Bewusste und unbewusste Assimilation.",
+      "creators": [
+        "Mordechai Breuer"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4593,
+      "title": "Von Regisseuren zu Schauspielern: der Weg der deutsch-jüdischen Zionisten in die Emigration.",
+      "creators": [
+        "Gai Miron"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4594,
+      "title": "Waren die deutschen Juden ein Musterbeispiel der Assimilation?.",
+      "creators": [
+        "Shulamit Volkov"
+      ],
+      "date": "2005",
+      "lang": "ger",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4599,
+      "title": "\"בר כוכבא\" ברלין, מאה שנה - סיפור אישי / עדין טלבר",
+      "creators": [
+        "עדין טלבר"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4600,
+      "title": "מפרנקפורט לירושלים - \"הדרך המיוחדת\" של בית הספר \"חורב\" בחינוך הדתי בארץ ישראל / דורון נידרלנד",
+      "creators": [
+        "דורון נידרלנד",
+        "Doron Niederland"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4601,
+      "title": "המלחינים עולי גרמניה והיצירה המוזיקלית בישראל / יהואש הירשברג",
+      "creators": [
+        "יהואש הירשברג",
+        "Jehoash Hirshberg"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4602,
+      "title": "מכונת הדיבור [מאמר ביקורת] / ירון אביטוב",
+      "creators": [
+        "ירון אביטוב"
+      ],
+      "date": "2012",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4603,
+      "title": "תפקידם של אנשי מרכז אירופה בהכרעה הפוליטית על \"השילומים\" / יחיעם וייץ",
+      "creators": [
+        "יחיעם ויץ",
+        "Yehiʻam Vaits"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4605,
+      "title": "דמיינתי שסבא שלי הוא גרמניה / רוביק רוזנטל",
+      "creators": [
+        "רוביק רוזנטל"
+      ],
+      "date": "2011",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4606,
+      "title": "דור לדור מי מכיר, מי יודע? / איילת שלגי",
+      "creators": [
+        "איילת שלגי"
+      ],
+      "date": "2011",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4607,
+      "title": "היהודי החדש ותרבות הגוף בארץ ישראל / חיים קאופמן",
+      "creators": [
+        "חיים קאופמן"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4608,
+      "title": "המחול העממי בישראל - שני דורות של יוצאי ארצות דוברות גרמנית / אילה גורן-קדמן",
+      "creators": [
+        "אילה גרן-קדמן",
+        "Ayala Goren Kadman"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4609,
+      "title": "היקים בשירות החוץ הישראלי / יששכר בן יעקב",
+      "creators": [
+        "יששכר בן -יעקב"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4610,
+      "title": "\"פלשתינה אינה ארץ בשביל מיני קרקסים פורחים באוויר\" - \"להקת העץ\" של פאול לוי / דורית ירושלמי",
+      "creators": [
+        "דורית ירושלמי",
+        "Dorit Yerushalmi"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4611,
+      "title": "מהאינטימי אל ההיסטורי וחזרה: על \"רחוב הפרחים 22\" / רוביק רוזנטל",
+      "creators": [
+        "רוביק רוזנטל"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4612,
+      "title": "אנשי השעון / גלית דהן קרליבך",
+      "creators": [
+        "גלית דהן-קרליבך",
+        "Galit Dahan Carlibach",
+        "רעיה הרניק"
+      ],
+      "date": "2009",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4613,
+      "title": "קו ירדן- RHEIN / אריק שפירא",
+      "creators": [
+        "אריה (מלחין) שפירא"
+      ],
+      "date": "2003",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4614,
+      "title": "מתולדות החינוך לימינו - בירם ו\"הריאלי\" / יובל דרור",
+      "creators": [
+        "יובל דרור",
+        "Yuval Dror"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4615,
+      "title": "המלחינים עולי גרמניה - בין מסורתיות למודרניזם / מיכאל וולפה",
+      "creators": [
+        "מיכאל וולפה",
+        "Michael Wolpe"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4616,
+      "title": "מהיסטוריה לפולקלור: מילון היקים המלא / ציפי מזר",
+      "creators": [
+        "ציפי מזר"
+      ],
+      "date": "2013",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4617,
+      "title": "המוזיקאים המבצעים - יוצאי מרכז אירופה וחיי המוזיקה בארץ ישראל / מיכל זמורה-כהן",
+      "creators": [
+        "מיכל זמורה-כהן",
+        "Michal Smoira-Cohn"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4618,
+      "title": "מחזותיו של סמי גרונמן - שילוב בין ישן וחדש / הני מיטלמן",
+      "creators": [
+        "הני מיטלמן",
+        "Hanni Mittelmann"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4619,
+      "title": "מודרניזם ירושלמי: יצירתו האדריכלית של דוד אנטול ברוצקוס / רעות ירניצקי, אלונה נצן-שיפטן",
+      "creators": [
+        "רעות ירניצקי",
+        "אלונה ניצן-שיפטן",
+        "Alona Nitzan-Shiftan"
+      ],
+      "date": "2017",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4620,
+      "title": "משפחת ורבורג - שלושה דורות של ציונים מעשיים / גבי ורבורג",
+      "creators": [
+        "גבי ורבורג"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4621,
+      "title": "לאן הלכו \"הכוח\" ו\"בר כוכבא\": עולי מרכז אירופה בספורט הישראלי / אייל גרטמן",
+      "creators": [
+        "אייל גרטמן"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4622,
+      "title": "שוויץ של המזרח התיכון / גינגי פרידמן",
+      "creators": [
+        "גינגי פרידמן",
+        "Gingi Friedman"
+      ],
+      "date": "2004",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4623,
+      "title": "'האדם מתרגל לכול, גם לימים חסרי המנוח': בנקים יהודיים גרמניים בארץ ישראל 1948-1933 / ד\"ר שרון ליבנה",
+      "creators": [
+        "שרון לבנה",
+        "Sharon Livne"
+      ],
+      "date": "2020",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4624,
+      "title": "העלייה החמישית והשפעתה על התפתחות תעשיית הפרסום / יחיאל לימור, אסנת רוט-הכהן",
+      "creators": [
+        "יחיאל לימור",
+        "Yehiel Limor",
+        "אסנת רוט-כהן",
+        "Osnat Roth"
+      ],
+      "date": "2017",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4625,
+      "title": "קסמו של פורים: לבטי זהות ואידיאולוגיה בקיבוץ של יוצאי גרמניה / רוני כוכבי-נהב",
+      "creators": [
+        "רוני נהב-כוכבי",
+        "Ronnie Kochavi-Nehab"
+      ],
+      "date": "2014",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4626,
+      "title": "ספרות יהודית גרמנית בתקופת היישוב ובמדינת ישראל (2017-1933) / יאן קינה",
+      "creators": [
+        "יאן קינה"
+      ],
+      "date": "2017",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4627,
+      "title": "ממפלגת עלייה חדשה למפלגה הפרוגרסיבית / חגית לבסקי",
+      "creators": [
+        "חגית לבסקי",
+        "Hagit Lavsky"
+      ],
+      "date": "2014",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4628,
+      "title": "גלות בארץ-ישראל - עולי גרמניה ביצירתו של יצחק שנהר / נורית גוברין",
+      "creators": [
+        "נורית גוברין",
+        "Nurit Govrin"
+      ],
+      "date": "2004",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4629,
+      "title": "שימור מורשת ה\"יקים\" / רותי אופק",
+      "creators": [
+        "רותי אופק",
+        "Ruthi Ofek"
+      ],
+      "date": "2012",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4630,
+      "title": "חומרי קריאה ותפקידם [מאמר ביקורת] / בטינה פאראק",
+      "creators": [
+        "בטינה פאראק"
+      ],
+      "date": "2020",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4631,
+      "title": "החיפוש אחר אטלנטיס / במבי שלג",
+      "creators": [
+        "במבי שלג",
+        "Bambi Sheleg"
+      ],
+      "date": "2011",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4632,
+      "title": "עיון מחדש בחוויה יהודית-גרמנית / רות וסטהיימר",
+      "creators": [
+        "רות וסטהימר"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4633,
+      "title": "על \"יהודי המזרח\", על \"יהודי המערב\" ועל מה שביניהם\": 'הזרים' וה'אחרים' של שנות ה-30: העלייה הגרמנית ברומן \"שירה\" מאת ש\"י עגנון [קטע מחיבור בכתובים] / זיוה שמיר",
+      "creators": [
+        "זיוה שמיר",
+        "Ziva Shamir"
+      ],
+      "date": "2016",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4634,
+      "title": "מן הקומדיה לדרמה - עלייתו הבימתית של סמי גרונמן / יאן קינה",
+      "creators": [
+        "יאן קינה"
+      ],
+      "date": "2012",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4635,
+      "title": "ה'ייקים' בשדה המשפט ודפוסים של תרבות בורגנית בתקופת המנדט / רקפת סלע-שפי",
+      "creators": [
+        "רקפת סלע-שפי",
+        "Rakefet Sela-Sheffy"
+      ],
+      "date": "2003",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4636,
+      "title": "תודעה של אליטה / זהר לביא",
+      "creators": [
+        "זהר (ב\"ארץ אחרת\") לביא",
+        "עוז אלמוג",
+        "Oz Almog"
+      ],
+      "date": "2011",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4637,
+      "title": "תמונות מאלבום הילדות: שיחה על ילדות מתמשכת עם גד קינר-קיסינגר, משורר, שחקן, בימאי, מתרגם, חוקר [ראיון] / חיים נגיד. המרואיין: גד קינר-קיסינגר",
+      "creators": [
+        "חיים נגיד",
+        "גד קינר-קיסינגר"
+      ],
+      "date": "2016",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4638,
+      "title": "עיתונות יקית בשפה העברית -שלושה מהפכים ומשמעותם / דוד ויצטום",
+      "creators": [
+        "דוד ויצטום"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4639,
+      "title": "הרהורים בעקבות \"הייקים\" - הכנס הבינלאומי למורשתם של יהודי מרכז אירופה ותרומתם לעיצוב פני החברה בארץ-ישראל: מרכז הכנסים ע\"ש קונרד אדנאואר, משכנות שאננים / יותם חותם",
+      "creators": [
+        "יותם חותם"
+      ],
+      "date": "2004",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4640,
+      "title": "80 שנה לראשית \"העלייה הגרמנית\" / ד\"ר מרדכי נאור",
+      "creators": [
+        "מרדכי (היסטוריון) נאור"
+      ],
+      "date": "2012",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4641,
+      "title": "רחביה - ה\"יקה-לנד\" של ירושלים / דוד קרויאנקר",
+      "creators": [
+        "דוד קרוינקר",
+        "David Kroyanker"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4642,
+      "title": "תרומת ה\"ייקים\" - יוצאי מרכז אירופה - להקמת קהילת המודיעין הישראלית / יואב גלבר",
+      "creators": [
+        "יואב גלבר"
+      ],
+      "date": "2007",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4643,
+      "title": "תרומת ה\"יקים\" בהעברת גישה חדשה להוראת האמנות בבתי ספר בארץ / מירי שטיינהרדט",
+      "creators": [
+        "מירי שטינהרדט",
+        "Miri Steinhardt"
+      ],
+      "date": "2009",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4644,
+      "title": "תיעוד ראשון של פרק חשוב בתולדות התאטרון הארצישראלי: על ספרו של תום לוי, \"היקים והתאטרון העברי\" [מאמר ביקורת] / בן עמי פיינגולד",
+      "creators": [
+        "בן-עמי פיינגולד",
+        "Ben-Ami Feingold"
+      ],
+      "date": "2016",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4645,
+      "title": "גולים, פליטים, מהגרים ועולים יקים בתאטרון הארץ ישראלי / תום לוי",
+      "creators": [
+        "תום לוי",
+        "Tom Lewy"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4646,
+      "title": "ממקור ראשון - יקים בדיפלומטיה / אסתר הרליץ",
+      "creators": [
+        "אסתר הרליץ"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4647,
+      "title": "\"יקים\" שלי / בן-ציון אורגד",
+      "creators": [
+        "בן-ציון אורגד"
+      ],
+      "date": "2004",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4648,
+      "title": "קטעי זיכרונות - יקים: פראו גבל, פראו מנלי, משפחת בויטלר, טוני ודוקטור שטייניץ / שלמה אהרונסון",
+      "creators": [
+        "שלמה אהרונסון",
+        "Shlomo Aronson"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4649,
+      "title": "מ\"קדמת כנרת\" לעין גב / יחיאל אילסר",
+      "creators": [
+        "יחיאל אילסר"
+      ],
+      "date": "1995",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4650,
+      "title": "\"בתי הנחושת\" בחיפה, בנייה טרומית למגורים - ראשית שנות השלושים",
+      "creators": [
+        "עמירם ברוטמן"
+      ],
+      "date": "1981",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4651,
+      "title": "היערכות המוסדות הלאומיים ופעילותם בקליטת עולי גרמניה בעלי האמצעים בהתיישבות החקלאית בראשית העלייה החמישית (1933-1935) / עמירם אורן",
+      "creators": [
+        "עמירם אורן",
+        "ʻAmiram Oren"
+      ],
+      "date": "1988",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4652,
+      "title": "התגובה בתנועה הציונית וביישוב לעליית הנאצים לשלטון / יואב גלבר",
+      "creators": [
+        "יואב גלבר"
+      ],
+      "date": "1987",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4653,
+      "title": "ציוני גרמניה ו\"מלחמת השפות\"",
+      "creators": [
+        "יהודה אילוני"
+      ],
+      "date": "1985",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4654,
+      "title": "השפעת הרופאים-העולים מגרמניה על התפתחות הרפואה בארץ-ישראל (1933-1948)",
+      "creators": [
+        "דורון נידרלנד",
+        "Doron Niederland"
+      ],
+      "date": "1983",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4655,
+      "title": "העלייה מגרמניה בשנים 1933-1939",
+      "creators": [
+        "מרים גטר",
+        "Miriam Getter"
+      ],
+      "date": "1979",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4656,
+      "title": "יהודי גרמניה בירושלים במאה הי\"ט / ע\"ב פוזנר",
+      "creators": [
+        "עקיבא ברוך פוזנר"
+      ],
+      "date": "1948",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4657,
+      "title": "ההתארגנות הפוליטית הנפרדת של עולי גרמניה",
+      "creators": [
+        "מרים גטר",
+        "Miriam Getter"
+      ],
+      "date": "1981",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4658,
+      "title": "מכירת קרקעות של גרמנים ליהודים בארץ-ישראל בשנות השלושים",
+      "creators": [
+        "שמעון (גיאוגרף) שטרן"
+      ],
+      "date": "1986",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4659,
+      "title": "הערות למאמרה של מרים גטר, קתדרה, 12 (תמוז תשל\"ט) [בענין קליטתם של יהודי גרמניה בארץ ישראל]",
+      "creators": [
+        "חיים זליגמן",
+        "Chaim Seeligmann"
+      ],
+      "date": "1981",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4660,
+      "title": "דת והצלחה משקית בקיבוץ הדתי / אריה פישמן",
+      "creators": [
+        "אריה פישמן",
+        "Aryei Fishman"
+      ],
+      "date": "1993",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4661,
+      "title": "גרמניותו הנסתרת של בית המשפט העליון בישראל / עלי זלצברגר, פניה עוז-זלצברגר",
+      "creators": [
+        "עלי זלצברגר",
+        "زالتسبرغر، عيلي",
+        "Eli M. Salzberger",
+        "פניה עוז-זלצברגר",
+        "Fania Oz-Salzberger"
+      ],
+      "date": "1999",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4662,
+      "title": "תרומה חשובה לדיון על הזהות הישראלית [מאמר ביקורת] / שלמה אהרנסון",
+      "creators": [
+        "שלמה אהרנסון"
+      ],
+      "date": "1997",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4663,
+      "title": "שוב התאחדות של פרוד / אברהם שבדרון",
+      "creators": [
+        "אברהם שרון-שבדרון"
+      ],
+      "date": "1932",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4664,
+      "title": "על ערכים של יהדות אשכנז שכמעט נשכחו",
+      "creators": [
+        "יונה עמנואל",
+        "Yona Emanuel"
+      ],
+      "date": "1981",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4665,
+      "title": "על המשך דרכם של עולי אשכנז",
+      "creators": [
+        "יצחק (רב) לוי"
+      ],
+      "date": "1981",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4666,
+      "title": "על הכוונת: העתונות הגרמנית, לפרשת מאבק העתונות העברית והנהגת היישוב בעתונות בשפה הגרמנית / יואב גלבר",
+      "creators": [
+        "יואב גלבר"
+      ],
+      "date": "1988",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4667,
+      "title": "CLASSICAL SCHOLARSHIP, MODERN ANTI-SEMITISM AND THE ZIONIST PROJECT: THE HISTORIAN EDUARD MEYER IN PALESTINE (1926) / CHRISTHARD HOFFMANN",
+      "creators": [
+        "CHRISTHARD HOFFMANN"
+      ],
+      "date": "1992",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4669,
+      "title": "עולי גרמניה בחיפה בשנות השלושים והארבעים / יואב גלבר",
+      "creators": [
+        "יואב גלבר"
+      ],
+      "date": "1989",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4671,
+      "title": "לויד'ס ממלא תפקיד חיוני בשוק הביטוח בישראל (ראיון)",
+      "creators": [
+        "ארנסט המבורגר"
+      ],
+      "date": "1979",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4672,
+      "title": "על מינים ורכיבת חמורים לבנים בשבת / יהורם לשם",
+      "creators": [
+        "יהורם לשם"
+      ],
+      "date": "2007",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4673,
+      "title": "בורגנים בחברה שיתופית: קליטת יוצאי גרמניה בחברה הקיבוצית / אליעזר דומקה",
+      "creators": [
+        "אליעזר דומקה",
+        "Eliezer Domke"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4674,
+      "title": "תנועת 'תורה ועבודה' בגרמניה / שלמה נחליאל (בומבך)",
+      "creators": [
+        "שלמה נחליאל (בומבך)"
+      ],
+      "date": "2003",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4675,
+      "title": "\"רמות השבים\" - הישוב הראשון ביוזמת עולים מגרמניה ללא סיוע המוסדות / עמירם אורן",
+      "creators": [
+        "עמירם אורן",
+        "ʻAmiram Oren"
+      ],
+      "date": "1987",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4676,
+      "title": "\"לכתוב אל החלל הריק...\" (היכרות ושיחה עם ורנר קראפט)",
+      "creators": [
+        "ורנר קרפט",
+        "יורגן נירד",
+        "אילנה המרמן",
+        "Ilana Hammerman",
+        "Jürgen Nieraad"
+      ],
+      "date": "1984",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4677,
+      "title": "הייקים באים / שפרה שוורץ",
+      "creators": [
+        "שפרה שורץ",
+        "Shifra Shvarts"
+      ],
+      "date": "2007",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4678,
+      "title": "ה\"נפוליונצ'יקים\" יורים סיפור / אסף אגין",
+      "creators": [
+        "אסף אגין"
+      ],
+      "date": "2007",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4679,
+      "title": "אנטישמיות ויחסי יהודים-גרמנים: מבט לאחור מארץ-ישראל / גיא מירון",
+      "creators": [
+        "גיא מירון",
+        "Gai Miron"
+      ],
+      "date": "2002",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4680,
+      "title": "האמנם מתנשאות? קליטתן החברתית של נשים עולות ממרכז אירופה בארץ ישראל / דורית יוסף",
+      "creators": [
+        "דורית יוסף"
+      ],
+      "date": "2017",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4681,
+      "title": "בנעליה של קטה קולביץ? היבטים מיגדריים ביצירתה של רות שלוס / טל דקל",
+      "creators": [
+        "טל דקל"
+      ],
+      "date": "2009",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4682,
+      "title": "מ'ייקיות' לציונות: אסטרטגיות נרטיביות בסיפורי חיים של נשים יהודיות-גרמניות בארץ ישראל / דורית יוסף",
+      "creators": [
+        "דורית (מגדר) יוסף"
+      ],
+      "date": "2014",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4683,
+      "title": "מפרנקפורט לירושלים: דרכו המיוחדת של בית-ספר \"חורב\" בחינוך הדתי בארץ-ישראל / דורון נידרלנד",
+      "creators": [
+        "דורון נידרלנד",
+        "Doron Niederland"
+      ],
+      "date": "2005",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4684,
+      "title": "הסיפור הלאומי הישראלי מבעד לעיניהם של יוצאי גרמניה / גיא מירון",
+      "creators": [
+        "גיא מירון",
+        "Gai Miron"
+      ],
+      "date": "2001",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4685,
+      "title": "אתלטים יהודים-גרמנים וכינונה של תרבות ציונית (טרנס) לאומית / עופר אשכנזי",
+      "creators": [
+        "עופר אשכנזי",
+        "Ofer Ashkenazi"
+      ],
+      "date": "2017",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4686,
+      "title": "בין זהות גרמנית לזהות יהודית: מבט לאחור מארץ ישראל / גיא מירון",
+      "creators": [
+        "גיא מירון",
+        "Gai Miron"
+      ],
+      "date": "2009",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4687,
+      "title": "'פורטרטים בלתי דמיוניים': חוג פילג\"ש, חברות וסטירה באוניברסיטה העברית / נועם זדוף",
+      "creators": [
+        "נעם זדוף"
+      ],
+      "date": "2007",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4688,
+      "title": "בתים צנועים וטירות נחושת: יחידות מגורים טרומיות בדרכן לארץ / יואכים טרזיב",
+      "creators": [
+        "יואכים טרזיב"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4689,
+      "title": "\"שריפת קיוסקים לא תשליט עברית\": המאבק בעיתונות הלועזית בארץ ישראל בשנות השלושים והארבעים של המאה העשרים / עמוס בלובשטיין-נבו",
+      "creators": [
+        "עמוס בלובשטיין-נבו"
+      ],
+      "date": "2017",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4690,
+      "title": "עלייה וקוץ בה / חיים נגיד",
+      "creators": [
+        "חיים נגיד"
+      ],
+      "date": "2016",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4691,
+      "title": "'הכל יוחזר למקומו': הקיבוץ הארצי והסכם השילומים / עפר בורד",
+      "creators": [
+        "עפר בורד",
+        "Offer Boord"
+      ],
+      "date": "2016",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4692,
+      "title": "אז ועתה: עלייתם וקליטתם של יהודי גרמניה, בין היסטוריה לתודעה היסטורית / חגית לבסקי",
+      "creators": [
+        "חגית לבסקי",
+        "Hagit Lavsky"
+      ],
+      "date": "2012",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4693,
+      "title": "על מה דיברנו בזמן המלחמה? חברת הנוער הגרמנית בקיבוץ מעברות, בין גילוי לכיסוי / עינת נחמיאס",
+      "creators": [
+        "עינת נחמיאס"
+      ],
+      "date": "2016",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4694,
+      "title": "תיבת נוח לשונית [מאמר ביקורת] / עדנה לאודן",
+      "creators": [
+        "עדנה לאודן",
+        "Edna Lauden"
+      ],
+      "date": "2013",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4696,
+      "title": "עולי גרמניה והאמנויות הפלסטיות בחברה הישראלית / נורית כנען-קדר",
+      "creators": [
+        "נורית כנען-קדר",
+        "Nurith Kenaan-Kedar"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4697,
+      "title": "אמנותו של יוסף בודקו בארץ ישראל / גדעון עפרת",
+      "creators": [
+        "גדעון עפרת",
+        "Gideon Ofrat"
+      ],
+      "date": "2009",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4698,
+      "title": "Narrative of German-Jewish Immigrants to Palstine-Israel: A Source of Oral History and Discourse Analysis / Anne Betten, Patrick Farges, Simona Leonardi",
+      "creators": [
+        "Anne Betten",
+        "Patrick Farges",
+        "Simona Leonardi"
+      ],
+      "date": "2018",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4702,
+      "title": "זכרונות: מלחמת העולם השנייה ואחריה",
+      "creators": [
+        "הנס (יוחנן) שמל"
+      ],
+      "date": "1999",
+      "lang": "he",
+      "publisher": "",
+      "type": "bibo:Document"
+    },
+    {
+      "id": 4704,
+      "title": "שביל החיים של בני משפחתי ושלי",
+      "creators": [
+        "שמשון וינדמילר-ריחיים"
+      ],
+      "date": "2002 (2006 addition)",
+      "lang": "he",
+      "publisher": "",
+      "type": "bibo:Document"
+    },
+    {
+      "id": 4705,
+      "title": "Archive und Museen des Exils / herausgegeben von Sylvia Asmus, Doerte Bischoff und Burcu Dogramaci.",
+      "creators": [
+        "Sylvia Asmus",
+        "Doerte Bischoff",
+        "Burcu Dogramaci"
+      ],
+      "date": "2019",
+      "lang": "ger;eng",
+      "publisher": "Berlin ; Boston De Gruyter",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4707,
+      "title": "Begegnung auf fremder Erde: Verschränkungen deutsch- und hebräischsprachiger Literatur in Palästina/Israel nach 1933 / Sebastian Schirrmeister.",
+      "creators": [
+        "Sebastian Schirrmeister"
+      ],
+      "date": "2019",
+      "lang": "ger",
+      "publisher": "Stuttgart J.B. Metzler",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4708,
+      "title": "Das Gastspiel: Friedrich Lobe und das hebräische Theater 1933-1950 / Sebastian Schirrmeister.",
+      "creators": [
+        "Sebastian Schirrmeister"
+      ],
+      "date": "2012",
+      "lang": "ger",
+      "publisher": "Berlin Neofelis",
+      "type": "bibo:Book"
+    },
+    {
+      "id": 4709,
+      "title": "\"מכונת הדיבור בתור מורה שפות: פה מדברים עברית\" - על לימוד עברית בגרמניה הנאצית ועל העברית המדוברת בארץ ישראל בשנות השלושים / שלמה יזרעאל",
+      "creators": [
+        "שלמה יזרעאל",
+        "Shlomo Izre'el"
+      ],
+      "date": "2006",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4710,
+      "title": "להעיף את העיניים על הצ'ופצ'יקים / אירן סבר",
+      "creators": [
+        "אירן סבר",
+        "Irene Sever"
+      ],
+      "date": "1996",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4711,
+      "title": "התביעה בישוב להענשתה של גרמניה (1944-1947) / נעימה ברזל",
+      "creators": [
+        "נעימה ברזל",
+        "Neima Barzel"
+      ],
+      "date": "1994",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4712,
+      "title": "מה בין חירום, הצלה וסע\"ר? / עוז שושן",
+      "creators": [
+        "עוז שושן"
+      ],
+      "date": "2017",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4713,
+      "title": "המוזיאון ליהדות דוברת גרמנית: גן התעשייה, המוזיאון הפתוח. תפן",
+      "creators": [],
+      "date": "1997",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4714,
+      "title": "ייקים ו\"יהודי המזרח\" בין דת ומודרנה / מיכאל ששר",
+      "creators": [
+        "מיכאל ששר"
+      ],
+      "date": "1999",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4715,
+      "title": "הסדנאות השיתופיות של הבלאו-וייס בארץ ישראל, 1924-1926",
+      "creators": [
+        "חנה פינר-וינר"
+      ],
+      "date": "1981",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4716,
+      "title": "\"עליה חדשה\" ובעיית החברות הכפולה במפא\"י",
+      "creators": [
+        "יעל ישי",
+        "Yael Yishai"
+      ],
+      "date": "1981",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4717,
+      "title": "THE ORIGINS OF YOUTH ALIYAS / YOAV GELBER",
+      "creators": [
+        "YOAV GELBER"
+      ],
+      "date": "1988",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    },
+    {
+      "id": 4718,
+      "title": "העלייה הגרמנית כאופוזיציה א-פוליטית ב\"קיבוץ המאוחד\" בימי העלייה החמישית",
+      "creators": [
+        "אהרן קדר",
+        "Aharon Ḳedar"
+      ],
+      "date": "1980",
+      "lang": "",
+      "publisher": "",
+      "type": "bibo:AcademicArticle"
+    }
+  ]
+}
