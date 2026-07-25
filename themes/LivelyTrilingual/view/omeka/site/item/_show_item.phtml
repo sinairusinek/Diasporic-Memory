@@ -112,6 +112,17 @@ $subjects = array_values(array_unique(array_filter($subjects)));
             </div>
         <?php endif; ?>
 
+        <?php
+        $scanVals = $item->value('dcterms:source', ['all' => true, 'default' => []]);
+        $scans = array_filter($scanVals, function ($v) { return $v->type() === 'uri' && $v->uri(); });
+        ?>
+        <?php if ($scans): ?>
+            <h4><?= $escape($tr('scans')) ?></h4>
+            <?php foreach ($scans as $v): ?>
+                <div class="tr-fact"><a href="<?= $escAttr($v->uri()) ?>" target="_blank" rel="noopener"><?= $escape($v->value() ?: $v->uri()) ?></a></div>
+            <?php endforeach; ?>
+        <?php endif; ?>
+
         <?php if ($parentFolder || $parentCollection): ?>
             <h4><?= $escape($tr('part_of')) ?></h4>
             <?php if ($parentFolder): ?>
