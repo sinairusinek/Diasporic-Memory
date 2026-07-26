@@ -1,0 +1,1071 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+          <fileDesc>
+            <titleStmt>
+              <title> HeckerCh3.txt</title>
+              <author>LielKorenARC</author>
+            </titleStmt>
+            <publicationStmt>
+              <p><date>2023-02-14</date></p>             
+            </publicationStmt>
+            <sourceDesc>
+              <bibl source="https://recogito.pelagios.org/document/6hrkmssgpaxsmt"/>
+              <biblStruct>
+                <monogr>
+                  
+                  <title>HeckerCh3.txt</title>
+                    
+                </monogr>
+              </biblStruct>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+              
+              
+              <settingDesc>
+                  <listPlace>
+          <place xml:id="http://geo-kima.org/place/272">
+              <placeName>Tel Aviv-Yafo (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/651">
+              <placeName>Beirut (Lebanon)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/25115">
+              <placeName>Vina Region (Calif.)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/14743">
+              <placeName>Baden (Switzerland)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/15116">
+              <placeName>Beirut (Lebanon : Province)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/15834">
+              <placeName>Haifa (Israel : District)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/9520">
+              <placeName>Germany (Territory under Allied occupation, 1945-1955)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/763">
+              <placeName>Trieste (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/2496">
+              <placeName>Stromboli (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/10660">
+              <placeName>Moravia (Czech Republic)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/377">
+              <placeName>Tsefat (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/5929">
+              <placeName>Europa (Satellite)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/15656">
+              <placeName>Ponthieu (France)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/1475">
+              <placeName>Galilee (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/7699">
+              <placeName>Messina (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/6904">
+              <placeName>Migdal (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/10317">
+              <placeName>Palau</placeName>
+            </place><place xml:id="http://geo-kima.org/place/2501">
+              <placeName>Eretz Israel</placeName>
+            </place><place xml:id="http://geo-kima.org/place/745">
+              <placeName>Ostrowiec Świętokrzyski (Poland)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/8048">
+              <placeName>Syria</placeName>
+            </place><place xml:id="http://geo-kima.org/place/22361">
+              <placeName>Rosh Pina Region (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/26530">
+              <placeName>Bykovo (Russia)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/700">
+              <placeName>Herzeliyya (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/11619">
+              <placeName>Radolfzell am Bodensee (Germany)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/231">
+              <placeName>Milan (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/665">
+              <placeName>Cairo (Egypt)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/3846">
+              <placeName>Ponte San Angelo (Rome, Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/7001">
+              <placeName>Piedmont (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/522">
+              <placeName>Bitha (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/5152">
+              <placeName>Kinneret, Lake, Watershed (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/8979">
+              <placeName>Ulster County (N.Y.)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/9918">
+              <placeName>Katowice (Poland : Voivodeship)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/633">
+              <placeName>Ostroh (Ukraine)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/7011">
+              <placeName>Alexandria (Va.)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/807">
+              <placeName>Tiberias (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/11244">
+              <placeName>Krakow (Poland : Voivodeship)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/71">
+              <placeName>Acre (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/9393">
+              <placeName>Syracuse (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/667">
+              <placeName>Alexandria (Egypt)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/26805">
+              <placeName>Merkaz HaCarmel (Haifa, Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/22534">
+              <placeName>Krakovany (Slovakia)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/26414">
+              <placeName>Dardara (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/8120">
+              <placeName>Turkey</placeName>
+            </place><place xml:id="http://geo-kima.org/place/5765">
+              <placeName>Tabor, Mount (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/25303">
+              <placeName>Italia (Fla.)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/1473">
+              <placeName>Galicia (Poland and Ukraine)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/16228">
+              <placeName>Tsemah (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/21726">
+              <placeName>Mount Hermon (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/6836">
+              <placeName>Ostrava (Czech Republic)</placeName>
+            </place><place xml:id="http://histogis.acdh.oeaw.ac.at/shapes/permalink/6115ab70d6873983d7111e58740ae848/">
+              <placeName>Mährisch-Ostrau</placeName>
+            </place><place xml:id="http://geo-kima.org/place/212">
+              <placeName>Mishmar Hayarden (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/3056">
+              <placeName>Bukovina (Romania and Ukraine)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/3665">
+              <placeName>Vesuvius (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/1774">
+              <placeName>Beskids</placeName>
+            </place><place xml:id="http://geo-kima.org/place/24095">
+              <placeName>Genoa Region (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/697">
+              <placeName>Israel</placeName>
+            </place><place xml:id="http://geo-kima.org/place/2194">
+              <placeName>Prussia, East (Poland and Russia)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/405">
+              <placeName>Kaliningrad (Russia)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/994">
+              <placeName>Hamburg (Germany)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/7532">
+              <placeName>Catania (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/21917">
+              <placeName>Kinneret ( Moaza ezorit : Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/17739">
+              <placeName>Czech Republic</placeName>
+            </place><place xml:id="http://geo-kima.org/place/15010">
+              <placeName>Enna (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/14570">
+              <placeName>Prussia (Duchy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/7109">
+              <placeName>Prussia (Kingdom)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/17804">
+              <placeName>Hirsau (Calw, Germany)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/7805">
+              <placeName>Argentina</placeName>
+            </place><place xml:id="http://geo-kima.org/place/673">
+              <placeName>Naples (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/19108">
+              <placeName>Bečov nad Teplou (Czech Republic)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/13249">
+              <placeName>Genoa (Italy)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/25437">
+              <placeName>Capernaum (Extinct city) Region (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/21803">
+              <placeName>Shuni (Israel)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/7349">
+              <placeName>Bregenz (Austria)</placeName>
+            </place><place xml:id="http://geo-kima.org/place/7645">
+              <placeName>Austria</placeName>
+            </place><place xml:id="http://geo-kima.org/place/21887">
+              <placeName>Merhavya (Israel: Kibbutz)</placeName>
+            </place>
+        </listPlace>
+                </settingDesc>
+            </profileDesc>
+          <encodingDesc>
+            <projectDesc><p>Downloaded from https://recogito.pelagios.org/</p></projectDesc>
+            <classDecl>
+                <taxonomy>
+          <category xml:id="תלמידתה של רות">
+              <catDesc>תלמידתה של רות</catDesc>
+            </category><category xml:id="מוכר">
+              <catDesc>מוכר</catDesc>
+            </category><category xml:id="אמן צעיר">
+              <catDesc>אמן צעיר</catDesc>
+            </category><category xml:id="מנהל הטכניון">
+              <catDesc>מנהל הטכניון</catDesc>
+            </category><category xml:id="אשתו של אויגן">
+              <catDesc>אשתו של אויגן</catDesc>
+            </category><category xml:id="דוד של חנה">
+              <catDesc>דוד של חנה</catDesc>
+            </category><category xml:id="עוזרו של פינקלשטיין">
+              <catDesc>עוזרו של פינקלשטיין</catDesc>
+            </category><category xml:id="מנהיגים בולטים של ציוני גרמניה">
+              <catDesc>מנהיגים בולטים של ציוני גרמניה</catDesc>
+            </category><category xml:id="מחזאי">
+              <catDesc>מחזאי</catDesc>
+            </category><category xml:id="המפקד של מקס">
+              <catDesc>המפקד של מקס</catDesc>
+            </category><category xml:id="ממייסדי הדר כרמל">
+              <catDesc>ממייסדי הדר כרמל</catDesc>
+            </category><category xml:id="שכנה של חנה">
+              <catDesc>שכנה של חנה</catDesc>
+            </category><category xml:id="מלון">
+              <catDesc>מלון</catDesc>
+            </category><category xml:id="רופא והוגה דעות">
+              <catDesc>רופא והוגה דעות</catDesc>
+            </category><category xml:id="דודה של חנה">
+              <catDesc>דודה של חנה</catDesc>
+            </category><category xml:id="משורר">
+              <catDesc>משורר</catDesc>
+            </category><category xml:id="אשתו של זיגפריד">
+              <catDesc>אשתו של זיגפריד</catDesc>
+            </category><category xml:id="לוטה בשם אחר">
+              <catDesc>לוטה בשם אחר</catDesc>
+            </category><category xml:id="ידיד של חנה">
+              <catDesc>ידיד של חנה</catDesc>
+            </category><category xml:id="אחיה של חנה">
+              <catDesc>אחיה של חנה</catDesc>
+            </category><category xml:id="מורה מארח">
+              <catDesc>מורה מארח</catDesc>
+            </category><category xml:id="בעלה של חנה">
+              <catDesc>בעלה של חנה</catDesc>
+            </category><category xml:id="מנהלת חוות פועלות">
+              <catDesc>מנהלת חוות פועלות</catDesc>
+            </category><category xml:id="הבת של חנה">
+              <catDesc>הבת של חנה</catDesc>
+            </category><category xml:id="הבת של אודו">
+              <catDesc>הבת של אודו</catDesc>
+            </category><category xml:id="ראש עדת הבהאיים">
+              <catDesc>ראש עדת הבהאיים</catDesc>
+            </category><category xml:id="קצין">
+              <catDesc>קצין</catDesc>
+            </category><category xml:id="מנהל בנק א.פ.ק">
+              <catDesc>מנהל בנק א.פ.ק</catDesc>
+            </category><category xml:id="גיסה של חנה">
+              <catDesc>גיסה של חנה</catDesc>
+            </category><category xml:id="אורח מגרמניה">
+              <catDesc>אורח מגרמניה</catDesc>
+            </category><category xml:id="משפחה מקטוביץ">
+              <catDesc>משפחה מקטוביץ</catDesc>
+            </category><category xml:id="טבחית">
+              <catDesc>טבחית</catDesc>
+            </category><category xml:id="אמו של מקס">
+              <catDesc>אמו של מקס</catDesc>
+            </category><category xml:id="איש המברקה">
+              <catDesc>איש המברקה</catDesc>
+            </category><category xml:id="הבן של חנה">
+              <catDesc>הבן של חנה</catDesc>
+            </category>
+        </taxonomy>
+              </classDecl>
+          </encodingDesc>
+        </teiHeader>
+        <text>
+          <body><div><p>חלק ג.
+מזכרונותיה של <persName xml:id="recogito-97bce4e0-d695-42d5-819e-15f95ebbdf8a">חנה</persName> <persName xml:id="recogito-df06089b-fedf-4271-944b-1704e397c2bc">פרידה</persName> <persName xml:id="recogito-ca13bbc8-61b9-4725-aeee-6fcefb48bba0">הקר</persName>
+נרשמו בשנים <rs xml:id="recogito-e6c72a2f-3a6d-4068-9115-a7bdb7aa5788" type="event">1943-1946</rs>.
+מגרמנית - <persName xml:id="recogito-6ef2e0c0-6983-4da5-8f19-b7b7c10b5772">לאה</persName> <persName xml:id="recogito-0e16f194-9edd-45d9-83a2-80391ba8100a">אלון</persName> <rs xml:id="recogito-ab0f4ad9-9236-4633-be4d-dc32b9355f0f" type="event">1995</rs>.
+העליה ארצה ושנות <rs xml:id="recogito-7edf6c86-4886-4be3-ac8b-2aba4c716e62" type="event">המלחמה</rs><note target="recogito-7edf6c86-4886-4be3-ac8b-2aba4c716e62" resp="LielKorenARC">מלחמת העולם הראשונה</note>
+שנה בארץ-<placeName ref="http://geo-kima.org/place/697" xml:id="recogito-bc4f7c5a-8d29-4a68-ba6e-fdb8b28cc6f8" cert="low">ישראל</placeName>
+<rs xml:id="recogito-fd42621a-90ed-4d9e-af53-bb5fea411071" type="event">1913-1914</rs>
+שנה ב<placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-22e2e799-c5a1-461d-b2ef-b8db01c034e8" cert="high">טפיאו</placeName>. <placeName ref="http://geo-kima.org/place/14570" xml:id="recogito-6b3520ba-c5fe-4b4f-a5a8-e579b89f3cef" cert="low">פרוסיה</placeName> המזרחית
+<rs xml:id="recogito-3bfb67a3-4cf2-4b45-8b66-a46a2a95da81" type="event">1915-1916</rs>
+<placeName ref="http://geo-kima.org/place/994" xml:id="recogito-3042bc63-5dc0-47df-901e-117ced07a199" cert="high">בהמבורג</placeName> מ-<rs xml:id="recogito-8c9d0aee-f289-426a-91ec-1d5df84db230" type="event">1916-17</rs>
+... ושוב בארץ <rs xml:id="recogito-4252ab85-c6e8-422e-83a3-b917efc1fa3f" type="event">1919-1923</rs>
+סוף סוף אנו נוסעים לארץ-<placeName ref="http://geo-kima.org/place/697" xml:id="recogito-0b23d60b-5e4f-42b3-b67f-c940bbae7775" cert="low">ישראל</placeName>. הפלגתנו הראשונה מ<placeName ref="http://geo-kima.org/place/763" xml:id="recogito-be4f9ba7-f407-468a-b6ce-3e41b43d9201" cert="high">טריאסט</placeName> נערכת
+ברוב הדר במחלקה הראשונה של האניה &quot;וינה&quot;. תודעת עובדה זו נותרה העונג
+היחיד, כיון שנסיעה בתחילת <rs xml:id="recogito-145ce125-57c2-4ce1-a323-93019dbdadef" type="event">דצמבר 1913</rs> באונית-קיטור חדשה אך לא בנויה
+היטב - משמעה טלטול ומחלת-ים. הארוחות, במידה ולוקחים בהן חלק, אמנם
+מורכבות ממנות אין ספור, אבל הכל מוכן בלי טעם וללא תשומת לב, ומוגש
+קר. ב<placeName ref="http://geo-kima.org/place/7011" xml:id="recogito-a989fe49-35c5-4445-a11f-80da5ed01b5e" cert="high">אלכסנדריה</placeName> אנו מאושרים להפרד מנדנדת-גלים זעומת פנים זו.
+-מה קורה לי? - באנו מהצפון החורפי, מבוץ, ערפל, גשם, שלג וקור, וכאן
+מקבל את פנינו אביב זוהר ופורח, עצים השחים תחת משא פריחתם באודם לוהט,
+בסגול ארגמני, מברכים אותנו. במלון - עדיין חשים תנודה קלה -
+הסעודה טעימה להפליא, וכה מענינת. יש דברים לא צפויים, מוגשים ברוב טעם
+בידי שחורים גבוהי־קומה בכותנות לבנות. תמרים טריים ענקיים - חוויה!.
+בבוקר הבא אנו נוסעים לחורבות כל שהן ולקטקומבות. שם למטה מחניק,
+מלא עטלפים ושלדים, ואנו שמחים לצאת שוב לאורו של יום. הנה הפתעה,
+העגלון האדיב מקבל את פני בצרור ורדים נהדרים, אותם קטף בסבך גני
+החורבות. איזו שמחה גרם לי בזאת לא יוכל לשער, בורדים אלה מברך אותי
+האביב החדש של חיי. צחוק כפול עולה בי, של תודה לאביר האמיתי של המזרח.
+ושל לגלוג בזוכרי את עגלון-המרכבות הצפוני על גסותו ואפו הסמוק מיי&quot;ש.
+הנסיעה בחזרה למלון דרך סימטאות ערביות דלות ומלוכלכות, עם המוני חולי-
+עיניים ועיוורים, מיליוני זבובים וזוהמה, מעמעמת את שמחת התלהבותי.
+אחרי הצהריים אנו עולים לסיפונה של &quot;Baron Call&quot;; ספינת-קיטור נוחה
+ונעימה המפליגה לחופי <placeName ref="http://geo-kima.org/place/8048" xml:id="recogito-08d7bd64-c9c4-4248-97cf-5abe9a49f3ba" cert="high">סוריה</placeName>, ובה אנו מרגישים במהרה כבני-בית. יש
+סנסציה על סיפונה, ישיש שזקנו לבן כשלג, וכן לבושו, ורואי פניו קרבים
+אליו רק בקידה עמוקה, ושחים ארצה לנשק את שולי גלימתו. כל מילה מפיו
+נשמעת ונרשמת תוך קידה. בשולחן נפרד מוגש לו מזון מיוחד. זהו <persName xml:id="recogito-4a0c060d-2a3d-44aa-881a-0c257ae433b2" ana="#ראש עדת הבהאיים">עבאס
+אפנדי</persName>, ראש עדת הבהאיים, שלאחר מאסר של שבע שנים בכלא <placeName ref="http://geo-kima.org/place/71" xml:id="recogito-07abe0b3-f7e4-4562-921b-db10e7aa762c" cert="high">עכו</placeName> הוא חוזר עתה
+ממסעו העולמי הראשון אל קהל חסידיו.
+ב<placeName ref="http://geo-kima.org/place/272" xml:id="recogito-67af8719-95cc-47cd-9a74-40544db6c16b" cert="high">יפו</placeName> יורד <persName xml:id="recogito-3b3265ed-e34c-4b60-ae45-863c36a74e16" ana="#בעלה של חנה">מקס</persName> (<persName xml:id="recogito-730c5eb3-1c45-402f-9c73-234c6740cf45" ana="#בעלה של חנה">מרדכי</persName>) לחוף, בכדי לבוא במגע ראשון עם אישים ציוניים
+חשובים, כי אנו נקלענו למצב ביש: זה עתה פרצה &quot;מלחמת השפות&quot; נגד &quot;אגודת
+העזרה של יהודי <placeName ref="http://geo-kima.org/place/9520" xml:id="recogito-e8ccef03-9820-4919-91c8-2b239a0363ab" cert="high">גרמניה</placeName>&quot;, שלפי הזמנתה ובמשכורתה אנו באים ארצה. בעיני
+קנאי העברית אנו נראים כבוגדים, ורושם זה צריך לתקן, כיון <persName xml:id="recogito-946e4239-65ba-4b38-a77c-2d3e880a4020" ana="#בעלה של חנה">שמרדכי</persName> תומך
+בדורשי העברית כשפת הוראה ב<placeName ref="http://geo-kima.org/place/26414" xml:id="recogito-bf5caead-8e23-4bd5-9137-ddbce787baae" cert="high">טכניון</placeName> העתיד לקום.
+הים הולך ורוגש, רב-החובל רוצה להפליג, היות ואינו יכול לפרוק את
+מטענו בנמל <placeName ref="http://geo-kima.org/place/272" xml:id="recogito-b985be41-1968-4c01-a684-5bbc74eccc36" cert="high">יפו</placeName> הסוער, ואין הוא מוכן לחכות לשובם של הנוסעים שירדו
+לחוף. איזה מצב ביש! בינתיים הגיע לספינה ידידנו <persName xml:id="recogito-080d0f43-6f44-4b49-b7cb-de51fcbbc34c" ana="#ידיד של חנה">יוס לוי</persName> <persName xml:id="recogito-49609371-0124-4b46-9edb-135391020c25" ana="#ידיד של חנה">Jos Loewy</persName>
+לקבל את פנינו. אות לידידותו הכנה, כיון שבהחלט אינו עמיד לים. ודרוש
+אומץ כדי לרדת בסירה לאניה ללא כורח בים רוגש שכזה. כעת הוא שוכב בתא
+שלנו. ומרגיש בחילה עזה. הילדים מאושרים מהפגישה המחודשת אתו ומהמתנות
+הנהדרות שהביא להם, <persName xml:id="recogito-ec7f18e0-f3a0-41ad-a0f0-86b75aaac381" ana="#הבן של חנה">לדני</persName> מכונת-קיטור קטנה של ממש, <persName xml:id="recogito-dc900f3b-0b50-4427-bfbd-11e3176780d4" ana="#הבת של חנה">לרות</persName> מכונת תפירה
+קטנה. ולכל אחד שקיק סוכריות Hopjes הולנדיות אמיתיות. <persName xml:id="recogito-929ccd16-3732-4f88-9f6a-7f1b722ed820" ana="#ידיד של חנה">יוס לוי</persName> אינו
+רוצה להשאיר אותנו בגפנו ומוכן לבוא אתנו ל<placeName ref="http://geo-kima.org/place/15834" xml:id="recogito-92c296bf-d966-4c03-9583-4d7fe04a919c" cert="high">חיפה</placeName>, אבל <persName xml:id="recogito-082f8cae-dea7-4668-b5bf-b59744ebe83c" ana="#בעלה של חנה">מרדכי</persName> מופיע בעוד
+מועד, ויחד אתו אזרח חיפאי מעניין וערני, <persName xml:id="recogito-c113ea4a-3497-4254-9dcb-c37f90ea2138" ana="#ממייסדי הדר כרמל">שמואל</persName> <persName xml:id="recogito-641b4db7-0be6-49b8-a7d0-51c0ff4e88cf" ana="#ממייסדי הדר כרמל">פבזנר</persName>, ממייסדי הדר-
+הכרמל הנבנית אז. אנו מוצאים חן איש בעיני רעהו.
+בינתיים הלכה <persName xml:id="recogito-ecced023-a43d-4545-b6dc-ea5c8aef5382" ana="#הבת של חנה">רות</persName> עם שקיק הסוכריות שלה אל סלון האניה, וראתה את
+<persName xml:id="recogito-c0ec8484-1279-4994-9dcf-6a8fe40efba5" ana="#ראש עדת הבהאיים">עבאס</persName> בהא הזקן יושב שם בודד ונראה כנאבק בבחילה. ברגשי חמלה מוציאה
+הילדה החמודה בת השש סוכריה מתור השקיק. וטומנת אותה בידו של הישיש.
+נבוך ונרגש, הוא אינו יודע די להבעת תודתו, קודם הוא שולח לה תפוזים,
+אחר כך בא בעצמו ומביא לה שרשרת פניני זהב, כשהוא מדגיש שהיא עשויה
+זהב, זהב טהור.
+ב-<rs xml:id="recogito-1000089d-89ce-4c69-bcf2-7968f803aa73" type="event">6 בדצמבר 1913</rs> אנו קרבים ל<placeName ref="http://geo-kima.org/place/15834" xml:id="recogito-5e13b96e-1d7b-4306-94ef-21e4288ade43" cert="high">חיפה</placeName>. הים כחול ואדוותו קלה, הכרמל
+והמפרץ נחים זוהרים ביופיים לעינינו. המולדת החדשה מתרפקת עלי בכל
+חמודותיה וכובשת את לבי.
+אנו סבורים שגיסי <persName xml:id="recogito-f7e01056-c7a7-467d-aa4d-a0a5c5eee3f6" ana="#גיסה של חנה #ידיד של חנה">וילהלם</persName> יקבל את פנינו, אך הוא איננו. פשוט אחר
+להתעורר והחמיץ את בוא האניה, אף כי בימים ההם היה זה ארוע מרגש, כי
+פירושו - דואר מ<placeName ref="http://geo-kima.org/place/5929" xml:id="recogito-b4cf99fe-1951-465e-8dbf-cd2854753cb6" cert="high">אירופה</placeName>. בסיועו של <persName xml:id="recogito-b1909dbe-b8d9-4d7f-b9c1-e894581a80f7" ana="#ממייסדי הדר כרמל">פבזנר</persName> אנו עוברים במכס ויתר הקשיים,
+עד לכרכרה ערבית שנועדה להובילנו למלון &quot;הרצליה&quot;. היא מתנודדת ומטרטרת
+תחילה בסמטאות צרות, ואחר מטפסת במעלה רחוב-ההר שאינו סלול. נעשה קצת
+לא נעים: משני צדי הדרך ערוצים עמוקים שנחרצו על ידי הגשם, הגלגלים
+הימניים נוסעים נמוך בהרבה מהשמאליים, ועלינו להיאחז היטב בכדי לא
+לגלוש מהעגלה. כעין נס הוא שאנו וגם הכרכרה יוצאים שלמים מנסיעת טלטול-
+נדנוד- גלישה זאת. בעגלון <persName xml:id="recogito-7a0482d6-e98b-4913-8fe9-7204ba721cb3">אלייה</persName> קניתי לי מעריץ לכל ימי שהותי ב<placeName ref="http://geo-kima.org/place/15834" xml:id="recogito-15751e0d-4229-49f1-ac12-4b17884e3ef1" cert="high">חיפה</placeName>,
+3
+שמדי ראותו אותי בעיר ממשיך לנסוע בעקבותי, עד שאני עולה לרכבו. רק שאז
+הוא יושב מוסב אלי ועיניו נעוצות בי בחיוך מוקסם, ומניח את הסוסים
+לנפשם - זה אינו לרוחי. אך מכוניות אין עדיין, או אולי אחת בכל הארץ,
+והסוסים נאמנים וזהירים.
+במלון אנו מתגוררים בקומה העליונה. קיר החזית של טרקלין הענק כולו
+חלונות ודלתות זכוכית, גלוי לנוף המרהיב של ים ומפרץ, העיר <placeName ref="http://geo-kima.org/place/71" xml:id="recogito-62ee866f-d531-4eb0-81d8-6a78eb618f55" cert="high">עכו</placeName>, <placeName ref="http://geo-kima.org/place/21726" xml:id="recogito-b003e52b-3cf2-494c-b2a1-a296fe7052da" cert="high">החרמון</placeName>
+והלבנון עטורי השלג. זה מקסים, היופי עולה על כל המשוער.
+אנו סועדים באולם התחתון. גם שם הרבה עולה על המשוער - בכוון ההפוך.
+ארוחת הבוקר מורכבת ברובה מ-&quot;מאפיש&quot; (אין). ביצה קטנטונת וריבת חבושים
+נותרים לרוב ה-&quot;יש&quot; היחידי. צהריים וערב מוגש מדי יום ביומו אותו העוף
+היבש והתפל, והלפתן הנצחי מפירות יבשים. הארוחות הן ענין עגום, החידוש
+היחיד הוא בחילופי האורחים, שרובם ככולם מתענינים בנו, &quot;הירוקים&quot;.
+יותר מחודש ימים עלינו להחזיק כאן מעמד, - (כאשר כעבור 11 שנים
+סעדנו שוב במלון הרצליה המורחב וההדור יותר, היה זה אותו התפריט, עם
+שיפור מה בהגשה) - עד אשר יגיעו חפצינו ועד שיתפנה הבית ששכרנו
+בשכונה העברית הראשונה והיחידה <placeName ref="http://geo-kima.org/place/700" xml:id="recogito-a9c20f5a-2f21-43a2-8b54-6be325554138" ana="#מלון" cert="low">&quot;הרצליה&quot;</placeName>, שמנתה אז 8 בתים. אבל איזו
+נוחיות מצפה לנו שם! באר עמוקה ומגדל המים היחיד בכל העיר מצויים
+בשכונה זאת. בנוסף לכך יש בבית מתחת לאחד החדרים בור למי גשמים (משרץ
+לדגירת יתושים), וצינור מוביל את מי-הגשם אל האמבטיה. <persName xml:id="recogito-43bfda7f-e600-4123-b3af-bf283fa8f644" ana="#אחיה של חנה">הרי</persName> אי אפשר
+להתרחץ במי-באר קשים! לעומת זה האמבטיה והתנור נמצאים בקשר הדדי
+מזוהם במקצת: התנור מורכב בתוכה כך שהמים הממלאים את האמבט מקיפים את
+התנור המוסק במסלול צר ומכוסה, שאי אפשר לנקותו היטב, וכך הם מתחממים.
+אך על כל פנים זה ממש חדר אמבטיה. ויש לנו גם בית-שימוש ללא פגם.
+בדירה ששה חדרים ומטבח עם כירה ערבית, ובמרתף חדר כביסה ומחסן גדול.
+אבל עדיין אנו גרים במלון, ובינתיים יורדים גשמי זעף אדירים. בחדרים
+שלנו דולפים המים דרר הגג והחלונות, את המיטות מזיזים אילך ואילך בהתאם
+לטווח הטפטוף, ובכל זאת הן נרטבות. בטרקלין הגדול, עם המבט הנפלא דרך
+קיר הזכוכית, אנו יושבים רועדים מקור - <persName xml:id="recogito-ee1dc74a-efe7-4828-a96b-759b4ead0111" ana="#אחיה של חנה">הרי</persName> מיותר להביא בגדים חמים
+לארץ סובטרופית, כך סברנו בחו&quot;ל - כשאנו מופקרים לברקים ולרעמים
+המאיימים, למטר הניתך ולילל הסופה במלוא עוזם, וחשים עצמנו עזובים.
+ואז ידידנו החדש <persName xml:id="recogito-34b88902-36a0-4380-98ff-3a25970e1ee3" ana="#ידיד של חנה">לואיס</persName> <persName xml:id="recogito-f3e4737c-2ca7-4f70-9727-36ae71e248d5" ana="#ידיד של חנה">לוין</persName>, בעצם מכר נושן מנעורי, לוקח אותנו אל
+חדרו שבקומה התחתונה. הוא כ-&quot;ותיק&quot; בארץ, כבר שנה שלישית הוא כאן,
+ולמוד-נסיון ויתר על מראה הנוף הנשגב לטובת הבטחון בשעת גשמים, וכך בחר
+את מישכנו. אצלו אנו חוגגים בחמימות את חג החנוכה. מתנתו לנו היא ענף
+הנושא 18 מנדרינות נהדרות, שהביא ממקום עבודתו אצל גנן גרמני. <persName xml:id="recogito-b4fc207b-19c8-4306-84ab-2bec057d62c1" ana="#ידיד של חנה">לואיס</persName> ל.
+הופך לידידנו הנאמן והקבוע, וחש עצמו כבן-בית. מתוכנו הוא יצא אל מסעו
+הקשה ורב התלאות אל <rs xml:id="recogito-cc1bf38b-3068-4b03-9966-a25676b773a9" type="event">המלחמה</rs><note target="recogito-cc1bf38b-3068-4b03-9966-a25676b773a9" resp="LielKorenARC">מלחמת העולם הראשונה</note>, שבה נפל במהרה, אין יודע איך והיכן.-
+4
+כשחדל הגשם - זוהר שמש סביב, שגשוג ופריחה מכל עבר. אני מודה לגורלי
+שנתן לי שוב מולדת. לאחר שלזיה-עילית. שממה מדכאה זו של אזור תעשיה,
+אשר בה נפשי לא ידעה לחיות, בה קמלה והותירה בי ריקנות אפורה - אני
+נושמת לרווחה ביופי של הסביבה החדשה! אני חשה שזהו נוף מולדת לנשמתי,
+מחוז טבע בו ישותי תוכל להתפרס. כל מבט עין - חג הוא לי, כל טיול - שי.
+אני חשה כנולדת מחדש.
+האנשים שאני פוגשת חשים בשמחה השורה בי ושואלים אותי בפליאה כיצד זה
+שאינני מתאוננת ונאנחת על תנאי החיים השונים ממה שהורגלנו ב<placeName ref="http://geo-kima.org/place/5929" xml:id="recogito-5c9bae87-ac5c-4d87-b456-2692218af101" cert="high">אירופה</placeName> וכל-
+כך לוקים בחסר, - <persName xml:id="recogito-040084ec-dc50-4325-844d-d4c165d04205" ana="#אחיה של חנה">הרי</persName> כולם מתלוננים! נכון, קשה להסתדר בחולין של חיי
+יום-יום, אבל אפשר להתגבר על הקושי בכוחו של החג הפורח סביבי.
+הנה הגיעו חפצינו בשני ארגזי ענק, כשהם הרוסים לחלוטין. הם הוצבו על
+סיפון האניה, וכל מישברי הים ומימטרי חודש דצמבר שטפו על פניהם והרטיבו
+את תוכנם. הכורסאות היפות שלנו המצופות עור אדום, דהו וכוסו עובש,
+הפורנירים תלויים כדגלי-אבל מהרהיטים, כסאות ושולחנות התפרקו לרסיסים.
+הלבנים מעופשים - כך נראה רכושנו.
+בעלי-מלאכה זריזי-כפיים מהשכונה הגרמנית עושים כמיטב יכולתם, וכעבור
+שבועות ספורים נראה ביתנו הדור ונאה.
+הדרך מהשכונה העירה גרועה מאד: מדרגות רעועות, דרכים לא סלולות בין
+ערמות סחי ופגרים מבאישים. הו, הצחנה היא ללא נשוא. —- אני נושאת את -
+עיני והים הכחול רומז לי ניחומים: הדרך במורד קצרה כל כך, דלגי בה חיש!
+בעיר עצמה כבר אין זה נורא כל כך, הקנייה בשוק אפילו מענינת ולעתים
+משעשעת. כולם מתאמצים לרכשני כלקוחה, הם חביבים אלי ומקילים על זרותי.
+אכן קשה לנהל משק בית ללא מקרר, ללא קרח ובלי תנורי אפייה וחימום.
+קורה שסעודת-שבת בקיץ אינה ניתנת לאכילה. עוזרת־בית בחודשים הראשונים,
+עד שאני משיגה את <persName xml:id="recogito-f8f7d83d-005d-48e1-8d4b-fcc546155535" ana="#טבחית">בכורה</persName>, היא יותר מעמסה מאשר עזרה.
+מנורות הנפט שאין אנו רגילים בהן מפייחות לעתים קרובות, ובכוונת
+זדון מיוחדת הן נוהגות לעשות זאת דוקא בערב-שבת, בשעה שהבית ואנו כולנו
+מבהיקים בלובן, שולחן החג כבר ערור לנו ולאורחים, ואנו יוצאים רק לשעה
+קלה החוצה לשאוף קצת אויר - ובחוזרנו אנו מוצאים הכל זרוע בפתיתים
+שחורים. זה כבר יכול לעלות בכמה דמעות, עד שהכל שוב מנוקה ומסודר. אך
+האורחים באים, עליז ויפה אצלנו, האוכל טעים לכולם. הידידים הטובים
+ביותר עוזרים בשטיפת הכלים, הילדים שוכבים לישון, מגיעים עוד ועוד
+אורחים - - אז הפיח והצער נשכחו, והשבת <placeName ref="http://geo-kima.org/place/2501" xml:id="recogito-0db39034-e5cc-408b-a949-c22d5d9f1519" cert="low">בארץ-ישראל</placeName> היא יום נפלא.
+ילדי השכנים מכירים אצלנו לראשונה את יפיה של השבת, ודורשים גם
+בביתם שולחן ערוך לחג עם נרות, בגדי-שבת נאים וכל היתר. גברת <persName xml:id="recogito-4c561151-e0df-4302-a42e-c1d461d7bb02" ana="#שכנה של חנה #מנהל בנק א.פ.ק">קייזרמן</persName>
+באה אלי לקבל הדרכה, אך ללא רגש חגיגי או אסטטי זה הופך לכשלון.
+כאשר מתחילה עונת התיירות. נעשה הדבר לחלק מן השהות ב<placeName ref="http://geo-kima.org/place/15834" xml:id="recogito-211e6521-c4f2-4c6a-b52d-38db14595350" cert="high">חיפה</placeName> - לבלות
+5
+ליל-שבת או אחה&quot;צ של שבת אצלנו או אצל ד&quot;ר <persName xml:id="recogito-bc4246ce-17e8-4cf8-a6c5-fffc1d84e9df" ana="#רופא והוגה דעות">אליאס</persName> <persName xml:id="recogito-1cfd9d6c-6207-4175-b99b-95893dd08ceb" ana="#רופא והוגה דעות">אוארבך</persName> (רופא והוגה
+דעות בתקר המקרא). דירתנו המרווחת צרה לעתים מהכיל את כל האורחים,
+שרובם נעימים, ואף מעניינים. אך נחרט בזכרוני חוסר הטקט של <persName xml:id="recogito-73a8e29a-edd8-41e1-9f5e-60f9891289b4" ana="#שכנה של חנה">גב' מנהיים</persName>
+שבאה לבקרנו בתור חבורת אנשים, וקידמה את פני בקול רם: &quot;אה, את היא
+הטבחית המפורסמת? <placeName ref="http://geo-kima.org/place/272" xml:id="recogito-ceffa45b-5be7-4603-80d3-c89aea14a67c" cert="high">בתל-אביב</placeName> כל כך שיבחו אותך&quot;. היא חשה במורת-רוחי
+והסתייגותי הקרירה, ומוסיפה עוד מחמאה מגושמת על הופעתי החיצונית. היא
+נכנסת לחדר־האוכל, היפה בחדרי ביתנו, בו המבט על המפרץ הזוהר יחד עם
+תמונות,רהיטים ופרחים יוצרים אחדות המרהיבה כל עין. תדפיס-אבן צבעוני
+גדול &quot;שדה דגן נע ברוח&quot;. נכס פאר שלנו, מרשים במיוחד מעל לסדירת־הפרחים
+הנאה שמתחתיו. &quot;אה. תמונה זאת יש גם לי. כמובן שהיא תלויה אצלי
+במסדרון&quot;. - אילו הייתי מוזגת לאשה הזאת רעל לתוך התה, האם יכול היה
+מישהו לבוא נגדי בטענות ?- גם בלעדי זאת היא מתה כעבור זמן לא רב.
+זכרון מבדח נשאר לי מביקורם של <persName xml:id="recogito-a647d7ee-3fb2-487e-8d06-0e1bc35ddeea" ana="#מנהיגים בולטים של ציוני גרמניה">קורט</persName> <placeName ref="http://sws.geonames.org/1" xml:id="recogito-7d05a6e8-cf02-41d5-aceb-899d13754c1b" ana="#מנהיגים בולטים של ציוני גרמניה" cert="low">וג'ני</placeName> <persName xml:id="recogito-721ab188-0c12-43f6-9d61-d7f9ec43adbd" ana="#מנהיגים בולטים של ציוני גרמניה">בלומנפלד</persName> (מהמנהיגים
+הבולטים של ציוני <placeName ref="http://geo-kima.org/place/9520" xml:id="recogito-06a34cdb-f2e1-42e3-a570-ce1306f02c60" cert="high">גרמניה</placeName>), שהיו כנראה במסע הכלולות שלהם. הם יושבים על
+הספה ואומרים במבטא מזרח-פרוסי רחב: &quot;אאח, שנכן&quot; (Schenchen), &quot;אאח,
+קורטכן&quot;, ונופלים איש בזרועות רעהו, לשעשוע של כולם, וביחוד הילדים.
+אנו עולים יחד ל<placeName ref="http://geo-kima.org/place/26805" xml:id="recogito-a0fb6e63-4412-4dfb-9aa9-ec74261ae913" cert="high">כרמל</placeName>, הישר למעלה, ללא דרך סלולה. <persName xml:id="recogito-3c3fa211-bbc1-480b-a67c-456820feb756" ana="#מנהיגים בולטים של ציוני גרמניה">קורטכן</persName> עב־הכרס נאנק
+ומזיע ואינו מצליח לעלות. כולנו מושכים ודוחפים אותו בצהלות צחוק במעלה
+ההר, וכשהגיע למרום הרכס - הוא מתישב המום כולו מהישגו: &quot;אאח. <persName xml:id="recogito-ef53ba33-e0fa-46d3-b88e-6c55df9d4f49" ana="#מנהיגים בולטים של ציוני גרמניה">שנכן</persName>&quot;...
+&quot;אאח. <persName xml:id="recogito-c48f18cb-98b9-4d21-9bc0-19549f89dea2" ana="#מנהיגים בולטים של ציוני גרמניה">קורטכן</persName>&quot;. — —
+לראשונה אני חווה את חווית הכלניות האדומות, כולי נפעמת ונלהבת.
+ביתנו הוא בקצה השכונה, ואני יוצאת לשדה הסמוך לקטוף פרחים. השפע הזה,
+האודם הצוהל — אני בשכרון של קטיף הפרחים, ידי אינן יכולות להקיפם, אני
+אוספת את שולי שמלתי התכולה ושופכת לתוכה את השפע האדום. יפים הם
+החיים, כה יפים! אני אצה מאושרת הביתה ופוגשת ליד הדלת אורח מ<placeName ref="http://geo-kima.org/place/9520" xml:id="recogito-293fe45c-3718-4c91-aa5f-4045add2def2" cert="high">גרמניה</placeName>,
+<persName xml:id="recogito-078322b1-c3b9-4896-864b-de0f12cc3214" ana="#אורח מגרמניה">ד&quot;ר סנדלר</persName>. לאחר שנים אמר לי שאז נראיתי לו כסמל האביב <placeName ref="http://geo-kima.org/place/2501" xml:id="recogito-75a5bbf5-1d4c-44c9-8927-2f1de2b183dd" cert="low">בארץ-ישראל</placeName>.
+הילדים מצאו בבתים הסמוכים חברים בני גילם, אמנם ילדות בלבד, בנות
+משפחות <persName xml:id="recogito-c8bc19a2-1fea-4b56-ba5d-1e9d193e9ebe" ana="#שכנה של חנה #מנהל בנק א.פ.ק">קייזרמן</persName> ו<persName xml:id="recogito-3f00f43f-500b-4e90-8b26-28aecb3efa03" ana="#שכנה של חנה">שבתאי לוי</persName>. עם ילדים אחרים, הגרים בשכונה הגרמנית,
+נפגשים מדי שבת. גם שם הבנים הם במיעוט. ואינם מתאימים כל כך <persName xml:id="recogito-727358b7-25dd-42ee-ab5b-0c4a886b0649" ana="#הבן של חנה">לדני</persName>.
+לגבי בני גילו, בני 7-8, הוא רציני ובוגר מדי.
+<persName xml:id="recogito-3c3268d4-e489-4593-a880-a50b8800caa3" ana="#הבת של חנה">רות</persName> מיודדת עם כולם, וחיה ברוב אושר ושמחה. היא מפתחת בטחון עצמי
+מפליא, ובמהרה היא נותנת במלוא הרצינות שעורי עברית לגברת בת גילי,
+ותמורת זה מקבלת שעור במלאכת-יד אצל <persName xml:id="recogito-186ebb59-dce6-4aff-8d01-c3166ece3c9e" ana="#אשתו של זיגפריד">אמה</persName> של הגברת, ובנוסף לכך מטבע
+&quot;מטליק&quot;, כי היא <persName xml:id="recogito-9622295b-7776-49b4-8fd9-2fc884d2802a" ana="#אחיה של חנה">הרי</persName> באה אליהם. זאת משפחת <persName xml:id="recogito-0681b61e-f7ec-42e0-b3e4-74ffcc267df0" ana="#שכנה של חנה">הרמן</persName>, בה ממלאת הילדה תפקיד
+חשוב ומפנקים אותה מאד. ומי אינו מפנק את <persName xml:id="recogito-4b7b8bec-3193-4d28-9552-50d2f4aef9ce" ana="#הבת של חנה">רות?</persName> ידידינו, צעירים או
+מבוגרים, כולם מעריציה ומקבלים בשמחה כל תעלול שלה. הדוד <persName xml:id="recogito-24d0f838-194a-4321-923d-f3f2ca457b5a" ana="#גיסה של חנה #ידיד של חנה">וילהלם</persName> אוהב
+להרגיז את <persName xml:id="recogito-a1a75ade-4f2d-4ba8-8643-9aab1ee244f1" ana="#תלמידתה של רות">לוטה הרמן</persName> (&quot;תלמידתה&quot; של <persName xml:id="recogito-d5b0649b-0bbd-46bc-8c4f-533eace04d29" ana="#הבת של חנה">רות</persName>); כעונש <persName xml:id="recogito-702934c8-d7b1-4fbb-a39b-5f13c8fd0445" ana="#הבת של חנה">רות</persName> אינה מרשה לו לשתות
+6
+את הקפה ליד השולחן, הוא צריך לשבת על הרצפה ושם היא מגישה לו את הספל.
+גזר-הדין מתקבל ללא ערעור. <persName xml:id="recogito-d787c20d-16e9-4b0b-8e2a-f597ddcd7df2" ana="#ידיד של חנה">ד&quot;ר בירם</persName>, <persName xml:id="recogito-ed48ac84-1b1f-48be-a643-84616289ae45" ana="#ידיד של חנה">לואיס</persName> <persName xml:id="recogito-4cbba996-3d20-4ab8-8247-5e19923ab567" ana="#ידיד של חנה">לוין</persName>. וגם <persName xml:id="recogito-04b69765-84e1-4c91-94aa-d542015fc1a9" ana="#ידיד של חנה">יוס לוי</persName> כשהוא
+מזדמן, על כולם לשבת כשהם מקושטים בסרטים צבעוניים לשערם. הם עושים
+זאת, גם כשבאים אורחים אחרים, עד <persName xml:id="recogito-50573752-7282-47ee-8252-09cc89d8a229" ana="#הבת של חנה">שרות</persName> &quot;מתירה&quot; אותם.
+בחוה&quot;מ פסח אנו יוצאים ארבעתנו למסע בארץ. ברכבת החיג'אזית אנו
+נוסעים עד <placeName ref="http://geo-kima.org/place/21887" xml:id="recogito-fb83d625-4e5e-4fb2-ac27-85d861073648" cert="high">מרחביה</placeName>, נקודה יהודית ראשונה ויחידה בעמק. בישוב השיתופי,
+&quot;הקואופרציה&quot;, אין מחבבים &quot;בורגנים&quot;. עלינו אינם מסתכלים בעין כה רעה,
+כיון שוילהלם, אחיו הבכור של מרדכי, פעל שם כמהנדס ומדריך בבניית הבטון
+הראשונה בארץ, מגדל-המים של <placeName ref="http://geo-kima.org/place/21887" xml:id="recogito-ffebbad0-1f0a-4229-aedc-e5c25a1d3fc1" cert="high">מרחביה</placeName>.
+ילדינו, בני שבע ושמונה, רואים לראשונה רפת גדולה ויושבים על סוסים,
+ומשני הדברים אינם נהנים. אנו לנים ב-&quot;מלון&quot; של הכפר. <persName xml:id="recogito-f471763a-a4f7-4905-8770-98ad444cc36c" ana="#הבת של חנה">רות</persName> שואלת: &quot;למה
+הדוד <persName xml:id="recogito-d1797a90-d959-4e78-97b8-04f6331756df" ana="#גיסה של חנה #ידיד של חנה">וילהלם</persName> בנה לתוך הבית כל כך הרבה זבובים?&quot; כל נגיסה שחורה מזבובים
+עד שהיא מגיעה אל הפה. בלילה הפרעושים והשומרים שחדרם סמוך לשלנו אינם
+מניחים לנו לישון. אלה עוקצים, ואלה שרים, מנקים רובים, מתחלפים
+בשמירה. שורר מצב מלחמה עם הכפר <placeName ref="http://geo-kima.org/place/21803" xml:id="recogito-3b29d9f9-ef10-4c00-b4cb-fb65dd2c9c46" cert="high">שונם</placeName>, בכל לילה יש יריות. בכלל יש אי-
+שקט בארץ; באותו יום נרצח צעיר אמריקני על <placeName ref="http://geo-kima.org/place/5765" xml:id="recogito-35b562a2-9427-410b-a9ec-99a8f0e8d12b" cert="high">התבור</placeName>. מזהירים אותנו - אך
+אנו צעירים וחשרי דאגה, ולא מוותרים על המסלול שתיכננו.
+אנו נוסעים ל<placeName ref="http://geo-kima.org/place/21917" xml:id="recogito-4e1f8b99-ac5d-431c-a8fc-40eddb7bb50c" cert="high">כנרת</placeName>, לחוות הפועלות של <persName xml:id="recogito-db0dcf83-0c5c-44d6-941b-3898445e531e" ana="#מנהלת חוות פועלות">חנה מייזל</persName>. שם יש ידידות שלנו,
+<persName xml:id="recogito-96f4794c-3dd3-4a55-8b0a-31bd3aa8a6e7" ana="#ידיד של חנה">אלפרידה</persName> <persName xml:id="recogito-0544d937-db8c-47d6-aea0-06b760da9072" ana="#ידיד של חנה">במבוס</persName> האקונומית ו<persName xml:id="recogito-ea2bc965-eb0b-4b46-a042-b43b513c0a14" ana="#ידיד של חנה">מרתה שיק</persName> הטבחית. גם <persName xml:id="recogito-101b60eb-3eba-4464-9233-8b70a15f2639" ana="#ידיד של חנה">אנה</persName> <persName xml:id="recogito-56843dc5-8c4e-49c6-854d-ca85ba4498b3" ana="#ידיד של חנה">לוין</persName> נמצאת שם,
+ובחסותה אנו משאירים את הילדים, וצועדים שנינו ברגל ל<placeName ref="http://geo-kima.org/place/807" xml:id="recogito-730bd02b-2581-4e3e-84ce-ddb3091f9ad5" cert="high">טבריה</placeName>. למחרת אנו
+שוכרים סוסים ורוכבים ל<placeName ref="http://geo-kima.org/place/1475" xml:id="recogito-6d5ed49c-2464-4f69-9f48-3beb5ab7d370" cert="high">גליל</placeName>. המשכיר הערבי רץ כל הדרך לידינו. בבקעה
+לפני <placeName ref="http://geo-kima.org/place/6904" xml:id="recogito-1572e259-c328-419c-899b-cfa40dd3468e" cert="high">מגדל</placeName> מבעבעים מעינות ונחלים, אנו חוצים אותם ברכיבה וסביבנו שיחי
+הרדוף בפריחה אדומה שופעת. סוסי הלבן עומד וגומע מהמים - כמו אגדה,
+תמונת יופיו של עולם הזוהרת לעד. - אנו רוכבים ל<placeName ref="http://geo-kima.org/place/522" xml:id="recogito-6e3b2437-89f1-4070-b520-aa0fc7350deb" cert="high">טבחה</placeName>, הגן הקסום של
+הנזירים, ועוברים בין החפירות של <placeName ref="http://geo-kima.org/place/25437" xml:id="recogito-75279885-3c95-4f72-ac6e-825f9efc0958" cert="low">כפר-נחום</placeName>, שהן עדיין במצב היולי,
+כשמוביל אותנו הנזיר הפרציסקני מאזור הריין, החופר שם בודד ונלהב.
+היום נוטה לערוב, עננים קודרים באיום של סופת גשמים, — והערבי מקלל
+על שהתעכבנו בכל מקום. המצב אינו נעים, הסוסים מועדים בדרך-לא דרך. האם
+מאחורינו פרש? &quot;חייל יהודי&quot;, אומר הערבי שלנו. בלבוש וחגור פנטסטי
+הוא דוהר אלינו, לבבותינו צוהלים לקראתו: &quot;שלום, שלום!&quot; - שומר מהמושבה
+<placeName ref="http://geo-kima.org/place/212" xml:id="recogito-f7cf474f-7ce9-4b3b-bbf3-fc022cf1a5e6" cert="low">משמר-הירדן</placeName>, הוא מלווה אותנו בגשם שהחל ובסופת הברקים עד ל<placeName ref="http://geo-kima.org/place/22361" xml:id="recogito-686a3974-46da-45c9-b804-2c3c0208fafb" cert="low">ראש-פינה</placeName>.
+אנו מוצאים אכסון טוב במלון, ואת הערב אנו מבלים בבית המורה <persName xml:id="recogito-0fb4208e-55eb-49a6-838b-00303f26982d" ana="#מורה מארח">וילקומיץ</persName>
+ומשפחתו החביבה. ה&quot;ישוב&quot; בארץ עדיין קטן, כל אחד חש אחוה לרעהו. הקשר
+של אהבת הארץ, הרצון לבנות אותה, שאיפה אידאלית ללא אנוכיות — מאחד
+אותנו, את כל אלה שנשארו נאמנים. כל לחיצת יד שופעת חום ועדוד.
+בבוקר זורחת השמש, אנו רוכבים ועולים מעלה, מעלה - רמות חשופות -
+אני עוצרת את הסוס: שם למטה נמה שוב האגדה: בין עטרת הרים שוכנת בזוהר
+חלומי העיר <placeName ref="http://geo-kima.org/place/377" xml:id="recogito-eed6ef64-2a94-4b09-aba7-feb33599d0ce" cert="high">צפת</placeName>, יפהפיה ממרחקים. בגו מוטה אחורה, אנו רוכבים במדרון
+תלול לקראת היעד המפתה - - והמציאות הבנאלית של העיר - אכזבה. אפילו
+האפשרות להשיג ארוחת-צהריים אינה נראית, עד שמשפחה מכניסת-אורחים מכינה
+לנו לאחר צפייה ארוכה משהו לאכול.
+בחזרה ל<placeName ref="http://geo-kima.org/place/807" xml:id="recogito-a6137420-4621-465d-96a8-7e8dd0fda29d" cert="high">טבריה</placeName> רכיבה דרך ואדי ירוק, בין עצים ומים. לקראת הערב חש
+סוסי באורוה הקרובה ופורץ בדהרה עליזה. סוסו של <persName xml:id="recogito-0ab816a3-5c90-4fe9-95fd-5389c503517e" ana="#בעלה של חנה">מרדכי</persName> הצועד לפני, שומע
+זאת ומזנק ודוהר אף הוא, כשרוכבו המופתע כמעט והוטל ארצה. הערבי מגדף
+ורץ אחרינו בצעקות.
+בבוקר פגישה מאושרת עם הילדים. <persName xml:id="recogito-590a918a-2ad3-477e-b068-38e8fc9b6114" ana="#הבת של חנה">רות</persName> הקטנה מלאת בקורת על המצב בחווה,
+זבובים ופרעושים הציקו לה מאד, החלון היה שבור; לארוחת־הצהריים הגישו
+מצות ומרק תפוחי-אדמה שהומלח. כאשר שאלה הילדה בקול רם ליד השולחן:
+&quot;ומזה צריכים לישבוע?&quot; — חייכו כולם בעצב - כן.
+בשיט על <placeName ref="http://geo-kima.org/place/5152" xml:id="recogito-8d355e32-6d48-41e6-921c-515cbaf91cec" cert="high">הכנרת</placeName> בחזרה ל<placeName ref="http://geo-kima.org/place/16228" xml:id="recogito-c533a113-c842-426d-a39b-9c2ccec5da0e" cert="high">צמח</placeName> אנו נרטבים בגשם עד העור. בחדר-השינה של
+מנהל תחנת הרכבת הותר לנו להחליף בגדים.
+היה יפה, יפה להפליא מה שראינו בטיולנו, אבל כעת יפה עוד יותר להיות
+שוב בבית, כי בחוץ ניתך שוב גשם שוטף. עוף <placeName ref="http://geo-kima.org/place/22361" xml:id="recogito-4a57fb10-8829-4b0b-912e-f3718d803d56" cert="high">מראש-פינה</placeName> ודג מ<placeName ref="http://geo-kima.org/place/807" xml:id="recogito-b228f493-7607-46b9-9e8f-39df455d651a" cert="high">טבריה</placeName> תורמים
+את חלקם לאוירת החג.
+בניית <placeName ref="http://geo-kima.org/place/26414" xml:id="recogito-ade71c6f-6fa2-4241-b097-f55a61c4e1d7" cert="low">הטכניון</placeName> אינה מתנהלת באווירה של ידידות ושמחה. הניגודים
+הולכים ומחריפים. המנהל <persName xml:id="recogito-e928d6cb-20dd-4b05-8fa9-24bde2879a4d" ana="#מנהל הטכניון">פינקלשטיין</persName>, כולו &quot;גרמני&quot;, כולו &quot;פרוסי&quot;, אינו
+מוכן לגלות כל הבנה לדרישות הלאומיות היהודיות, הוא רוצה לעשות את
+<placeName ref="http://geo-kima.org/place/26414" xml:id="recogito-1fb50ca3-04a9-4d40-9cfc-cc6b6d696663" cert="low">הטכניון</placeName> למצודת הגרמניות. הוא וה&quot;סנשו פאנסה&quot; שלו <persName xml:id="recogito-5f3e2383-28ca-4525-9f68-f75da856340d" ana="#עוזרו של פינקלשטיין">לדרמן</persName>, המלווה על גב
+חמור את האדון על סוסו ברכיבתו היומית, מוחרמים על ידי הקהילה היהודית.
+גם לנו אין קשר חברתי עם אנשי <placeName ref="http://geo-kima.org/place/26414" xml:id="recogito-0bc692eb-466e-4821-8390-da48ae73efc4" cert="low">הטכניון</placeName>. אפשר לתאר כמה מתסכלת את <persName xml:id="recogito-f2603c8a-0471-4295-aa4c-a4dd33d60b2f" ana="#בעלה של חנה">מרדכי</persName>
+(<persName xml:id="recogito-e3c9f688-2575-4232-8a9d-8a867f6b4f7c" ana="#בעלה של חנה">מקס</persName>) העבודה בתנאים כאלה. בינתיים עוסקים רק בניהול הבנייה, בזה אפשר
+עדיין למצוא בסיס משותף, אך מה יהיה לאחד מכן?! - - קנאי &quot;מלחמת
+הלשונות&quot; ובראשם גימנסיה <placeName ref="http://geo-kima.org/place/700" xml:id="recogito-6929d138-bd03-4d6d-bf93-0d796b8a9490" ana="#מלון" cert="low">&quot;הרצליה&quot;</placeName> מחדדים את המצב עד לקיצוניות. על כל
+מוסדות &quot;אגודת העזרה&quot; הוטל חרם, כל מורה נדרש להכרעה לכאן או לכאן. יש
+שביתות ומאבקים המגיעים עד לכדי החלפת מהלומות.
+אך כל זה מאבד משמעות מול הארועים הגדולים המזעזעים בינתיים את
+העולם: <rs xml:id="recogito-4f361742-98a9-4aaf-abce-804c20146e38" type="event">הרצח בסרייבו</rs>, האיום במלחמה המרגש את כולנו, ולפתע - כמו הלם -
+גיוסם של נתיני <placeName ref="http://geo-kima.org/place/9520" xml:id="recogito-c560e816-38cc-4bdd-9c09-a8356f5529a0" cert="high">גרמניה</placeName> ו<placeName ref="http://geo-kima.org/place/7645" xml:id="recogito-3830b144-7f22-4d2b-af87-fa7625e2a1ce" cert="high">אוסטריה</placeName>. איך ימלאו את חובתם? האם תתאפשר עדיין
+הפלגה באניה? האם צריך לבחור בדרך היבשה רבת התלאות עם צעידה רגלית
+ברכסי ההרים? לנו נוגע הדבר עמוקות, <persName xml:id="recogito-eae3a76c-eae5-4d58-9a2a-c598d5536195" ana="#בעלה של חנה">מקס</persName> חייב להתיצב כסגן מיל' בצבא
+האוסטרי. הקונסול מיעץ לו לצאת מחר בשבת יחד עם חייבי הגיוס הגרמניים
+בדרר היבשתית. ואז מאוחר בערב, כל הידידים והמכרים כבר באו ונפרדו,
+8
+מגיע הקונסול עם צו מגבוה שעל <persName xml:id="recogito-6b0fe3b2-a2d8-4084-bf81-cf2c32607567" ana="#בעלה של חנה">מקס</persName> להפליג בים. נעשינו צנועים, ומקבלים
+הוראה זו כבשורה משמחת. איזו זכיה, ליהנות עוד מימים אחדים של יחד, ואם
+גם קשה תהיה צליחת הים, זה כאין וכאפס לעומת המאמץ והסבל שבדרך היבשה.
+באופטימיות תמימה ובחוסר-ידע מאמינים הכל שמלחמה זו תסתיים תוך שבועות
+מספר. <persName xml:id="recogito-a93d349c-cfec-4602-a809-e63d18c020b3" ana="#בעלה של חנה">מרדכי</persName> אינו רוצה לקחת לבנים חמים, <persName xml:id="recogito-7e0ae12b-6bd0-4dea-9f55-599731ea17f1" ana="#אחיה של חנה">הרי</persName> יחזור עד תחילת החורף. על
+אף תקוות אלה קשה הפרידה מאד, הילדים מתיפחים בצער עמוק. הדוד <persName xml:id="recogito-1125024b-9c69-47a9-97b6-1778e78563c6" ana="#גיסה של חנה #ידיד של חנה">וילהלם</persName>
+כאזרח עותומני אינו חייב גיוס, הוא נשאר אתנו.
+חוג מכרינו מתפצל לשני מחנות, &quot;הגרמנים&quot; ו&quot;האחרים&quot; - שהם הרוב, כיון
+שאיש מהם לא גויס. כל אחד מאמין לדווחי-הקרב של הצד &quot;שלו&quot;, וכל היתר הם
+שקר וכזב. כבר אינני רוצה לפגוש איש. מי כמוני נפגע מדברי האיבה, בעת
+שבעלי וחמשת אחי הם בתוך המלחמה, ו<placeName ref="http://geo-kima.org/place/2194" xml:id="recogito-0c53b448-fb93-4290-9477-93b436e3ec2f" cert="low">פרוסיה המזרחית</placeName> - מולדת נעורי- כבושה
+בידי האויב הרוסי. היכן הורי, איפה נשארו גיסותי הצעירות? במשך שבועות
+לא מגיעים מכתבים, או רק כאלה שזמנם עבר, חיי מלאי דאגות. גם על
+המשכורת <placeName ref="http://geo-kima.org/place/26414" xml:id="recogito-334062b8-3a72-4c4e-b062-f496617b30e7" cert="high">מהטכניון</placeName>, בסכומים קטנים, עלי להתחנן.
+האוכלוסיה היהודית נרגשת והיסטרית, מאמינים לכל שמועה על התנפלויות
+מתוכננות ונכנסים לפניקה. כל אור על הים הוא משחתת בריטית או צוללת
+האמורה להפגיז את <placeName ref="http://geo-kima.org/place/15834" xml:id="recogito-1c587767-aabd-455b-a5a8-5a3c13eb4056" cert="high">חיפה</placeName>. (באמת בשלב מאוחר יותר נורו מאניה אנגלית שני
+מטחי תותח מטווחים במדויק אל הקונסוליה הגרמנית והרסו אותה, לאחר אזהרה
+מו קדמת ג'נטלמנית, כך שלא נפגע אדם).
+הטבחית שלנו <persName xml:id="recogito-71f555bd-0ef6-44d3-906f-3b6809e9979a" ana="#טבחית">בכורה</persName> לעתים מרגיזה אותי בחרדתה הרועדת ובשמועות
+הדמיוניות שהיא מביאה מאנשי חוגה. היא אינה יכולה להבין איך אני נשארת
+רגועה, הולכת בלי חשש העירה וקונה בשוק הערבי, ושאני מסוגלת כעת לשבת
+שעות ליד הפסנתר וממש להתאמן, מה שלא עשיתי לפני כן. אני זקוקה להסחת
+הדעת הזאת, להתעמקות בעיסוק המשכיח ממני את הזמן.
+אוי, הקיץ הראשון שלנו בארץ כל כך חם, כה קשה לשאת אותו! בחוץ צחנה
+איומה, בכל מקום מוטלים פגרי כלבים, חתולים ותרנגולות. מכת הזבובים
+והיתושים היא נוראה. מחלת האבעבועות השחורות שוררת בעיר, בבית מולנו מת
+בה איש צעיר, שבחתונתו השתתפנו לפני שבועות מספר. את חפציו פורשים לשם
+חטוי בשמש - על גבי חומת החצר שלנו.
+על אף הכל: אהבתי האומרת הן לארץ, עודה קיימת. הטיולים ל<placeName ref="http://geo-kima.org/place/26805" xml:id="recogito-130c623b-1487-438d-af13-4d3783d34697" cert="high">כרמל</placeName> הם
+חגיגה שאנו עורכים מדי פעם לעצמנו, או בלוית חברים. תמיד ברגל, רק פעם
+בא העגלון הערבי <persName xml:id="recogito-95c5377d-fb06-443c-ad32-6aeb278b1030">אלייה</persName> ביום של מזג אויר נאה ושואל אם אינני רוצה לנסוע
+עם הילדים ל<placeName ref="http://geo-kima.org/place/26805" xml:id="recogito-07caf399-2980-4c16-b0d7-741cc356031a" cert="high">כרמל</placeName>, הוא יבקש רק תשלום מועט. אנו עושים לנו ולו את השמחה.
+סוף סוף מגיעים מכתבים מיקירי: <persName xml:id="recogito-288d8bc0-a355-4e42-97e7-5f8edf1439a4" ana="#בעלה של חנה">מקס</persName> נמצא ב<placeName ref="http://geo-kima.org/place/11244" xml:id="recogito-bcac4512-7d25-4739-b182-84f64de1533c" cert="high">קרקוב</placeName> ביחידת בנייה. אמא
+כותבת שעיירתנו <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-f46d5de8-7b9e-408a-b899-caf54b72aaeb" cert="high">טפיאו</placeName> פונתה, והיא וכלותיה מצאו מקלט בערים אחרות. אבא
+החזיק מעמד <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-0aa5ad4b-1388-41d2-a1fb-81844a528fe4" cert="high">בטפיאו</placeName> עד להפגזתה, ואז נדד בלילה יחד עם האזרחים האחרונים
+ברגל ל<placeName ref="http://geo-kima.org/place/405" xml:id="recogito-ea686b3a-8f49-45f4-8110-d7aa1245adac" cert="high">קניגסברג</placeName>, כשבחשיכה תפס בידו במקום את תיק הנסיעות הארוז - איזה
+9
+סל קניות של אמא, ובו רק סינור-מטבח... אחי <persName xml:id="recogito-32834e6a-692a-4525-b595-89a3c8d4e900" ana="#אחיה של חנה">אודו</persName> &quot;הצליח&quot; לחזור ל<placeName ref="http://geo-kima.org/place/9520" xml:id="recogito-247ee4eb-0e20-45c6-bbd1-2bc717bf38d1" cert="high">גרמניה</placeName>
+מ<placeName ref="http://geo-kima.org/place/7805" xml:id="recogito-bf947d19-94c3-4c99-b2dd-029a14a6f2a6" cert="high">ארגנטינה</placeName> עם דרכון מזויף, בכדי להתיצב מיד לקרב. מכל האחים יש ידיעות,
+מלבד מאחינו הצעיר <persName xml:id="recogito-b6b96b37-5084-493b-bfed-b1071cf97e40" ana="#אחיה של חנה">ברונו</persName>.
+לא החלטתי, זה תלוי בעמדתה של <placeName ref="http://geo-kima.org/place/8120" xml:id="recogito-14c1f4cb-7073-4434-a711-72fa544798af" cert="high">תורכיה</placeName>. <rs xml:id="recogito-f918f9eb-66f8-4b75-8773-41ccdb74a81c" type="event">ב-1 בנובמבר</rs>, השכם בבוקר יום
+שבת בא שכננו <persName xml:id="recogito-74470018-8e91-4d30-8b98-82e369076081" ana="#שכנה של חנה #מנהל בנק א.פ.ק">קייזרמן</persName>, מנהל בנק א.פ.ק., ומביא את הידיעה על כניסתה של
+<placeName ref="http://geo-kima.org/place/8120" xml:id="recogito-3d06ba80-9c89-4ce8-b717-1d8647f54928" cert="high">תורכיה</placeName> למלחמה לצידן של <placeName ref="http://geo-kima.org/place/9520" xml:id="recogito-17a59d81-72c4-4fe2-bfa5-5c4e3a1c0c81" cert="high">גרמניה</placeName> ו<placeName ref="http://geo-kima.org/place/7645" xml:id="recogito-1eed1b18-a4c5-4b26-a1a9-93c6aa9fc0ff" cert="high">אוסטריה</placeName>. תוך דקות ספורות אני מחליטה
+לצאת לדרך עם הילדים, ולנסוע באניה האמורה להפליג עוד היום ל<placeName ref="http://geo-kima.org/place/13249" xml:id="recogito-4c7d0609-45d0-4e84-9b5e-58a1c3b9a4fe" cert="high">גינואה</placeName>.
+גיסי <persName xml:id="recogito-dd551cd4-d598-48a6-9402-baadf6d554ac" ana="#גיסה של חנה #ידיד של חנה">וילהלם</persName> שוכב חולה עם חום גבוה, ואינו מסוגל להתיחס להחלטתי.
+אני יוצאת מיד העירה. מקבלים אותי בברכה בתור &quot;אלימניה&quot; כבת-ברית
+ל<placeName ref="http://geo-kima.org/place/8120" xml:id="recogito-1b88cbc4-f47b-4064-8193-e8cff7c7c9d8" cert="high">תורכיה</placeName>. אין לי פספורט, הדרכון המשותף שלנו נמצא בידיו של <persName xml:id="recogito-59f8a2ad-9f3c-4d18-88af-5aa43d446e92" ana="#בעלה של חנה">מקס</persName>. אני
+תובעת מהקונסול האוסטרי את הניירות הדרושים לי ולילדים, הוא מנסה לסרב,
+אך אינני מוותרת, - והוא מכין לי תעודת־מעבר וגם המלצה לקונסול האיטלקי
+להוציא לי מיד ויזה. אני מזמינה כרטיסי אניה, ועוד אין לי כסף לשלם
+עבורם, מחירם האמיר פי כמה מאז ימי השלום. אני נוסעת לטכניון. בלב הולם
+אני מבקשת להודיע למנהל ד&quot;ר <persName xml:id="recogito-ebd850c1-694a-406f-a2c5-ebff393d11ad" ana="#מנהל הטכניון">פינקלשטיין</persName> על בואי. במלים קצרות אני
+מסבירה לו את מצבי, ודורשת עוד היום עד השעה שתיים אחה&quot;צ סך 800 פרנקים
+במטבעות זהב. הוא טוען: שבת, הבנק סגור, אי אפשר להשיג כמות כזאת של
+זהב. אני עומדת על דרישתי בשקט ובתוקף, זה איכשהו מרשים אותו, הוא
+מתבוננן בי במבט חודר ואומר: &quot;ב-2.00 תקבלי את הכסף&quot;.
+אני נוסעת הביתה בכדי לארוז. בביטחון הברור של מעשי ודרישותי אני
+חשה עצמי בטוב, זה משהו חדש בי. הכל פועל על הרגע. כאשר ד&quot;ר <persName xml:id="recogito-64fb3af1-44f2-4dbe-bd6e-eb107a19b727" ana="#מנהל הטכניון">פינקלשטיין</persName>
+בא בשעה 2 וסופר את הפרנקים במטבעות זהב לתוך ידי - חפצינו כבר ארוזים.
+אני נוסעת העירה לקנות את הכרטיסים ושומעת שהאניה כבר לא תגיע היום
+לנמל, אלא רק מחר. אני שמחה, ומנצלת את הזמן לביקורי פרידה.
+למחרת ירד חומו של <persName xml:id="recogito-5d9a07b8-099e-4d44-9f36-92a1088f4dc2" ana="#ידיד של חנה">וילהלם</persName>, אני משאירה אותו ואת הדירה בחסותה של
+<persName xml:id="recogito-f0ebe913-575d-4388-ad47-fc392fccdb7a" ana="#טבחית">בכורה</persName>. הספינה נראית באופק, <persName xml:id="recogito-74aab4e3-8933-4c6b-a1d3-1e861709a3b3">אלייה</persName> כבר עומד מוכן עם רכבו לפני הבית
+בכדי להביא אותנו לנמל. הפרידה פחות קשה עלי מאשר תארתי לי עוד לפני
+שבועות מספר. יש בי הבטחון של פעולה נכונה, ואני נוסעת אל כל יקירי.
+בדרך מכאן ל ש ם.
+ב-&quot;סירקוזה&quot; אנו מפליגים ראשית ל<placeName ref="http://geo-kima.org/place/15116" xml:id="recogito-69480e2c-efcd-4bd9-b74a-9120bded06e3" cert="high">ביירות</placeName>, ועוגנים שם יום שלם. קציני
+האניה טורחים הרבה למעננו בכדי להנעים לנו את השהות באניה ככל האפשר,
+אך אינם יכולים למנוע שבעת ההפלגה ל<placeName ref="http://geo-kima.org/place/665" xml:id="recogito-4889de89-a591-41a2-846d-ece5789ebe35" cert="high">מצריים</placeName> אנו שלושתנו סובלים קשות
+ממחלת ים, ושוכבים כל היום בתא שלנו. ב<placeName ref="http://geo-kima.org/place/7011" xml:id="recogito-25bba3cc-1c46-4125-9f5f-a3f04b8c06c8" cert="high">אלכסנדריה</placeName> נערכת בקורת דרכונים
+בריטית. כאשר קוראים לי להתיצב עם התעודה האוסטרית שלי, מתבונן בי צוות
+10
+האניה ברחמים, ואפילו קצין הבקורת האנגלי מסתכל בי בהשתתפות. כאשר הוא
+אומר לי שאנו כעת כעין שבויי־מלחמה, קשה לי לקבל זאת ברצינות, ואני קצת
+מחייכת. זה כנראה מרגיז אותו, והוא חוזר על דבריו ביתר תוקף. אני מדברת
+אתו בצרפתית, שבה שלטתי אז פחות או יותר, ואומרת לו שאני בכלל לא
+מתכוונת לבוא ל<placeName ref="http://geo-kima.org/place/665" xml:id="recogito-8200c6e5-5dd6-42fd-a508-a4d3f1865974" cert="high">מצריים</placeName>, אלא ל<placeName ref="http://geo-kima.org/place/24095" xml:id="recogito-d57bfcfe-5488-4a9a-9028-6d55a1daa301" cert="high">גנואה</placeName>. כן, אבל האניה אינה ממשיכה, נתקבלה
+הוראה לפרוק מטען ולחזור ל<placeName ref="http://geo-kima.org/place/15116" xml:id="recogito-197b5cbb-ae61-48d9-8e22-dc088e6d3d5f" cert="high">ביירות</placeName>. אך אז רב-החובל ערב לי, הוא מתחייב
+שאנו נמשיך בדרכנו באניה אחרת של אותו הקו, שתבוא בעוד יומיים. האנגלי,
+לפני רדתו מהאניה, מתנצל בפני על כך שבמשך השהות בנמל עלי להיות תחת
+משמר צבאי. במקרה שיהיו לי תלונות, אוכל לפנות אליו, אך אינו אומר לי
+איך ולפי איזה שם אפשר להגיע אליו. - ואכן היה לי על מה להתלונן.
+אנו שלושת &quot;האויבים&quot; זוכים למשמר של שלושה חיילים שחורים ענקיים,
+המקיפים אותנו בלי הרף. בתחילה זה משעשע, אחר כך - הופך למטרד, שממנו
+מקל עלינו רב-החובל בקחתו אותנו אל המחלקה הראשונה, ונותן להם לשמור רק
+על פתח הכניסה. שהייה באניה העוגנת בנמל לשם טעינה או פריקה, - משמימה
+נורא, מלאת רעש, זוהמה ושעמום. השיחה עם האיטלקים אין בכוחה לשנות בזה
+הרבה, הצרפתית שלהם ושלי היא רק ככה־ככה. התקשורת הטובה ביותר היא עם
+הקצין הראשון <persName xml:id="recogito-a1fc1175-a003-4fdb-a67b-30afe2646862" ana="#קצין">אורסטה Oreste ריקו</persName>, סיציליאני חם-מזג <placeName ref="http://geo-kima.org/place/7532" xml:id="recogito-c693199d-b1f7-4fc0-8158-e53f33cb44be" cert="high">מקטאניה</placeName>, שגדל על
+הר-הגעש <placeName ref="http://geo-kima.org/place/15010" xml:id="recogito-4d2f2302-e261-4f20-8ee0-57db5ebb9025" cert="high">אטנה</placeName>, בהיות אביו מנהל תחנת-התצפית שבראש ההר. כבר בעלייתנו על
+האניה ב<placeName ref="http://geo-kima.org/place/15834" xml:id="recogito-e97b3d2a-4abd-4862-a980-23625c9d8d4a" cert="high">חיפה</placeName>, הוא הושיט לנו יד לעזרה, ומאז נשאר האביר הנאמן שלנו, מה
+שנותן לי תחושה נעימה מאד במשך חמשת ימי שהותנו על ה-&quot;סירקוזה&quot;. <rs xml:id="recogito-82186b2f-6422-403e-836d-5c06682accaf" type="event">ב-7
+בנובמבר</rs> קצת לפני ארוחת־הצהריים הוא בא אלי נרגש כולו ועוזר לי לארוז,
+כי המשטרה רוצה להעביר אותנו לאניה &quot;פורטו-סעיד&quot;. גייס רב-משתתפים של
+שוטרים, סבלים ושומרי-הראש מקבל לידיו את שלושתנו ואת המטען שלנו, בכדי
+להביא אותנו ראשית אל מחסן המכס. מחטטים והופכים הכל, - פתיחתה של
+צנצנת קונפיטורת-דודבנים שבכורה אילצה אותי לקחת, ואי-סגירתה כראוי —
+גורמת לנו לנזק רב. עיתונים ישנים, חומר האריזה היחידי שעמד לרשותנו,
+הוחרמו; שוטר אחר מחזיר לי אותם בחיוך מאחורי הגב. נערכת אפילו ביקורת-
+גוף - אך הכל ללא חומרה וברוח טובה, ואנו חשים עצמנו כמו בקומדיה. אבל
+אנו רעבים נורא, וחוששים שבאניה האחרת כבר לא נקבל שום דבר לאכול.
+לבסוף שוב מתארגנת התהלוכה שלנו, ותוך הרבה עיכובים וסרבול ללא טעם אנו
+מובלים לסיפונה של ה-&quot;פורטו-סעיד&quot;, שם מסתכלים בנו כאילו היינו איזה
+יצור פלאי מהים, בעת שאנו עולים במדרגות הספינה עם כל פמליית מלווינו.
+בעת תשלום שכרם מתרחשים עוד מחזות מרגשים, עד ששוטר מגרש מהאניה
+בהצלפות שוט את כל חבורת הסבלים הדביקה. - מרחמים עלינו, ובשעה שלוש
+עדיין נותנים לנו ארוחת צהריים ותא נהדר ומרווח - אבל בדיוק מתחת למנוף
+ההעמסה. שקשוק השרשראות ויתר הרעשים הכרוכים בכך הם בלתי נסבלים. אני
+מבקשת תא על הסיפון. הוא קטן, אך מאוורר היטב, ואנו מרוצים.
+11
+במהרה בא <persName xml:id="recogito-0ec098d2-d782-4750-9e0b-40d3e54d5966" ana="#קצין">אורסטה</persName> <persName xml:id="recogito-308bbd75-a4a3-45a9-ac7d-397da3d51f7c" ana="#קצין">ריקו</persName> לבקר אותנו, - אך מה פירושו של דבר? הוא
+מתבונן בי במבט כה רציני, אוחז בידי ושואל בקול קודר: &quot;מה עשית?&quot; לבי
+הולם בפחד, שמא כעת באמת אוטל לכלא, אולי בגלל העיתונים? &quot;את לקחת
+איתך את לבי!&quot; אני נושמת לרווחה, ושומעת בחיוך כשהוא ממשיר לספר לי מה
+אני <persName xml:id="recogito-4ed39e68-15fa-4d5a-a53a-0cbfe915c173" ana="#הבת של חנה">ורות</persName> עוללנו לו ולאחרים, כל הצוות מתאבל אלינו. הוא נפרד ברוב רגש,
+בערב חוזרת אנייתו ל<placeName ref="http://geo-kima.org/place/651" xml:id="recogito-4c80279c-4904-4cef-91e9-6ed939874bb0" cert="high">בירות</placeName>.
+השמיים בוערים בעת שקיעת החמה. אנו נותרנו לבד על אניה זרה, שאין לה
+שייכות אלינו ואל <placeName ref="http://geo-kima.org/place/2501" xml:id="recogito-4a4257f7-8a4d-4f8d-97ce-8ddfc426e5fb" cert="low">ארץ-ישראל</placeName>. לראשונה אני חשה פחד מעיק ועצב חרד בחושבי
+על המצפה לנו ב<placeName ref="http://geo-kima.org/place/5929" xml:id="recogito-4c9f309f-b301-43cc-a5d6-077e43d4a716" cert="high">אירופה</placeName>. הידיעות שבידי הן מיושנות, מי יודע מה יכול היה
+לקרות בינתיים. לאחר ערב מיוסר בבדידות אני הולכת עיפה לישון. - - מה
+קורה כאן. לכל הרוחות? מי חובט והולם על הדלת? המשמר השחור התחלף,
+וברצונם להכיר אותנו. כעבור זמן -מה דפיקות נוספות, לודא שאנחנו עדיין
+נמצאים שם. ושוב מהומה, אסור לי לסגור את הדלת, עלינו להיות תחת
+תצפית. כעת אני מסרבת לפתוח, הם חובטים בכוחות מאוחדים בדלת. לבסוף אני
+פותחת, מגדפת ומקללת אותם בגרמנית ככל יכולתי. זה באמת קצת מדהים את
+הברנשים. בסופו של דבר מצליח אחד הדיילים לשכנע אותם שאיננו יכולים
+להימלט דרר חלונות התא הזעירים. שיתנו לנו לישון בשקט, וישמרו על הדלת.
+בנסיבות אלה אני מבלה את הלילה ללא שינה בהתרגשות רוטטת. היום הבא מוצא
+אותי בוכיה על הסיפון, אני חשה באסון מאיים עלי.
+המשמר שוב התחלף: קצין וששה חיילים, לבנים. פחד איום אוחז בי, שמא
+יקחו ממני את הילד, או אולי יביאו את כולנו ליבשה ויחזיקו אותנו
+ב<placeName ref="http://geo-kima.org/place/665" xml:id="recogito-f52b64e6-7c66-4969-9236-1a13ac428a45" cert="high">מצריים</placeName>. על סיפון האניה נמצאים כמרים איטלקיים, החשים ברגישות את
+מצוקתי הנפשית, באים לשבת לצידנו ומדברים אלי דברי נחמה והרגעה מכל
+הלב. אלה דמויות שאין להעלות על הדעת אציליות וראויות לכבוד יותר מהן.
+כומר צעיר ויפה, כמו מלאך שנשלח ממרום, מתידד בצורה מרנינה עם <persName xml:id="recogito-46158ecf-6962-48ec-b194-6325a5caec6a" ana="#הבן של חנה">דני</persName> בן
+השמונה וחצי. הם מלמדים זה את זה איטלקית וגרמנית, משחקים שח, ובשעת
+הארוחה עורכים תחרות באכילה ושתיה. מעולם לא ראיתי את הילד שלי כה זוהר
+בשמחה ופורח, כמו בשבוע הזה על סיפונה של ה-&quot;פורטו-סעיד&quot; בבלוי המשותף
+המתמיד עם ה&quot;פדרה&quot; המאמין, הטהור כמלאך והשמח הזה.
+סוף סוף מתכוננת האניה להפלגה. המשמר יורד מסיפונה, לאחר שספרו ומנו
+אותנו ורשמו אותנו בעפרון היפה שלי, שלא ראיתיו שוב לעולם. בעמידת דום
+הם עוקבים במבט אחרינו, עד שאנו מתרחקים מהנמל - אנחנו מנפנפים להם
+לפרידה בלב שהוקל לו. החיים על ה-&quot;פורטו סעיד&quot; נעימים מאד. ללא כל שמץ
+של מחלת-ים, טעים לנו האוכל יותר מבכל מסע ימי אי-פעם. הנוסעים המועטים
+חביבים מאד, צוות האניה ידידותי, ביחוד טורח למען הילדים הקצין הצעיר
+ביותר, <persName xml:id="recogito-ac4222f9-30a4-4283-ad90-211b0f5b8ecc" ana="#קצין">ג'ינו</persName> <persName xml:id="recogito-81abe51d-aa4d-4296-a3a1-0c5378a77186" ana="#קצין">ברונה</persName> <persName xml:id="recogito-764020c1-e58d-43ed-be66-e7ac7bff4470" ana="#קצין">Barone</persName> מ-Piemonte. בחור עליז, מוכשר וזריז, שלמען
+שעשועם של <persName xml:id="recogito-17126b4c-0f90-4bae-937b-54bbdd10e9a5" ana="#הבן של חנה">דני</persName> <persName xml:id="recogito-97238acb-8698-4aec-9fa0-b0e570dead35" ana="#הבת של חנה">ורות</persName> מעולל מעשי-קונדס רבים. גם לאיש-המברקה הצעיר
+12
+<persName xml:id="recogito-c0b4736a-b03c-40f0-b091-a5216ed751b2" ana="#איש המברקה">אוליסה</persName> <persName xml:id="recogito-b038fb79-5d92-48ff-b1cd-f4afece5ad72" ana="#איש המברקה">צ'צ'י</persName> מ<placeName ref="http://geo-kima.org/place/231" xml:id="recogito-1689253e-aa84-415e-b938-4f7e384b026d" cert="high">מילנו</placeName> יש תמיד זמן פנוי והוא יושב לידנו, נראה יפהפה -
+ומלבד זאת אינו תורם הרבה לבידורנו. אנו עוגנים בכל הנמלים, <placeName ref="http://geo-kima.org/place/7532" xml:id="recogito-36dfc676-2c09-47b0-b695-5adcac7a611a" cert="high">קטאניה</placeName>,
+<placeName ref="http://geo-kima.org/place/9393" xml:id="recogito-69db8354-cc2f-415f-b271-50d353b0c4f3" cert="high">סירקוז</placeName>, <placeName ref="http://geo-kima.org/place/7699" xml:id="recogito-189a08f5-47c9-446a-8e28-88f4e94d5c36" cert="high">מסינה</placeName>, ב<placeName ref="http://geo-kima.org/place/673" xml:id="recogito-cf73af13-fff3-4632-b066-c48c0748a836" cert="high">נפולי</placeName> אנו נשארים יום שלם, אבל אין סכוי לרדת לחוף, על
+האניה הוטל הסגר בגלל דבר. והנה נשלמות הבדיקות, רב-החובל מזמין אותנו
+לרדת איתו בסירתו לחוף, ולשני האיטלקים הצעירים הותר להצטרף בכדי ללוות
+אותנו. זאת היתה שמחה! מזה שבוע וחצי לא דרכנו על יבשה, וכעת - ב<placeName ref="http://geo-kima.org/place/673" xml:id="recogito-99f6afc7-ac42-4630-8166-9c255b605eca" cert="high">נפולי</placeName>!
+אנו עומדים מול כיכר-נוי יפה, דשא ירוק רענן מעלה בי דמעות לאחר יובש
+הקיץ אפור-האבק <placeName ref="http://geo-kima.org/place/2501" xml:id="recogito-5434f6d8-bf94-4075-b1ac-65b844f49d29" cert="high">שבארץ-ישראל</placeName>. הבחורים לוקחים מכונית ומסיעים אותנו דרך
+העיר כולה, אנו הולכים לקונדיטוריה ואוכלים - כאילו רצינו להשלים את כל
+שהחסרנו. אך הכל חולף מהר מדי, הרשמים מהעיר היפה אינם נחרתים עמוק,
+והר-הגעש <placeName ref="http://geo-kima.org/place/3665" xml:id="recogito-181a7758-d245-4b81-b4e1-0547130d41fa" cert="low">וזוב</placeName> התעטף בעננים. - לעומתו <placeName ref="http://geo-kima.org/place/2496" xml:id="recogito-5e4b76f3-7fb9-4486-b606-c12e9a1ea290" cert="high">הסטרומבולי</placeName> דמוי עוגת-כתר עם
+כיפת הלהבות שלו וציפוי-הסוכר של לבה שעליו, מטביע בנו רושם עז בעת
+שאנו חולפים על פניו בערב.
+לאחר בדיקת מצבי הפיננסי מתברר לי שעם הכסף שבידי לא אגיע רחוק,
+כיון שהכל התיקר כל כך. <persName xml:id="recogito-aa3a3945-6bd4-4038-beda-504665bfd44a" ana="#קצין">ג'ינו</persName> <persName xml:id="recogito-2c0097da-b7d3-4717-a24e-39cce79c77be" ana="#קצין">ברונה</persName> בא אלי בהצעה - שכמובן איני מקבלת
+אותה - לנסוע אתו אל אמו ב<placeName ref="http://geo-kima.org/place/7001" xml:id="recogito-a36dca58-c238-4320-acfd-1d5e21cbeaed" cert="high">פיימונטה</placeName>, שם הכל זול כל כך, שאוכל בשקט לשבת
+ולחכות למשלוח של כסף. עד כדי כך דואג לנו הבחור.
+<rs xml:id="recogito-1af7d2da-1928-4530-8635-df807c53ad05" type="event">ב-14 בנובמבר</rs> אנו מגיעים ל<placeName ref="http://geo-kima.org/place/24095" xml:id="recogito-9c1e17a0-7cd5-4105-bb30-bb556297d637" cert="high">גנואה</placeName>. האניה רק זה עתה עגנה, והנה נקרא
+שמי ונמסר לי מכתב. כיצד זה יתכן? <persName xml:id="recogito-06a88dc1-7cb3-4f5f-baec-90c0e7a9ae75" ana="#אחיה של חנה">הרי</persName> איש לא יכול לדעת על בואי. המכתב
+הוא <persName xml:id="recogito-03e63d5d-94ec-4970-b0ec-4f48b6efb450" ana="#קצין">מאורסטה</persName> <persName xml:id="recogito-5f403a3b-4846-4a8e-b0ec-a63776f8774f" ana="#קצין">ריקו</persName> מה&quot;סירקוזה&quot;, לפני צאתו מ<placeName ref="http://geo-kima.org/place/7011" xml:id="recogito-de59a2d0-09d6-4fa0-9770-0fa7c220c455" cert="high">אלכסנדריה</placeName> מסר אותו לאניה
+מהירה, בכדי לקבל את פני ב<placeName ref="http://geo-kima.org/place/24095" xml:id="recogito-550ad002-15de-430b-b0bb-0b4110f7440e" cert="high">גנואה</placeName>, וכדי לתת לי את הכתובת של אחיו, במקרה
+שאקלע לקשיים. המכתב הדואג הזה מלא-החיבה נוגע בי עמוקות, וסבורה אני
+שהאיטלקים הם בני-האדם היותר מסבירי-פנים ונכונים לעזרה שהיכרתי מעודי.
+גם <persName xml:id="recogito-4df4bacb-f6d9-40af-82d5-c7119d968c6c" ana="#קצין">ג'ינו</persName> <persName xml:id="recogito-b97ff496-7429-417d-8af1-85955dad6664" ana="#קצין">ברונה</persName> <persName xml:id="recogito-2cd42072-b5ec-4568-befd-7b6aa48445b4" ana="#איש המברקה">ואוליסה</persName> <persName xml:id="recogito-4c44f08d-49b7-425d-a6c9-dcdc395318f4" ana="#איש המברקה">צ'צ'י</persName> אינם עוזבים אותנו, הם מובילים אותנו
+למלון גרמני צנוע, <persName xml:id="recogito-ea98c646-9731-4fea-865e-e618a398d6f3" ana="#איש המברקה">צ'צי</persName> נשאר עם הילדים, <persName xml:id="recogito-1310f8db-b6f0-4441-b50b-16eebea543dd" ana="#קצין">ברונה</persName> מלווה אותי אל הקונסול
+האוסטרי ומחכה לי בחדר-הכניסה. אני עוזבת את הקונסול מלאת-חימה, כיון
+שהוא מתוך יהירות או אולי רק בגלל אי-יכולת, מותיר אותי ללא היעוץ
+והידע שביקשתי. בתגובה אני אומרת לו שמצד האיטלקים זכיתי לנכונות לעזרה
+שונה לגמרי, זה מביך אותו, היות וכבר ידוע וברור ש<placeName ref="http://geo-kima.org/place/25303" xml:id="recogito-20ac54bf-bcdc-463e-8f8f-669bf45e557a" cert="high">איטליה</placeName> תכריז בקרוב
+על מלחמה. - ידידינו הצעירים נפרדים מאתנו ונוסעים איש לבית הוריו,
+ואנו משוטטים לבדנו בעיר. החוויה הגדולה ביותר שלנו - הביקור
+ב-Santo ᑕampo. בית-העלמין הזה ממוקם יפה להפליא על צלע ההר עם מבט על
+הים, כולו משגשג בפרחים, בעיקר ורדים, בשפע שכזה, עד ששוכחים בנקל את
+המתים הנחים מתחתם.
+מרגש ומשמח אותי כאשר למחרת אחה&quot;צ שוב מופיע <persName xml:id="recogito-f8f5028d-bb6d-4919-9626-8693ddc00250" ana="#קצין">ג'ינו</persName> <persName xml:id="recogito-b38a5a91-d747-46cc-98de-0d22d92936b7" ana="#קצין">ברונה</persName> בכדי ללוות
+אותנו לרכבת, ומוסר לנו עוד הפעם את הזמנתה של אמו &quot;להשאר אצלה עד סוף
+המלחמה&quot;. - כרטיסי הנסיעה <placeName ref="http://geo-kima.org/place/25115" xml:id="recogito-8d655429-a24a-41ed-826d-19b372a3d03c" cert="high">לוינה</placeName> במחלקה השניה כה יקרים, עד שאני יכולה
+13
+לקנות רק כרטיס אחד עבור שני הילדים, אף כי ב<placeName ref="http://geo-kima.org/place/25303" xml:id="recogito-a780fbc6-681e-49f8-afd9-afa404622bda" cert="high">איטליה</placeName> גיל 6 הוא הגבול
+לכך. זה הופך למסע יסורים. כל עוד הילדים ישנים מכוסים בשמיכה על
+הספסל, אין למבקר טענות על כרטיס-הילדים, אבל ב<placeName ref="http://geo-kima.org/place/231" xml:id="recogito-e4855d38-2999-4295-874f-aa623c52e492" cert="high">מילנו</placeName> עלינו לעבור
+לרכבת-צבא מלאה ודחוסה, שם אין מקום לשכיבה, והילדים הלבושים בחליפות
+סריג כחולות זהות והמוגדרים על ידי כתאומים, באמת גדולים ומפותחים למדי
+בתור בני שש. המבקר שואל שוב ושוב על גיל ודרכון, אני מעמידה פנים
+שאינני מבינה, ונמוגה מבושה ומפחד. בתא יש קצינים אחדים שעוזרים לי
+לשקר, מתנהגים אל הילדים בחביבות נוגעת ללב, מחזיקים כריות בכדי שיוכלו
+לישון על ברכיהם, מראים להם תמונות, בתחנות מביאים להם משקה וממתקים.
+כך הם, כמו שאכן רק איטלקים יכולים להיות, ידידותיים ונכונים לעזרה ללא
+גבול. בפינה יושב קצין צעיר בעל פנים עזות וגאות, שניכרת בו מורת-רוח
+ממאמצי חבריו למעננו, &quot;האויב&quot; שנגדו כבר מתכוננים לצאת לקרב. רצה המקרה
+שעם עלות השחר כולם יורדים, ורק הוא נותר יחידי אתנו בנסיעה בת כמה
+שעות עד תחנת הגבול <placeName ref="http://geo-kima.org/place/3846" xml:id="recogito-df216cae-e6bd-41ab-b318-4849b29ccba0" cert="high">פונטבה</placeName>. לאחר תלאות והתרגשויות הלילה אני נתקפת
+במיגרנה איומה, ומרגישה רע מאד. כאשר הוא מבחין בכך, גוברת אצלו נכונות
+העזרה האבירית על הרגש השובניסטי-לאומני, ובתחנה הקרובה הוא יורד בכדי
+להביא לי מים בכוסו.
+אנו מועברים כנוסעים יחידים מעבר לגבול, ומתקבלים שם ב<placeName ref="http://geo-kima.org/place/15656" xml:id="recogito-9b8be974-7351-4791-8a96-598ff5d3c27b" cert="high">פונטפל</placeName> (החלק
+האוסטרי של העיר) בקול-ענות ותרועה, כי מזה כמה זמן אין כמעט תנועה של
+חציית-גבול. אנו עייפים ללא-שיעור ונשארים ללון <placeName ref="http://geo-kima.org/place/15656" xml:id="recogito-ca89c5d8-266d-4b28-af28-9482afeb34db" cert="high">בפונטפל</placeName>. נחמד ומרענן
+מאד לנוח בין הרים גבוהים באכסניה קטנה ונעימה. לכאורה אנו נמצאים
+באזור השפה הגרמנית, אולם ההבנה היא קשה ביותר, כגון בהזמנת ארוחת-ערב.
+כיון שבמשך היום כמעט לא אכלנו דבר, רציתי עבורנו מנה בשרית קלה ומאכל-
+בצק. מכל מה שמנו לפני, לא היה לי מושג מה זה, עד ששמעתי -Kaiser&quot;
+&quot;schmarren- ו-&quot;Palatschinken&quot;. הראשון היה מוכר לי כטעים (חביתיות
+חתוכות עם סוכר), והשני - לבטח איזה מאכל עם שינקן, ובכן זה מה שרציתי.
+עד מה מאוכזבים אנו כאשר שוב מופיע מין אומלט בלי כל זכר לבשר, (קרוי
+&quot;פלטשינקה&quot;). כמה תפל בפינו מזון הבצק הכפול הזה.
+אני חוששת לקראת בואנו <placeName ref="http://geo-kima.org/place/25115" xml:id="recogito-691df5ac-444d-4cfc-a3ba-e61b0bbf6fb6" cert="high">לוינה</placeName>, מה מצפה לנו שם? הנסיעה היא עינוי,
+עם כל החניות ללא קץ, ואנו מגיעים רק מאוחר בערב. עגלון הכרכרה המוביל
+אותנו למלון המוזמן מראש - חצוף בדרישת שכרו וגס-רוח בטון הדיבור שלו.
+זוכרת אני את העגלונים ב<placeName ref="http://geo-kima.org/place/7011" xml:id="recogito-254afcf3-1206-4fac-8a10-38c6b7e6706d" cert="high">אלכסנדריה</placeName>, ב<placeName ref="http://geo-kima.org/place/15834" xml:id="recogito-92b089ff-f151-4202-8dae-c8833e7ee00c" cert="high">חיפה</placeName>... אנו מגיעים רעבים וקפואים
+למלון, בחוץ שורר קור של 7 מעלות מינוס, ונושבת רוח צפון-מזרחית עזה.
+עד שהחדר הוסק והתחמם - כבר לילה. אני מחשבת הלוך ושוב, הכסף שלי יספיק
+לשלושה ימים במלון עם דרישות צנועות ביותר, בלי הסקה מדי יום.
+לשוא אני מחפשת מגע עם ההסתדרות הציונית. אני שואלת יהודים ברחוב על
+המשרדים, כי הרישום בפנקס-הכתובות אינו מעודכן, ואיני מקבלת מידע, או
+14
+שהוא מוטעה. מתיחסים אלי בחשדנות או בחוצפה, איני מוצאת אף אדם מסביר-
+פנים, המוכן לעזור. אני עזובה וזרה עד יאוש ב-&quot;ארץ המולדת&quot; של בעלי,
+שהתיצב למענה למלחמה. עולים בי הרהורי געגועים ל<placeName ref="http://geo-kima.org/place/25303" xml:id="recogito-52c4144c-ec48-468d-9fe2-89538dac7e2e" cert="high">איטליה</placeName> ואנשיה החביבים,
+שהקיפו אותנו בחום של שמש. כאן יש קור ובדידות.
+במיניסטריון-המלחמה משיבים לי על שאלתי בדבר יחידת-הבניה בה נמצא
+<persName xml:id="recogito-ecbf0317-a4c1-4f5c-9d73-180aedfed2a2" ana="#בעלה של חנה">מקס</persName>, את התשובה &quot;המעודדת&quot; שהיא עדיין נמצאת ב<placeName ref="http://geo-kima.org/place/11244" xml:id="recogito-9a5cda43-b099-437f-874e-d7aef1f7148b" cert="high">קרקוב</placeName>, המוקפת על ידי
+הרוסים. &quot;ᗞa muessens halt warten, gnae Frau&quot; &quot;אז תצטרכי לחכות קצת,
+גברת נכבדה - &quot;
+קר לנו נורא, אין אנו מצוידים לחורף. קצה אפו של <persName xml:id="recogito-ab30d079-a052-40cd-861e-d48631db7057" ana="#הבן של חנה">דני</persName> קופא. אני
+משגרת מברקים לכל עבר, כמו אניה במצוקה בלב-ים. שוב ושוב אני הולכת
+לדואר לשאול לתשובות, שלושה ימים עלי להמתין - וסוף סוף יש העברת סכום
+כסף נכבד מאבי, ובה בעת ידיעה <persName xml:id="recogito-ad43dc06-949a-463f-9081-879d667f4457" ana="#בעלה של חנה">ממקס</persName>, שהוא נמצא ב- <placeName ref="http://histogis.acdh.oeaw.ac.at/shapes/permalink/6115ab70d6873983d7111e58740ae848/" xml:id="recogito-464b662e-5c6e-4568-ac1c-5dc69a497e5a" cert="high">Maehrisch-Ostrau</placeName>,
+(לאחר מכן <placeName ref="http://geo-kima.org/place/10660" xml:id="recogito-7eaa2d71-fceb-4d62-8604-5462602a7c6a" cert="high">מורביה-אוסטרוו</placeName> ב<placeName ref="http://geo-kima.org/place/17739" xml:id="recogito-675c4608-1adf-43a9-989d-a83df88fe458" cert="low">צ'כיה</placeName>), ושאנו יכולים לבוא לשם. קשר זה נוצר
+באמצעות משפחת <persName xml:id="recogito-7e31e2b0-a197-4766-a78c-9e526297d904" ana="#משפחה מקטוביץ">בוק</persName> ב<placeName ref="http://geo-kima.org/place/9918" xml:id="recogito-fc2b76f7-b649-43fd-bab1-54373878c7b3" cert="high">קטוביץ</placeName>. להם הודיע <persName xml:id="recogito-fefccb0f-b3e3-4c04-833e-8bb77b54186b" ana="#בעלה של חנה">מקס</persName> מיד את כתובתו החדשה, כאשר
+היחידה שלו עזבה את <placeName ref="http://geo-kima.org/place/11244" xml:id="recogito-c46d3ca9-8486-4ac7-91be-11bcd244af9c" cert="high">קרקוב</placeName> זמן קצר לפני ההסגר הרוסי. ודרך ד&quot;ר <persName xml:id="recogito-94515aae-abec-49b1-bccf-34f12b38c07c" ana="#ידיד של חנה">פלץ</persName>
+ב<placeName ref="http://geo-kima.org/place/405" xml:id="recogito-7d919791-4816-4e3d-ba9b-82b39e4de329" cert="high">קניגסברג</placeName> הוקם הקשר עם ההורים, שבינתיים חזרו כבר <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-687c90f5-15a2-4ed4-b7d1-abeb7c360ea7" cert="low">לטפיאו</placeName>. גם <persName xml:id="recogito-3bc935c3-15c5-4772-b1ca-66d11d4b1a14" ana="#בעלה של חנה">ממקס</persName>
+מגיע כסף, עכשיו אנו עשירים, קונים בגדים חמים, נוסעים ברחבי <placeName ref="http://geo-kima.org/place/25115" xml:id="recogito-d0cb5d03-aa34-4549-8a65-47920bfcae42" cert="low">וינה</placeName>,
+נותנים הוראה להסיק את חדרנו, אוכלים ממש לשובע, ויוצאים למחרת, ביום
+ראשון, למסע אל <persName xml:id="recogito-28640160-d066-4d1b-98d1-992bd28e38ba" ana="#בעלה של חנה">מקס</persName>. התחבורה מועטה וגם גרועה. <rs xml:id="recogito-da57ff95-3f61-4952-ad64-b6b02164e42a" type="event">ב- 22 בנובמבר</rs> עם רדת
+החשכה אנו מגיעים לבסוף למחוז-חפצנו, מאושרים בפגישה המחודשת וחשים
+מוגנים לאחר שלושת השבועות בדרכים שמאחורינו.
+החשש שהתגנב וארב לי מזה זמן רב - מצא את אישורו העצוב: אחינו הקטן
+והשקט <persName xml:id="recogito-23683bf3-bbcd-4c8a-b374-9d06f4a3256c" ana="#אחיה של חנה">ברונו</persName> נפל כבר ב-28 באוגוסט. עבר שבוע והגיעה הבשורה האכזרית שגם
+האח <persName xml:id="recogito-84c13e42-b3b0-43c8-b6da-d6f373c84b6a" ana="#אחיה של חנה">אודו</persName> מת. ב-7 בנובמבר, כאשר <placeName ref="http://geo-kima.org/place/667" xml:id="recogito-21db200d-6d8e-4da2-9216-b46b18b34e1e" cert="high">בנמל אלכסנרריה</placeName> חשתי עצמי כה עזובה
+ועגומה באימת אסון, הוא נספה במות-גיבורים בו רצה.
+החיים ב<placeName ref="http://geo-kima.org/place/6836" xml:id="recogito-f8192842-8cf5-422b-a23e-02055629a9a0" cert="high">מהריש-אוסטראו</placeName> ריקים, אפורים, מעיקים. המקום הוא עיר-תעשיה
+מכוערת. <persName xml:id="recogito-aa6d5ccb-ed4e-4a78-ab57-9e8f0bf06a03" ana="#בעלה של חנה">מקס</persName> חש עצמו תחת פיקודו של הסרן שלו כנתון למרותו של &quot;מלמד&quot;
+נרגן. הוא עסוק בבניית צריפי בית-חולים גדול, ועבודתו פחות או יותר
+ממלאת את זמנו. החברים שאותם הוא כבר מכיר היטב - הם אנשים זרים לי,
+זרים עד כדי מבוכה. האבל על אחי המתים, הדאגה המפחידה לאחים החיים -
+שוחקים אותי. איני יכולה להבריא ממחלת הצטננות, וגם איני חפצה בכך. אני
+רוצה להמשיך לשכב במיטה, כדי שלא אצטרך לראות סביבי אנשים זרים. ממילא
+עושה השרת האישי של <persName xml:id="recogito-5735f04e-2a3b-4ac1-bb9b-062e03712a71" ana="#בעלה של חנה">מקס</persName> את כל הדרוש. הילדים חביבים ויודעים כבר יפה
+להסתדר בעצמם. אני נשארת במיטה, ועוצמת את עיני בפני החיים העצובים
+ללא שמש. - לסרן <persName xml:id="recogito-e53981e3-5d85-4d0a-bdbd-dd8d22293ab4" ana="#המפקד של מקס">פטר</persName> אנו &quot;המשפחה המצרית&quot; כצנינים בעיניו - &quot;לסלק
+מכאן&quot;, הוא אומר, &quot;לסלק&quot;. בסוף <rs xml:id="recogito-8b231ac3-4ac1-4a3c-8689-7761da05ea4f" type="event">ינואר 1915</rs> אנו מחליטים לנסוע <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-eef15791-754b-4ee0-bea0-9cfa1394d18c" cert="low">לטפיאו</placeName>,
+ולפני כן לידידינו הטובים ב<placeName ref="http://geo-kima.org/place/9918" xml:id="recogito-56770f8c-2eb4-4e87-bdf0-a12b217ec227" cert="high">קטוביץ</placeName>. אנו מתקבלים בלבביות, ונשארים שם
+15
+ימים אחדים, ושוב יוצאים לדרך - בשעה לא טובה. הרכבת מטרטרת לאיטה,
+באיחור רב אנו מגיעים עד צומת-הרכבות <placeName ref="http://geo-kima.org/place/17804" xml:id="recogito-2eb3a7bd-481f-4409-8eae-63dbad28abc1" cert="high">דירשאו</placeName>. אין כבר המשך נסיעה,
+מרוקנים את הרכבת. השעה היא 2 בלילה, בתחנה תוהו ובוהו של חיילים
+ואזרחים באותו מצב כמונו. כאשר עולה השחר, אני פונה לאחד השוטרים בבקשת
+עצה איך אוכל להשיג איזה חדר זול. מכל מה ששמעתי סביבי, התברר לי
+שהשהייה תארך לא שעות בלבד, אלא ימים; מתרחשת העברה גדולה של גייסות
+צבא. לרוע המזל, קופתי שוב במצב גרוע. רציתי להימנע מהחלפת מטבע-חוץ,
+ולקחתי אתי רק כ-20 מרק. מזה על שלושתנו לחיות עכשיו לזמן בלתי ידוע.
+השוטר באמת היה לעזר, הוא מביא אותנו למשפחה של סנדלר, שמוסרת לנו בזול
+מאד את &quot;החדר הטוב&quot; שלהם עם מיטה וספה, וכלכלה. אבל קשה לבלוע את
+האוכל, אנו כל כך לא מורגלים בפרימיטיביות הגסה שלו. מברכים אנו את
+ידידתנו <persName xml:id="recogito-4dab2514-a806-4473-bfaa-ade6c902c556" ana="#ידיד של חנה">גוסטה</persName> <persName xml:id="recogito-b67ef181-1fe9-4c8a-9fcb-92bb2a8511fb" ana="#משפחה מקטוביץ">בוק</persName> הטובה שבדאגתה האמהית ציידה אותנו בשפע כריכים
+ופירות. עם כל החסכנות מגיעים מלאי זה וגם כספנו לקיצם המהיר, אך לא כן
+הסגר. במשך היום אנו נמצאים לרוב בתחנת-הרכבת, שמא נחמיץ אפשרות להסעה.
+מידע על כך אי אפשר לקבל. יש שם הרבה אחים לצרה. אחדות מנשות האיכרים
+מצוידות עדיין בנתחים הראויים להתכבד בם. זאת רק תחילתה של תקופת
+המלחמה, בני-האדם עדיין טובים. שואלים את רשותי אם מותר להציע משהו
+לשני הגוזלים המורעבים שלי. גברת זרה מציעה לי גם מתן הלואה, אני לוקחת
+10 מרק. גם אלה מגיעים לקיצם, והסגר נמשך, אף אדם ואף ידיעה אינם
+יוצאים <placeName ref="http://geo-kima.org/place/17804" xml:id="recogito-267d0a5c-f204-437b-be08-19d6608850b7" cert="high">מדירשאו</placeName>. באותה עת מתנהל קרב-הדמים הגדול השני באזור המזורים
+(<placeName ref="http://geo-kima.org/place/7109" xml:id="recogito-a47a0658-3225-4056-a0b8-3feb7f69e093" cert="high">במזרח פרוסיה</placeName>), בו הדפו הגרמנים את הרוסים.
+החורף קר וצורב, החדר מוסק בצמצום, הכלכלה עלובה. שבוע ימים עובר
+עלינו בצפיה וחרדה. סוף סוף מוכנה רכבת-צבא לקחת אותנו. יש לנו כרטיסים
+למחלקה שניה, אבל &quot;אחיות רחמניות&quot; ניצבות במלוא רוחבן בכניסה לקרון
+ואינן מניחות לנו להכנס, למרות שיש מקום פנוי בפנים. - חייל אחד קורא:
+&quot;גברת צעירה, בואי כבר אלינו עם הילדונים שלך. מקום אין אצלנו, אבל
+אנחנו נעמוד במשמרות&quot;. אנו נכנסים לקרון המלא, ולא מתחרטים על זה. אני
+מקבלת מקום ישיבה, הילדים יושבים על ברכי החיילים, המעניקים להם לחם
+וקפה מהמימיות שלהם. זהו מסע עליז, מרבים לשיר, לספר, להתבדח. אבל אני
+כבר תשושה מרעב, לי איש לא מעיז להציע דבר מאכל. מהבוקר השכם אנו בדרך,
+ומגיעים מאוחר בערב ל<placeName ref="http://geo-kima.org/place/405" xml:id="recogito-03178606-543b-425b-8755-03bf12bd5647" cert="high">קניגסברג</placeName>. לא נותר לי כסף עבור נסיעה בחשמלית, כך
+שאני לוקחת מונית אל ד&quot;ר <persName xml:id="recogito-561d1c6c-eaac-4fd2-b48d-fa8f57cd6062" ana="#ידיד של חנה">פלץ</persName>, ושם כבר ישלמו עבורה. לאחר ברכת קבלת
+הפנים אני מבקשת ללא בושה יתרה אוכל בשבילנו.
+איזו תחושת חג זאת כאשר <persName xml:id="recogito-669d42ef-d09f-4223-898e-500313fdcd10" ana="#ידיד של חנה">פלץ</persName> מביא אותנו אל דירתו המחוממת היטב של
+אחי <persName xml:id="recogito-1992b8ea-7595-4e7e-80ad-c3fcacf4cb01" ana="#אחיה של חנה">הרי</persName>, המוחזקת כיאות על ידי סוכנת-הבית, שם אנו לנים וכל אחד יכול
+להתאושש במיטה לעצמו. רק למחרת אחרי הצהריים מובילה אותנו רכבת מאסף
+אטית במסע של שעות ארוכות <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-655b401d-392b-49ce-a9b8-0c3a04add554" cert="low">לטפיאו</placeName>, שבדרך כלל מגיעים אליה תוך 45 דקות.
+16
+שלוש דמויות מורעבות וסובלות מאבעבועות-כפור מגיעות לטיפול אוהב. אנו
+מתגוררים אצל אמא, השוכנת אצל <persName xml:id="recogito-a5141224-e07e-49b7-8009-d004272424f1" ana="#אחיה של חנה">זיגפריד</persName> ו- <persName xml:id="recogito-4b2ba3f6-e2f5-4792-988e-8d1050066a18" ana="#אשתו של זיגפריד">Emma</persName>. בינתיים יכול אחי <persName xml:id="recogito-da72344d-9208-4043-aa43-7fa03f112fdc" ana="#אחיה של חנה">זיג-
+פריד</persName> לנהל את חייו הצבאיים בעיירה <placeName ref="http://geo-kima.org/place/10317" xml:id="recogito-41a3132d-84be-48b1-baca-21d55e0db27b" cert="low">פילאו</placeName> בשלווה ונחת כממלא-מקום קצין
+בחיל התותחנים. או שאשתו הצעירה <persName xml:id="recogito-1ebb3444-79d8-43e7-8302-2e0fb9d436df" ana="#אשתו של זיגפריד">אמה</persName>, שאנו מכנים אותה בתואר &quot;עקרת-בית
+קטנה של כבוד&quot;, נמצאת אצלו, או שהוא בא איתה לחופשות מרובות הביתה.
+אחי <persName xml:id="recogito-b150a301-6a46-479e-8c85-e7ad5843ecd0" ana="#אחיה של חנה">אויגן</persName> חזר מהחזית עם דיזנטריה, שממנה נשארה לו מורסה חמורה במעי,
+ופגיעה בעצבים, עד שנקבע כבלתי-כשיר למלחמה. את אשתו הצעירה <persName xml:id="recogito-59f5ef6b-6cf0-40fa-99b2-99051ac9dd49" ana="#אשתו של אויגן">גרטרוד</persName> לא
+הכרתי עדיין, ופגשתי בה כעת. הילדים, ביחוד <persName xml:id="recogito-f35d3abf-2989-42a4-8e74-c1ee49c1aa80" ana="#הבת של חנה">רות</persName>, מרגישים נפלא בפעילות
+המשפחתית שלא הורגלו בה, עם הזמנות לקפה ולארוחות-ערב, והתענגות בעוגות
+וממתקים. <persName xml:id="recogito-48760c3d-a371-4033-86a0-04f542f066ea" ana="#הבת של חנה">רות</persName> העליזה והזורחת זוכה לפינוק והתפעלות, היא מיודדת עם
+הדודות הצעירות, ומבדרת אותן בפטפוטיה השנונים.
+מאז תחילת המלחמה, כאשר האחים התגייסו, אבא שוב בבית ומנהל את מפעל-
+העצים. הודות לקוניוקטורה המלחמתית מתרחב העסק מאד ונושא רווחים
+גדולים. למועקתה של אמא נוהגים בכל מקום בבזבזנות. במקרה זה הוכח הדבר
+כנכון ביותר, כיון שלערך הכסף לא היתה כל יציבות.
+מתוך מכתב <persName xml:id="recogito-9a346aaf-b1c0-4828-85c1-e653cbd8411d" ana="#בעלה של חנה">למקס</persName> ב- 14.3.1915:
+&quot;בגעגועים יוקדים אני זוכרת את האביב שלנו מלפני שנה. על אף כל הדאגות
+דאז הוא נראה לי כעת כסימפוניה של שמש, צבעים זוהרים ותחושת אושר של
+פריחה. האם כל זה ישאר נחלת העבר בלבד? לחיות כאן באפור ערפלי כזה,
+נראה לי בלתי אפשרי, לאחר שכבר שפעה עלינו תפארתו הנפלאה של הדרום. אני
+מתענה בגעגועי לדרום.&quot;
+בעניני <placeName ref="http://geo-kima.org/place/26414" xml:id="recogito-8fbabb5e-7dd8-415e-8bbf-4445a57262df" cert="low">הטכניון</placeName> חל מפנה פטאלי, הפוגע בנו קשות: הגיעו לפשיטת-רגל,
+ו-&quot;אגודת העזרה של יהודי <placeName ref="http://geo-kima.org/place/9520" xml:id="recogito-f9fa529e-86c1-4b73-8581-79b9dc54ab40" cert="high">גרמניה</placeName>&quot; רוכשת את הבנינים בסכום זעום. החוזים
+עם השכירים בוטלו, ואנו עומדים חסרי אונים בידיים ריקות לפני עתיד אפל.
+מרירות על התככים של מתנגדינו, שכעת ניתן <placeName ref="http://geo-kima.org/place/26414" xml:id="recogito-b3405378-d80b-4270-a428-9c081bb1f6f2" cert="low">הטכניון</placeName> בידיהם, ממלאת אותנו,
+ומשקעיה מוצאים את ביטוים במכתבינו. מתוך מכתב מ-14.4.1915:
+&quot; - תחושה, הנדחסת בלילה לכדי חלום בלהות, שאני תלויה בחוט דק באויר
+מעל האדמה, ואיני יודעת אם אחוש עוד אי-פעם קרקע מוצקה תחת רגלי, או
+האם תישאני הרוח הרחק אל תוך הריק.
+לחיות בהווה עלוב שכזה לקראת עתיד מעורפל וקודר, הרי זה עונש כבד&quot;.
+לאחר תקוות וציפיות רבות, האם יקבל <persName xml:id="recogito-9aa95655-4eff-48ee-b3f8-c0305b55ec5b" ana="#בעלה של חנה">מקס</persName> חופשה יותר ממושכת בכדי לבקר
+את אמו החולה <placeName ref="http://geo-kima.org/place/994" xml:id="recogito-380f4472-fbdf-482b-8324-9076cbd4fe28" cert="high">בהמבורג</placeName> ואותנו <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-378b7b3f-47a3-4de6-9482-f699f27ab5ef" cert="high">בטפיאו</placeName> - מאשרים לו רק חופשה של 8 ימים,
+שאותה מבלים שנינו ביחד <placeName ref="http://geo-kima.org/place/745" xml:id="recogito-70d3671b-f956-40f8-bdf9-de0b7807c717" cert="high">באוסטרויץ</placeName> <placeName ref="http://geo-kima.org/place/1774" xml:id="recogito-64baa391-fd02-49b5-b1a5-1114c1fc67be" cert="high">בהרי הבסקידים</placeName>. היו אלה ימים יפים של
+אושר בסביבה נהדרת. היה זה חודש מאי, שוב בהרים, <persName xml:id="recogito-6f4f0356-41fc-4fc8-a93c-27ebe51b69b4" ana="#בעלה של חנה">מקס</persName> שוב חייל - אם כי
+כעת סגן - כמו לפני 11 שנים כשהיינו כזוג צעיר ב<placeName ref="http://geo-kima.org/place/7349" xml:id="recogito-493203d1-5ffc-4c05-a3fc-95b614d2ea4c" cert="high">ברגנץ</placeName> ליד <placeName ref="http://geo-kima.org/place/11619" xml:id="recogito-26a9550e-5fa5-423b-9f59-960f629cba04" cert="high">אגם בודנזה</placeName>.
+בבסיסו <placeName ref="http://geo-kima.org/place/633" xml:id="recogito-86821481-22f1-4308-97f1-928407ec5493" cert="high">באוסטראו</placeName> יש עתה <persName xml:id="recogito-35975ea4-007f-4385-9088-15f60ea785c1" ana="#בעלה של חנה">למקס</persName> חדר יפה ומואר עם כל הנוחיות בקומה
+17
+העליונה של בנין פרטי הבנוי היטב. אני נשארת יותר זמן מהמשוער מראש ועם
+מצפון לא נקי הרחק מילדי. במכתביהם החביבים, הנוגעים ללב הם נותנים לי
+בנדיבות רשות להשאר כמה שאני רוצה אצל אבא׳לה המסכן העזוב. הם עצמם
+שמורים היטב אצל סבתא ודודה <persName xml:id="recogito-dbc5602f-7c56-498f-a79e-79b4f3711499" ana="#אשתו של זיגפריד">אמה</persName>. ובכל זאת בעת שחזרתי לקראת יום-הולדתה
+של <persName xml:id="recogito-0fcf0bc8-c5a8-4b23-9ec8-52b985660461" ana="#הבת של חנה">רות'ל</persName>, מצאתי אותם במצב ירוד וחולני, ויש לי נקיפות מצפון קשות על
+העדרותי הממושכת. שהותי אצל <persName xml:id="recogito-23f34c79-5b76-48a0-adb2-26acf8ff1bee" ana="#בעלה של חנה">מקס</persName> נתארכה כל כך לא רק מסיבות אנוכיות;
+הרופאה <placeName ref="http://geo-kima.org/place/994" xml:id="recogito-aef63c62-dc0b-4dd0-80e4-c4515247eaf1" cert="high">בהמבורג</placeName> שטיפלה באמו החולה ניסתה לשכנע אותנו במכתבים ומברקים
+לתכנית מטורפת, שאני אסע עם החולה לעיר-המרפא <placeName ref="http://geo-kima.org/place/14743" xml:id="recogito-9678fbd0-85f3-4264-b91c-7d0fb0f41c9a" cert="high">באדן</placeName> -<placeName ref="http://geo-kima.org/place/14743" xml:id="recogito-f8a2037e-e7eb-42b8-9ede-e202bf8cac7b" cert="high">באדן</placeName> לשם טיפול, שלא
+היה יכול לעזור לה במאומה, אך היה דורש מאתנו קרבן בכספים ובכוחות מעל
+ליכולתנו. תוך חילוף המכתבים המתמשך עקב תנאי המלחמה, התעכבה כל כך
+חזרתי לילדים. בעיקר <persName xml:id="recogito-45baff56-adde-46bb-b2a1-dd9d32bd0cc8" ana="#הבן של חנה">דני</persName> סבל מאד מהעדרי. מצבו העצבני והאומלל מעורר את
+דאגתי, ואני נוסעת אתו לרופא ב<placeName ref="http://geo-kima.org/place/405" xml:id="recogito-07c95dc5-bf8a-4d93-85fa-aa430eef4584" cert="high">קניגסברג</placeName>. טיפול של פיטום במרפאה אמור
+לעזור לו. הילד אכן עולה במשקל, אבל הוא חוזר כשהוא רגיש עוד יותר
+משהיה לפני כן. אני מטפלת ומטפחת אותו ככל יכולתי, ובכוונתי לא לעזוב
+אותו שוב לבדו. אבל מחלתה של האם <placeName ref="http://geo-kima.org/place/994" xml:id="recogito-5caa819f-43ac-4ad3-ad3a-730a935fdd41" cert="high">בהמבורג</placeName> מחמירה, היא מאושפזת בבית-
+חולים. ביקורי שם נדרש בדחיפות<rs xml:id="recogito-f2a1d538-71c1-4df0-b3cb-0f8860d9a0f1" type="event">. בסוף אוגוסט</rs> אני נוסעת ל-10-12 ימים.
+אני מתגוררת אצל הדוד <persName xml:id="recogito-8359976e-18f7-4c5a-9972-6930b40d1c25" ana="#דוד של חנה">מרקוס</persName> והדודה <persName xml:id="recogito-544bf0da-f74e-4712-b899-6f2e2ebb1a9d" ana="#דודה של חנה">סופי הקר</persName>, מתקרבת לכולם, ואת הבת
+<persName xml:id="recogito-de109495-ac66-4ceb-bd4a-3e5e72501ccd" ana="#תלמידתה של רות">לוטה</persName> (לימים - <persName xml:id="recogito-b0dbdff6-e90f-4b9e-91b5-905bf34c6741" ana="#לוטה בשם אחר">אנגל</persName>) אני רוכשת לי בימים אלה כידידה לכל החיים. -
+<placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-512925dd-9413-4d61-825e-50b29fe4009f" cert="high">בטפיאו</placeName> מתארגנים החיים ביתר שלוה. אני נתקפת ברעב לקריאה. העיסוק
+במלאכת-יד שכפיתי על עצמי כדי להשתלב בסביבה, הרי כדרך קבע הוא תפל
+מדי. מאז שאני קוראת יותר, אני מרגישה התעלות.
+מתוך מכתב: &quot;אני רואה שעדיין אינני שקועה בביצה, ההתענינות היוקדת
+בדברים הרחוקים מהחולין מתעוררת שוב לחיים. אני נוכחת שאני תופסת את
+רוח התקופה (הרנסנס) ואנשיה ביתר עמקות וחיוניות מאי-פעם. בטחוני העצמי
+עולה. רק לא להיות קטן ואפרורי!&quot;
+<persName xml:id="recogito-86c5a56b-e214-46e7-8bdd-a2c6701f0e4a" ana="#אשתו של זיגפריד">אמה</persName> נמצאת כמעט דרך קבע ב<placeName ref="http://geo-kima.org/place/10317" xml:id="recogito-dc2e3dbd-7a76-4a3c-ba89-d3e316689153" cert="low">פילאו</placeName>. אמא ואני מנהלות את משק-הבית שלנו
+בשקט ושלוה, ובכל זאת אני מקוננת שוב ושוב על האושר של נוה-בית משלנו.
+אני נתקפת בחרדה שמא יאבדו לנו דברים לבלי שוב, שמא נתרחק בחיינו איש
+מרעהו. - במכתבי אני מחפשת ניחומים בימי שמש אביב שבעבר, געגועי נשארים
+נאמנים לדרום. חיינו העתידיים בו הם תוכן חלומותי בהקיץ. לעתים נדמה לי
+שאני כבר מבוגרת מדי מכדי לחלום ולערוג כה הרבה, ובכל זאת - היות ואני
+מסוגלת לכך, כנראה שבאמת אינני קשישה כל כך.
+ושוב הפחד, הפחד הנורא: &quot; האם אי-פעם יהיה שוב שלום? הקיץ חלף, בא
+חורף שני למלחמה. תקופה איומה זו קוברת את כל הבהיר, השמח, החפשי. כל
+התלהבות נבלמת. תמיד נשאו אותי דמיונותי כמגדלים-פורחים בקלות מעל לשפל
+שבחיינו. המראתי בכדי לזכות במבט יותר חופשי ויפה, בעוד שחבל המציאות
+מחזיק בי. אבל כעת דומה דמיוני לכדור-פורח שניתק, והוא מתרחק חסר הגה
+18
+ואחיזה ללא כוון ומטרה. הוא מתרוקן - ואני נופלת מרוסקת על הקרקע הקשה
+של המציאות העגומה.&quot;
+<rs xml:id="recogito-2a0c4153-809e-4401-bb84-b611fec5117b" type="event">באוקטובר</rs> מקבל <persName xml:id="recogito-fd45234b-a4b7-4e1f-9209-943a5806a97e" ana="#בעלה של חנה">מקס</persName> סוף סוף חופשה יותר ארוכה. אני נוסעת לקראתו
+ל<placeName ref="http://sws.geonames.org/1" xml:id="recogito-f2af9673-9589-4055-8eae-c553a8d00f4a" cert="low">המבורג</placeName>, ולאחר מכן יחד אתו אל ילדינו וליתר הקרובים <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-3f610cc8-4a2a-4c89-a2ea-2f82ac5c83ed" cert="high">בטפיאו</placeName>. בינתיים
+<persName xml:id="recogito-dd9f4a8b-187b-4c17-89c8-f013d243923d" ana="#בעלה של חנה">מקס</persName> הועבר כבר ל<placeName ref="http://geo-kima.org/place/1473" xml:id="recogito-b45cbc42-e257-47cc-90b3-e0041be8d659" cert="high">גליציה</placeName>, והלאה לתוך <placeName ref="http://geo-kima.org/place/3056" xml:id="recogito-3bad7571-4399-4c78-97c8-34a5077aaee6" cert="high">בוקובינה</placeName> כמפקד של הבטחת רכבות. שם
+<placeName ref="http://geo-kima.org/place/26530" xml:id="recogito-b6e4113a-6ec3-41a0-9813-6d3f14f2194e" cert="high">ביקובני</placeName>, בארץ הררית נפלאה, עליו לסבול מקשיים למיניהם, אך גם לחוות את
+הקסם של ההרים המיוערים מכוסי השלג. הוא נפעם מהסימפוניה הכבירה הזאת
+בשחור-לבן. אני מאושרת על מתת חסד זה של יופי בבדידותו הנעזבת. אנו,
+שעלינו להשתרך במישור אפור ועמום, הרי אנו המסכנים. &quot;העפלה אל אויר
+צלול יותר, טיפוס למרום הצופן אולי מראה נוף לא צפוי, - ושמא גם ירח
+מכסיף פורש אוירת אגדה על הרים ויערות - - בכמה געגועים אני זוכרת את
+הלילות הקסומים ב<placeName ref="http://geo-kima.org/place/15834" xml:id="recogito-e8c09ca9-ca9e-4f15-985e-3eb7f8de66f7" cert="high">חיפה</placeName>, עת אורו המופלא של הירח נגה מאחורי ההרים עוד
+בטרם שהופיע בעצמו, - וכשזרח במלוא זוהרו והעניק לכל דבר דמות שלא מן
+העולם הזה, הפך את מי המפרץ לכסף נוזלי ובוהק. כמיהה יוקדת לכל היופי
+הדרומי נתרה בי.&quot;
+אני כותבת:&quot;...איך אני רואה אותך במחשבותי: זעיר, זערורי, מטפס על
+הרים הרחק במרחקים. מוזר שגם המחשבות אינן יכולות להשתחרר מהפרספקטיבה.
+ואז אני נזכרת בשיחות של שחוק ואהבה שניהלנו לפני שנים כה רבות, עת
+הגיעה השעה להיפרד ואתה היית מביע משאלה שאהפך בכישוף לננסית חמודה,
+שתוכל לקחת אותי אתך בכיסך. כך גם הייתי רוצה כעת לחטוף אותך באחיזת-יד
+אחת נועזת. הו, <placeName ref="http://geo-kima.org/place/7645" xml:id="recogito-1da63d6f-a667-4069-bf12-f820e0f62fb9" cert="high">אוסטריה</placeName> הגדולה בכלל לא תחוש בכך אם קצין קטנטן זעיר
+כזה יחסר בתוך תיבת-החיילים שלה, אם לאו !&quot;
+הילדים מעניקים לי הרבה שמחה. רק נוהגו הבלתי-יציב והרגיש של <persName xml:id="recogito-735f3035-341d-4dc0-97d6-f3b45ac5fd38" ana="#הבן של חנה">דני</persName>,
+נותן לעתים קרובות סיבה לדאגה וחרדה. מצבה של האם <placeName ref="http://geo-kima.org/place/994" xml:id="recogito-abb59706-70be-4262-a65c-60cbe42e82db" cert="high">בהמבורג</placeName> הולך ורע,
+ומחזק את החלטתי לעבור ל<placeName ref="http://sws.geonames.org/1" xml:id="recogito-767d2be9-99c6-4c48-88c6-a2b969228f9b" cert="low">המבורג</placeName>. כבר לא בכוונה הבלתי ניתנת למימוש של
+מגורים ביחד עם החולה, אלא להביא לה על ידי ביקורים תכופים אור וחום של
+אהבה אל תוך הקדרות הכבדה של תקופת יסוריה.
+מצבנו החומרי השתפר. עבור האם החולה יכול לדאוג <persName xml:id="recogito-e969cc2d-1382-45fa-8694-45ad1cb6d4a6" ana="#ידיד של חנה">וילהלם</persName>, המועסק בצבא
+התורכי כמהנדס ראשי בדרגת רב-סרן. לי יש הכנסות מרווחי החלק שלי בעסק
+של האחים, מריבית של סכום פיצויים ניכר <placeName ref="http://geo-kima.org/place/26414" xml:id="recogito-55ddd72f-7bd1-4c0b-b675-8a70eb35c6d9" cert="high">מהטכניון</placeName> שהושקע ב&quot;מלווה-מלחמה&quot;
+ומהקיצבה הצבאית שלי, כך שנראה לי שאוכל להתקיים עם הילדים. ההחלטות
+היכן לחפש דירה ומתי להתכונן למעבר, תלויות במידע על בתי-הספר הבאים
+בחשבון לילדים, ביחוד <persName xml:id="recogito-1d8d6225-cede-47aa-a54f-9e38a4335247" ana="#הבן של חנה">לדני</persName>, והמידע הצנוע הזה מן הצד המוסמך לכך מבחינה
+מקצועית - משתהה במשך חדשיים תמימים. אני מתפוגגת מחוסר סבלנות, ואיני
+יכולה לעשות אף צעד נוסף בהכנותי.
+סיבוך חדש מופיע בחיינו. אחי <persName xml:id="recogito-8ece3990-7cd9-456d-a0a8-9dfa915dc4b3" ana="#אחיה של חנה">אודו</persName> הותיר אחריו בת ללא נשואין, שאיש
+מאתנו לא פגש בה, ושהוא עצמו הכיר בה כבתו רק תוך התנגדות פנימית.
+19
+היא היתה פרי של ריגוש מקרי בלתי מחושב של בן תשע-עשרה ובת איכרים בגיל
+שבע-עשרה.
+אני רואה כחובתי, ויותר מכך דוחקים בי רגשותי, לחפש ולגלות את
+הירושה הזאת של אחי האהוב, וליזכות בה עבורנו. <persName xml:id="recogito-3797e007-7f79-4247-ba1a-dea43d110760">פרידה</persName> <persName xml:id="recogito-33bd242d-01fc-433f-a1b3-b4a579868083" ana="#שכנה של חנה">הרמן</persName> הקטנה, בגיל
+בין <persName xml:id="recogito-2c90829c-a581-433c-92ff-685e60d21989" ana="#הבן של חנה">דני</persName> <persName xml:id="recogito-24d6dfe7-6e51-43b0-99e2-70c5007091e1" ana="#הבת של חנה">ורות</persName>, היא ילדונת נאה, עדינה וסובלת מתת-תזונה, שדמיונה המובהק
+<persName xml:id="recogito-9d9cdcff-586e-4c1e-9230-77cdc7a1e3c3" ana="#אחיה של חנה">לאודו</persName> נוסכת בנו מיד רגשי חיבה. הקטנה חיה אצל הורים אומנים, בסביבה
+צנועה ודלה למדי, וכפי שנראה לי בתחילה - מהוגנת. (רק הרבה יותר מאוחר
+נודע לי שהאשה היתה סרסורית ומקבלת-רכוש-גנוב של בתה הגנבת.) אני רואה
+הכרח לחלץ את הילדה מסביבתה העגומה ולחנך אותה יחד עם ילדינו.
+בכמה מכשולים, חשדות מצד האפוטרופוס - שעד אז מעולם לא דאג לילדה,
+ומצד האם - שלא הסכימה שבתה תקרא לה אמא - היה עלי להאבק ולגבור! הילדה
+עם עיני התכלת הדבקות בי בתחינה נפחדת, עוזרת לי להחזיק מעמד באומץ.
+עבורה היה זה כמו באגדה כאשר הבאתי אותה בפעם הראשונה <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-e9deab37-74a6-4a8e-aa56-4b963796c4e3" cert="low">לטפיאו</placeName>. האמידות
+הבורגנית הזאת עם מרכבה פרטית, אמבטיות חמות, אור חשמל, שולחן -אוכל
+ערוך יפה ומכל טוב, הסברת פנים לבבית כל כך ומתנות שופעות, כל זה היא
+טעמה לראשונה בחייה, וכעת לא רצתה כבר לוותר על כך. לבסוף האם בעצמה
+הביאה לי את הילדה. יש בי הרצון הטוב והתקוה האיתנה לאהוב אותה ולהחזיק
+אותה כמו את ילדי. פקפוקים חרדים באפשרות זו אני מכניעה בקרבי.
+עדיין היינו <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-23ce7612-9a76-4450-9600-858749458812" cert="high">בטפיאו</placeName>, כאשר <rs xml:id="recogito-e67671e3-985b-4747-b39a-04ac733dcdda" type="event">ב-22 במרס 1916</rs> גאל המוות את אמו המסכנה
+של <persName xml:id="recogito-006ef88b-4a50-4c9c-b658-cbe329d781fd" ana="#בעלה של חנה">מקס</persName>, <persName xml:id="recogito-aa553183-302c-401b-a892-9540adbaa67f" ana="#אמו של מקס">גולדה אוגוסטה הקר</persName> לבית גינציג, מסיבלה המר. - אף על פי כן
+אני עומדת בהחלטתי לעבור ל<placeName ref="http://sws.geonames.org/1" xml:id="recogito-2d76863e-fb44-47f2-941f-a2e68bd9e2b7" cert="low">המבורג</placeName>. <rs xml:id="recogito-e269af46-1061-4ff8-a1be-439bfa46a995" type="event">בסוף אפריל</rs> אני מבצעת אותה.
+<placeName ref="http://geo-kima.org/place/994" xml:id="recogito-e02540a6-1940-419d-b003-e32b6e5d4e37" cert="high">בהמבורג</placeName> <rs xml:id="recogito-5bea366f-3a57-4091-9339-718a49ceab49" type="event">1917 - 1916</rs>
+היתה זאת דירה מרוהטת לא מודרנית וחסרת נוחיות, בה נכנסנו לדור
+<placeName ref="http://geo-kima.org/place/994" xml:id="recogito-3eef72f8-e44e-4cf4-bb42-363af7115c2e" cert="high">בהמבורג</placeName>. החדר השלישי מצויד בכירת-גז, ובכך הופך למטבח. צנור מים וכיור
+יש רק בחדר המדרגות, בית-השימוש בקומה שמתחתינו, חדר-אמבטיה במרתף
+והגישה אליו קשה. בתחליף בלתי מספיק זה של נוה-בית משל עצמנו אני
+מאושרת מאד, והילדים יחד אתי. הוא סמוך מאד לאגן <placeName ref="http://geo-kima.org/place/8979" xml:id="recogito-fecbf1b6-2d15-4fbd-896d-5d80c3e295d8" cert="high">האלסטר</placeName> הנהדר - האין
+זה פצוי מלא על כל לקוייו?
+<persName xml:id="recogito-1da8ff5d-a38b-4ece-852c-cfae1a84f8b7" ana="#הבן של חנה">לדני</persName> יש דרך של כ-15 דקות אל בית-הספר הריאלי שלו, <persName xml:id="recogito-693b4b38-3551-4d31-a877-5319f081ce92" ana="#הבת של חנה">לרות</persName> ו<persName xml:id="recogito-206395ca-e6b7-4080-b705-6d9616bb7d07" ana="#הבת של אודו">פרידל</persName>
+ביה&quot;ס ה- Paulsenstift ממש קרוב. מנהלת המוסד הזה היא אדם מלא הבנה
+לגבי הנסיבות המיוחדות הכרוכות <persName xml:id="recogito-79724a9a-1787-4438-9f68-46c6d58539a4" ana="#הבת של אודו">בפרידל</persName> &quot;הקטנה&quot; (גם לי קוראים <persName xml:id="recogito-961ccfa7-1540-432b-9059-93d7a5e66064" ana="#הבת של אודו">פרידל</persName>).
+היא מגלה תובנה רגישה ונכונות לעזרה. הילדה אינה נאלצת לסבול משום שאלה
+חסרת טקט ומשום קיפוח, היא פורחת לנגד עינינו, ומתאימה את עצמה בהתחלה
+בהשתלבות מפתיעה במסגרות החדשות של משפחתנו ובית־הספר. בין שתי הבנות
+שוררות אך אהבה וידידות. עם <persName xml:id="recogito-9e9edc58-e7de-4758-8e23-c1c9c698db4b" ana="#הבן של חנה">דני</persName> יש אמנם לעתים חכוכים, אכל בדרך כלל
+20
+עולה בידי לרתום את השלישיה הנאה והעליזה שלי למהלך תקין. אך לאחר מכן
+מוכיח לדאבוני הסייח החדש שבכל זאת אין מוצאו מאותה האורווה, והופך
+לגוף זר ומפריע בבית ובביה&quot;ס, ולי - למקור של לבטים קשים.
+כבר בתחילת מאי מבקר אצלנו &quot;אבא'לה&quot;. היתה זאת חופשה יפה ב-&quot;ביתנו-
+אנו&quot; כביכול. קצת מקשה על המצב הילדה השלישית, העומדת בקנאות רבה על
+חלקה שוה-הזכויות באותו אורח במדי הקצין הנאים של הצבא האוסטרי. לא קל
+לי לאזן את הכל וליצור אוירה נעימה.
+קיים עוד מישהו שבא בתביעות אלי. יום לפני <persName xml:id="recogito-59eecb31-6182-4275-8bf6-8072eb609968" ana="#בעלה של חנה">מקס</persName> הגיע ל<placeName ref="http://sws.geonames.org/1" xml:id="recogito-f462f1fa-9d25-43be-a789-5110b401903e" cert="low">המבורג</placeName> האמן
+הצעיר <persName xml:id="recogito-2ad455f8-d200-4092-acff-4b32a168720f" ana="#אמן צעיר">מרטין</persName> <persName xml:id="recogito-282128c4-3a19-4565-9221-5d87137aeb0e" ana="#אמן צעיר">שטאם</persName> <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-ea18c670-2f7d-4d39-a128-54f627d03ba9" cert="low">מטפיאו</placeName>, ללימודי השתלמות בביה&quot;ס הגבוה לאמנות. הוא חש
+עצמו בודד ועזוב בסביבה זרה, בה הוא ציפה להשתתפות ונכונות לעזרה מצדי.
+אסור לי להזניח אותו לחלוטין, ועלי לצרף למעגל דאגתי גם אותו, את המורה
+הצעיר והידיד הבוגר של <persName xml:id="recogito-10dffd77-a9ec-46d2-bf6c-f61ef2e469c0" ana="#הבן של חנה">דני</persName> שלנו, שפער הגילים ביניהם הוא עשר שנים
+בדיוק בו ביום.
+לאחר נסיעתו של <persName xml:id="recogito-2b665490-12cd-456c-a35a-eb3a917ad532" ana="#בעלה של חנה">מקס</persName> בא אבי, ולאחר מכן אמי לשהות ממושכת יותר אצלנו.
+שניהם חשים התעוררות ושמחה במעוננו הקטן, שלמשך זמן הביקורים הוגדל ע&quot;י
+חדר סמוך. אנו מראים להם את העיר היפה ונהנים ממנה ומהסביבה הנהדרת.
+אבל יש בי אכזבה, לא מצאתי חוג של אנשים. איני מוכנה להסתפק
+בהיכרויות סתם, אינני מחפשת &quot;חיי חברה&quot;. אני קיוויתי לחיים נפעמים,
+ערגתי לפתיחות ורגישות. תקוותי נכזבת. אני ציפיתי לאדם-ידיד, הקרוב
+לפנימיותי, אתו נפשי תלך יד ביד ללא אומר ודברים.
+זוג עינים שחורות מצועפות בתוגה מביט בי בהערצה מתוך פנים חיוורות
+ביפי-נעורים, מתחנן להבנה וטוב-לב. אני חשה עצמי גדלה ומעמיקה בזכות
+הרגש היפה הזה המוקדש לי. זהו אושר, לחוש באהבה כזאת הרואה בי טוב
+ואור, המצפה ממני במלוא האמון לחסד. אני אוהבת את האהבה הזאת, שאינה
+דורשת דבר, שעבורה עצם היותי ומהותי מהווים מילוי משאלה ואושר עילאי.
+האם חלומי על החיים יוכל להתגשם ביתר טוהר? כל הארציות המושכת כלפי
+מטה נשמטת. - רק שבועות אחדים של קיץ, הוא גויס ושוב אני נותרת לבדי.-
+הולך וקרב החורף ביש-המזל והמצחין עם סלק-הבהמות והמחסור בפחם, -
+נשמתי מרחפת עדיין בגיא של ורדים. &quot;הערבים שקטים ובודדים. אינני עצובה
+וגם איני משתעממת, - אבל יש בי געגועים השואפים להרגע באמצעות דיבור.
+איני רוצה להתגלם בתוך עצמי, לחיות רק ממה שבתוכי, - אני צמאה לנהרות
+חדשים שיזרמו אלי. הייתי רוצה למצוא חוג, שבזרמו המחייה אוכל להשתלב&quot;.
+כך אני כותבת <persName xml:id="recogito-3525b821-0a68-4384-9598-29f7564fc3de" ana="#בעלה של חנה">למקס</persName>, שגם עבורו אני צריכה עכשיו להיות, ואכן הנני,
+יותר מאי-פעם. הוא הועבר מ<placeName ref="http://geo-kima.org/place/22534" xml:id="recogito-d485abf3-5127-4a97-b5d6-585f05c131d6" cert="high">יקובני</placeName> לשרות גרוע בחיל-מצב ב<placeName ref="http://sws.geonames.org/1" xml:id="recogito-ef5f5471-56e9-4846-a47d-8bdf37a8147f" cert="low">בוכניה</placeName> ואחר-כך
+ל<placeName ref="http://sws.geonames.org/1" xml:id="recogito-aac90106-c796-47f8-9755-fa2a3698db9e" cert="low">אולמיץ</placeName>. המודעות לשרות המשפיל הזה, לבזבוז חסר הטעם של זמן יקר ושל
+יכולת בעלת ערך, גורמת סבל <persName xml:id="recogito-f7515138-13dc-4c3f-906e-b90122663488" ana="#בעלה של חנה">למקס</persName> ובה במידה גם לי. הזעקה שלי לעשות משהו
+בכדי לסיים מצב מחפיר זה, פוגשת אותו בדיוק כשהוא משגר בקשה להעברה
+21
+לשרות טכני בחזית. כמה מיטיבה עמו, וגם עמי, האחדות הזאת של מחשבותינו,
+של רגשותינו. כאשר אני מקבלת לבסוף את המברק <persName xml:id="recogito-ec389e94-094d-4fdc-a0a5-ad95a4cfb56b" ana="#בעלה של חנה">שמקס</persName> קיבל צו העברה
+לדרום, למקום בו איחלתי שיהיה, אני כותבת לו: &quot;כל משאלותי וכמיהותי
+מלוות אותך לשם. אני חשה בי שחרור של תקוה ושמחה, שגם אתה תזכה בו.
+לבטח תוכל כעת לחיות במציאות מספקת יותר, - אני רוצה בכך - ואתה חייב
+בכך! - הייתי רוצה לקבל גם ממך חוזק ושמחה, לא רק להלחץ ולהחלש מהמועקה
+שלך. עד כמה חזקה וערנית שאני חשה עצמי כעת - אם תמיד עלי להשאר לבד עם
+חלומותי, ערגותי ומשאלותי - אז כושל כוחי. נגד כמה רפיון רוח היה עלי
+כבר להאבק!&quot; -
+<placeName ref="http://sws.geonames.org/1" xml:id="recogito-884f8e78-ce2f-4c22-baae-67322dd01a56" cert="low">המבורג</placeName> היא בין הערים במדינה שאספקתן גרועה ביותר, ולי אין שם
+קשרים. בכדי שלא נסבול ברעב עם הילדים, עלינו לקבל אספקה מבחוץ. כל
+אהבה משפחתית, כל רגשי ידידות מוצאים את ביטוים בחומריות, ומופיעים
+כחבילות-מזון המתקבלות בברכה.
+לילדים יש חופשת לימודים במשך חודשים בגלל מחסור בפחם. החורף קשה
+וממושך מתמיד, וגם אנו יכולים להסיק רק מדי פעם ובמידה לא מספקת. במשך
+שלושה חודשים נשארת <placeName ref="http://geo-kima.org/place/8979" xml:id="recogito-2d974552-a43d-4950-b820-7a81db9031bf" cert="high">האלסטר</placeName> קפואה, ואני שולחת את הילדים מדי יום
+להשתובב ולהחליק על הקרח במשך שעות. זה טוב מאד עבורם, שלושתם בריאים
+ועליזים. אני תשושה למדי מהקשיים ההולכים וגוברים במשק-הבית ומהשהייה
+בדירה הקרה כקרח. יחד עם זה אני סובלת מנקיפות מצפון, שאינני מסוגלת
+לחוש את <persName xml:id="recogito-84dcb3e1-ba16-4f8f-82ad-43f238701a64" ana="#הבת של אודו">פרידל</persName> הקטנה כשייכת אלינו באמת. הילדה נשארת לי זרה, בלתי
+שקופה. עוד ועוד פעם אני מתגברת על ההתנכרות הזאת, משתדלת לתפוס את
+הילדה מחדש, לזכות באמון שלה, - תמיד אני חשה בהתחמקות ערמומית,
+סתגלנות מדהימה, אבל היא אינה ניתנת להשפעה, אין בה פתיחות ילדותית או
+נכונות תמימה. גם מבית-הספר מגיעות תלונות, בעוד <persName xml:id="recogito-7fa814e6-dc24-420f-a9d2-d82a9bb59c4d" ana="#הבת של חנה">רות</persName> זוכה לכל שבח. אני
+נפגשת לשיחה רצינית ומעמיקה עם מחנכת הכיתה, המחזקת את מחשבתי לאחד את
+הילדה עם אמה. לאחר בירורים ממושכים בהתכתבות עם האם, היא מוכנה לבסוף
+לקחת את בתה אליה. היא תקבל קיצבה חודשית נדיבה מהאחים שלי, כך שלא
+תיגרם לה מעמסה כלכלית.
+מצפוני חש הקלה כאשר עולה בידינו לספר לילדה בצורה עדינה ואוהבת על
+המפנה החדש הזה בחייה, <persName xml:id="recogito-192f908f-270a-42e3-8e75-0db3a19c105a" ana="#הבת של אודו">ופרידל</persName> בפעם הראשונה נופלת על צוארי בלבביות
+אימפולסיבית, לא מתוך חישוב, כפי שהיה בדרך כלל.
+<rs xml:id="recogito-b39f8a84-4f08-40df-ac66-487ff80b2168" type="event">9.2.17</rs>
+אני הולכת וקופאת יותר ויותר. המחסור בפחם מחמיר עוד ועוד. זה עתה
+שלחתי את <persName xml:id="recogito-67bc9096-529c-4fe5-91bb-50b2bf3a8630" ana="#הבן של חנה">דני</persName> אל <persName xml:id="recogito-98491c23-162e-478b-8257-582e314073f2" ana="#מוכר">טילי לוי</persName> עם הבקשה לכמה &quot;בריקטים&quot; (אריחים של אבקת-פחם
+דחוסה). אחרת ניהפך לגושי קרח. - את התיבה הקטנה עם שעועית שהודעת על
+שיגורה, יכולתי כבר לאשר במכתבי הקודם. מחר יהיה לנו מרק מהשעועית
+מטריאסט ו-6 תפוחי-אדמה קטנים <placeName ref="http://geo-kima.org/place/19108" xml:id="recogito-56d5da58-c4c7-42ca-b550-f3924c7244a7" cert="low">מטפיאו</placeName>. קצת מרחקים חברו למרק, לא כן?&quot;
+<rs xml:id="recogito-a98aaf4a-ac54-4464-9c5c-ca6be11a99d7" type="event">8.3.17</rs>
+22
+&quot;השבוע היה לי חשק בלתי-מרוסן להיות קלת-דעת - הלכתי וקניתי לי שני
+כרכי שירים של <persName xml:id="recogito-25f6539f-1d97-4a95-88f0-efa20ee854ea" ana="#משורר">ורפל</persName>. אני מרגישה בי זעזוע כה עמוק משיריו, עד שבוער בי
+הרצון לכתוב אליו. אילו ידעתי את כתובתו, לבטח הייתי עושה זאת. להכיר
+את המשורר הזה - הייתי חשה כהגשמת חלום.&quot;
+<rs xml:id="recogito-978f794d-a0d6-428c-b173-2664480df4d2" type="event">l6.2.17</rs>
+(לאחר אופרה מאת <persName xml:id="recogito-95d75b7f-6b52-4efa-8cdb-e0e565c7fe83" ana="#מחזאי">קורנגולד</persName>) &quot;- כאילו הכל פורץ מתוכו בזוהר מסנוור,
+שום דבר אינו מעושה. יש בי רגש גאוה על כך שאיש יהודי יכול להעניק את
+העושר הזה. בכלל אני כעת - הבן אותי נכון - במצב-רוח בהיר ופתוח. הרבה
+תורם לכך שלאחרונה אני מרבה לקרוא בכתב-העת &quot;היהודי&quot;, והדבר נוגע בי
+עמוקות. <persName xml:id="recogito-83dd3135-08a7-422e-a92f-32781447c9ec">בובר</persName> הוא יחיד במינו. דרכו, דרך <persName xml:id="recogito-add1d8b4-fc32-473b-8178-e524c648496d">ורפל</persName>, דרך <persName xml:id="recogito-c9fe316e-c708-4bbf-bfa6-370c44cc12a4">ברוד</persName>, אני חשה עצמי
+מצורפת לחוג שמשמעותו עבורי חיי-רוממות. גליתי מאמר של <persName xml:id="recogito-5c6bba67-e7dd-47fb-a8b3-f0769add293a">ברוד</persName> &quot;הסופרים
+שלנו והחברה&quot;, המאשר אותי ואת השיפוט שלי במידה כזאת שעלי לשמוח. והנה
+הספר על &quot;החסידות&quot;, איך כל זה תופס אותי עמוקות! -
+(לאחר פירוט משלוחי מזון שונים) האהבה הזאת שבה דואגים לי מכל
+הצדדים, ממש עוצרת את נשימתי. כל רגש טוב הופך כעת לחבילת מזון. בכל
+זאת מעיק הדבר שאהבה וידידות מגיעות אלי במוחשיות כה חמרית. לדאבוני
+אין באפשרותי להחזיר משהו באותו אופן.&quot;
+‫***‬
+המשך החיים <placeName ref="http://geo-kima.org/place/994" xml:id="recogito-fce98f4a-4750-4e5d-98ed-e5466ce2f256" cert="high">בהמבורג</placeName> והשנים <rs xml:id="recogito-1012b829-e786-41eb-86fd-f25f68a93294" type="event">עד 1919</rs> לא הועלו על הכתב,
+אך יש עוד מכתבים בעלי תוכן רגשי אישי.
+הפרק הבא &quot;...ושוב בארץ&quot; (<rs xml:id="recogito-1ad09ad2-48fd-461f-ad91-6d0ffcb38ccc" type="event">1919-1923</rs>) נרשם בנפרד מכלל הזכרונות
+בתוך מחברת &quot;יומן&quot; אודותי שכתבה <persName xml:id="recogito-4ff2333e-06bd-40bc-b536-e425bd640264" ana="#הבת של חנה">רות</persName> בגיל שלוש עשרה וחצי.
+<persName xml:id="recogito-94316162-66a6-48d0-afbd-76574c533f4f">לאה</persName>.</p></div></body>
+        </text>
+      </TEI>
