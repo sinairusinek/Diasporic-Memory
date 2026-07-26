@@ -157,6 +157,53 @@
   .cbody .action.deep { color: var(--ink-soft); }
   .open-pill.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); margin-left: 8px; }
 
+  /* ---- facsimile thumbnail strip ---- */
+  .thumbs {
+    display: flex; gap: 8px; margin: 0 0 12px;
+    overflow-x: auto; padding-bottom: 4px;
+  }
+  .thumbs img {
+    height: 110px; width: auto; flex: 0 0 auto;
+    border: 1px solid var(--rule-2); border-radius: 2px;
+    background: #fff; cursor: zoom-in;
+    box-shadow: 0 1px 3px rgba(70,50,20,0.18);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .thumbs img:hover { transform: scale(1.04); box-shadow: 0 4px 10px rgba(70,50,20,0.30); }
+
+  /* ---- lightbox ---- */
+  #lightbox {
+    position: fixed; inset: 0; z-index: 100;
+    background: rgba(20, 16, 10, 0.92);
+    display: none; align-items: center; justify-content: center;
+    flex-direction: column; padding: 30px 70px;
+  }
+  #lightbox.open { display: flex; }
+  #lightbox img {
+    max-width: 100%; max-height: calc(100% - 60px);
+    border: 1px solid var(--rule-2); background: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+    cursor: default;
+  }
+  #lightbox .lb-cap {
+    font-family: 'Inter', sans-serif; font-size: 13px; color: #e8ddc2;
+    margin-top: 14px; text-align: center; max-width: 760px;
+  }
+  #lightbox .lb-btn {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    background: none; border: none; color: #e8ddc2; font-size: 44px;
+    font-family: 'EB Garamond', serif; cursor: pointer; padding: 10px 18px;
+    opacity: 0.75;
+  }
+  #lightbox .lb-btn:hover { opacity: 1; }
+  #lightbox .lb-prev { left: 8px; }
+  #lightbox .lb-next { right: 8px; }
+  #lightbox .lb-close {
+    position: absolute; top: 12px; right: 20px; transform: none;
+    font-size: 30px; font-family: 'Inter', sans-serif;
+  }
+  @media (max-width: 640px) { #lightbox { padding: 20px 44px; } }
+
   /* category accent stripes (left edge) */
   .card.trip    { border-left: 3px solid #8a2418; }
   .card.invite  { border-left: 3px solid #6b5a40; }
@@ -198,7 +245,7 @@
       <p>The canonical return-visit text of the corpus: Landsberg leaves Germany in 1932, returns in 1951 for work, reads Hamburg as a foreign city (he never lived there — no memories to disturb), visits his parents' graves in Frankfurt, meets displaced Germans, refuses pity. Followed by companion essays <em>Berlin 1956</em> and <em>Eine Fahrt nach Ostberlin</em> (~1959).</p>
       <p class="meta">MTFN G-F-0047-023 · Transkribus 942484 · full HTR + page images held locally</p>
       <span class="open-pill">Open full presentation →</span>
-      <a class="open-pill ghost" href="https://drive.google.com/drive/folders/1Y0QDQbwoyNy0O2c72lVh4684Gminyv3z" target="_blank" rel="noopener" onclick="event.stopPropagation();">Scans in Drive →</a>
+      <a class="open-pill ghost" href="https://drive.google.com/drive/folders/1Y0QDQbwoyNy0O2c72lVh4684Gminyv3z" target="_blank" rel="noopener" onclick="event.stopPropagation();">Drive folder →</a>
     </div>
   </a>
 
@@ -219,10 +266,10 @@
   <div class="grid" id="g-context"></div>
 
   <p class="note">
-    <b>Twenty cases, one corpus.</b> Every confirmed return-to-Germany case in our holdings is here. Of 228 CJH archival collections swept, exactly one (Ernest Michel) carried a documented return — the theme lives almost entirely in the MTFN / Tefen material. Twelve cases link straight to their scanned pages in the Drive archive; the remaining eight — chiefly the rich Otto Mayer family cluster (G-F-0030) — are catalogued but not yet digitised, and are marked <i>scan pending</i>.
+    <b>Twenty cases, one corpus.</b> Every confirmed return-to-Germany case in our holdings is here. Of 228 CJH archival collections swept, exactly one (Ernest Michel) carried a documented return — the theme lives almost entirely in the MTFN / Tefen material. Eleven cases show their key scanned pages right on the card — click any facsimile to enlarge it. The remaining cases — chiefly the rich Otto Mayer family cluster (G-F-0030) — are catalogued but not yet digitised, and are marked <i>scan pending</i>.
   </p>
   <p class="note" style="border-left-color: var(--accent);">
-    <b>Access note.</b> The "Open scans in Drive" links resolve to folders in the project Google Drive. They open only for accounts the archive has been shared with — if a reviewer hits a permissions wall, share the parent archive folder (or enable link-sharing) with their Google account.
+    <b>Access note.</b> The facsimiles shown here are web copies of the exact pages cited; the small "Drive folder" links lead to the complete scan folders in the project Google Drive and open only for accounts the archive has been shared with.
   </p>
 
 </main>
@@ -230,6 +277,14 @@
 <footer class="site">
   JeckeArchive · Return Visits to Germany · data/post_war_visits.tsv · Diasporic Memory pilot
 </footer>
+
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Facsimile viewer">
+  <button class="lb-btn lb-close" onclick="closeLB()" aria-label="Close">×</button>
+  <button class="lb-btn lb-prev" onclick="stepLB(-1)" aria-label="Previous page">‹</button>
+  <img id="lb-img" src="" alt="Facsimile page">
+  <div class="lb-cap" id="lb-cap"></div>
+  <button class="lb-btn lb-next" onclick="stepLB(1)" aria-label="Next page">›</button>
+</div>
 
 <script>
 // drive: Google Drive scan-folder URL (null = catalogued but not digitised in the archive Drive)
@@ -244,22 +299,49 @@ const CASES = [
   {g:'trip', year:'1951', cat:'travel document', person:'Gertrud Mayer', city:'Germany', ev:'Israeli passport with Israeli-authority approval to visit Germany and a German entry visa — proof of authorised post-war travel.', folder:'G-F-0030-012-R0001', drive:null},
   {g:'trip', year:'1957', cat:'trip photos', person:'Mayer family', city:'Germany', ev:'Photographs of a family return trip to Germany (Andreas, Esther, Gertrud).', folder:'G-F-0030-005-R0001', drive:null},
   {g:'trip', year:'1957 / 1964', cat:'letters home', person:'Andreas &amp; Esther Mayer', city:'Bielefeld; various cities', ev:'Write home to Nahariya while in Germany; Andreas sits the Meister exam there; 1964 letters span several German cities + the Höpner family in Bielefeld.', folder:'G-F-0030-059-R0001', drive:null},
-  {g:'trip', year:'1956', cat:'trip essay', person:'Alfred Landsberg', city:'Berlin', ev:'Companion essay "Berlin 1956" — a second post-war Berlin visit (typed German, draft + 2 copies). Part of the Deutschlandfahrt folder (see flagship above).', folder:'G-F-0047-023-R0005', drive:DRIVE_0047_23, deep:'../landsberg-deutschlandfahrt/index.html'},
-  {g:'trip', year:'~1959', cat:'trip essay', person:'Alfred Landsberg', city:'East Berlin', ev:'Essay "Eine Fahrt nach Ostberlin" — a trip into East Berlin.', folder:'G-F-0047-023-R0005', drive:DRIVE_0047_23, deep:'../landsberg-deutschlandfahrt/index.html'},
+  {g:'trip', year:'1956', cat:'trip essay', person:'Alfred Landsberg', city:'Berlin', ev:'Companion essay "Berlin 1956" — a second post-war Berlin visit (typed German, draft + 2 copies). Part of the Deutschlandfahrt folder (see flagship above).', folder:'G-F-0047-023-R0005', drive:DRIVE_0047_23, deep:'../landsberg-deutschlandfahrt/index.html',
+   pages:[{src:'../landsberg-deutschlandfahrt/images/p0133.jpg', cap:'"Berlin 1956" — G-F-0047-023, scan p.133'}]},
+  {g:'trip', year:'~1959', cat:'trip essay', person:'Alfred Landsberg', city:'East Berlin', ev:'Essay "Eine Fahrt nach Ostberlin" — a trip into East Berlin.', folder:'G-F-0047-023-R0005', drive:DRIVE_0047_23, deep:'../landsberg-deutschlandfahrt/index.html',
+   pages:[{src:'../landsberg-deutschlandfahrt/images/p0148.jpg', cap:'"Eine Fahrt nach Ostberlin" — G-F-0047-023, scan p.148'}]},
   {g:'trip', year:'1957', cat:'visit report', person:'Raga (to Shiloni)', city:'Berlin', ev:'Letter of 4 July 1957 describing her last visit to Shiloni\'s mother and aunt in Berlin; the visit passage was translated into Hebrew by Carla Wolf.', folder:'G-F-0313-009-R0001', drive:null},
-  {g:'trip', year:'1969', cat:'trip lecture', person:'Dr. Fritz Wolf', city:'Munich / Frankfurt / Germany', ev:'"Deutschland, eine Winterreise" (Heine echo) — Wolf\'s account of his 1969 trip to Germany, told to the Wizo Nahariya Golden-Age Club: the Wirtschaftswunder and face-to-face encounters with former Nazis. Fully transcribed + facsimile.', folder:'G-F-0113-041 pp.13-27', drive:'https://drive.google.com/drive/folders/1loyGgsVUdq5KOweB-6KjmcpnGwFTMTc4', deep:'../winterreise-1969/index.html'},
-  {g:'trip', year:'1968', cat:'return lecture + memoir', person:'Simon Berlinger', city:'Berlichingen (Hohenlohe)', ev:'Returned to lecture on "Jüdisches Leben" in the Catholic parish hall of his home village Berlichingen (1968), and wrote the "Hohenloher Memoiren 1933–1939". Fully transcribed + facsimile.', folder:'G-F-0422-3 pp.243, 356', drive:'https://drive.google.com/drive/folders/12Y2FwnHj8kqF1YGlnUwc3pafn-wT5u_q', deep:'../berlinger-hohenlohe/index.html'},
+  {g:'trip', year:'1969', cat:'trip lecture', person:'Dr. Fritz Wolf', city:'Munich / Frankfurt / Germany', ev:'"Deutschland, eine Winterreise" (Heine echo) — Wolf\'s account of his 1969 trip to Germany, told to the Wizo Nahariya Golden-Age Club: the Wirtschaftswunder and face-to-face encounters with former Nazis. Fully transcribed + facsimile.', folder:'G-F-0113-041 pp.13-27', drive:'https://drive.google.com/drive/folders/1loyGgsVUdq5KOweB-6KjmcpnGwFTMTc4', deep:'../winterreise-1969/index.html',
+   pages:[{src:'../winterreise-1969/images/p0013.jpg', cap:'"Deutschland, eine Winterreise" — opening page, G-F-0113-041 p.13'},
+          {src:'../winterreise-1969/images/p0016.jpg', cap:'"Deutschland, eine Winterreise" — G-F-0113-041 p.16'},
+          {src:'../winterreise-1969/images/p0019.jpg', cap:'"Deutschland, eine Winterreise" — G-F-0113-041 p.19'}]},
+  {g:'trip', year:'1968', cat:'return lecture + memoir', person:'Simon Berlinger', city:'Berlichingen (Hohenlohe)', ev:'Returned to lecture on "Jüdisches Leben" in the Catholic parish hall of his home village Berlichingen (1968), and wrote the "Hohenloher Memoiren 1933–1939". Fully transcribed + facsimile.', folder:'G-F-0422-3 pp.243, 356', drive:'https://drive.google.com/drive/folders/12Y2FwnHj8kqF1YGlnUwc3pafn-wT5u_q', deep:'../berlinger-hohenlohe/index.html',
+   pages:[{src:'../berlinger-hohenlohe/images/p0243.jpg', cap:'Berlichingen lecture material — G-F-0422-3 p.243'},
+          {src:'../berlinger-hohenlohe/images/p0356.jpg', cap:'"Hohenloher Memoiren" — G-F-0422-3 p.356'}]},
   {g:'trip', year:'1975', cat:'published account', person:'Ernest W. Michel', city:'Mannheim / Germany', ev:'Mannheim-born Auschwitz survivor (→ US 1946). His papers hold "Germany Revisited by Ernest Michel" (JTA feature, 1975). The sole confirmed return case among 228 CJH collections.', folder:'CJH / AJHS resource 6730', drive:'https://archives.cjh.org/repositories/3/resources/6730', driveLabel:'Open finding aid at CJH →'},
   // --- invitations / honours / refusals ---
-  {g:'invite', year:'1964', cat:'municipal invitation', person:'Hans Hanan Mannheimer', city:'Worms', ev:'Official invitation from the city of Worms — "in Ihre alte Heimat kommen" — for the Woche der Brüderlichkeit, March 1965. Now fully transcribed + facsimile.', folder:'G-F-0444-003-R0001', drive:'https://drive.google.com/drive/folders/1rpo85nfk5RFq7xZWvROIk2tX5A87mlLg', deep:'../worms-1964-invitation/index.html'},
-  {g:'invite', year:'1985', cat:'honour refused', person:'Hans Hanan Mannheimer', city:'Worms', ev:'The Greens propose him for honorary citizenship without asking; it is rejected. Mannheimer: "äußerst blamabel … ich wurde ihr Opfer." Memory work as ambivalence, against the Bitburg backdrop.', folder:'G-F-0444-003-R0012', drive:'https://drive.google.com/drive/folders/1rpo85nfk5RFq7xZWvROIk2tX5A87mlLg', deep:'../worms-1985-refusal/index.html'},
-  {g:'invite', year:'1986 & 1987', cat:'emigrant org / reunion', person:'Heinrich (Zvi) Schopler', city:'Cologne (Köln)', ev:'Chairman of the Organization of Cologne Emigrants. The city hosted its former Jewish citizens twice; Schopler and Mayor Burger address each other at the 1987 Rathaus reception — "in Ihrer alten Heimatstadt Köln". Fully transcribed + facsimile.', folder:'G-F-0276-6 pp.2, 50, 62', drive:'https://drive.google.com/drive/folders/1MWkzFHOEpS9fQHq0kB88M1_72mYEFrJW', deep:'../schopler-cologne/index.html'},
+  {g:'invite', year:'1964', cat:'municipal invitation', person:'Hans Hanan Mannheimer', city:'Worms', ev:'Official invitation from the city of Worms — "in Ihre alte Heimat kommen" — for the Woche der Brüderlichkeit, March 1965. Now fully transcribed + facsimile.', folder:'G-F-0444-003-R0001', drive:'https://drive.google.com/drive/folders/1rpo85nfk5RFq7xZWvROIk2tX5A87mlLg', deep:'../worms-1964-invitation/index.html',
+   pages:[{src:'../worms-1964-invitation/images/p0006.jpg', cap:'City of Worms invitation, 1964 — G-F-0444-003 p.6'},
+          {src:'../worms-1964-invitation/images/p0007.jpg', cap:'City of Worms invitation, 1964 — G-F-0444-003 p.7'}]},
+  {g:'invite', year:'1985', cat:'honour refused', person:'Hans Hanan Mannheimer', city:'Worms', ev:'The Greens propose him for honorary citizenship without asking; it is rejected. Mannheimer: "äußerst blamabel … ich wurde ihr Opfer." Memory work as ambivalence, against the Bitburg backdrop.', folder:'G-F-0444-003-R0012', drive:'https://drive.google.com/drive/folders/1rpo85nfk5RFq7xZWvROIk2tX5A87mlLg', deep:'../worms-1985-refusal/index.html',
+   pages:[{src:'../worms-1985-refusal/images/p0026.jpg', cap:'Honorary-citizenship affair, 1985 — G-F-0444-003 p.26'},
+          {src:'../worms-1985-refusal/images/p0029.jpg', cap:'Mannheimer: "äußerst blamabel" — G-F-0444-003 p.29'}]},
+  {g:'invite', year:'1986 & 1987', cat:'emigrant org / reunion', person:'Heinrich (Zvi) Schopler', city:'Cologne (Köln)', ev:'Chairman of the Organization of Cologne Emigrants. The city hosted its former Jewish citizens twice; Schopler and Mayor Burger address each other at the 1987 Rathaus reception — "in Ihrer alten Heimatstadt Köln". Fully transcribed + facsimile.', folder:'G-F-0276-6 pp.2, 50, 62', drive:'https://drive.google.com/drive/folders/1MWkzFHOEpS9fQHq0kB88M1_72mYEFrJW', deep:'../schopler-cologne/index.html',
+   pages:[{src:'../schopler-cologne/images/p0002.jpg', cap:'Organization of Cologne Emigrants — G-F-0276-6 p.2'},
+          {src:'../schopler-cologne/images/p0050.jpg', cap:'Cologne reunion material — G-F-0276-6 p.50'},
+          {src:'../schopler-cologne/images/p0062.jpg', cap:'1987 Rathaus reception — G-F-0276-6 p.62'}]},
   // --- remigration ---
-  {g:'remig', year:'1959 / 1962', cat:'remigration', person:'Leoni Frank-Landsberg', city:'Germany', ev:'Writes to Moshe Sharett "from Germany where she lives" — a documented move back to Germany.', folder:'G-F-0047-002-R0004', drive:'https://drive.google.com/drive/folders/1AI1PA5XTtDzmFCOTZwCA0n2mu0EUQCDC'},
-  {g:'remig', year:'post-1945', cat:'remigration', person:'Wilma Adam', city:'Germany', ev:'Gerson/Garzon family: Wilma Adam (Givat Brenner) returned with her husband to Germany. Same folder documents Walli &amp; Ernst Seligmann, who "returned to Germany in 1995" (Givat Brenner bios).', folder:'G-F-0185-2 pp.209, 221', drive:'https://drive.google.com/drive/folders/1CdAbq59wCF31zRUxQHes7nPKPH3Ses12'},
+  {g:'remig', year:'1959 / 1962', cat:'remigration', person:'Leoni Frank-Landsberg', city:'Germany', ev:'Writes to Moshe Sharett "from Germany where she lives" — a documented move back to Germany. Her 31.5.1959 letter from Gustav-Freytag-Str., Wiesbaden: "fremd und einsam" in the town where five generations of her family were born.', folder:'G-F-0047-002-R0004', drive:'https://drive.google.com/drive/folders/1AI1PA5XTtDzmFCOTZwCA0n2mu0EUQCDC',
+   pages:[{src:'images/frank-p0083.jpg', cap:'Leonie Frank to Sharett, Wiesbaden 31.5.1959 — "fremd und einsam" (sheet 1, scan p.83)'},
+          {src:'images/frank-p0082.jpg', cap:'Leonie Frank to Sharett, Wiesbaden 1959 — sheet 2 with 10 June postscript (scan p.82)'},
+          {src:'images/frank-p0080.jpg', cap:'Leonie Frank to Sharett, c. June 1962 — before the trip to Stuttgart and Wiesbaden (scan p.80)'},
+          {src:'images/frank-p0081.jpg', cap:'Leonie Frank to Sharett, c. June 1962 — continuation (scan p.81)'}]},
+  {g:'remig', year:'post-1945', cat:'remigration', person:'Wilma Adam', city:'Germany', ev:'Gerson/Garzon family: Wilma Adam (Givat Brenner) returned with her husband to Germany. Same folder documents Walli &amp; Ernst Seligmann, who "returned to Germany in 1995" (Givat Brenner bios).', folder:'G-F-0185-2 pp.209, 221', drive:'https://drive.google.com/drive/folders/1CdAbq59wCF31zRUxQHes7nPKPH3Ses12',
+   pages:[{src:'images/adam-p0209.jpg', cap:'Givat Brenner biography — "Walli & Ernst returned to Germany in \'95" (G-F-0185-2 p.209)'},
+          {src:'images/adam-p0221.jpg', cap:'Photo-identification note naming Wilma Worner Adam (G-F-0185-2 p.221)'}]},
   // --- context ---
-  {g:'context', year:'1934', cat:'pre-war observation', person:'Arthur Ruppin', city:'Berlin', ev:'Visits Berlin under Nazi rule — "outwardly nothing has changed." An iconic Heimat-observation, but pre-war, not a post-war return; kept for context.', folder:'G-F-0047-004-R0007', drive:'https://drive.google.com/drive/folders/1hiuDoM3tdfwviBM16AgQ3hscwBOs_GHH'},
+  {g:'context', year:'1934', cat:'pre-war observation', person:'Arthur Ruppin', city:'Berlin', ev:'Visits Berlin under Nazi rule — "outwardly nothing has changed." An iconic Heimat-observation, but pre-war, not a post-war return; kept for context. The folder holds his 1934 Marienbad letter (news of Schleicher\'s shooting) and a Jerusalem letter on the Haavara transfer.', folder:'G-F-0047-004-R0007', drive:'https://drive.google.com/drive/folders/1hiuDoM3tdfwviBM16AgQ3hscwBOs_GHH',
+   pages:[{src:'images/ruppin-p0041.jpg', cap:'Ruppin to Leonie Landsberg, Hotel Balmoral-Osborne, Marienbad, 22.7.1934 (scan p.41)'},
+          {src:'images/ruppin-p0045.jpg', cap:'Airmail envelope to Leonie Landsberg, Tel Aviv (scan p.45)'},
+          {src:'images/ruppin-p0037.jpg', cap:'"Dr. A. Ruppin Jerusalem" letterhead (scan p.37)'},
+          {src:'images/ruppin-p0038.jpg', cap:'Handwritten German original (scan p.38)'}]},
 ];
+
+// flat list of all facsimile pages, for lightbox prev/next within a case
+const LB = { items: [], idx: 0 };
 
 function render(){
   for(const c of CASES){
@@ -267,15 +349,22 @@ function render(){
     if(!grid) continue;
     const el = document.createElement('div');
     el.className = 'card '+c.g;
-    let actions = '<div class="folder">'+c.folder+'</div>';
-    if(c.drive){
-      const label = c.driveLabel || 'Open scans in Drive →';
-      actions += '<a class="action" href="'+c.drive+'" target="_blank" rel="noopener">'+label+'</a>';
-    } else {
-      actions += '<span class="action pending">catalogue only · scan pending</span>';
+    let thumbs = '';
+    if(c.pages && c.pages.length){
+      thumbs = '<div class="thumbs">'+
+        c.pages.map((p,i)=>'<img src="'+p.src+'" alt="'+p.cap.replace(/"/g,'&quot;')+'" loading="lazy" data-case="'+c.folder+'" data-i="'+i+'">').join('')+
+      '</div>';
     }
+    let actions = '<div class="folder">'+c.folder+'</div>';
     if(c.deep){
       actions += '<a class="action deep" href="'+c.deep+'">Full presentation →</a>';
+    }
+    if(c.drive){
+      const label = c.driveLabel || 'Drive folder →';
+      actions += '<a class="action" href="'+c.drive+'" target="_blank" rel="noopener">'+label+'</a>';
+    }
+    if(!c.pages && !c.drive){
+      actions += '<span class="action pending">catalogue only · scan pending</span>';
     }
     el.innerHTML =
       '<div class="plate"><span class="year">'+c.year+'</span><span class="cat">'+c.cat+'</span></div>'+
@@ -283,11 +372,41 @@ function render(){
         '<h4>'+c.person+'</h4>'+
         '<p class="city">'+c.city+'</p>'+
         '<p class="ev">'+c.ev+'</p>'+
+        thumbs+
         '<div class="src">'+actions+'</div>'+
       '</div>';
     grid.appendChild(el);
+    if(c.pages){
+      el.querySelectorAll('.thumbs img').forEach(img=>{
+        img.addEventListener('click', ()=> openLightbox(c.pages, +img.dataset.i));
+      });
+    }
   }
 }
+
+function openLightbox(pages, i){
+  LB.items = pages; LB.idx = i;
+  document.getElementById('lightbox').classList.add('open');
+  showLB();
+}
+function showLB(){
+  const p = LB.items[LB.idx];
+  document.getElementById('lb-img').src = p.src;
+  document.getElementById('lb-cap').textContent = p.cap + (LB.items.length>1 ? '  ·  '+(LB.idx+1)+' / '+LB.items.length : '');
+  document.querySelector('.lb-prev').style.visibility = LB.items.length>1 ? 'visible' : 'hidden';
+  document.querySelector('.lb-next').style.visibility = LB.items.length>1 ? 'visible' : 'hidden';
+}
+function closeLB(){ document.getElementById('lightbox').classList.remove('open'); }
+function stepLB(d){ LB.idx = (LB.idx + d + LB.items.length) % LB.items.length; showLB(); }
+
+document.getElementById('lightbox').addEventListener('click', e=>{ if(e.target.id==='lightbox') closeLB(); });
+document.addEventListener('keydown', e=>{
+  if(!document.getElementById('lightbox').classList.contains('open')) return;
+  if(e.key==='Escape') closeLB();
+  if(e.key==='ArrowLeft') stepLB(-1);
+  if(e.key==='ArrowRight') stepLB(1);
+});
+
 render();
 </script>
 
