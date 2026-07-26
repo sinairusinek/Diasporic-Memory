@@ -118,6 +118,19 @@
   .illus.family img       { object-position: 50% 26%; transform: scale(1.15); }
   .illus.diary img        { object-position: 50% 30%; transform: scale(1.20); }
 
+  /* interview card: no facsimile exists — audio waveform motif instead */
+  .illus.interview {
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(180deg, #efe4c8, #e2d3ac);
+  }
+  .illus.interview .wave {
+    display: flex; align-items: center; gap: 4px; height: 90px;
+  }
+  .illus.interview .wave i {
+    display: block; width: 5px; border-radius: 2px;
+    background: #8a6a35; opacity: 0.75;
+  }
+
   .illus::after {
     /* warm vignette to unify the four cards */
     content: "";
@@ -207,8 +220,8 @@
 
 <header class="site">
   <div class="kicker">JeckeArchive · genre mockups</div>
-  <h1>Four genres, four sources</h1>
-  <p class="subtitle">Letters · Memoir · Family History · Diary</p>
+  <h1>Five genres, five sources</h1>
+  <p class="subtitle">Letters · Memoir · Family History · Diary · Interview</p>
 </header>
 
 <main>
@@ -264,14 +277,28 @@
       </div>
     </a>
 
+    <a class="card" href="walk-interview/index.html">
+      <div class="illus interview">
+        <span class="genre-tag">Interview</span>
+        <div class="wave" aria-hidden="true">
+          <i style="height:22%"></i><i style="height:48%"></i><i style="height:80%"></i><i style="height:36%"></i><i style="height:64%"></i><i style="height:95%"></i><i style="height:52%"></i><i style="height:30%"></i><i style="height:72%"></i><i style="height:44%"></i><i style="height:88%"></i><i style="height:58%"></i><i style="height:26%"></i><i style="height:68%"></i><i style="height:40%"></i><i style="height:78%"></i><i style="height:34%"></i><i style="height:56%"></i><i style="height:90%"></i><i style="height:46%"></i><i style="height:24%"></i><i style="height:62%"></i><i style="height:84%"></i><i style="height:38%"></i><i style="height:54%"></i><i style="height:28%"></i><i style="height:70%"></i><i style="height:42%"></i>
+        </div>
+      </div>
+      <div class="card-body">
+        <h2>Joseph Walk &mdash; <em>"die alte Heimat"</em></h2>
+        <p class="sub">Oral history, Jerusalem 1991 — a Breslau historian returns without Heimweh</p>
+        <p class="meta">DGD Israelkorpus IS--_E_00135 · Anne Betten corpus · 133 min, audio-aligned</p>
+      </div>
+    </a>
+
   </div>
 
   <p class="note">
-    Each mockup is built built directly on Transkribus HTR output, lightly regularised but not paraphrased. The four mockups test whether four genre-templates (Letter, Memoir, Family History, Diary) can carry real corpus material at scale, without forcing a single Heimat-axis framing.
+    Each mockup is built directly on source transcription — Transkribus HTR for the archival genres, the DGD aligned transcript for the interview — lightly regularised but not paraphrased. The five mockups test whether five genre-templates (Letter, Memoir, Family History, Diary, Interview) can carry real corpus material at scale, without forcing a single Heimat-axis framing.
   </p>
 
   <p class="note" style="border-left-color: var(--accent);">
-    <strong>Thematic exhibit:</strong> <a href="return-visits/index.html" style="color: var(--accent);">Return Visits to Germany →</a> — all twenty confirmed cases of German-Jewish émigrés going back (trips, invitations, refusals, remigration), gathered across the MTFN and CJH holdings.
+    <strong>Thematic exhibit:</strong> <a href="return-visits/index.html" style="color: var(--accent);">Return Visits to Germany →</a> — all thirty-six confirmed cases of German-Jewish émigrés going back (trips, invitations, refusals, remigration, oral testimony), gathered across the MTFN and CJH holdings and the Israelkorpus interviews.
   </p>
 
 </main>

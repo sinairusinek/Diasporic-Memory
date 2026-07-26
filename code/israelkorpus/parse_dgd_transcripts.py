@@ -155,6 +155,8 @@ def parse_pdf(path: Path):
         lm = PDF_LABELED.match(line)
         if lm:
             spk = lm.group(1)
+            if spk == "K":       # comment tier (prosody notes), not speech
+                continue
             if cur and cur["speaker"] == spk:
                 _append(cur, lm.group(2))
             else:
@@ -181,6 +183,28 @@ def parse_pdf(path: Path):
     }
 
 
+# interviewee speaker IDs for the PDF-derived events (no IDs in the PDFs;
+# identified from transcript openings + the DGD speaker list)
+PDF_SPEAKERS = {
+    "IS_E_00042": "IS--_S_00051",  # Friedländer, Abraham H.
+    "IS_E_00043": "IS--_S_00051",
+    "IS_E_00105": "IS--_S_00123",  # Rothschild, Charlotte
+    "IS_E_00109": "IS--_S_00126",  # Rudberg, Hilde
+    "IS_E_00110": "IS--_S_00126",
+    "IS_E_00114": "IS--_S_00132",  # Schwarz-Gardos, Alice
+}
+
+
+def load_speakers():
+    path = REPO / "data/israelkorpus/speakers.tsv"
+    table = {}
+    if path.exists():
+        for line in path.read_text().splitlines()[1:]:
+            sid, name, by, sex = line.split("\t")
+            table[sid] = (name, by, sex)
+    return table
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     records = []
@@ -199,8 +223,16 @@ def main():
         if r["event_id"] not in by_event or r["source"] == "html":
             by_event[r["event_id"]] = r
 
+    speakers = load_speakers()
     index_rows = []
     for eid, r in sorted(by_event.items()):
+        sids = sorted(set(r["speakers"].values()))
+        if not sids and eid in PDF_SPEAKERS:
+            sids = [PDF_SPEAKERS[eid]]
+        bios = [speakers.get(s) for s in sids if s in speakers]
+        r["interviewees"] = [
+            {"speaker_id": s, "name": b[0], "birth_year": b[1], "sex": b[2]}
+            for s, b in zip(sids, bios)]
         out_path = OUT / f"{eid}.json"
         out_path.write_text(json.dumps(r, ensure_ascii=False, indent=1))
         words = sum(len(c["text"].split()) for c in r["contributions"])
@@ -208,12 +240,15 @@ def main():
         dur = max(ends) if ends else None
         index_rows.append([
             eid, r["transcript_id"], r["source_file"], r["source"],
-            ";".join(sorted(set(r["speakers"].values()))) or "",
+            ";".join(sids),
+            "; ".join(b[0] for b in bios),
+            ";".join(b[1] for b in bios),
             str(len(r["contributions"])), str(words),
             f"{dur/60:.1f}" if dur else "",
         ])
     header = ["event_id", "transcript_id", "source_file", "source",
-              "speaker_ids", "n_contributions", "n_words", "duration_min"]
+              "speaker_ids", "interviewees", "birth_years",
+              "n_contributions", "n_words", "duration_min"]
     (OUT / "index.tsv").write_text(
         "\t".join(header) + "\n" +
         "\n".join("\t".join(row) for row in index_rows) + "\n")

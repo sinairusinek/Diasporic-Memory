@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joseph Walk — oral history interview, Jerusalem 1991 | JeckeArchive mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Frank+Ruhl+Libre:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../_shared/frame.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../_shared/frame.js"></script>
+<style>
+  :root {
+    --paper:       #f6f1e6;
+    --paper-2:     #efe7d4;
+    --paper-3:     #fbf7eb;
+    --ink:         #1a1a1a;
+    --ink-soft:    #3a3a3a;
+    --ink-muted:   #6b6354;
+    --rule:        #c9bfa6;
+    --rule-2:      #a89c7e;
+    --accent:      #8a2418;
+    --spk-i:       #5a6b7a;   /* interviewer */
+    --spk-w:       #8a2418;   /* Walk */
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+  .mockup-banner {
+    background: #fff4cc; color: #5a4400;
+    border-bottom: 2px solid #d6b94a;
+    padding: 10px 24px; font-size: 13px; text-align: center; font-weight: 600;
+  }
+  .mockup-banner .small { font-weight: 400; opacity: 0.8; margin-left: 12px; }
+
+  header.site {
+    background: var(--paper-3);
+    border-bottom: 3px solid var(--rule-2);
+    padding: 28px 32px;
+  }
+  .site-inner { max-width: 1180px; margin: 0 auto; }
+  header.site .kicker {
+    font-family: 'Inter', monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 2px;
+    color: var(--ink-muted);
+  }
+  header.site h1 {
+    font-family: 'EB Garamond', serif; font-size: 36px;
+    margin: 8px 0 4px; font-weight: 700; letter-spacing: -0.3px;
+  }
+  header.site .subtitle {
+    font-family: 'EB Garamond', serif; font-size: 19px; font-style: italic;
+    color: var(--ink-soft); margin: 0;
+  }
+  header.site .byline {
+    font-family: 'EB Garamond', serif; font-style: italic;
+    color: var(--ink-muted); margin-top: 6px; font-size: 16px;
+  }
+
+  /* ---- interview-specific: speaker turns with audio timecodes ---- */
+  .entry blockquote {
+    margin: 0; padding: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 18.5px; color: var(--ink); line-height: 1.85;
+  }
+  .turn { margin: 0 0 14px; padding-left: 86px; position: relative; }
+  .turn .spk {
+    position: absolute; left: 0; top: 5px;
+    width: 72px; text-align: right;
+    font-family: 'Inter', sans-serif; font-size: 10.5px; font-weight: 600;
+    letter-spacing: 1px; text-transform: uppercase;
+    color: var(--spk-w);
+  }
+  .turn.interviewer .spk { color: var(--spk-i); }
+  .turn.interviewer { color: var(--ink-soft); font-style: italic; }
+  .turn .tc {
+    font-family: 'Inter', sans-serif; font-size: 10.5px;
+    color: var(--ink-muted); letter-spacing: 0.5px;
+    border: 1px solid var(--rule); border-radius: 2px;
+    padding: 0 5px; margin-left: 8px; white-space: nowrap;
+    font-style: normal; vertical-align: 2px;
+  }
+  .turn .nv { color: var(--ink-muted); font-style: italic; font-size: 0.85em; }
+  .ellipsis { color: var(--ink-muted); }
+  @media (max-width: 700px) {
+    .turn { padding-left: 0; padding-top: 20px; }
+    .turn .spk { position: absolute; left: 0; top: 0; width: auto; text-align: left; }
+  }
+</style>
+</head>
+<body>
+
+<div class="mockup-banner">
+  JeckeArchive — Interview Mockup
+  <span class="small">Source: DGD Israelkorpus IS--_E_00135 (IDS Mannheim) — Anne Betten in conversation with Joseph Walk, Jerusalem, 16 April 1991 · excerpts for project review only</span>
+</div>
+
+<nav class="frame-timeline" aria-label="Timeline">
+  <div class="tl-track"><div class="tl-axis"></div></div>
+</nav>
+
+<header class="site">
+  <div class="site-inner">
+    <div class="kicker">JeckeArchive · genre mockup · oral history interview</div>
+    <h1>Joseph Walk — "Das war doch für mich die alte Heimat"</h1>
+    <p class="subtitle">A Breslau-born historian on returning to Germany without Heimweh — Jerusalem, April 1991</p>
+    <p class="byline">From Anne Betten's <em>Emigrantendeutsch in Israel</em> corpus (Israelkorpus IS, 186 speakers, recorded 1989–94). Prof. Joseph Walk (1914–2005), educator and historian, long-time director of the Leo Baeck Institute Jerusalem. Eight excerpts from a 133-minute interview; timecodes link each turn to the aligned audio held at the Datenbank für Gesprochenes Deutsch, Mannheim.</p>
+  </div>
+</header>
+
+<div class="frame-grid">
+
+  <aside class="frame-left">
+    <div class="frame-block summary">
+      <h3>Summary</h3>
+      <p>The corpus's deepest reflection on the Heimat question — delivered by a speaker who denies having any. Walk, a conscious Zionist "born under a picture of Theodor Herzl," first returned to Germany in 1967 and by 1991 is "at home in many houses in Germany" — yet his first re-encounter with Breslau leaves him cold, and when a Hamburg official asks how hard it was to adjust to a <em>new</em> Heimat, he answers that Israel was the <em>old</em> one.</p>
+      <p>Around this reversal the interview stages the whole Heimat-axis repertoire: symposium invitations, the 1932 taunt "Vertreter des Deutschtums im Ausland" and its bitter 1942 echo in the moshav, the Gelber book title <em>Neue Heimat</em>, his wife's first border crossing, and a second-generation colleague who swore never to go — and went.</p>
+    </div>
+    <div class="frame-block frame-topics">
+      <h3>Topics</h3>
+      <ul class="topic-list"></ul>
+    </div>
+  </aside>
+
+  <main class="frame-center">
+
+    <div class="frame-highlight-bar">
+      <span class="hl-label">controls:</span>
+    </div>
+
+    <!-- SEGMENT 1: the invitation, days before the interview -->
+    <article class="entry" id="s-invitation">
+      <div class="entry-head">
+        <span class="label">Segment 1 · The invitation <span class="tc">00:01:17 · c6</span></span>
+        <span class="meta">an Einladung to a German symposium, received days before the interview</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote lang="de">
+            <p class="turn"><span class="spk">Walk</span>
+              Nun äh möchte ich mit einem Erlebnis beginnen, das ich äh gerade vor wenigen Tagen hatte, und das gehört direkt zu unserem Thema. <span class="relevant">Ich bekam eine <span class="hl-org">Einladung</span> nach <span class="hl-place">Deutschland</span> zu einem Symposion, das sich mit dem Thema „Ethik und Politik" beschäftigen soll</span> und äh telefonisch sagte mir der Einladende, er schlägt für mein Thema, ich bin der einzige Israeli, vor „Ethischer Anspruch und politischer Spielraum". Worauf ich äh ganz spontan sagte, ja aber der Anspruch auf das Land für uns ist ja mehr theologisch als äh nur ethisch <span class="ellipsis">[…]</span> Den nächsten Morgen kam mir plötzlich in den Sinn, vielleicht hätte ich das Wort Anspruch überhaupt falsch verstanden. Ich nahm also den <span class="hl-org">Duden</span> zu Rat <span class="ellipsis">[…]</span> und fand, dass das Wort Anspruch auch bedeutet, an sich selber eine Forderung stellen. <span class="relevant">Für mich war das ein klassisches Beispiel gerade der letzten Tage, wie mein deutsches Sprachempfinden zurückgeblieben is.</span>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </article>
+
+    <!-- SEGMENT 2: first return 1967 -->
+    <article class="entry" id="s-1967">
+      <div class="entry-head">
+        <span class="label">Segment 2 · First return, <span class="hl-date">1967</span> <span class="tc">00:05:40 · c6</span></span>
+        <span class="meta">the school secretary, and a compliment in Mülheim</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote lang="de">
+            <p class="turn"><span class="spk">Walk</span>
+              <span class="relevant">Ich kam im Jahre <span class="hl-date">neunzehnhundertsiebenundsechzig</span> das erste Mal äh nach <span class="hl-place">Deutschland</span> nach meiner Auswanderung</span> und kam in eine Schule und musste auf den Schulleiter warten <span class="ellipsis">[…]</span> und fragte die Sekretärin etwas, darauf sagte sie „Ja, also, da müsste ich erst anschreiben." Später fragte ich sie noch etwas, sagt sie „Da bin ich überfragt." Als der Schulleiter reinkam sagte ich „Ja entschuldigen Sie bitte, wenn ich mir eine Bemerkung erlaube, aber Ihre Sekretärin spricht ein sehr fehlerhaftes Deutsch." <span class="ellipsis">[…]</span> Sagt er „Ja, Sie sind mit Ihrem Deutsch etwas zurückgeblieben" und erklärte mir die heutige Bedeutung. Das war eigentlich meine erste Begegnung mit dem gesprochenen, modernen Deutsch.
+            </p>
+            <p class="turn"><span class="spk">Walk</span>
+              Das war ein Erlebnis vor einem halben Jahr <span class="ellipsis">[…]</span> Ich war in <span class="hl-place">Mühlheim</span> eingeladen wiederum zu einem Symposion, der einzige Israeli, und äh das Thema lautete „Erziehung zum Frieden" <span class="ellipsis">[…]</span> Den nächsten Morgen, bevor ich wegfuhr, kam eine etwa zwanzig-, fünfundzwanzigjährige junge Deutsche an mich heran und sagte <span class="ellipsis">[…]</span> „Wissen Sie, wenn ich mir die Kultur der <span class="hl-org">Weimarer Republik</span> vorstelle, dann verkörpern Sie diese Kultur für mich." Das war nun für einen deutschen Juden einerseits äh überraschend, ein überraschendes Lob, gab mir aber viel zu denken und äh <span class="relevant">vielleicht sind wir wirklich die einzigen Erben der Weimarer Kultur</span>.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </article>
+
+    <!-- SEGMENT 3: Vertreter des Deutschtums -->
+    <article class="entry" id="s-deutschtum">
+      <div class="entry-head">
+        <span class="label">Segment 3 · "Vertreter des Deutschtums im Ausland" <span class="tc">00:26:50 · c32</span></span>
+        <span class="meta">the 1932 taunt in Köln — and its 1942 echo in the moshav</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote lang="de">
+            <p class="turn"><span class="spk">Walk</span>
+              <span class="ellipsis">[…]</span> ich setze nochmals voraus <span class="ellipsis">[…]</span> dass ich zionistisch erzogen bin, ich bin direkt geboren unter einem Bild von <span class="hl-person">Theodor Herzl</span>, ich habe <span class="hl-date">neunzehnhundertzweiunddreißig</span> in meinem Abituraufsatz als letzten Satz geschrieben, in einer deutschen Schule „Wenn es mir vergönnt sein sollte, an der Erziehung eines neuen Geschlechtes in <span class="hl-place">Palästina</span> teilzunehmen, so wäre meine Lebensaufgabe erfüllt." <span class="ellipsis">[…]</span> Nun erschien im Sommer neunzehnhundertzweiunddreißig ein deutscher äh Inspektor <span class="ellipsis">[im Lehrerseminar <span class="hl-place">Köln</span>]</span> und fragte der Reihe nach „Was gedenken Sie denn später zu tun?" <span class="ellipsis">[…]</span> Darauf sagte ich, als zweiter „Ich werde nach Palästina gehen." Das war unserem Lehrer sehr unangenehm, worauf er sich folgenden Satz leistete <span class="relevant">„Ja, Sie werden dort Vertreter des <span class="hl-org">Deutschtums</span> im Ausland werden."</span>
+            </p>
+            <p class="turn"><span class="spk">Walk</span>
+              Ich kam <span class="hl-date">neunzehnhundertsechsunddreißig</span> ins Land <span class="ellipsis">[…]</span> Im Jahre etwa <span class="hl-date">neunzehnhundertzweiundvierzig</span>, als doch schon durchgesickert war, langsam, was eigentlich passiert, erschien in der Parteizeitung <span class="ellipsis">[…]</span> ein Artikel zunächst gegen die deutsche Kultur und die endeten alle mit Angriffen auf uns Jeckes. <span class="ellipsis">[…]</span> „Nun wissen wir doch alle, dass <span class="hl-person">Goethe</span> der Lehrer von <span class="hl-person">Hitler</span> war." <span class="ellipsis">[…]</span> <span class="relevant">„Jetzt muss ich von Menschen, mit denen ich zusammenlebe <span class="ellipsis">[…]</span> hören, dass ich Vertreter des Deutschtum im Ausland bin?" Und damals bin ich zurückgetreten von der Kulturkommission</span> <span class="ellipsis">[…]</span> Das ist das schlimmste Erlebnis, das ich <span class="nv">((verspricht sich:))</span> in Deutschland, als Jecke hier gehabt hab.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </article>
+
+    <!-- SEGMENT 4: Neue Heimat -->
+    <article class="entry" id="s-neueheimat">
+      <div class="entry-head">
+        <span class="label">Segment 4 · <em>Neue Heimat</em> <span class="tc">00:38:57 · c48–c52</span></span>
+        <span class="meta">a book title as the whole German-Jewish predicament</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote lang="de">
+            <p class="turn"><span class="spk">Walk</span>
+              Äh das <span class="hl-org">Leo-Baeck-Institut</span> hat <span class="ellipsis">[…]</span> endlich auch ein Buch herausgebracht über die Einordnung der deutschen Juden <span class="ellipsis">[…]</span> Ihr Beitrag zum Aufbau des Landes, in Hebräisch das Buch, das hat übrigens, und damit habe ich meinen Vortrag begonnen, den bezeichnenden Titel <span class="relevant">„Neue Heimat"</span>.
+            </p>
+            <p class="turn interviewer"><span class="spk">Betten</span>Das ist nicht das Buch von <span class="hl-person">Gelber</span>?</p>
+            <p class="turn"><span class="spk">Walk</span>Ja.</p>
+            <p class="turn"><span class="spk">Walk</span>
+              Da habe ich äh damit begonnen und gesagt <span class="relevant">„Welcher polnische Jude würde jemals ein Buch bezeichnen ‚Neue Heimat'?" Das zeigt aber auch andererseits die ganze äh Schwierigkeit deutscher Juden, die sich irgendwie dort beheimatet gefühlt haben, in ihrer großen Mehrheit. Das gilt auch in gewisser Hinsicht für mich</span>, zumindest äh kulturell und äh bis zu einer gewissen Zeit auch politisch äh integriert.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </article>
+
+    <!-- SEGMENT 5: the border crossing -->
+    <article class="entry" id="s-border">
+      <div class="entry-head">
+        <span class="label">Segment 5 · The border crossing <span class="tc">00:45:08 · c62</span></span>
+        <span class="meta">his wife's first trip back — her parents did not survive</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote lang="de">
+            <p class="turn"><span class="spk">Walk</span>
+              Ich erinnere mich genau, in Klammer, äh <span class="relevant">wie meine Frau, deren Eltern leider umgekommen sind, mit mir das erste Mal nach <span class="hl-place">Deutschland</span> mitfuhr, wie wir die Grenze überschritten von der <span class="hl-place">Schweiz</span> nach Deutschland, ich war schon einige Male dort, und wie sie das erste Mal wieder mit diesem deutschen Ton in Berührung kam an der Grenze</span>, der ja heute viel weniger scharf ist als er jemals war. <span class="ellipsis">[…]</span> Dann sind wir direkt äh zusammengezuckt und äh ich muss sagen <span class="ellipsis">[…]</span> wenn ich früher nach Deutschland gefahren bin, habe ich mir von dort ne Krawatte mitgenommen, hier würde ich nie mit Krawatten gehen äh und ich freute mich, dass in den letzten Jahren äh immer mehr die Krawatte verschwindet und ich so sprechen kann.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </article>
+
+    <!-- SEGMENT 6: the second generation -->
+    <article class="entry" id="s-secondgen">
+      <div class="entry-head">
+        <span class="label">Segment 6 · The colleague who swore never to go <span class="tc">01:10:42 · c94</span></span>
+        <span class="meta">second-generation refusal — and what happened when he went</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote lang="de">
+            <p class="turn"><span class="spk">Walk</span>
+              Vor einigen Jahren kam ein etwa fünfzehn Jahre, zwanzig Jahre jüngerer Kollege zu mir <span class="ellipsis">[…]</span> Sagt er „Ich habe etwas erlebt, was ich mir nicht erklären kann. <span class="relevant">Ich habe mir geschworen, nie nach <span class="hl-place">Deutschland</span> zu fahren."</span> Manchmal ist die zweite Generation in dieser Hinsicht nicht weniger extrem als die erste. „Und nun bin ich aber doch einmal gefahren und ich komme jetzt zurück und ich muss dir sagen, ich habe mehr gemeinsame Sprache jetzt im doppelten Sinne mit deutschen Kollegen gefunden als mit vielen Kollegen hier." <span class="ellipsis">[…]</span> Und mir geht es ähnlich. Ich habe in Deutschland sehr viel Freunde, ich darf direkt sagen Freunde. <span class="ellipsis">[…]</span> <span class="relevant">wir sind heute in vielen Häusern in Deutschland zu Hause, in dem Sinne, ich kann jederzeit hinkommen und dort wohnen und äh fühl mich da gut.</span>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </article>
+
+    <!-- SEGMENT 7: Breslau -->
+    <article class="entry" id="s-breslau">
+      <div class="entry-head">
+        <span class="label">Segment 7 · Breslau, without Heimatgefühl <span class="tc">01:26:30 · c137–c148</span></span>
+        <span class="meta">the first re-encounter with the hometown — and the reversal of "alte Heimat"</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote lang="de">
+            <p class="turn interviewer"><span class="spk">Betten</span>
+              Sie haben gerade noch mal äh <span class="hl-place">Breslau</span> erwähnt. <span class="ellipsis">[…]</span> ich war im vorigen Jahr in einem Vortrag von Ihnen, Ihre erste Wiederbegegnung mit Breslau <span class="ellipsis">[…]</span> <span class="relevant">haben Sie für Breslau noch Heimatgefühle?</span>
+            </p>
+            <p class="turn"><span class="spk">Walk</span><span class="relevant">Hab ich nicht, nein, überhaupt nicht.</span> Also das ist mir direkt bei dem Besuch aufgefallen <span class="ellipsis">[…]</span> ich habe keinerlei Verbindung mit dieser Stadt. Im Gegenteil. Ich war überrascht, wie wenig ich über die Geschichte der Stadt zum Beispiel gewusst habe. Dieser polnische Kollege, der war viel mehr bewandert als ich und das hat mich überhaupt kaum berührt.</p>
+            <p class="turn"><span class="spk">Walk</span>
+              Ja, ja, ich habe sehr stark doch in dieser großen jüdischen Gemeinde alles gefunden, was ich äh gebraucht hatte. <span class="ellipsis">[…]</span> im Gegensatz wieder zu deutschen Juden, die aus Kleinstädten kommen, besonders wieder in Westdeutschland, <span class="hl-place">Baden-Württemberg</span>, das kann ich nachempfinden <span class="ellipsis">[…]</span> weil ich äh das Gemeindebuch Baden-Württemberg herausgegeben habe <span class="ellipsis">[…]</span> Aber, wo ja dieses <span class="relevant">Heimatgefühl</span> viel weniger stark entwickelt ist. <span class="nv">((gemeint: in der Großstadt))</span>
+            </p>
+            <p class="turn interviewer"><span class="spk">Betten</span>
+              War es von daher für Sie schwer verständlich <span class="ellipsis">[…]</span> dass es Menschen aus dieser Generation gegeben hat <span class="ellipsis">[…]</span> dass sie sich hier nicht eingliedern können in das fremde Land, äh gewisse Wehmutsgefühle und vielleicht sogar eine Art <span class="relevant">Heimweh</span> erzeugt hat?
+            </p>
+            <p class="turn"><span class="spk">Walk</span>
+              Verstehen kann ich das vollkommen und ich kann das auch nachempfinden. Aber ich war wirklich mehr als überrascht, als mir ein deutscher Beamter, der mir geholfen hat, an gewisse Akten heranzukommen in <span class="hl-place">Hamburg</span> <span class="ellipsis">[…]</span> plötzlich stehen blieb und sagte „Ja ist das nicht wahnsinnig schwer für Sie gewesen, sich in eine neue Heimat einzuleben äh und umzustellen?" <span class="relevant">Da blieb ich stehen und sagte ganz überrascht „Ja, also, das war doch für mich die alte Heimat und ich kenn die Problematik überhaupt nicht."</span> <span class="ellipsis">[…]</span> Ich kann verstehen, dass deutsche Juden, die <span class="ellipsis">[…]</span> ich bin mit zweiundzwanzig ausgewandert, mit vierzig, fünfzig Jahren, die bereits ihren Beruf hatten, die ihre Stellung hatten in Deutschland, dass die diese Problematik hatten, aber der konnte, glaub ich, mich nicht verstehen und ich konnte ihn nicht verstehen.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </article>
+
+    <!-- SEGMENT 8: Dr. Seidel -->
+    <article class="entry" id="s-seidel">
+      <div class="entry-head">
+        <span class="label">Segment 8 · Dr. Seidel <span class="tc">01:53:28 · c210</span></span>
+        <span class="meta">the one German teacher — and the first post-war inquiry, eight years on</span>
+      </div>
+      <div class="entry-body">
+        <div class="transcription">
+          <blockquote lang="de">
+            <p class="turn"><span class="spk">Walk</span>
+              Und nachdem ich im Abitur <span class="hl-person">Heine</span> gewählt hatte als Wahlfach, ging ich zu ihm, zweiunddreißig, noch vor <span class="hl-person">Hitler</span> <span class="ellipsis">[…]</span> und dann sagte ich „Wissen Sie, Doktor <span class="hl-person">Seidel</span>, ich habe ganz bewusst Heine gewählt, ich wollte den Lehrern auch einmal sagen, was ein deutscher Jude manchmal in Deutschland empfindet." <span class="ellipsis">[…]</span> und sagte „Man darf auch mit seinen Leiden nicht kokettieren." <span class="ellipsis">[…]</span> das war <span class="hl-date">vierunddreißig</span>, da hab ich ihn zum letzten Mal besucht, und da sagte er mir <span class="ellipsis">[…]</span> „soll ich mein <span class="relevant">Vaterland</span> verlassen? Ich werde nie Nazi sein, das wissen Sie."
+            </p>
+            <p class="turn"><span class="spk">Walk</span>
+              <span class="relevant">Nach dem Krieg hab ich mich nie erkundigt nach dem Schicksal von früheren Deutschen, die ich kannte. Nach acht Jahren, das war der erste nach dem ich mich erkundigt hatte</span>, und bekam dann die Adresse seiner Witwe, die war natürlich nach <span class="hl-place">Westdeutschland</span> ausgewandert und schrieb ihr einen Brief <span class="ellipsis">[…]</span> und bekam dann eine sehr erschütternde Antwort <span class="ellipsis">[…]</span> <span class="relevant">Ich habe sie dann auch in Deutschland einige Male besucht, wir hatten auch schriftlichen Verkehr.</span> Äh das ist auch eine Erinnerung an eine Weimarer Zeit <span class="ellipsis">[…]</span>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <aside class="frame-right">
+    <div class="frame-map-wrap">
+      <h3>Places</h3>
+      <div id="frame-map" class="frame-map"></div>
+      <div class="frame-map-legend">
+        <span><span class="leg-pin pin-heimat"></span>city of origin</span>
+        <span><span class="leg-pin pin-current"></span>Israel</span>
+        <span><span class="leg-pin pin-mention"></span>mentioned / visited</span>
+      </div>
+    </div>
+    <div class="frame-entities">
+      <h3>People &amp; Organizations</h3>
+      <ul class="ent-list"></ul>
+    </div>
+  </aside>
+
+</div><!-- /frame-grid -->
+
+<footer class="site" style="background: var(--paper-3); border-top: 3px solid var(--rule-2); padding: 18px 32px; font-family: Inter, sans-serif; font-size: 12px; color: var(--ink-muted); text-align: center;">
+  JeckeArchive · genre mockup: Oral History Interview · 2026-07-26 · source: DGD Israelkorpus IS--_E_00135_SE_01_T_01_DF_01 (Leibniz-Institut für Deutsche Sprache, Mannheim; login required) · excerpts of a 133-min interview, lightly regularised, hesitation particles kept · mockup for project review only
+</footer>
+
+<script>
+window.FRAME_DATA = {
+  timeline: [
+    { year: 1914, label: 'born, Breslau' },
+    { year: 1932, label: 'Abitur (Heine) · Köln seminar', anchor: '#s-deutschtum' },
+    { year: 1934, label: 'last visit to Dr. Seidel', anchor: '#s-seidel' },
+    { year: 1936, label: 'aliyah', pivot: true },
+    { year: 1942, label: 'Kulturkommission affair', anchor: '#s-deutschtum' },
+    { year: 1967, label: 'first return to Germany', anchor: '#s-1967', pivot: true },
+    { year: 1990, label: 'Wiederbegegnung mit Breslau', anchor: '#s-breslau', pivot: true },
+    { year: 1991, label: 'this interview, Jerusalem', anchor: '#s-invitation' }
+  ],
+  mapCenter: [46, 20],
+  mapZoom: 4,
+  places: [
+    { name: 'Breslau (Wrocław)',  lat: 51.1079, lng: 17.0385, kind: 'heimat',  note: 'b. 1914; first re-encounter ~1990 — "keinerlei Verbindung mit dieser Stadt"' },
+    { name: 'Köln',               lat: 50.9375, lng:  6.9603, kind: 'mention', note: '1932–33 Jewish teachers\' seminary; "Vertreter des Deutschtums" scene' },
+    { name: 'Hamburg',            lat: 53.5511, lng:  9.9937, kind: 'mention', note: 'archival research; the official\'s "neue Heimat" question' },
+    { name: 'Mülheim',            lat: 51.4266, lng:  6.8825, kind: 'mention', note: '~1990 symposium "Erziehung zum Frieden"; the Weimar-culture compliment' },
+    { name: 'Baden-Württemberg',  lat: 48.7758, lng:  9.1829, kind: 'mention', note: 'edited the Gemeindebuch Baden-Württemberg — small-town Heimatgefühl he "can only empathise with"' },
+    { name: 'Swiss–German border',lat: 47.5596, lng:  7.5886, kind: 'mention', note: 'his wife\'s first crossing back — "dieser deutsche Ton"' },
+    { name: 'Jerusalem',          lat: 31.7683, lng: 35.2137, kind: 'current', note: 'interview site, 16 April 1991; Leo Baeck Institute' }
+  ],
+  entities: [
+    { type: 'person', name: 'Joseph Walk', altname: '1914–2005',
+      bio: 'Interviewee. Breslau-born educator and historian; Zionist youth movement; teachers\' seminary Köln 1932–33; aliyah 1936; Youth Aliyah leader, then teacher in a religious moshav; director of the Leo Baeck Institute Jerusalem. First return to Germany 1967; frequent academic visits thereafter.' },
+    { type: 'person', name: 'Anne Betten', altname: 'interviewer',
+      bio: 'Germanist (Salzburg); recorded the Israelkorpus interviews with first-generation German-speaking emigrants 1989–94. Her research topic — "Weimarer Deutsch" — is itself discussed in the interview.' },
+    { type: 'person', name: 'Dr. Seidel', altname: 'd. 1945, Breslau',
+      bio: 'The one non-Jewish teacher Walk revered — Social Democrat, religious; "man darf auch mit seinen Leiden nicht kokettieren" (1932); forced into the NS-Lehrerverband (1934); fell in the last defence of Breslau. Walk\'s first post-war inquiry after a German acquaintance (1953) was for him; Walk later visited his widow in West Germany several times.' },
+    { type: 'person', name: 'Abraham Margaliot', altname: 'colleague, Hamburg-born',
+      bio: 'Fellow historian: "Wenn ich ein Dokument lese … ist das für mich ein Dokument, du siehst den Menschen noch lebendig vor dir."' },
+    { type: 'org', name: 'Leo Baeck Institute Jerusalem',
+      bio: 'Walk directed it for many years; the interview took place there. Publisher of the Hebrew volume with the "telling title" Neue Heimat (Gelber).' },
+    { type: 'org', name: 'DGD / IDS Mannheim', altname: 'source archive',
+      bio: 'Datenbank für Gesprochenes Deutsch, Leibniz-Institut für Deutsche Sprache. Holds the aligned audio + transcript of this interview (IS--_E_00135). Access requires login; excerpts here are for internal project review.' }
+  ],
+  topics: ['symposium invitations', '1967 first return', 'language left behind ("überfragt")', 'Weimar heritage', '"Vertreter des Deutschtums"', '1942 Kulturkommission affair', 'Neue Heimat (Gelber)', 'the border crossing', 'second-generation refusal', 'Breslau without Heimatgefühl', '"alte Heimat" reversal', 'Dr. Seidel', 'Jeckes in the moshav', 'audio-aligned transcript'],
+  ner:     ['place', 'person', 'org', 'date'],
+  relevance: true,
+  views:   ['reading']
+};
+document.addEventListener('DOMContentLoaded', FrameInit);
+</script>
+
+</body>
+</html>
