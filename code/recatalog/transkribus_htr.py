@@ -12,11 +12,28 @@ Usage:
 Writes: data/recatalog/<folder>/ocr_transkribus/<page>.txt
 """
 from __future__ import annotations
-import argparse, base64, glob, os, sys, time
+import argparse, base64, glob, os, re, socket, subprocess, sys, time
 import requests
 
 OAUTH = "https://account.readcoop.eu/auth/realms/readcoop/protocol/openid-connect/token"
 API = "https://transkribus.eu/processing/v1"
+
+
+def _dns_workaround(host: str) -> None:
+    """macOS mDNSResponder sometimes negative-caches transkribus.eu while direct DNS
+    queries succeed. If getaddrinfo fails, resolve via nslookup and pin the mapping."""
+    try:
+        socket.getaddrinfo(host, 443)
+        return
+    except socket.gaierror:
+        pass
+    out = subprocess.run(["nslookup", "-type=A", host], capture_output=True, text=True).stdout
+    m = re.search(r"Name:\s*" + re.escape(host) + r"\s*\nAddress:\s*([0-9.]+)", out)
+    if not m:
+        sys.exit(f"cannot resolve {host} (getaddrinfo AND nslookup failed)")
+    ip, orig = m.group(1), socket.getaddrinfo
+    socket.getaddrinfo = lambda h, *a, **k: orig(ip if h == host else h, *a, **k)
+    print(f"[dns workaround] {host} -> {ip}")
 
 
 def token() -> str:
@@ -48,7 +65,13 @@ def submit(h, img_path, model_id) -> int:
 def poll(h, pid, timeout_s=600) -> str:
     t0 = time.time()
     while time.time() - t0 < timeout_s:
-        j = requests.get(f"{API}/processes/{pid}", headers=h, timeout=30).json()
+        try:
+            j = requests.get(f"{API}/processes/{pid}", headers=h, timeout=30).json()
+        except Exception:
+            # tokens expire mid-run and the API then returns non-JSON — refresh and retry
+            h["Authorization"] = f"Bearer {token()}"
+            time.sleep(4)
+            continue
         st = j.get("status")
         if st in ("FINISHED", "COMPLETED"):
             return (j.get("content") or {}).get("text", "")
@@ -65,6 +88,7 @@ def main():
     ap.add_argument("--model", type=int, default=50870)
     args = ap.parse_args()
 
+    _dns_workaround("transkribus.eu")
     h = {"Authorization": f"Bearer {token()}", "Content-Type": "application/json"}
     out_dir = f"data/recatalog/{args.folder}/ocr_transkribus"
     os.makedirs(out_dir, exist_ok=True)
@@ -75,7 +99,11 @@ def main():
         m = glob.glob(f"{scans}/*_{p:04d}.jpg")
         if not m:
             print(f"p{p}: no image"); continue
-        pid = submit(h, m[0], args.model)
+        try:
+            pid = submit(h, m[0], args.model)
+        except Exception:
+            h["Authorization"] = f"Bearer {token()}"
+            pid = submit(h, m[0], args.model)
         jobs.append((p, pid))
         print(f"p{p}: submitted process {pid}")
 

@@ -70,3 +70,12 @@ class Omeka:
         r = self.s.patch(f"{self.base}/{path.lstrip('/')}", params=self.auth, json=json)
         r.raise_for_status()
         return r.json()
+
+    def put(self, path: str, json: dict) -> dict:
+        r = self.s.put(f"{self.base}/{path.lstrip('/')}", params=self.auth, json=json)
+        r.raise_for_status()
+        return r.json()
+
+    def delete(self, path: str) -> None:
+        r = self.s.delete(f"{self.base}/{path.lstrip('/')}", params=self.auth)
+        r.raise_for_status()
