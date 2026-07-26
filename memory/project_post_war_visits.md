@@ -1,6 +1,6 @@
 ---
 name: project-post-war-visits
-description: "Consolidated list of post-war (1945+) Jecke return-visits to Germany — first dedicated extraction, written to data/post_war_visits.tsv (2026-06-30)"
+description: "Consolidated list of post-war (1945+) Jecke return-visits to Germany in data/post_war_visits.tsv — 20 written-record cases (2026-06-30) + 16 Israelkorpus oral-testimony cases (2026-07-26) = 36"
 metadata:
   type: project
 ---
@@ -21,4 +21,6 @@ First consolidated extraction of post-war return-visits to Germany (the §1 "Vis
 
 **Exhibit for Guy (2026-06-30):** built `mockups/return-visits/index.html` — a GitHub Pages gallery of all 20 cases, grouped (trip accounts / invitations-refusals / remigration / context), reusing the genre-mockup palette. Flagship card links into the existing `mockups/landsberg-deutschlandfahrt/` deep presentation (the only fully-transcribed item). Other cards are year-plate cards citing their MTFN folder (Drive retrieval) or CJH URL (Michel). Linked from `mockups/index.html`. Auto-deploys to sinairusinek.github.io/Diasporic-Memory/return-visits/ on push to mockups/ — NOT yet pushed (awaiting user). To enrich later: HTR the Mayer 1951 diary + 1969 Winterreise and give them their own deep mockups. Related: [[project-genre-demos]], [[reference-jeckearchive-github-pages]].
 
-Related: [[project-what-we-are-looking-for]], [[feedback-heimat-relevance-criteria]], [[project-cjh-shortlist]].
+**Israelkorpus oral-testimony expansion (2026-07-26):** PWV-21..36 — 16 cases from the 22 structured DGD interviews (see [[project-israelkorpus]]). Twelve substantive return cases + stance/deliberation cases. Highlights: Friedländer/Cottbus first re-visit ~1990 + Heimatverband + Berliner Senat program (PWV-21); Walk first return 1967, Breslau Wiederbegegnung ~1990 but explicitly NO Heimatgefühl, "alte Heimat" = Israel (PWV-22); Eylon 1975 Soroptimist first return after 42 yrs (PWV-23); Doron 1957 one-day first return + Ludwigshafen invitation (PWV-24); Glasner 1987 Berliner Senat (PWV-25); Yahil 1947–49 Munich survivor-mission (PWV-28); Frank 1958 proxy visit for refusing father (PWV-33). The interviews supply what the paper record rarely keeps: first-return DATES, stances, refusals. Municipal invitation programs confirmed in oral testimony ≥4×. Gallery: `mockups/return-visits/` gained an "Oral testimony" section (12 cards, srcNote "transcript · DGD (login)"); ⚠ contains short verbatim DGD quotes — public once pushed; user must clear DGD-ToS/Betten-permission question first.
+
+Related: [[project-what-we-are-looking-for]], [[feedback-heimat-relevance-criteria]], [[project-cjh-shortlist]], [[project-israelkorpus]].
