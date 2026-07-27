@@ -112,8 +112,18 @@ def main():
     class_map = json.loads(CLASS_MAP_FILE.read_text())
     om = Omeka()
 
-    # next free R#### under prefix (scan live Omeka, not just the TSV)
-    n = 1
+    # next free R#### under prefix: after max of (legacy TSV numbering, live Omeka,
+    # ids referenced in the map) — legacy ids exist even when absent from Omeka
+    n = 0
+    legacy_tsv = ROOT / "data/JeckeArchive/Jecke-items.tsv"
+    for r in csv.DictReader(open(legacy_tsv), delimiter="\t"):
+        iid = r.get("item_id") or ""
+        if iid.startswith(args.prefix + "-R"):
+            n = max(n, int(iid.rsplit("-R", 1)[1]))
+    for m in mapping.values():
+        if m["legacy_item_id"].startswith(args.prefix + "-R"):
+            n = max(n, int(m["legacy_item_id"].rsplit("-R", 1)[1]))
+    n += 1
     while find_by_identifier(om, f"{args.prefix}-R{n:04d}"):
         n += 1
 
@@ -130,7 +140,16 @@ def main():
                 if legacy not in cache:
                     item = find_by_identifier(om, legacy)
                     if item is None:
-                        print(f"ERR  {doc_id}: {legacy} not found in Omeka"); stats["errors"] += 1; continue
+                        # legacy record never made it into Omeka — create it under its own id
+                        payload = build_new(row, legacy, args.prefix, class_map, args.drive_url, label)
+                        if args.dry_run:
+                            print(f"DRY-NEW  {doc_id} -> {legacy} (legacy id absent from Omeka)")
+                        else:
+                            r = om.post("items", payload)
+                            print(f"CREATED  {doc_id} -> {legacy} (legacy id was absent, o:id={r['o:id']})")
+                            cache[legacy] = om.get(f"items/{r['o:id']}")
+                        stats["created"] += 1
+                        continue
                     cache[legacy] = item
                 res = enrich(om, cache[legacy], args.drive_url, label, args.dry_run)
                 if res == "enriched" and not args.dry_run:
