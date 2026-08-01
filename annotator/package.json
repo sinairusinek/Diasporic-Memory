@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "db:push": "node scripts/migrate.mjs"
+    "deploy": "npm run sync && vercel --prod",
+    "db:push": "node --env-file-if-exists=.env.local scripts/migrate.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

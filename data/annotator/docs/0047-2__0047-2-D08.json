@@ -46,7 +46,7 @@
      "start": 0,
      "end": 492,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0033.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D08/0033.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": false,
@@ -63,7 +63,7 @@
      "start": 494,
      "end": 1543,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0034.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D08/0034.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -80,7 +80,7 @@
      "start": 1545,
      "end": 1571,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0035.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D08/0035.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -97,7 +97,7 @@
      "start": 1573,
      "end": 1573,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0036.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D08/0036.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.0,
      "needs_escalation": true,
@@ -111,7 +111,93 @@
     }
    ]
   },
-  "translation": null
+  "translation": {
+   "pane": "translation",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "24671 77530\n[...]\nאילת 20\n30172\nלאוני (Leonie) היקרה\nתודה רבה על מכתבך, אנו נמצאים כאן לחופשה קצרה. מצב בריאותי מותיר עדיין מקום רב לשיפור. באשר לעניין הדת, הבעתי, בתשובה לשאלה, את דעתי האישית על כמה שרידים. אין בכוונתי לפתוח במערכה על כך.\nתודה מיוחדת על ברכותייך ליום הולדתי, שהוא בעצם אירוע די מדכא.\nשלך\nמ.\n\n24/6/59\n[...]\n1.7.\n[...]\nידידה יקרה,\nתודה על מכתבך מ-[...] במאי. אני רוצה לספר לך קצת על תוכניותיי. אני טס ב-10 ביולי מלוד לפריז ומגיע למחרת להמבורג. מקום המגורים הוא מלון אטלנטיק (Atlantic Hotel). אני אשתדל להתקשר אלייך בהקדם האפשרי לאחר ההגעה. בהמבורג אשאר ככל הנראה עד ה-17 ביולי. מוטל בספק אם אסע לבון – אני מקווה שלא. זה מפחית את הסיכויים של [...] מיד לאחר סיום התוכנית בכוונתי לעזוב את גרמניה. אין לי נטייה [...] לדרום גרמניה [...] 11 [...] 1\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
+   "sha256": "07cb5924a8a4920ab7e424eaae0b0ca2e34acd40a92ebed3e8a5b2881b2a6bd6",
+   "pages": [
+    {
+     "page_no": 33,
+     "start": 0,
+     "end": 308,
+     "source_start": 0,
+     "source_end": 492,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 34,
+     "start": 310,
+     "end": 758,
+     "source_start": 494,
+     "source_end": 1543,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 35,
+     "start": 760,
+     "end": 804,
+     "source_start": 1545,
+     "source_end": 1571,
+     "grade": "poor"
+    },
+    {
+     "page_no": 36,
+     "start": 806,
+     "end": 850,
+     "source_start": 1573,
+     "source_end": 1573,
+     "grade": "poor"
+    }
+   ],
+   "segments": [],
+   "align": [
+    {
+     "src": [
+      0,
+      492
+     ],
+     "tgt": [
+      0,
+      308
+     ]
+    },
+    {
+     "src": [
+      494,
+      1543
+     ],
+     "tgt": [
+      310,
+      758
+     ]
+    },
+    {
+     "src": [
+      1545,
+      1571
+     ],
+     "tgt": [
+      760,
+      804
+     ]
+    },
+    {
+     "src": [
+      1573,
+      1573
+     ],
+     "tgt": [
+      806,
+      850
+     ]
+    }
+   ],
+   "model": "gemini-3.1-pro-preview",
+   "generated_at": "2026-08-01T14:06:51+00:00",
+   "source_sha256": "313355947107fc994632614f460bef48e12d86f12c3097bd75a1115ed75485b0"
+  }
  },
  "prehighlights": [],
  "built_at": "2026-08-01T11:51:11+00:00"

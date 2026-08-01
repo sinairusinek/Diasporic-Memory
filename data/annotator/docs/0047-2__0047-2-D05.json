@@ -43,7 +43,7 @@
      "start": 0,
      "end": 72,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0018.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0018.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -60,7 +60,7 @@
      "start": 74,
      "end": 124,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0019.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0019.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": false,
@@ -77,7 +77,7 @@
      "start": 126,
      "end": 664,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0020.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0020.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -94,7 +94,7 @@
      "start": 666,
      "end": 689,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0021.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0021.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.784,
      "needs_escalation": false,
@@ -111,7 +111,7 @@
      "start": 691,
      "end": 697,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0022.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0022.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -125,7 +125,111 @@
     }
    ]
   },
-  "translation": null
+  "translation": {
+   "pane": "translation",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "BaR AVION\nגברת לאוני פרנק (Trau leonie Tranh)\nרחוב גוסטב פרייטג (Custar treytapsti)\nויסבאדן\nN 2713.3 3373771\n\n13\n33014\nהנהלת הסוכנות היהודית\nירושלים\n\n24671 71530\nAA\n\n21/8/62\n13017\nידידה יקרה,\nתודה על מכתבך המפורט והנוגע ללב במסירותו. מצבי כלל אינו כה גרוע ו[...] l. 1. 178. [...] באונייה [...] לוונציה ו[...] באשר לחומר. אני שולח לך שתי חוברות, על מצבם של ערביי ישראל ועל שאלת הפליטים. אני מקווה שהן יהיו לך לעזר [...]\nI.\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
+   "sha256": "c9e907c04fd4bb5de00025d0190ee464d2191dedb3919852b1b12277b033af4a",
+   "pages": [
+    {
+     "page_no": 18,
+     "start": 0,
+     "end": 108,
+     "source_start": 0,
+     "source_end": 72,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 19,
+     "start": 110,
+     "end": 148,
+     "source_start": 74,
+     "source_end": 124,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 20,
+     "start": 150,
+     "end": 421,
+     "source_start": 126,
+     "source_end": 664,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 21,
+     "start": 423,
+     "end": 467,
+     "source_start": 666,
+     "source_end": 689,
+     "grade": "poor"
+    },
+    {
+     "page_no": 22,
+     "start": 469,
+     "end": 513,
+     "source_start": 691,
+     "source_end": 697,
+     "grade": "poor"
+    }
+   ],
+   "segments": [],
+   "align": [
+    {
+     "src": [
+      0,
+      72
+     ],
+     "tgt": [
+      0,
+      108
+     ]
+    },
+    {
+     "src": [
+      74,
+      124
+     ],
+     "tgt": [
+      110,
+      148
+     ]
+    },
+    {
+     "src": [
+      126,
+      664
+     ],
+     "tgt": [
+      150,
+      421
+     ]
+    },
+    {
+     "src": [
+      666,
+      689
+     ],
+     "tgt": [
+      423,
+      467
+     ]
+    },
+    {
+     "src": [
+      691,
+      697
+     ],
+     "tgt": [
+      469,
+      513
+     ]
+    }
+   ],
+   "model": "gemini-3.1-pro-preview",
+   "generated_at": "2026-08-01T14:06:33+00:00",
+   "source_sha256": "a372c57c0f4a5e7487c8885893f1f4c63d275af9639f458cbb5a43dce371d7b5"
+  }
  },
  "prehighlights": [],
  "built_at": "2026-08-01T11:51:11+00:00"

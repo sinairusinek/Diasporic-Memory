@@ -39,7 +39,7 @@
      "start": 0,
      "end": 197,
      "scan_file": "IL-MTFN-001-G-F-0444-3_0001_0005.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0444-3__0444-D02/0005.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.461,
      "needs_escalation": true,

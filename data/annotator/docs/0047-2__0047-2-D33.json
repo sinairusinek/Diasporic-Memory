@@ -47,7 +47,7 @@
      "start": 0,
      "end": 43,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0133.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0133.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -64,7 +64,7 @@
      "start": 45,
      "end": 89,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0134.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0134.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": false,
@@ -81,7 +81,7 @@
      "start": 91,
      "end": 165,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0135.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0135.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -98,7 +98,7 @@
      "start": 167,
      "end": 223,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0136.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0136.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -115,7 +115,7 @@
      "start": 225,
      "end": 957,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0137.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0137.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -132,7 +132,7 @@
      "start": 959,
      "end": 2119,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0138.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0138.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -149,7 +149,7 @@
      "start": 2121,
      "end": 3145,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0139.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0139.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -166,7 +166,7 @@
      "start": 3147,
      "end": 3896,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0140.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0140.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -183,7 +183,7 @@
      "start": 3898,
      "end": 3940,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0141.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D33/0141.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -197,7 +197,183 @@
     }
    ]
   },
-  "translation": null
+  "translation": {
+   "pane": "translation",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "[...] ד\"ר מ. שנקר\n10.11.1961\njid Tr 241\n\n[...] ד\"ר מ. שנקר\n16.11.1961\njtd S 2151\n\n41\n[...]\n\nגברת ליאוני פרנק\nרח' אחד העם 105\nתל אביב\nישראל\n[...]\n\nד\"ר מ. שנקר, 9 Créts de Champel\nGenera, Switzerland.\n\n16 Nor. 1961.\n\nליאומה היקרה,\n\nזה פשוט בלתי נסלח שלא השבתי על דרישות השלום הלבביות השונות שלך במשך זמן כה רב. למעשה, הן נשלחו אחריי לכתובותיי בארץ ובחוץ לארץ. שהרי בינתיים שהיתי לרוב באנגליה, כדי להכיר לעומק את הארץ ואת אנשיה, וגם לנסות לשלוט במידת מה בשפה. כעת אני שוב בעיר מולדתי (Heimatstadt) ומתכוון להישאר כאן במשך כל החורף.\n\nאני מוצא שזה נוגע ללב שביררת מהי כתובתי הנוכחית ושלא שכחת אותי במשך הזמן הארוך הזה. מסיבה זו הרשיתי לעצמי לפתוח את מכתבי בפניית הקרבה שלעיל.\n\nתודה לאל, עד היום אני\n\nנשארתי בריא ופעיל, למרות הדאגות הרבות שהבן הצעיר שלי גורם לי. הוא היה לאחרונה שוב לזמן קצר במוסד פסיכיאטרי. עכשיו הוא הכניס לעצמו לראש להתחתן עם פועלת מפעל, כדי לא לעמוד לבד בעולם הזה. נראה שהיא נוטה לו חסד. נשאלת רק השאלה האם הרופאים והאפוטרופוס שלו יעניקו את האישור. כמובן שהייתי שמח לו לאחר מותי הייתה לו בת זוג, שכן על אחיו הבכור הוא אינו יכול לסמוך. הלה מסתובב בעולם כצייר, שוהה כרגע בפריז, אך בדרך כלל מתגורר בווינה אצל חברה, שאף היא ציירת –\n\nאני עצמי איני מרגיש בודד. באנגליה מצאתי חברים טובים. בז'נבה אני תמיד מוצא עניין מרתק ותעסוקה. לאחרונה מילאתי את מקומו של קולגה במשך חודש שלם בכיתה העליונה של בית הספר התיכון לבנות. את הרי יודעת כמה אני אוהב ללמד.\n\nנמאס לי מההתרוצצות ממסעדה למסעדה. למרבה המזל מצאתי מקום לינה וכלכלה אצל משפחה המיודדת עמי. גם\n\nהתאפשר לי סוף סוף להביא איתי את הרהיטים שלי ואת הספרייה שלי, שמאוד חסרו לי בשנים האחרונות. אני גם שוב נותן שיעורים פרטיים בחדרי הנעים. לא חסרים לי חברה ובידור. אני אפילו נוכח בכמה הרצאות על ספרות אנגלית ואיטלקית באוניברסיטה. הרי לפני שנה הייתי סטודנט במוסד להשכלה גבוהה בלונדון! הערב אני הולך להרצאה בשפה הגרמנית, המלווה בשקופיות, על ימת קונסטנץ (Bodensee), מטעם החברה לאמנות וספרות גרמנית. כפי שאתה רואה; בהדרגה אני משתלב שוב בעיר מולדתי (Heimatstadt). מה שכמובן לא [...] מונע בעדי, [...] על תוכניות נסיעה. כעת אני נמשך יותר אל הדרום החם, אל טיצ'ינו (Tessin) האהובה עלי ואל איטליה.\n\nאך כעת פטפטתי מספיק על עצמי. הייתי מעדיף לשמוע קצת יותר עליך ועל שלומך.\n\nאם כן, כפי שכתבת לי, עברת לעיר ובעקבות הדוגמה שלי\n\n...בעקבות זאת, בכך שהשכרת את ביתך.\n\nלכן אין לך עוד בית משלך, דבר שאינו נעים כל כך בטווח הארוך, במיוחד עבור אישה בודדה. אך אני מתאר לעצמי שתל אביב מציעה דברים מושכים רבים מאוד מבחינה תרבותית. כמו כן, ודאי נכון הדבר שכעת את מתגוררת קרוב יותר לילדייך! אשמח לדעת פרטים נוספים על מעשייך ופועלך.\n\nלעתים קרובות אני נזכר בימי החופשה היפים שביליתי בקרבתך בוויסבאדן. נדמה לי כאילו זה היה מזמן, מזמן!\n\nהאם נתראה שוב אי פעם? אולי בכל זאת תשובי פעם לוויסבאדן? מי יודע!\n\nבהודיה מקרב לב על דרישות השלום הידידותיות שלך, אני חותם במיטב הברכות.\n\nהנאמן לך,\nד\"ר מ. שנקר\n\nוינה 1925\n[...] 13 O171\nלאונרד שטיין (Lconard Stein)",
+   "sha256": "ee4620cc0876c83cecc2ed9a258ec41553272363ef2010597cce9a02c47d4e21",
+   "pages": [
+    {
+     "page_no": 133,
+     "start": 0,
+     "end": 39,
+     "source_start": 0,
+     "source_end": 43,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 134,
+     "start": 41,
+     "end": 80,
+     "source_start": 45,
+     "source_end": 89,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 135,
+     "start": 82,
+     "end": 144,
+     "source_start": 91,
+     "source_end": 165,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 136,
+     "start": 146,
+     "end": 198,
+     "source_start": 167,
+     "source_end": 223,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 137,
+     "start": 200,
+     "end": 693,
+     "source_start": 225,
+     "source_end": 957,
+     "grade": "clean"
+    },
+    {
+     "page_no": 138,
+     "start": 695,
+     "end": 1451,
+     "source_start": 959,
+     "source_end": 2119,
+     "grade": "clean"
+    },
+    {
+     "page_no": 139,
+     "start": 1453,
+     "end": 2159,
+     "source_start": 2121,
+     "source_end": 3145,
+     "grade": "clean"
+    },
+    {
+     "page_no": 140,
+     "start": 2161,
+     "end": 2710,
+     "source_start": 3147,
+     "source_end": 3896,
+     "grade": "clean"
+    },
+    {
+     "page_no": 141,
+     "start": 2712,
+     "end": 2764,
+     "source_start": 3898,
+     "source_end": 3940,
+     "grade": "mixed"
+    }
+   ],
+   "segments": [],
+   "align": [
+    {
+     "src": [
+      0,
+      43
+     ],
+     "tgt": [
+      0,
+      39
+     ]
+    },
+    {
+     "src": [
+      45,
+      89
+     ],
+     "tgt": [
+      41,
+      80
+     ]
+    },
+    {
+     "src": [
+      91,
+      165
+     ],
+     "tgt": [
+      82,
+      144
+     ]
+    },
+    {
+     "src": [
+      167,
+      223
+     ],
+     "tgt": [
+      146,
+      198
+     ]
+    },
+    {
+     "src": [
+      225,
+      957
+     ],
+     "tgt": [
+      200,
+      693
+     ]
+    },
+    {
+     "src": [
+      959,
+      2119
+     ],
+     "tgt": [
+      695,
+      1451
+     ]
+    },
+    {
+     "src": [
+      2121,
+      3145
+     ],
+     "tgt": [
+      1453,
+      2159
+     ]
+    },
+    {
+     "src": [
+      3147,
+      3896
+     ],
+     "tgt": [
+      2161,
+      2710
+     ]
+    },
+    {
+     "src": [
+      3898,
+      3940
+     ],
+     "tgt": [
+      2712,
+      2764
+     ]
+    }
+   ],
+   "model": "gemini-3.1-pro-preview",
+   "generated_at": "2026-08-01T14:08:26+00:00",
+   "source_sha256": "135257152eebbcafdc263f09d818630c8d4d423dfbbf40d867211243fd7ba531"
+  }
  },
  "prehighlights": [
   {

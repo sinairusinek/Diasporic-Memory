@@ -49,7 +49,7 @@
      "start": 0,
      "end": 801,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0057.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D14/0057.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -66,7 +66,7 @@
      "start": 803,
      "end": 1438,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0058.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D14/0058.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -83,7 +83,7 @@
      "start": 1440,
      "end": 1553,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0059.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D14/0059.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -100,7 +100,7 @@
      "start": 1555,
      "end": 1557,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0060.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D14/0060.webp",
      "ocr_engine": "transkribus",
      "ocr_conf": null,
      "needs_escalation": true,
@@ -114,7 +114,93 @@
     }
    ]
   },
-  "translation": null
+  "translation": {
+   "pane": "translation",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "ירושלים [...]\n29/5(59\nיקירתי (.,\nיש לי נקיפות מצפון קשות.\n[...]\nאך כלפייך, האמיני לי שבאותם ימים באמת היה בלתי אפשרי מבחינה אנושית לפעול בחופשיות. אני חושש שמכתבי עם הכתובת של משפחת לוין (Lewin) ברומא כבר לא השיג אותך בק. ש. (K. Sh.), ואינני יודע אם במקרה זה המכתב הועבר אלייך הלאה ומה עלה בגורלו מלבד זאת.\n\nקרוב לוודאי שאטוס באמצע יולי להמבורג כדי לשהות שם ובבון במשך שבוע. התאריך המכריע הבא הוא תחילת אוגוסט בשטוקהולם, עם הקונגרס היהודי העולמי. האם אשאר באירופה בין לבין, עדיין לא ברור בינתיים. עומדת להתקיים ועידת מפלגה המתוכננת לסוף יולי, וייתכן בהחלט שאטוס מהמבורג (בון) חזרה הביתה [...]\n\n[...] כדי לנסוע שוב כעבור שבוע. אשתדל להודיע לך מבעוד מועד איך הדברים יסתדרו. דרך אגב, עדיין אין לי שום מושג היכן שוכנת ויסבאדן ביחס להמבורג – אצטרך עוד לעיין במפה.\n\nמערכת הבחירות הסתיימה אבל הלחץ אינו מרפה: ועידת בני ברית וכל מיני דברים נוספים. הארץ מלאה ביהודים אמריקאים, בהם מספר עצום של מכרים, אפילו חברים, ויש להשתדל להעניק לכולם מעט תשומת לב.\n\nאני מקווה ששלומך טוב, ושלא שכחת לגמרי את מעט העברית שלמדת באולפן.\n[...]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
+   "sha256": "16702faeafe8ee41be0194da2ac757794f107dcdd23540b14f8fc4b386887705",
+   "pages": [
+    {
+     "page_no": 57,
+     "start": 0,
+     "end": 592,
+     "source_start": 0,
+     "source_end": 801,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 58,
+     "start": 594,
+     "end": 1015,
+     "source_start": 803,
+     "source_end": 1438,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 59,
+     "start": 1017,
+     "end": 1061,
+     "source_start": 1440,
+     "source_end": 1553,
+     "grade": "poor"
+    },
+    {
+     "page_no": 60,
+     "start": 1063,
+     "end": 1107,
+     "source_start": 1555,
+     "source_end": 1557,
+     "grade": "poor"
+    }
+   ],
+   "segments": [],
+   "align": [
+    {
+     "src": [
+      0,
+      801
+     ],
+     "tgt": [
+      0,
+      592
+     ]
+    },
+    {
+     "src": [
+      803,
+      1438
+     ],
+     "tgt": [
+      594,
+      1015
+     ]
+    },
+    {
+     "src": [
+      1440,
+      1553
+     ],
+     "tgt": [
+      1017,
+      1061
+     ]
+    },
+    {
+     "src": [
+      1555,
+      1557
+     ],
+     "tgt": [
+      1063,
+      1107
+     ]
+    }
+   ],
+   "model": "gemini-3.1-pro-preview",
+   "generated_at": "2026-08-01T14:07:10+00:00",
+   "source_sha256": "d4eb7d68f6eeba3fea167b73ccaa7f5bf5cf147f1416ae7cad342dc08a61c0f2"
+  }
  },
  "prehighlights": [],
  "built_at": "2026-08-01T11:51:11+00:00"

@@ -49,7 +49,7 @@
      "start": 0,
      "end": 2842,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0197.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0197.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.889,
      "needs_escalation": false,
@@ -66,7 +66,7 @@
      "start": 2844,
      "end": 5078,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0198.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0198.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.869,
      "needs_escalation": false,
@@ -83,7 +83,7 @@
      "start": 5080,
      "end": 5378,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0199.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0199.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.872,
      "needs_escalation": false,
@@ -100,7 +100,7 @@
      "start": 5380,
      "end": 7044,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0200.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0200.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.672,
      "needs_escalation": false,
@@ -117,7 +117,7 @@
      "start": 7046,
      "end": 8894,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0201.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0201.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.713,
      "needs_escalation": false,
@@ -134,7 +134,7 @@
      "start": 8896,
      "end": 8927,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0202.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0202.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.421,
      "needs_escalation": true,
@@ -151,7 +151,7 @@
      "start": 8929,
      "end": 8967,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0203.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0203.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.494,
      "needs_escalation": true,
@@ -168,7 +168,7 @@
      "start": 8969,
      "end": 9350,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0204.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0204.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.844,
      "needs_escalation": false,
@@ -185,7 +185,7 @@
      "start": 9352,
      "end": 9595,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0205.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0205.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.857,
      "needs_escalation": false,
@@ -202,7 +202,7 @@
      "start": 9597,
      "end": 9692,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0206.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0206.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.799,
      "needs_escalation": false,
@@ -219,7 +219,7 @@
      "start": 9694,
      "end": 9933,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0207.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0207.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.828,
      "needs_escalation": false,
@@ -236,7 +236,7 @@
      "start": 9935,
      "end": 10317,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0208.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0208.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.857,
      "needs_escalation": false,
@@ -253,7 +253,7 @@
      "start": 10319,
      "end": 11777,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0209.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0209.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.886,
      "needs_escalation": false,
@@ -270,7 +270,7 @@
      "start": 11779,
      "end": 11938,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0210.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0210.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.687,
      "needs_escalation": false,
@@ -287,7 +287,7 @@
      "start": 11940,
      "end": 11995,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0211.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0211.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.453,
      "needs_escalation": true,
@@ -304,7 +304,7 @@
      "start": 11997,
      "end": 13116,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0212.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0212.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.919,
      "needs_escalation": false,
@@ -321,7 +321,7 @@
      "start": 13118,
      "end": 14525,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0213.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0213.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.883,
      "needs_escalation": false,
@@ -338,7 +338,7 @@
      "start": 14527,
      "end": 14953,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0214.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0214.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.837,
      "needs_escalation": false,
@@ -355,7 +355,7 @@
      "start": 14955,
      "end": 15050,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0215.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0215.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.871,
      "needs_escalation": false,
@@ -372,7 +372,7 @@
      "start": 15052,
      "end": 16645,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0216.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0216.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.903,
      "needs_escalation": false,
@@ -389,7 +389,7 @@
      "start": 16647,
      "end": 16979,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0217.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0217.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.857,
      "needs_escalation": false,
@@ -406,7 +406,7 @@
      "start": 16981,
      "end": 17389,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0218.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0218.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.82,
      "needs_escalation": false,
@@ -423,7 +423,7 @@
      "start": 17391,
      "end": 17951,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0219.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0219.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.79,
      "needs_escalation": false,
@@ -440,7 +440,7 @@
      "start": 17953,
      "end": 18223,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0220.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D11/0220.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.851,
      "needs_escalation": false,
@@ -454,7 +454,453 @@
     }
    ]
   },
-  "translation": null
+  "translation": {
+   "pane": "translation",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "-41-\n\nצאצאיו של משה גרזון (Moshe Gerson)\n\nדור מס' 1\n\n1. משה (MOSHE) גרזון (אדולף, גוסטי) נולד ב-11 בינואר 1906 בגרמניה (Czarniku), ונפטר ב-12 באפריל 1982 בישראל. הוא נשא לאישה את לאה (וורמסר) גרזון ב-1934, בתם של סאלי (שלמה) וורמסר (SALLY WORMSER) ועליזה (סימון). היא נולדה ב-6 במאי 1910 בגרמניה (פרנקפורט), ונפטרה ב-21 בדצמבר 1988 בישראל.\n\nילדיהם של משה גרזון ולאה (וורמסר) גרזון הם:\n\n2 i, יהודית (גרזון) ועדי, נ' 14 ביוני 1935, ישראל (דגניה),\n\n3 ll. עובד (גרזון) גו [...], נ' 15 באוקטובר 1936, ישראל; [...] 14 בנובמבר 1992, ישראל (Haita).\n4 ili, עפרה (גרזון) קניג, נ' 6 בינואר 1943, ישראל.\n\n5 iv. עליזה (גרזון) נעים, נ' + באפריל 1948, ישראל (כפר חסידים).\n\n6. v. גבריאל איתן גרזון, נ' 5 בפברואר 1951, ישראל (הבונים).\n\n7 vi. עדינה (גרזון) רון, נ' 5 בפברואר 1951, ישראל (הבונים).\n\nדור מס' 2\n\n2. יהודית (גרזון) ועדי (משה גרזון, אדולף, גוסטאי) נולדה ב-14 ביוני 1935 בישראל (דגניה). היא נישאה לגדעון ועדי ב-17 באוגוסט 1954 בישראל (נחשולים). בנם של ישראל (ראט) ודובה (גרבר) ועדי. הוא נולד ב-15 בנובמבר 1927 בישראל (גבעת השלושה).\n\nילדיהם של יהודית (גרזון) ועדי וגדעון ועדי הם:\n8 i. [...] (ועדי) פראג, נ' 6 באוגוסט 1957, ישראל (נחשולים)\n9 il. יעל (ועדי) חליפה, נ' 6 במרץ 1959, ישראל (נחשולים),\nill. אבנר (ועדי) עדי, נ' 22 ביולי 1963, ישראל (נחשולים).\niv. שחר (ועדי) עדי, נ' 20 ביוני 1971, ישראל (מולדת); נישא לרות (ברסקין) עדי. 17 ביוני 2000: [...] 15 בספטמבר 1972, ישראל (בית שערים)\nv. 801 ועדי, נ' 19 בפברואר 1974, ישראל (עין חרוד)\n\n3. עובד (גרזון) גונן (משה גרזון, אדולף, גוסט41) נולד ב-15 באוקטובר 1936 בישראל. ונפטר ב-14 בנובמבר 1992 בישראל (חיפה). הוא נישא לבטי גונן בחיפה. היא נולדה בבולגריה (Bolgaria).\n\nילדיהם של עובד גונן ובטי גונן הם:\n10 i, שי גונן, נ' 24 בספטמבר 1965, חיפה (ישראל)\n1. נועם גונן, נ' חיפה (ישראל),\n\n4. עפרה (גרזון) קניג (משה גרזון, אדולף, גוסטאי) נולדה ב-6 בינואר 1943 בישראל. היא נישאה ל-(1) אדוארד פיטה (EDOUARD PITTET). הוא נולד בשוויץ (Swiss). היא נישאה ל-(2) פייר קניג (PIER KOENIG). הוא נולד בשוויץ (Swiss).\n\nילדיהם של עפרה קניג ואדוארד פיטה הם:\n0 i. שנטל (פיטה) אבונגלה, נ' 21 בנובמבר 1964, שוויץ (Swiss)\nii. יואל פיטה, נ' 10 במאי 1971, שוויץ (swiss)\n\n5. עליזה (גרזון) נעים (משה גרזון, אדולף, גוסטב) נולדה ב-4 באפריל 1948 בישראל (כפר חסידים). היא נישאה ליהודה נעים ב-16 באוגוסט 1968. הוא נולד ב-23 באפריל 1944 באיראן (iran).\n\nילדיהם של עליזה (גרזון) נעים ויהודה נעים הם:\n\n12. i. יפעת (נעים) גראפי, נ' 20 במרץ 1969, ישראל (נווה מבטח).\ni, ענת (נעים) ארשלג, נ' 8 במאי 1972; נישאה לאורן ארשלג.\niii, אמיר נעים, נ' 7 במאי 1981\n\n6. גבריאל איתן גרזון (משה, אדולף, גוסטב) נולד ב-5 בפברואר 1951 בישראל (הבונים). הוא נשא לאישה את ריטה (גלזר) גרזון ב-24 בפברואר 1974 בתל אביב (ישראל), בתם של דוד (DAIVD) גלזר וסופיה (אברהם). היא נולדה ב-13 ביוני 1957 ברומניה (Romanya).\n\n6 -\n\nילדיהם של גבריאל גרזון וריטה גרזון הם:\ni. מאיה' גרזון, ‏.ל‎ 19 January 1980, ישראל (יובלים).\nii, אלון גרזון, נ' 27 February 1983, ישראל (יובלים).\niii, דנה גרזון, נ' 21 August 1984, ישראל (יובלים).\niv. שני גרזון, נ' 2 September 1989, ישראל (יובלים),\n\n7. עדינה (גרזון)* רון (משה? גרזון, אדולף?, גוסטב!) נולדה ב-5 Fi ebruary 1951 בישראל (הבונים). היא נישאה לצבי רון בחיפה. הוא נולד בפולין.\n\nילדיהם של עדינה רון וצבי רון הם:\n1. עופר®S רון, נ' 24 May 1985, ישראל (חיפה),\nii. אייל רון, נ' 24 May 1985, ישראל (חיפה).\n\nדור מס' 3\n\n8. נירית (ועדיS פראג (יהודית(גרזון)4 ועדי, משה גרזון, אדולף2, גוסטאי4) נולדה ב-6 August 1957 בישראל (נחשולים). היא נישאה ליריב פראג ב-27 September 1979 בעין חרוד. בן של אמיר פראג וצילה (HLEVD. הוא נולד ב-26 March 1957 בישראל (עין חרוד)\n\nעוד על נירית (ועדי) פראג\nמקצוע: מורה\nמגורים: עין חרוד\n\nילדיהם של [...] פראג ויריב פראג הם:\n1. זיו° פראג, נ' 15 November 1982, ישראל (עין חרוד)\nil. עמית פראג, נ' 27 December 1984, ישראל (עין חרוד)\nui. איתן פראג, נ' 29 July 1990, ישראל (עין חרוד).\niv. רותם פראג, נ' 9 July 1993, ישראל (עין חרוד),\n\n9. יעל(ועדיD° כליפא (FEHUDITIGERSON)F V44DI, משה סון, אדולף*, גוסטאי4) נולדה ב-6 March 1959 בישראל (נחשולים). היא נישאה לאיתן כליפא\\ + October 1983 בקיבוץ דברת. בן של ניסים כליפא (Kauira) ואהובה כליפא. הוא נולד ב-28 May 1959 בישראל (דברת)\n\nילדיהם של יעל(ועדי) כליפא ואיתן כליפא הם:\n1. חן® כליפא, נ' 11 February 1985, ישראל (לוטם)\nii. רעות כליפא, נ' 5 September 1987, ישראל (לוטם)\n\nהערות עבור רעות כליפא\n\nui. נועם כליפא, נ' 3 May 1993, ישראל (לוטם).\n\n10. שי° גונן (עובד (גרזון)*, משה? גרזון, אדולף2, גוסטאי+) נולד ב-24 September 1965 בחיפה (ישראל). הוא נישא ליעל גונן ב-11 September 1994 בחיפה.\n\nילדיהם של שי גונן ויעל גונן הם:\ni. זוהר® (ZOAR) גונן\nil, כרמל גונן\n\n11. שנטל(פיטה)S אבונגואה (עפרה (גרזון)* קניג (KOENIG), משה גרזון, אדולף2 (ADOLE2), גוסטב) נולדה ב-21 November 1964 בשוויץ. היא נישאה לאשיל איוונגואה (ASHIL EIVONGUE) בשוויץ. הוא נולד בקמרון.\n\nילדיהם של שנטל(פיטה) אבונגואה ואשיל איוונגואה הם:\ni. דון® איוונגואה, נ' 12 November 1994, שוויץ.\nii, דוד איוונגואה, נ' 18 July 1998.\n\n[...] 37\n\n12. יפעת (נעים)? גראפי (עליזה (גרזון)* נעים, משה? גרזון, אדולף*, גוסטב') נולדה ב-20 במרץ 1969 בישראל (נווה מבטח). היא נישאה לערן גראפי. הוא נולד ב-14 בדצמבר 1970 בישראל.\n\nהילד של יפעת (נעים) גראפי וערן גראפי הוא:\ni, לירי® גראפי, נולדה 22 ביוני 2001, ישראל (נווה מבטח)\n\nמריאנה, גרזון לבית דוד\n\nגוסטב גרזו[ן]\nרב-אומן למסמרים בשוודט על האודר (Schwedt a. Oder) (רחוב פירראדנר)\nנולד 7. 6. 1848 בנוישטט ליד היידקרוג (Neustadt bei Heydekrug) (כיום ליטא)\nנפטר 16. 5. [...] בשוודט על האודר [...]\n[...]\n\nרוזה גרזון לבית [...]\nנולדה 22. [...]. 1877 בוולדנברג (Woldenberg) (נוימר[ק])\nנפטרה [...]. 7. 1921 בשוודט על האודר (נקברה שם)\n\n[...]\n\nרנטה גרזון-אלכסנדר\n\nמנפרד גרזון\n\n[...] גרזון [...]\n\nמשלוח למזרח ה-6 תחת מספר 32221 H\n\nנפטרה 1943 במחנה הריכוז אושוויץ\n[...]\n\n[...]\nפקיד בנק (מאוחר יותר גנן) בברלין\nנולד 4. 1.\n\nמנהל לגננות [...]\nנולד 30. 4. 1904 בצ'רניקאו (Czarnikau) מוסד לימוד לגננות ברלין-דאהל[ם]\nגורש ב-12.3 [...] נולד 14. 1. 1906 בצ'רניקאו\n\nנפטר 12.4.1982 ב[...] מושב-\n1941 בברלין עם [...] 5\n[...]\n\nנולד 4. 5.1911 בפרנק[פורט] [...]\nנפטר 2. 1. 1944 באושוויץ\n\n1934 היגר לישראל\n\n[...] בברלין עם [...]\n\n[...]\n\n[...]\n\n[...] 13. 8.1942 ב[...]\n\n[...]\nיהודית גרזון-ועדי\n\n[...]\n\n[...]\nעובד גרזון (גומן)\n\nעפרה גרזון-פיטט | עליזה גרזון-נעים\n\nנולד[ה] 14.6. 1935\nברלין-שרלוטנבורג (Berlin-Charlottenburg)\n\nנפטר[ה] 1943 במחנה הריכוז אושוויץ | [...] עם\n\nגדעון ועדי\n\nנולד 15. 11. 1930\n\nאילן גרזון || עדינה גרזון\nנולד 15. 10. 1936 || נולדה 6.4. 1943 || נולד/ה 4.4. 1948 || נולד/ה 5. 2. 1951 || נולד/ה 5.2. 1451\n[...] 16.8. 1967 עם || [...]\n\n[...] || [...] עם\nבטי גרזון יהודה נעים\n[...]\n\n[...] (שוויץ)\n[...] 192 || נולד/ה 12.10. [...]\n\nשחר ועדי || שגיא ועדי\n[...] 20.6.1972 || נולד/ה 19. 2.1974\n\nשי גרזון\n\n[...] 24.9. 1964 || נולד/ה 6.8. 1972\n\nנועם גרזון || שנטל פיטט || יואל פיטט יפעת נעים\n\n(נולד/ה 21.10 1964 נולד/ה 10. 5.1972.\n\nאנאל נעים\nנולד/ה 20. 3. 1969 || נולד/ה 8.5. 1972\n\n[...]\n\n[...]\n\n[...]\n\n+\n\n/ אדולף גרזון .\nמורה, 2016157 מאז 1934 בפרנקפורט/מיין\n(מתנדב במלחמת העולם ה-4 1914; 1915 פצוע מלחמה קשה (\n[...] נולד 17. 9. 1876 בשוודט על האודר (Schwedt a. Oder)\nנפטר 17. % 1943 במחנה הריכוז אושוויץ -\n7\n[...] 26.10. 1898 באוש (Usch) עם )\n\nאמי גרזון לבית מאיר\n\\ נולדה 6. 2. 187% באוש (מחוז: ברומברג - Bez: Bromberg)\n[...] נפטרה 4. 6. 1925 בברלין-פנקוב (Berlin-Pankow)\n[...] קבורה בית העלמין היהודי ברלין-וייסנזה קבר מס' 68951 (Grub Nr. 68951)\nשדה (FeldQ) 4/33\n\n| !\nאלפונס גרזון מרגרטה גרזון מרטין גרזון “2\nמהנדס מוסמך, מפקח בנייה ראשי ב-הרמסדורף אמנית צילום (ביסמרק-פוטו) ברלין מוסמך לחקלאות לאחרונה אחוזת וינקל ליד פורסט (Gut Winkel b.Fors)\n(חייל במלחמת העולם ה-1 1918) נולדה 18.11. 1900 בצ'ארניקאו (Czarnikau), נולד 15. 3.1902, בצ'ארניקאו\nנולד 24.7. 1999 בקרומניקאו (מחוז ברומברג - dez. Brombery) גורשה ב- 9. 12. 1942 גורש ב- 16.6+ 1943 עם\nהטרנספורט למזרח ה-24 תחת מס' 38/21 564 | | טרנספורט 91 למחנה הריכוז טרזיינשטט\n24. 2.1923 עם נפטר ספטמבר 1944 במחנה הריכוז אושוויץ\nאידה אולגה גרטרוד גרזון לבית זוננשטול נפטרה 1943 במחנה הריכוז אושוויץ [...] 40. 10. 1930 עם\nנולדה 28.9. 1903 באויפן (כיום בלגיה - Eupen) ברטה גרזון לבית הלמנרייך\nנולדה 4. 3. (902 בקאונייניצה (אוסטריה - Keunienice),\nנפטרה אוקטובר I444 במחנה הריכוז אושוויץ.\n\nאריקה גרזון-דירגארדט\n[...] בברלין [...]\nנולדה 3. 9.1432 בברלין-הרמסדורף\n[...] 4.12. 1967 עם\nוילהלם גוסטב דירגארדט |\nמורה בלאנגנברג/חבל הריין (Langenberg/Rhld.)\nנולד 5. 1. 1923 בלאנגנברג\n\nרות-אמי גרזון | מרטין-יוהנה גרזון\nנולדה 28. 2. 1932 נולדה i6.9. 1934 }\nבשטרוביץ נפת קוטבוס (Ströbitz Kr.Cottbus) בברלין-שרלוטנבורג:\n5\n[...] נפטרו אוקטובר 1944\nבמחנה הריכוז אושוויץ\n\nעובד סוציאלי בפרנקפורט/מיין\nנולד 7. 1.194) בקניגסברג (hönigsbe)\n\nמו מו\n\nרות גרסיה | | כריסטוף יוהנס גרזון הרטמוט-יואכים לידטקה | נירית ואדי || 1061 ואדי (Nicith Vaadi || 1061 Vaudi)\nדירגארדט דירגארדט\nנולדה b. 12, 1968 || נולד 18, 3. 1970\nבוופרטל (Wuppertal) בוופרטל\nנולדה 46.1463 ב[...]\n| נולד, 6.8.1958 || נולד, 6. 3. 1960\n|\n\n[...]\n\n[...]\n\n(עובד (גרזון\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
+   "sha256": "591b42c0b7ce5d8ecaf8721e5fc5d408034299693b9721e648e1fcbf3928f8bb",
+   "pages": [
+    {
+     "page_no": 197,
+     "start": 0,
+     "end": 2684,
+     "source_start": 0,
+     "source_end": 2842,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 198,
+     "start": 2686,
+     "end": 4733,
+     "source_start": 2844,
+     "source_end": 5078,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 199,
+     "start": 4735,
+     "end": 5012,
+     "source_start": 5080,
+     "source_end": 5378,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 200,
+     "start": 5014,
+     "end": 6624,
+     "source_start": 5380,
+     "source_end": 7044,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 201,
+     "start": 6626,
+     "end": 8551,
+     "source_start": 7046,
+     "source_end": 8894,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 202,
+     "start": 8553,
+     "end": 8579,
+     "source_start": 8896,
+     "source_end": 8927,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 203,
+     "start": 8581,
+     "end": 8625,
+     "source_start": 8929,
+     "source_end": 8967,
+     "grade": "poor"
+    },
+    {
+     "page_no": 204,
+     "start": 8627,
+     "end": 8671,
+     "source_start": 8969,
+     "source_end": 9350,
+     "grade": "poor"
+    },
+    {
+     "page_no": 205,
+     "start": 8673,
+     "end": 8717,
+     "source_start": 9352,
+     "source_end": 9595,
+     "grade": "poor"
+    },
+    {
+     "page_no": 206,
+     "start": 8719,
+     "end": 8763,
+     "source_start": 9597,
+     "source_end": 9692,
+     "grade": "poor"
+    },
+    {
+     "page_no": 207,
+     "start": 8765,
+     "end": 8809,
+     "source_start": 9694,
+     "source_end": 9933,
+     "grade": "poor"
+    },
+    {
+     "page_no": 208,
+     "start": 8811,
+     "end": 8855,
+     "source_start": 9935,
+     "source_end": 10317,
+     "grade": "poor"
+    },
+    {
+     "page_no": 209,
+     "start": 8857,
+     "end": 8901,
+     "source_start": 10319,
+     "source_end": 11777,
+     "grade": "poor"
+    },
+    {
+     "page_no": 210,
+     "start": 8903,
+     "end": 8947,
+     "source_start": 11779,
+     "source_end": 11938,
+     "grade": "poor"
+    },
+    {
+     "page_no": 211,
+     "start": 8949,
+     "end": 8993,
+     "source_start": 11940,
+     "source_end": 11995,
+     "grade": "poor"
+    },
+    {
+     "page_no": 212,
+     "start": 8995,
+     "end": 9039,
+     "source_start": 11997,
+     "source_end": 13116,
+     "grade": "poor"
+    },
+    {
+     "page_no": 213,
+     "start": 9041,
+     "end": 9085,
+     "source_start": 13118,
+     "source_end": 14525,
+     "grade": "poor"
+    },
+    {
+     "page_no": 214,
+     "start": 9087,
+     "end": 9131,
+     "source_start": 14527,
+     "source_end": 14953,
+     "grade": "poor"
+    },
+    {
+     "page_no": 215,
+     "start": 9133,
+     "end": 9177,
+     "source_start": 14955,
+     "source_end": 15050,
+     "grade": "poor"
+    },
+    {
+     "page_no": 216,
+     "start": 9179,
+     "end": 9223,
+     "source_start": 15052,
+     "source_end": 16645,
+     "grade": "poor"
+    },
+    {
+     "page_no": 217,
+     "start": 9225,
+     "end": 9269,
+     "source_start": 16647,
+     "source_end": 16979,
+     "grade": "poor"
+    },
+    {
+     "page_no": 218,
+     "start": 9271,
+     "end": 9315,
+     "source_start": 16981,
+     "source_end": 17389,
+     "grade": "poor"
+    },
+    {
+     "page_no": 219,
+     "start": 9317,
+     "end": 9361,
+     "source_start": 17391,
+     "source_end": 17951,
+     "grade": "poor"
+    },
+    {
+     "page_no": 220,
+     "start": 9363,
+     "end": 9407,
+     "source_start": 17953,
+     "source_end": 18223,
+     "grade": "poor"
+    }
+   ],
+   "segments": [],
+   "align": [
+    {
+     "src": [
+      0,
+      2842
+     ],
+     "tgt": [
+      0,
+      2684
+     ]
+    },
+    {
+     "src": [
+      2844,
+      5078
+     ],
+     "tgt": [
+      2686,
+      4733
+     ]
+    },
+    {
+     "src": [
+      5080,
+      5378
+     ],
+     "tgt": [
+      4735,
+      5012
+     ]
+    },
+    {
+     "src": [
+      5380,
+      7044
+     ],
+     "tgt": [
+      5014,
+      6624
+     ]
+    },
+    {
+     "src": [
+      7046,
+      8894
+     ],
+     "tgt": [
+      6626,
+      8551
+     ]
+    },
+    {
+     "src": [
+      8896,
+      8927
+     ],
+     "tgt": [
+      8553,
+      8579
+     ]
+    },
+    {
+     "src": [
+      8929,
+      8967
+     ],
+     "tgt": [
+      8581,
+      8625
+     ]
+    },
+    {
+     "src": [
+      8969,
+      9350
+     ],
+     "tgt": [
+      8627,
+      8671
+     ]
+    },
+    {
+     "src": [
+      9352,
+      9595
+     ],
+     "tgt": [
+      8673,
+      8717
+     ]
+    },
+    {
+     "src": [
+      9597,
+      9692
+     ],
+     "tgt": [
+      8719,
+      8763
+     ]
+    },
+    {
+     "src": [
+      9694,
+      9933
+     ],
+     "tgt": [
+      8765,
+      8809
+     ]
+    },
+    {
+     "src": [
+      9935,
+      10317
+     ],
+     "tgt": [
+      8811,
+      8855
+     ]
+    },
+    {
+     "src": [
+      10319,
+      11777
+     ],
+     "tgt": [
+      8857,
+      8901
+     ]
+    },
+    {
+     "src": [
+      11779,
+      11938
+     ],
+     "tgt": [
+      8903,
+      8947
+     ]
+    },
+    {
+     "src": [
+      11940,
+      11995
+     ],
+     "tgt": [
+      8949,
+      8993
+     ]
+    },
+    {
+     "src": [
+      11997,
+      13116
+     ],
+     "tgt": [
+      8995,
+      9039
+     ]
+    },
+    {
+     "src": [
+      13118,
+      14525
+     ],
+     "tgt": [
+      9041,
+      9085
+     ]
+    },
+    {
+     "src": [
+      14527,
+      14953
+     ],
+     "tgt": [
+      9087,
+      9131
+     ]
+    },
+    {
+     "src": [
+      14955,
+      15050
+     ],
+     "tgt": [
+      9133,
+      9177
+     ]
+    },
+    {
+     "src": [
+      15052,
+      16645
+     ],
+     "tgt": [
+      9179,
+      9223
+     ]
+    },
+    {
+     "src": [
+      16647,
+      16979
+     ],
+     "tgt": [
+      9225,
+      9269
+     ]
+    },
+    {
+     "src": [
+      16981,
+      17389
+     ],
+     "tgt": [
+      9271,
+      9315
+     ]
+    },
+    {
+     "src": [
+      17391,
+      17951
+     ],
+     "tgt": [
+      9317,
+      9361
+     ]
+    },
+    {
+     "src": [
+      17953,
+      18223
+     ],
+     "tgt": [
+      9363,
+      9407
+     ]
+    }
+   ],
+   "model": "gemini-3.1-pro-preview",
+   "generated_at": "2026-08-01T14:10:42+00:00",
+   "source_sha256": "483fbbc664c9363858543eb6c37cc2c31231be52902c99b8708f4e003859acba"
+  }
  },
  "prehighlights": [
   {

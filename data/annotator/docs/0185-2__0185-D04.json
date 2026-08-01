@@ -44,7 +44,7 @@
      "start": 0,
      "end": 188,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0053.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D04/0053.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.498,
      "needs_escalation": true,
@@ -61,7 +61,7 @@
      "start": 190,
      "end": 190,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0054.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D04/0054.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.0,
      "needs_escalation": true,
@@ -78,7 +78,7 @@
      "start": 192,
      "end": 1216,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0055.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D04/0055.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.798,
      "needs_escalation": false,
@@ -95,7 +95,7 @@
      "start": 1218,
      "end": 1218,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0056.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D04/0056.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.0,
      "needs_escalation": true,
@@ -112,7 +112,7 @@
      "start": 1220,
      "end": 1236,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0057.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D04/0057.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.261,
      "needs_escalation": true,
@@ -129,7 +129,7 @@
      "start": 1238,
      "end": 1255,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0058.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D04/0058.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.592,
      "needs_escalation": true,
@@ -146,7 +146,7 @@
      "start": 1257,
      "end": 1407,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0059.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D04/0059.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.468,
      "needs_escalation": true,
@@ -163,7 +163,7 @@
      "start": 1409,
      "end": 1812,
      "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0060.jpg",
-     "scan_url": null,
+     "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0185-2__0185-D04/0060.webp",
      "ocr_engine": "tesseract",
      "ocr_conf": 0.445,
      "needs_escalation": true,
@@ -177,7 +177,165 @@
     }
    ]
   },
-  "translation": null
+  "translation": {
+   "pane": "translation",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\nגבעת ברנר : .29. 10. 96.\n\nיהודית 5 גדעון היקרים! . :\nכדי להימנע מלטעות בשמות אני כותב אליכם באנגלית. הדבר נוגע ל-[...] של הנרי בירמבר (Henry Birmbre); .60 לו אני מוסר את דרישת שלומי.\n\nאני לא זוכר שום רחוב אנגרמינד (AngemUndstreet) . 4\n\nמה שאני יודע בוודאות, הוא שהוגו גרזון (Hugo Gerson), אשתו: רוזה (לבית ביטרמן - Bittermann) וילדיהם חיו = שנים רבות בעיר! אנגרמינדה (Angermünde). [...]\n\nמאוחר יותר שמעתי, שהם : גורשו [...] לפולין. לאחר המלחמה אחי -אלפונס (Alfons) חקר \\ אודות: גורלם, אך ללא הועיל.\n\n: רות דירגארדט (Ruth Diergardt) וסטפן. הגיעו בשלום וביובש אל. נמל התעופה ועברו את כל הבדיקות. וזאת, בעוד שלנו. היה [...] גשם ב-נווה=מבטח (Neve-Mivtach): וב. 5\n\nבין: ה-[...] הישנים שלי מצאתי אחד של גברת, [...], סבתא שלכם. ב-1936, כשהייתי בחופשה עם אבינו בפרנקפורט (Frankfurt), > עשיתי. כמה טיולים לסביבה. אחרי היידלברג (Heidelberg) נסעתי לדירקהיים (Dürkheim), לבקר אותה. את השני עשיתי .1938 בנוטע - בונה (Notea - Boneh), אולי עדיין יש לכם את זה. -\n\nשמרו על בריאותכם, וכך כל המשפחה!\n\nשלכם '- 9\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[...] 0.007 Ib [...] % [...]\n[...] Mont [...] 9 ap,\n[...] 0 [...]\n[...]\n[...] 4 [...]\n\n[...] 4 [...] למאריק (Marik) ב-1939 0\n\n[...] 0 [...] קפה (Kaffe) [...] צד (Side),\n\nהיום כאשר אנו [...] בערך 8\nמס' 5 [...]\n[...]\nהס (Hess) [...] יורקרס\" (Yorkers) ובאופן טבעי 0 0\n[...] ברנד (Bernd) [...]\nהוא י[...]\n\n[...] מנה (Mena) [...], ואנו כולנו מקווים ל[...]\n\n[...] אהבה לך, לילדים וה[...]\n\nשל בעל שומר (Baal Somer) חלק ב[...] של Tr\n0 760/60 של ה-19 30%\n| דף של האנציקלופדיה יודאיקה (Encyclopaedia Judaica),\"",
+   "sha256": "6d7b97fe8f233b23618c1e85d984bd18cc550879e27795859865ffe4638dadfb",
+   "pages": [
+    {
+     "page_no": 53,
+     "start": 0,
+     "end": 44,
+     "source_start": 0,
+     "source_end": 188,
+     "grade": "poor"
+    },
+    {
+     "page_no": 54,
+     "start": 46,
+     "end": 90,
+     "source_start": 190,
+     "source_end": 190,
+     "grade": "poor"
+    },
+    {
+     "page_no": 55,
+     "start": 92,
+     "end": 1083,
+     "source_start": 192,
+     "source_end": 1216,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 56,
+     "start": 1085,
+     "end": 1129,
+     "source_start": 1218,
+     "source_end": 1218,
+     "grade": "poor"
+    },
+    {
+     "page_no": 57,
+     "start": 1131,
+     "end": 1175,
+     "source_start": 1220,
+     "source_end": 1236,
+     "grade": "poor"
+    },
+    {
+     "page_no": 58,
+     "start": 1177,
+     "end": 1221,
+     "source_start": 1238,
+     "source_end": 1255,
+     "grade": "poor"
+    },
+    {
+     "page_no": 59,
+     "start": 1223,
+     "end": 1308,
+     "source_start": 1257,
+     "source_end": 1407,
+     "grade": "mixed"
+    },
+    {
+     "page_no": 60,
+     "start": 1310,
+     "end": 1723,
+     "source_start": 1409,
+     "source_end": 1812,
+     "grade": "mixed"
+    }
+   ],
+   "segments": [],
+   "align": [
+    {
+     "src": [
+      0,
+      188
+     ],
+     "tgt": [
+      0,
+      44
+     ]
+    },
+    {
+     "src": [
+      190,
+      190
+     ],
+     "tgt": [
+      46,
+      90
+     ]
+    },
+    {
+     "src": [
+      192,
+      1216
+     ],
+     "tgt": [
+      92,
+      1083
+     ]
+    },
+    {
+     "src": [
+      1218,
+      1218
+     ],
+     "tgt": [
+      1085,
+      1129
+     ]
+    },
+    {
+     "src": [
+      1220,
+      1236
+     ],
+     "tgt": [
+      1131,
+      1175
+     ]
+    },
+    {
+     "src": [
+      1238,
+      1255
+     ],
+     "tgt": [
+      1177,
+      1221
+     ]
+    },
+    {
+     "src": [
+      1257,
+      1407
+     ],
+     "tgt": [
+      1223,
+      1308
+     ]
+    },
+    {
+     "src": [
+      1409,
+      1812
+     ],
+     "tgt": [
+      1310,
+      1723
+     ]
+    }
+   ],
+   "model": "gemini-3.1-pro-preview",
+   "generated_at": "2026-08-01T14:10:16+00:00",
+   "source_sha256": "603a05392833954efd0517b780cbddafc4e9d3cfcc86023a8a55122553ac1d4a"
+  }
  },
  "prehighlights": [],
  "built_at": "2026-08-01T11:51:11+00:00"

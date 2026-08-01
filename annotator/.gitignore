@@ -13,3 +13,4 @@ next-env.d.ts
 
 # Local file-backed annotation store (dev only)
 .dev-data/
+.env*
