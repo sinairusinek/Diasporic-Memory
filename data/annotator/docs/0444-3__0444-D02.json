@@ -53,7 +53,39 @@
     }
    ]
   },
-  "translation": null
+  "translation": {
+   "pane": "translation",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
+   "sha256": "c8c60ad1cd90081910c465e5157813a7aa5a518d2c2a8ef5ceb172856bdf3f3a",
+   "pages": [
+    {
+     "page_no": 5,
+     "start": 0,
+     "end": 44,
+     "source_start": 0,
+     "source_end": 197,
+     "grade": "poor"
+    }
+   ],
+   "segments": [],
+   "align": [
+    {
+     "src": [
+      0,
+      197
+     ],
+     "tgt": [
+      0,
+      44
+     ]
+    }
+   ],
+   "model": "gemini-3.1-pro-preview",
+   "generated_at": "2026-08-01T14:28:34+00:00",
+   "source_sha256": "cc6af1f21cbdc566388dd660533b528fcaac719f0a58357f1886061263d41f8b"
+  }
  },
  "prehighlights": [],
  "built_at": "2026-08-01T11:51:11+00:00"

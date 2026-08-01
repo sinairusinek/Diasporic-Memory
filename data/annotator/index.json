@@ -1,5 +1,5 @@
 {
- "built_at": "2026-08-01T12:46:54+00:00",
+ "built_at": "2026-08-01T14:58:40+00:00",
  "tags": {
   "facets": [
    {
@@ -1245,7 +1245,7 @@
    "page_range": "13-27",
    "chars": 22430,
    "blocks": 15,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {
@@ -1269,7 +1269,7 @@
    "page_range": "108-162",
    "chars": 151971,
    "blocks": 55,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 6,
    "n_strict": 6,
    "grades": {
@@ -1293,7 +1293,7 @@
    "page_range": "242-248",
    "chars": 13045,
    "blocks": 7,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {
@@ -1317,7 +1317,7 @@
    "page_range": "279-297",
    "chars": 70496,
    "blocks": 19,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 4,
    "n_strict": 4,
    "grades": {
@@ -1341,7 +1341,7 @@
    "page_range": "312-355",
    "chars": 142582,
    "blocks": 44,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 16,
    "n_strict": 15,
    "grades": {
@@ -1365,7 +1365,7 @@
    "page_range": "6-7",
    "chars": 3946,
    "blocks": 2,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 3,
    "grades": {
@@ -1389,7 +1389,7 @@
    "page_range": "5",
    "chars": 197,
    "blocks": 1,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {
@@ -1413,7 +1413,7 @@
    "page_range": "25-33",
    "chars": 19541,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 5,
    "n_strict": 5,
    "grades": {
@@ -1437,7 +1437,7 @@
    "page_range": "8-24",
    "chars": 22607,
    "blocks": 17,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {
@@ -1462,7 +1462,7 @@
    "page_range": "225-247",
    "chars": 189743,
    "blocks": 23,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 19,
    "n_strict": 16,
    "grades": {
@@ -1487,7 +1487,7 @@
    "page_range": "249-252",
    "chars": 5124,
    "blocks": 4,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {
@@ -1512,7 +1512,7 @@
    "page_range": "1",
    "chars": 146,
    "blocks": 1,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {
@@ -1536,7 +1536,7 @@
    "page_range": "2",
    "chars": 10811,
    "blocks": 1,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 3,
    "grades": {
@@ -1560,7 +1560,7 @@
    "page_range": "4-9",
    "chars": 15848,
    "blocks": 6,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 15,
    "n_strict": 15,
    "grades": {
@@ -1584,7 +1584,7 @@
    "page_range": "10",
    "chars": 3880,
    "blocks": 1,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {
@@ -1608,7 +1608,7 @@
    "page_range": "11-28",
    "chars": 10640,
    "blocks": 18,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 2,
    "grades": {
@@ -1632,7 +1632,7 @@
    "page_range": "39-40",
    "chars": 6448,
    "blocks": 2,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 5,
    "n_strict": 5,
    "grades": {
@@ -1656,7 +1656,7 @@
    "page_range": "50-52",
    "chars": 9417,
    "blocks": 3,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 4,
    "n_strict": 4,
    "grades": {
@@ -1680,7 +1680,7 @@
    "page_range": "55-61",
    "chars": 49007,
    "blocks": 7,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 20,
    "n_strict": 19,
    "grades": {
@@ -1704,7 +1704,7 @@
    "page_range": "62-66",
    "chars": 15889,
    "blocks": 5,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 13,
    "n_strict": 13,
    "grades": {
@@ -1752,7 +1752,7 @@
    "page_range": "18-22",
    "chars": 697,
    "blocks": 5,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {
@@ -1776,7 +1776,7 @@
    "page_range": "33-36",
    "chars": 1573,
    "blocks": 4,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {
@@ -1800,7 +1800,7 @@
    "page_range": "57-60",
    "chars": 1557,
    "blocks": 4,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {
@@ -1824,7 +1824,7 @@
    "page_range": "80-81",
    "chars": 2310,
    "blocks": 2,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {
@@ -1848,7 +1848,7 @@
    "page_range": "82-83",
    "chars": 6169,
    "blocks": 2,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {
@@ -1872,7 +1872,7 @@
    "page_range": "133-141",
    "chars": 3940,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {
@@ -1896,7 +1896,7 @@
    "page_range": "153-154",
    "chars": 3276,
    "blocks": 2,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {
@@ -1921,7 +1921,7 @@
    "page_range": "53-60",
    "chars": 1812,
    "blocks": 8,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {
@@ -1945,7 +1945,7 @@
    "page_range": "197-220",
    "chars": 18223,
    "blocks": 24,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {
@@ -1969,7 +1969,7 @@
    "page_range": "contributions 1–14",
    "chars": 1611,
    "blocks": 14,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 6,
    "n_strict": 6,
    "grades": {}
@@ -1989,7 +1989,7 @@
    "page_range": "contributions 338–346",
    "chars": 2930,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2009,7 +2009,7 @@
    "page_range": "contributions 657–670",
    "chars": 4925,
    "blocks": 14,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 5,
    "n_strict": 3,
    "grades": {}
@@ -2029,7 +2029,7 @@
    "page_range": "contributions 736–744",
    "chars": 2235,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {}
@@ -2049,7 +2049,7 @@
    "page_range": "contributions 814–822",
    "chars": 1527,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2069,7 +2069,7 @@
    "page_range": "contributions 842–860",
    "chars": 7324,
    "blocks": 19,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 6,
    "n_strict": 5,
    "grades": {}
@@ -2089,7 +2089,7 @@
    "page_range": "contributions 934–942",
    "chars": 463,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2109,7 +2109,7 @@
    "page_range": "contributions 2–10",
    "chars": 10316,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 2,
    "grades": {}
@@ -2129,7 +2129,7 @@
    "page_range": "contributions 28–36",
    "chars": 11432,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 8,
    "n_strict": 5,
    "grades": {}
@@ -2149,7 +2149,7 @@
    "page_range": "contributions 44–66",
    "chars": 10776,
    "blocks": 23,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 4,
    "n_strict": 4,
    "grades": {}
@@ -2169,7 +2169,7 @@
    "page_range": "contributions 90–98",
    "chars": 8630,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2189,7 +2189,7 @@
    "page_range": "contributions 133–152",
    "chars": 8172,
    "blocks": 20,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 7,
    "n_strict": 7,
    "grades": {}
@@ -2209,7 +2209,7 @@
    "page_range": "contributions 170–178",
    "chars": 3381,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {}
@@ -2229,7 +2229,7 @@
    "page_range": "contributions 196–204",
    "chars": 7202,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 1,
    "grades": {}
@@ -2249,7 +2249,7 @@
    "page_range": "contributions 41–49",
    "chars": 2379,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2269,7 +2269,7 @@
    "page_range": "contributions 120–128",
    "chars": 888,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2289,7 +2289,7 @@
    "page_range": "contributions 159–167",
    "chars": 5120,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {}
@@ -2309,7 +2309,7 @@
    "page_range": "contributions 176–213",
    "chars": 8394,
    "blocks": 38,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 10,
    "n_strict": 6,
    "grades": {}
@@ -2329,7 +2329,7 @@
    "page_range": "contributions 2–12",
    "chars": 928,
    "blocks": 11,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 4,
    "n_strict": 2,
    "grades": {}
@@ -2349,7 +2349,7 @@
    "page_range": "contributions 188–196",
    "chars": 3343,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 1,
    "grades": {}
@@ -2369,7 +2369,7 @@
    "page_range": "contributions 187–200",
    "chars": 1865,
    "blocks": 14,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 10,
    "n_strict": 3,
    "grades": {}
@@ -2389,7 +2389,7 @@
    "page_range": "contributions 14–26",
    "chars": 5063,
    "blocks": 13,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {}
@@ -2409,7 +2409,7 @@
    "page_range": "contributions 114–124",
    "chars": 3073,
    "blocks": 11,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {}
@@ -2429,7 +2429,7 @@
    "page_range": "contributions 201–209",
    "chars": 10300,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {}
@@ -2449,7 +2449,7 @@
    "page_range": "contributions 263–277",
    "chars": 7478,
    "blocks": 15,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 5,
    "n_strict": 3,
    "grades": {}
@@ -2469,7 +2469,7 @@
    "page_range": "contributions 319–327",
    "chars": 1865,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 1,
    "grades": {}
@@ -2489,7 +2489,7 @@
    "page_range": "contributions 336–344",
    "chars": 2338,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 1,
    "grades": {}
@@ -2509,7 +2509,7 @@
    "page_range": "contributions 359–367",
    "chars": 1914,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2529,7 +2529,7 @@
    "page_range": "contributions 431–441",
    "chars": 2798,
    "blocks": 11,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 4,
    "n_strict": 2,
    "grades": {}
@@ -2549,7 +2549,7 @@
    "page_range": "contributions 621–629",
    "chars": 770,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 4,
    "n_strict": 2,
    "grades": {}
@@ -2569,7 +2569,7 @@
    "page_range": "contributions 199–215",
    "chars": 1409,
    "blocks": 17,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 2,
    "grades": {}
@@ -2589,7 +2589,7 @@
    "page_range": "contributions 336–344",
    "chars": 1724,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2609,7 +2609,7 @@
    "page_range": "contributions 98–106",
    "chars": 3939,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 2,
    "grades": {}
@@ -2629,7 +2629,7 @@
    "page_range": "contributions 130–138",
    "chars": 3344,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 1,
    "grades": {}
@@ -2649,7 +2649,7 @@
    "page_range": "contributions 174–182",
    "chars": 5354,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2669,7 +2669,7 @@
    "page_range": "contributions 162–170",
    "chars": 420,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2689,7 +2689,7 @@
    "page_range": "contributions 1273–1281",
    "chars": 1115,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 1,
    "grades": {}
@@ -2709,7 +2709,7 @@
    "page_range": "contributions 1527–1535",
    "chars": 1031,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2729,7 +2729,7 @@
    "page_range": "contributions 1661–1665",
    "chars": 195,
    "blocks": 5,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2749,7 +2749,7 @@
    "page_range": "contributions 678–686",
    "chars": 469,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2769,7 +2769,7 @@
    "page_range": "contributions 1397–1405",
    "chars": 358,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {}
@@ -2789,7 +2789,7 @@
    "page_range": "contributions 1415–1423",
    "chars": 405,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2809,7 +2809,7 @@
    "page_range": "contributions 1542–1555",
    "chars": 854,
    "blocks": 14,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {}
@@ -2829,7 +2829,7 @@
    "page_range": "contributions 267–275",
    "chars": 554,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2849,7 +2849,7 @@
    "page_range": "contributions 573–581",
    "chars": 1823,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -2869,7 +2869,7 @@
    "page_range": "contributions 668–676",
    "chars": 558,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 2,
    "n_strict": 2,
    "grades": {}
@@ -2889,7 +2889,7 @@
    "page_range": "contributions 62–70",
    "chars": 5372,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 0,
    "n_strict": 0,
    "grades": {}
@@ -2909,7 +2909,7 @@
    "page_range": "contributions 131–150",
    "chars": 9439,
    "blocks": 20,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 3,
    "grades": {}
@@ -2929,7 +2929,7 @@
    "page_range": "contributions 206–222",
    "chars": 7843,
    "blocks": 17,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 6,
    "n_strict": 2,
    "grades": {}
@@ -2949,7 +2949,7 @@
    "page_range": "contributions 46–54",
    "chars": 2854,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 3,
    "grades": {}
@@ -2969,7 +2969,7 @@
    "page_range": "contributions 181–191",
    "chars": 5135,
    "blocks": 11,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 2,
    "grades": {}
@@ -2989,7 +2989,7 @@
    "page_range": "contributions 12–20",
    "chars": 4615,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 3,
    "n_strict": 1,
    "grades": {}
@@ -3009,7 +3009,7 @@
    "page_range": "contributions 38–46",
    "chars": 1020,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}
@@ -3029,7 +3029,7 @@
    "page_range": "contributions 64–72",
    "chars": 1880,
    "blocks": 9,
-   "has_translation": false,
+   "has_translation": true,
    "n_prehighlights": 1,
    "n_strict": 1,
    "grades": {}

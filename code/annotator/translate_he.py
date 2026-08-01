@@ -71,8 +71,12 @@ def translate_page(doc, page, usage, force):
             f"Type: {doc['meta']['doc_type']}, {doc['meta']['date_text']}\n"
             f"Page {page['page_no']} of {doc['meta']['page_range']}."
             f"{hint}\n\n---\n{body}")
+    # 0444-D05 runs to 21K chars on a single page, whose Hebrew alone exceeds
+    # 16K tokens — and thinking tokens draw from the same budget. An unused
+    # ceiling is free, so it is set well clear of the longest page rather than
+    # tuned; llm.ask() raises on MAX_TOKENS rather than caching a truncation.
     return llm.ask(SYSTEM, user, task="translate_he", usage=usage,
-                   max_tokens=16000, effort="medium", force=force)
+                   max_tokens=48000, effort="medium", force=force)
 
 
 def translate_doc(doc, usage, force, workers):

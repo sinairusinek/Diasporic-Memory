@@ -105,7 +105,93 @@
     }
    ]
   },
-  "translation": null
+  "translation": {
+   "pane": "translation",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
+   "sha256": "407093bb9b3e904d242fd3afec04862bb2e5dfef846ab7185561363a2fe24793",
+   "pages": [
+    {
+     "page_no": 249,
+     "start": 0,
+     "end": 44,
+     "source_start": 0,
+     "source_end": 1376,
+     "grade": "poor"
+    },
+    {
+     "page_no": 250,
+     "start": 46,
+     "end": 90,
+     "source_start": 1378,
+     "source_end": 1673,
+     "grade": "poor"
+    },
+    {
+     "page_no": 251,
+     "start": 92,
+     "end": 136,
+     "source_start": 1675,
+     "source_end": 3351,
+     "grade": "poor"
+    },
+    {
+     "page_no": 252,
+     "start": 138,
+     "end": 182,
+     "source_start": 3353,
+     "source_end": 5124,
+     "grade": "poor"
+    }
+   ],
+   "segments": [],
+   "align": [
+    {
+     "src": [
+      0,
+      1376
+     ],
+     "tgt": [
+      0,
+      44
+     ]
+    },
+    {
+     "src": [
+      1378,
+      1673
+     ],
+     "tgt": [
+      46,
+      90
+     ]
+    },
+    {
+     "src": [
+      1675,
+      3351
+     ],
+     "tgt": [
+      92,
+      136
+     ]
+    },
+    {
+     "src": [
+      3353,
+      5124
+     ],
+     "tgt": [
+      138,
+      182
+     ]
+    }
+   ],
+   "model": "gemini-3.1-pro-preview",
+   "generated_at": "2026-08-01T14:35:50+00:00",
+   "source_sha256": "4b2b8d49f4ca274fee8a7491382da33961fb111df421130774057439e341ab14"
+  }
  },
  "prehighlights": [],
  "built_at": "2026-08-01T11:51:11+00:00"
