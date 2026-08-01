@@ -44,3 +44,7 @@ annotator/node_modules/
 annotator/.next/
 annotator/content/
 annotator/.dev-data/
+
+# Source-planning sheet: carries contact names and Guy's internal review
+# comments, and this repo is public.
+data/the_corpus.xlsx
