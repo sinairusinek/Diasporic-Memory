@@ -3,7 +3,7 @@ import DocHeader from '@/components/DocHeader';
 import Sidebar from '@/components/Sidebar';
 import Workspace from '@/components/Workspace';
 import { getDoc, getIndex, getNeighbours } from '@/lib/corpus';
-import { countsByDoc } from '@/lib/store';
+import { countsByDoc, getReview } from '@/lib/store';
 
 export const dynamic = 'force-dynamic';
 
@@ -20,11 +20,13 @@ export default async function DocPage({
   ]);
   if (!doc) notFound();
 
-  // The sidebar's annotation counts are the only reason this page touches the
-  // database; a missing DATABASE_URL should not stop the corpus being readable.
+  // The sidebar's counts and the document verdict are the only reasons this
+  // page touches the database; a missing DATABASE_URL should not stop the
+  // corpus being readable.
   let counts: Record<string, number> = {};
+  let review: { verdict: string; note: string } | null = null;
   try {
-    counts = await countsByDoc();
+    [counts, review] = await Promise.all([countsByDoc(), getReview(docId)]);
   } catch {
     counts = {};
   }
@@ -40,6 +42,7 @@ export default async function DocPage({
           caseEntry={caseEntry}
           position={nav.position}
           total={nav.total}
+          review={review}
         />
         <Workspace
           doc={doc}

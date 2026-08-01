@@ -1,3 +1,4 @@
+import ReviewBox from '@/components/ReviewBox';
 import type { CaseEntry, DocBundle } from '@/lib/types';
 
 export default function DocHeader({
@@ -5,11 +6,13 @@ export default function DocHeader({
   caseEntry,
   position,
   total,
+  review,
 }: {
   doc: DocBundle;
   caseEntry: CaseEntry | undefined;
   position: number;
   total: number;
+  review: { verdict: string; note: string } | null;
 }) {
   const m = doc.meta;
   const facts: [string, string][] = [
@@ -54,6 +57,8 @@ export default function DocHeader({
       </div>
 
       {m.heimat_rationale && <p className="rationale">{m.heimat_rationale}</p>}
+
+      <ReviewBox docId={doc.doc_id} initial={review} />
     </header>
   );
 }
