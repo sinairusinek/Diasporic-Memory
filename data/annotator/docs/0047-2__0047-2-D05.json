@@ -1,0 +1,132 @@
+{
+ "doc_id": "0047-2__0047-2-D05",
+ "catalog_doc_id": "0047-2-D05",
+ "case_id": "PWV-17",
+ "kind": "written",
+ "public": true,
+ "meta": {
+  "title": "מכתב ממשה שרת אל לאוני פרנק בוויסבאדן",
+  "date_text": "1962-08-21",
+  "doc_type": "letter",
+  "languages": [
+   "de"
+  ],
+  "from_person": "Moshe Sharett",
+  "to_person": "Leonie Frank (Wiesbaden)",
+  "places": [
+   "Jerusalem",
+   "Wiesbaden"
+  ],
+  "persons": [
+   "Moshe Sharett",
+   "Leonie Frank"
+  ],
+  "heimat_rationale": "Letter sent to Leonie Frank at her Wiesbaden address during her post-war residence in her German home town (the folder's remigration axis).",
+  "notes": "HTR of p.20 partly garbled; envelope p.18 secures the Wiesbaden address.",
+  "folder": "0047-2",
+  "page_range": "18-22",
+  "is_heimat_relevant": "true"
+ },
+ "summary_he": "מכתב על נייר הנהלת הסוכנות היהודית, ולצדו מעטפת אוויר אל \"פראו לאוני פרנק, רח' גוסטב-פרייטג, ויסבאדן\": תודה על מכתבה המפורט והמסור, הרגעה באשר למצבו, ומשלוח שני דו\"חות (על מצב ערביי ישראל ושאלת הפליטים — קריאה לא ודאית).",
+ "summary_de": "Brief auf Papier der Jewish-Agency-Exekutive, mit Luftpostumschlag an \"Frau Leonie Frank, Gustav-Freytag-Str., Wiesbaden\": Dank für ihren ausführlichen, fürsorglichen Brief, Beruhigung über sein Befinden und Übersendung zweier Berichte (über die Lage der israelischen Araber und die Flüchtlingsfrage — Lesung unsicher).",
+ "summary_en": "Letter on Jewish Agency Executive paper, with an airmail envelope addressed to \"Frau Leonie Frank, Gustav-Freytag-Str., Wiesbaden\": thanks for her detailed, caring letter, reassurance about his condition, and two enclosed reports (on the situation of Israel's Arabs and the refugee question — uncertain reading).",
+ "panes": {
+  "source": {
+   "pane": "source",
+   "lang": "de",
+   "dir": "ltr",
+   "text": "BaR AVION\nTrau leonie Tranh\nCustar treytapsti\nhresbaden\nN 2713.3 3373771\n\n13\n33014\nTHE ExECUrVE Or THE IEWIsH ACEN\nserusaiem\n\n24671 71530\nAA\n\n21/8/62\n13017\nLiebe Treundin,\nDanke fir thren aushäte\nlichen und durch Ihre Soyfältigkeit rührendeen\nBrief. 53 steht mit mir gar ncht so sekhimm\nand et ai Eo er eib vogeaells helten bn\ngeben auf detar aber vor auf l. 1. 178.\nden at der Malinnm dle at mit ulee\nhenn - die sir auf eenem Schaff vrkleiten\npecden, den Hacse noch Veretig und geml\nwas das Material anbelangt. Es\nschrete ich thne zrei Brrichun, iher\nder Lagt der Teraeleinhen Aceber auf des\nFlüchtlengsfraht. Ich haft zn werte hnn\nAnzwiderschen\nbehlflich sein\nI.\n\n2\n2\n>\nm\n%\nF\n« 6\n5\n‏לית‎\n\n21144x",
+   "sha256": "a372c57c0f4a5e7487c8885893f1f4c63d275af9639f458cbb5a43dce371d7b5",
+   "pages": [
+    {
+     "page_no": 18,
+     "start": 0,
+     "end": 72,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0018.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.727,
+      "shortline": 1.0,
+      "tokens": 11
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 19,
+     "start": 74,
+     "end": 124,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0019.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": false,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.667,
+      "shortline": 0.75,
+      "tokens": 9
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 20,
+     "start": 126,
+     "end": 664,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0020.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.779,
+      "shortline": 0.45,
+      "tokens": 95
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 21,
+     "start": 666,
+     "end": 689,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0021.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.784,
+     "needs_escalation": false,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 1.0,
+      "tokens": 10
+     },
+     "translatable": false
+    },
+    {
+     "page_no": 22,
+     "start": 691,
+     "end": 697,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0022.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 1.0,
+      "tokens": 1
+     },
+     "translatable": false
+    }
+   ]
+  },
+  "translation": null
+ },
+ "prehighlights": [],
+ "built_at": "2026-08-01T11:51:11+00:00"
+}

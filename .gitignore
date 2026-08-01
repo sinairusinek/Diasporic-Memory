@@ -30,3 +30,17 @@ data/diaspora book chapters/
 # ISF grant guidelines (external document, not project output)
 GuidelinesPersonalGrant_Heb_3058_1.pdf
 data/israelkorpus/transcripts/
+
+# Annotator build artifacts.
+# NB: gitignore has no trailing-comment syntax — a comment on the same line as a
+# pattern makes the whole line a literal path and silently ignores nothing.
+# WebP page derivatives; these live in Vercel Blob
+data/annotator/scans/
+# model response cache
+data/annotator/.cache/
+# DGD quotes; the redacted TSV is the committed one
+data/annotator/annotations_unredacted.tsv
+annotator/node_modules/
+annotator/.next/
+annotator/content/
+annotator/.dev-data/

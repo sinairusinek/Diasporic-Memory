@@ -1,0 +1,64 @@
+{
+ "doc_id": "0276-6__0276-D01",
+ "catalog_doc_id": "0276-D01",
+ "case_id": "PWV-16",
+ "kind": "written",
+ "public": true,
+ "meta": {
+  "title": "Handschriftliche Notiz",
+  "date_text": "1987?",
+  "doc_type": "manuscript_note",
+  "languages": [
+   "he",
+   "de"
+  ],
+  "from_person": "Heinrich (Zvi) Schopler?",
+  "to_person": "",
+  "places": [
+   "Köln",
+   "Haifa"
+  ],
+  "persons": [
+   "Zvi Schopler"
+  ],
+  "heimat_rationale": "Emigrant-organization chairman's working file on the Cologne contacts.",
+  "notes": "Escalation page (conf ~0.55). NEEDS human transcription.",
+  "folder": "0276-6",
+  "page_range": "1",
+  "is_heimat_relevant": "yes"
+ },
+ "summary_he": "הערה בכתב יד בראש התיק (שנה \"1987\"); כנראה רישום תיוק של שופלר.",
+ "summary_de": "Handschriftliche Notiz am Aktenanfang (Jahr \"1987\"), vermutlich Ablagenotiz Schoplers.",
+ "summary_en": "Handwritten note at the file's head (year \"1987\"), probably Schopler's own filing annotation.",
+ "panes": {
+  "source": {
+   "pane": "source",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "1987\n\n₪ /\nfbr KBIIND ‏אק‎ REN ried,\n\n‎D‏ ז\n‎fed! poked! 4O‏ הצר ‎O'R! 7% Ian re‏\n\n‎\\ r\npaul” ‏?שי‎ eirr2k > rel pi dad\n\n‎ine er\ni /\n\n‎Ger) pwik) /",
+   "sha256": "dcba99c37609a7320540efc290080e295bcfa5e78b18d1708b1fca081e536e08",
+   "pages": [
+    {
+     "page_no": 1,
+     "start": 0,
+     "end": 146,
+     "scan_file": "IL-MTFN-001-G-F-0276-6_0006_0001.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.539,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.265,
+      "shortline": 0.7,
+      "tokens": 34
+     },
+     "translatable": false
+    }
+   ]
+  },
+  "translation": null
+ },
+ "prehighlights": [],
+ "built_at": "2026-08-01T11:51:11+00:00"
+}

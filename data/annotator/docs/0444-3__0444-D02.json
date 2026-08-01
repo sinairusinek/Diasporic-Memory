@@ -1,0 +1,60 @@
+{
+ "doc_id": "0444-3__0444-D02",
+ "catalog_doc_id": "0444-D02",
+ "case_id": "PWV-14",
+ "kind": "written",
+ "public": true,
+ "meta": {
+  "title": "Handschriftliche hebräische Notiz, 1964",
+  "date_text": "1964",
+  "doc_type": "manuscript_note",
+  "languages": [
+   "he"
+  ],
+  "from_person": "Hans Mannheimer?",
+  "to_person": "",
+  "places": [
+   "Worms"
+  ],
+  "persons": [],
+  "heimat_rationale": "Annotates the invitation.",
+  "notes": "Escalation page — needs human/enhanced transcription.",
+  "folder": "0444-3",
+  "page_range": "5",
+  "is_heimat_relevant": "true"
+ },
+ "summary_he": "הערה קצרה בכתב יד עברי (עיפרון דהוי) הנוגעת להזמנת 1964.",
+ "summary_de": "Kurze handschriftliche hebräische Notiz (verblasst) zur Einladung 1964.",
+ "summary_en": "Short handwritten Hebrew note (faded) relating to the 1964 invitation.",
+ "panes": {
+  "source": {
+   "pane": "source",
+   "lang": "he",
+   "dir": "rtl",
+   "text": "4\n\n2 7) )\neon } r \\\nae ONS !!4 ‏בל‎ ~%)) AYO\n\nnn S)x 4% 'Wer))\n\ncess\n\noyvs/) aay % ‏אי‎ ₪9 es, ‏ג‎\n‎| 7 BR ' ‏יקי רעצ‎ rn nn jr Sn\nye? NA Is 0 | ‏ה‎ |, S'S - Dari Gaz ay, ₪5 ‏א‎\n‎WN ‏שת‎ ₪. ns ‏א'‎",
+   "sha256": "cc6af1f21cbdc566388dd660533b528fcaac719f0a58357f1886061263d41f8b",
+   "pages": [
+    {
+     "page_no": 5,
+     "start": 0,
+     "end": 197,
+     "scan_file": "IL-MTFN-001-G-F-0444-3_0001_0005.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.461,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.145,
+      "shortline": 0.7,
+      "tokens": 55
+     },
+     "translatable": false
+    }
+   ]
+  },
+  "translation": null
+ },
+ "prehighlights": [],
+ "built_at": "2026-08-01T11:51:11+00:00"
+}

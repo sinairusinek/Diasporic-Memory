@@ -1,0 +1,184 @@
+{
+ "doc_id": "0185-2__0185-D04",
+ "catalog_doc_id": "0185-D04",
+ "case_id": "PWV-18",
+ "kind": "written",
+ "public": true,
+ "meta": {
+  "title": "גבעת ברנר — התכתבות/יומן זליגמן (גרזון)",
+  "date_text": "1996-10-29",
+  "doc_type": "letter",
+  "languages": [
+   "de",
+   "he"
+  ],
+  "from_person": "Ernst / Walli Seligmann (Gerson)",
+  "to_person": "",
+  "places": [
+   "Givat Brenner (Israel)",
+   "Germany"
+  ],
+  "persons": [
+   "Ernst Seligmann",
+   "Walli Seligmann née Gerson"
+  ],
+  "heimat_rationale": "Kibbutz-era family memory of pre-war German life by the Seligmann-Gerson family (linked to the remigration story, D11).",
+  "notes": "pp.59-60 German handwriting — NEEDS human transcription.",
+  "folder": "0185-2",
+  "page_range": "53-60",
+  "is_heimat_relevant": "true"
+ },
+ "summary_he": "מסמכי גבעת ברנר של משפחת זליגמן-גרזון: עמ' 55 \"גבעת ברנר 29.10.96\"; עמ' 59-60 מכתב/יומן בגרמנית בכתב יד (אזכור \"1939\").",
+ "summary_de": "Givat-Brenner-Unterlagen der Familie Seligmann-Gerson: S.55 \"Givat-Brenner 29.10.96\"; S.59-60 deutscher handschriftlicher Brief/Tagebuch (Erwähnung 1939).",
+ "summary_en": "Givat Brenner Seligmann-Gerson papers: p55 \"Givat-Brenner 29.10.96\"; pp.59-60 German handwritten letter/diary (mentions 1939).",
+ "panes": {
+  "source": {
+   "pane": "source",
+   "lang": "de",
+   "dir": "ltr",
+   "text": "Gerson |\" 4\n[8 ‏ו‎ I~ tn ‏אר'₪‎ 2\n\ntb. 2 4% 3%. 0\n\nGut Winkel a Cis 2\n| Chee | aynsel ‏שיק‎\n‎va 2 ‏ו‎\n\n| Gar Weukel STIER ‚10\n\nCle 11\nGal Heuer dor} | piwen\n\nElke 42\nAusdwik ee ER:\n\n/ y\n\n-\n\n\n\nGivat-Brenner  : .29. 10. 96.\n\nDear Judith 5 Gideon! . :\nSee awid being. mistaken. with names I am “writing ‘to\nYou in English. It concerns. the Re a of Henry Birmbre;\n.60 whom I am sending my regards.\n\nI don't remember any. AngemUndstreet . 4\nWhat. I know for säure, is, that Hugo Gerson, his\nwife: Rosa (born Bittermann) and their. children lived\n= many years in the town! Angermünde. eS\n“Later. I heard, that they were : deportet 8 u\nPoland. After the war my brother -Alfons investigated\n\\ about their: fate, but to no avail.\n\n: Ruth Diergardt and Stephan. got safely and dry to the.\nairport and through all the examinations. And this, while\nwere. had meen rain in -Heve=Mivtach: and in. 5\n\nAmong: “my old Sipe I foundione of Mrs, raced,\nYour grandmother. In 1936, When on vacation with our\nfather in Frankfurt, > Imade. some tripps to the environs.\nAfter Heidelberg I went to Dürkheim, to pay her a visit.\nThe other I made .1938 in Notea - Boneh, Perhaps You\nhave it yet. -\n\nKeep well, änd so all the family!\n\nYours '- 9\n\n\n\nad\n\nו שרי( .2401\n\n- nn 9\n- ‏4-ו‎\n\n7\n\nDior 0.007 Ib in a mhane Loa % lich uf\nMrrrol nen «Mont noes au 9 ap,\nThad ym 0 al fang , hack ace\nER ee ch a |\nNy kerpaed of sur ments 4 aur rat able\n\nUnwer curl 4 rare fo Marik iu 1939 0\n\nAr of a 0 of me Kaffe fake Side,\n\nToday as cue esfiuander ato about 8\nnr 5 au\n* ame pronda. Ga unde wef ee\nHess. hr, Yorkers” ano wadurally 0 0\nOx Bernd Lelores te Me Wertol Mew\nHe Wi oe\n\nMaar Mena arn, anol Ave oll Asp fer\n\npaner. Lowe for Mew, Giclerm and The\n\nof Baal Somer) part in Use gesund of Tr\n0 760/60 of The 19 30%\n| A pare of Te ı bmorclopadia Yudatsa,“",
+   "sha256": "603a05392833954efd0517b780cbddafc4e9d3cfcc86023a8a55122553ac1d4a",
+   "pages": [
+    {
+     "page_no": 53,
+     "start": 0,
+     "end": 188,
+     "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0053.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.498,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.319,
+      "shortline": 1.0,
+      "tokens": 47
+     },
+     "translatable": false
+    },
+    {
+     "page_no": 54,
+     "start": 190,
+     "end": 190,
+     "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0054.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.0,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 0.0,
+      "tokens": 0
+     },
+     "translatable": false
+    },
+    {
+     "page_no": 55,
+     "start": 192,
+     "end": 1216,
+     "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0055.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.798,
+     "needs_escalation": false,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.644,
+      "shortline": 0.087,
+      "tokens": 191
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 56,
+     "start": 1218,
+     "end": 1218,
+     "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0056.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.0,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 0.0,
+      "tokens": 0
+     },
+     "translatable": false
+    },
+    {
+     "page_no": 57,
+     "start": 1220,
+     "end": 1236,
+     "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0057.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.261,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 1.0,
+      "tokens": 4
+     },
+     "translatable": false
+    },
+    {
+     "page_no": 58,
+     "start": 1238,
+     "end": 1255,
+     "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0058.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.592,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 1.0,
+      "tokens": 6
+     },
+     "translatable": false
+    },
+    {
+     "page_no": 59,
+     "start": 1257,
+     "end": 1407,
+     "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0059.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.468,
+     "needs_escalation": true,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.462,
+      "shortline": 0.2,
+      "tokens": 39
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 60,
+     "start": 1409,
+     "end": 1812,
+     "scan_file": "IL-MTFN-001-G-F-0185-2_0001_0060.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.445,
+     "needs_escalation": true,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.511,
+      "shortline": 0.231,
+      "tokens": 90
+     },
+     "translatable": true
+    }
+   ]
+  },
+  "translation": null
+ },
+ "prehighlights": [],
+ "built_at": "2026-08-01T11:51:11+00:00"
+}

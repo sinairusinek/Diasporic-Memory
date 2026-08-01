@@ -1,0 +1,121 @@
+{
+ "doc_id": "0047-2__0047-2-D14",
+ "catalog_doc_id": "0047-2-D14",
+ "case_id": "PWV-17",
+ "kind": "written",
+ "public": true,
+ "meta": {
+  "title": "מכתב ממשה שרת, ירושלים — המבורג, בון, שטוקהולם; \"היכן בכלל ויסבאדן?\"",
+  "date_text": "1959-05-29",
+  "doc_type": "letter",
+  "languages": [
+   "de"
+  ],
+  "from_person": "Moshe Sharett",
+  "to_person": "Leonie Frank (en route/Wiesbaden)",
+  "places": [
+   "Jerusalem",
+   "Hamburg",
+   "Bonn",
+   "Stockholm",
+   "Wiesbaden",
+   "Rome",
+   "Kfar Shmaryahu"
+  ],
+  "persons": [
+   "Moshe Sharett",
+   "Leonie Frank",
+   "Levins"
+  ],
+  "heimat_rationale": "Sharett plans a post-war trip to Germany (Hamburg/Bonn) and orients himself toward Wiesbaden, where Leonie is staying — direct Germany-visit discourse.",
+  "notes": "p.59 envelope fragment (G. Badt?), p.60 blank. \"Semialen\" in HTR = Jerusalem.",
+  "folder": "0047-2",
+  "page_range": "57-60",
+  "is_heimat_relevant": "true"
+ },
+ "summary_he": "מכתב מירושלים 29.5.1959: חושש שמכתבו עם כתובת משפחת לוין ברומא כבר לא השיג אותה בכפר שמריהו; ככל הנראה יטוס באמצע יולי להמבורג ולשבוע גם לבון; בתחילת אוגוסט — שטוקהולם, לקונגרס היהודי העולמי; \"אגב, אין לי מושג היכן ויסבאדן ביחס להמבורג — אצטרך עוד ללמוד את המפה\"; מערכת הבחירות הסתיימה אך הלחץ נמשך; מקווה שלא שכחה את מעט העברית מהאולפן.",
+ "summary_de": "Brief aus Jerusalem, 29.5.1959: er fürchtet, sein Brief mit der Adresse der Lewins in Rom habe sie in Kfar Shmaryahu nicht mehr erreicht; höchstwahrscheinlich fliegt er Mitte Juli nach Hamburg und für eine Woche auch nach Bonn; Anfang August Stockholm zum Jüdischen Weltkongress; \"Übrigens habe ich noch keine Ahnung, wo Wiesbaden gelegen ist in Bezug auf Hamburg – ich werde noch die Karte studieren müssen\"; der Wahlkampf ist vorüber, der Druck lässt nicht nach; hoffentlich hat sie ihr Ulpan-Hebräisch nicht vergessen.",
+ "summary_en": "Letter from Jerusalem, 29 May 1959: he fears his letter with the Levins' Rome address no longer reached her in Kfar Shmaryahu; he will most probably fly mid-July to Hamburg and spend a week there and in Bonn; early August Stockholm for the World Jewish Congress; \"By the way, I still have no idea where Wiesbaden lies in relation to Hamburg – I shall have to study the map\"; the election campaign is over but the pressure continues; he hopes she has not forgotten her Ulpan Hebrew.",
+ "panes": {
+  "source": {
+   "pane": "source",
+   "lang": "de",
+   "dir": "ltr",
+   "text": "Semialen\n29/5(59\nLiebe (.\nIch habe ein iehr schlechtes Gewissen.\nmer\nDer gegenüter aber glaube nur dass es wirhlich\nmenschlich unmöglich war in jenen Tagen frei\nzu bandeln. Ich befürchte dass mein Brez mit\nder adrese der Lewins in Rome dich nicht mehr\nin K. Sh. erzeicht hat und ich weiss nieht\nob in diesem Fall der Bief an Dieh beiter:\nbefördert wurde und was mit eem sonst\ngeschehen ist.\nich werde höchst wahrscheinlich mntte\nJuli nach Haubung flieger um doch und in Bonn\nam woche zu verbleiben. Das nächste entschei¬\nderde Datum ist Anfang August in Stochhilm\nkeit dem jüdischen WelMorgiess. Ob ich daporschen\nin Eumpa bleiben werde es voläufig meht klar.\nEs steht eine Parteikouferng für die für Ende\nJuli bestiment ist, und er ist ganz möglich dass\nich von Haubung (Bonn zurüth nach Haus fliegen\n\n.\nwelde um nalh einer froche wieder zu verreisen.\nIch werde mich bemühen Dich rechtzeitig benach¬\nriglgen wie es ausfallen wird. Übigens habe\nich noch keine Ahnung wo wesbaden gelegen\nist in Bezug auf Hamburg – ich werde noch\ndie karte fudieren müssen.\nDir wahlkampf ist vorüber aber der\nDruch lässt meht nach: Bnei Miit korferng\nund aller mögliche. Das Land ist voll von\nAmeribanichen Suden, darnter ungehener viel\nBekannte, crpar Frende, und man muss sih\nbemühen allen manche Aufwerksamheit zu\nschenben.\nIch hofte dass er Die gut geht, und\ndan zu das Bischen Hebrärsch dasss Der um\nUlpan gelernt hert nicht ganz vergessen.\nOrk\nwurt\nv\n\n3\n\nd\nen\n\nerwerwenndeben im wand ad wa\nain 8\n\n4\n\n11. d. 1 R 1 N f\nn\nbust ap Frostga\n3tr.\n3\nG.Badt.\n16\nGtRNANI\n2\nNt\n\nl.",
+   "sha256": "d4eb7d68f6eeba3fea167b73ccaa7f5bf5cf147f1416ae7cad342dc08a61c0f2",
+   "pages": [
+    {
+     "page_no": 57,
+     "start": 0,
+     "end": 801,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0057.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.833,
+      "shortline": 0.227,
+      "tokens": 138
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 58,
+     "start": 803,
+     "end": 1438,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0058.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.879,
+      "shortline": 0.25,
+      "tokens": 107
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 59,
+     "start": 1440,
+     "end": 1553,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0059.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.207,
+      "shortline": 0.938,
+      "tokens": 29
+     },
+     "translatable": false
+    },
+    {
+     "page_no": 60,
+     "start": 1555,
+     "end": 1557,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0060.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 1.0,
+      "tokens": 1
+     },
+     "translatable": false
+    }
+   ]
+  },
+  "translation": null
+ },
+ "prehighlights": [],
+ "built_at": "2026-08-01T11:51:11+00:00"
+}

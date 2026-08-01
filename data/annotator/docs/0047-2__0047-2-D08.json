@@ -1,0 +1,118 @@
+{
+ "doc_id": "0047-2__0047-2-D08",
+ "catalog_doc_id": "0047-2-D08",
+ "case_id": "PWV-17",
+ "kind": "written",
+ "public": true,
+ "meta": {
+  "title": "מכתב ממשה שרת — תוכנית הנסיעה: לוד-פריז-המבורג, אולי בון",
+  "date_text": "1959-06-24",
+  "doc_type": "letter",
+  "languages": [
+   "de"
+  ],
+  "from_person": "Moshe Sharett",
+  "to_person": "Leonie Frank (Wiesbaden)",
+  "places": [
+   "Lod",
+   "Paris",
+   "Hamburg",
+   "Bonn",
+   "Germany"
+  ],
+  "persons": [
+   "Moshe Sharett",
+   "Leonie Frank"
+  ],
+  "heimat_rationale": "Post-war trip to Germany explicitly planned, including contact with Leonie Frank living in Wiesbaden.",
+  "notes": "p.33 Jewish Agency slip with note \"kurzen Urlaub\"; pp.35-36 blank.",
+  "folder": "0047-2",
+  "page_range": "33-36",
+  "is_heimat_relevant": "true"
+ },
+ "summary_he": "מכתב מ-24.6.1959: שרת מפרט את תוכניתו — טיסה ב-10 ביולי מלוד דרך פריז ונחיתה למחרת בהמבורג (מלון אטלנטיק), שהות עד 17 ביולי לערך; הנסיעה לבון טרם הוכרעה; יבקש לטלפן אליה סמוך להגעתו; קטע ארוך על השאלה אם לראות עוד מגרמניה משובש בפענוח.",
+ "summary_de": "Brief vom 24.6.1959: Sharett teilt seine Pläne mit — Abflug am 10. Juli von Lod über Paris, Ankunft am nächsten Tag in Hamburg (Hotel Atlantic), Aufenthalt bis etwa 17. Juli; ob er nach Bonn fährt, ist offen; er will sie möglichst bald nach der Ankunft anrufen; eine längere Passage über die Frage, mehr von Deutschland zu sehen, ist im HTR entstellt.",
+ "summary_en": "Letter of 24 June 1959: Sharett details his plans — flying 10 July from Lod via Paris, landing next day in Hamburg (Hotel Atlantic), staying until about 17 July; Bonn still undecided; he will try to phone her soon after arrival; a longer passage on whether to see more of Germany is garbled in the HTR.",
+ "panes": {
+  "source": {
+   "pane": "source",
+   "lang": "de",
+   "dir": "ltr",
+   "text": "24671 77530\nAvx\nElat 20\n30172\nCiebe leonie\nVielen Dank für ihren Brief,\nwir sind hier für einen kurzen Orlaub\nMeine Gesundheitigestand lasst noch\nviel zu wünschen übrig: Was die\nreligionsangelegenheit anbetrifft u\nhäre ich, eine Frage beantwortend.\nmeine personliebe Meinung über\nmanchen Überbleibsel zum Ansereh\ngebracht. Ich beebrichtgt keine\nKampagne darüber anzuleiten.\nEinen besonderen Dank her\nIhre Glüchwünsche zu meinem Geburtstag\negentlich eine ziemlich betrüknde\nIhr\nGelegenheit.\nM.\n\n24/6/59\neen\n1.7.\nert.\nLiebe Treundin\nDanke für deinen Brief von 81 An Mai\nIch möchte Dir etwas über meine Plaue mitteilen\nIch fliege am 10ten Juli von Lod nach Paus ab und\nteste am nachsten Tag in Hanburg ein. Wohnplatz est\nattantie Aotel. Ich werde verschen Dich woniglich\ntald nach der Ankunft anrufen. In Hambug werdde\nich wahrsheinlich bi zum 17ten Juli bleiten. Es\nest frpseh ob ich nach Bonn fahren werde – ih\nlisfe nicht. Das veluziert die chaneen merner\nMerale en Brestalen - at rlecls det denn\nAusele dafin haten. Ball noch dem Abschlun\ndes borams keatrehtig eh Dentsdeleut zu ver¬\nlammen. Ich hote keine Wegung eegent velehes\nsist eis an senmen Cant se antratonn s\nhentih aleint en dn den ehet aadt Serwan\nliineter hahen werde in angesehn waeh eun\ntorde 2 atium annleleren cut su prt d\nden Srden Denheland, se neht beleben So\nDemmact geben at denn ide Mrrehen nace\nsteelelen ant er eit deets nat kan. de\nen en at eltes de aene tisetit wn\nhenen enlencht diend en der deh als pe den\nden der aler den mnt db gernendte besete\nkmn. dedafe 11t\n1\n\n1\n7112\n12\n\n20 .\n3\n3Nl 33\ne\n\n",
+   "sha256": "313355947107fc994632614f460bef48e12d86f12c3097bd75a1115ed75485b0",
+   "pages": [
+    {
+     "page_no": 33,
+     "start": 0,
+     "end": 492,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0033.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": false,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.884,
+      "shortline": 0.381,
+      "tokens": 69
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 34,
+     "start": 494,
+     "end": 1543,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0034.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "mixed",
+     "signals": {
+      "wordfrac": 0.762,
+      "shortline": 0.233,
+      "tokens": 193
+     },
+     "translatable": true
+    },
+    {
+     "page_no": 35,
+     "start": 1545,
+     "end": 1571,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0035.jpg",
+     "scan_url": null,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 1.0,
+      "tokens": 9
+     },
+     "translatable": false
+    },
+    {
+     "page_no": 36,
+     "start": 1573,
+     "end": 1573,
+     "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0036.jpg",
+     "scan_url": null,
+     "ocr_engine": "tesseract",
+     "ocr_conf": 0.0,
+     "needs_escalation": true,
+     "grade": "poor",
+     "signals": {
+      "wordfrac": 0.0,
+      "shortline": 0.0,
+      "tokens": 0
+     },
+     "translatable": false
+    }
+   ]
+  },
+  "translation": null
+ },
+ "prehighlights": [],
+ "built_at": "2026-08-01T11:51:11+00:00"
+}
