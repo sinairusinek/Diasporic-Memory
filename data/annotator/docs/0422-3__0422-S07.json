@@ -2061,6 +2061,71 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0422-3__0422-S07-2-000",
+   "pane": "source",
+   "start": 147350,
+   "end": 147423,
+   "quote": "die Stadt spielte mit offenen Karten, als sie ihre Einladungen aussandte.",
+   "source": "claude",
+   "category": "T2.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "Explicitly refers to the city issuing official invitations to the former Jewish residents."
+  },
+  {
+   "id": "cl-0422-3__0422-S07-2-001",
+   "pane": "source",
+   "start": 145775,
+   "end": 145926,
+   "quote": "Im Verlauf unseres Besuches wuchs die Anzahl\nder Bekannten und früheren Nachbarn, die sich den jüdischen Gästen\nvorstellten, zu einer Massenerscheinung",
+   "source": "claude",
+   "category": "T4.7",
+   "match": "",
+   "strict": true,
+   "confidence": 0.98,
+   "rationale": "Describes the face-to-face meetings and interactions with former neighbors and acquaintances."
+  },
+  {
+   "id": "cl-0422-3__0422-S07-2-002",
+   "pane": "source",
+   "start": 148022,
+   "end": 148080,
+   "quote": "Das alte Rathaus war\nausgebombt und wurde wieder\naufgebaut",
+   "source": "claude",
+   "category": "T3.3",
+   "match": "",
+   "strict": true,
+   "confidence": 0.99,
+   "rationale": "Notes the destruction during the war and the subsequent rebuilding of the city hall."
+  },
+  {
+   "id": "cl-0422-3__0422-S07-2-003",
+   "pane": "source",
+   "start": 147181,
+   "end": 147306,
+   "quote": "„Hätte ich das\nvorher gewußt — wäre ich wahrscheinlich unfähig ‚gewesen, die\nEinladung anzunehmen,“ sagte\nEdith Pfeiffer-Lamm",
+   "source": "claude",
+   "category": "T1.5",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Expresses retrospective hesitation and the weight of the decision to accept the invitation."
+  },
+  {
+   "id": "cl-0422-3__0422-S07-2-004",
+   "pane": "source",
+   "start": 147062,
+   "end": 147180,
+   "quote": "Diese Enthüllung, daß in Stadtnähe ein Konzentrationslager existierte, war einschwerer Schlag für\ndie jüdischen Gäste.",
+   "source": "claude",
+   "category": "T7.5",
+   "match": "",
+   "strict": true,
+   "confidence": 0.92,
+   "rationale": "Describes the profound shock and emotional blow experienced by the visitors upon learning about the local concentration camp."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

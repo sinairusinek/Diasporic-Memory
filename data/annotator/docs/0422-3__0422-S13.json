@@ -312,6 +312,19 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0422-3__0422-S13-0-000",
+   "pane": "source",
+   "start": 1095,
+   "end": 1255,
+   "quote": "laden wir zu einem\nVortrag und Gespräch in das katholische Gemeindehaus Berlichingen ein.\nSimon Berlinger spricht über:\n\nJüdisches Leben\nund jüdisches Brauchtum",
+   "source": "claude",
+   "category": "T4.7",
+   "match": "",
+   "strict": true,
+   "confidence": 0.8,
+   "rationale": "Direct evidence of the face-to-face lecture and discussion with the local German community."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

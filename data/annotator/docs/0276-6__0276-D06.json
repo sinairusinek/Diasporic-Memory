@@ -723,6 +723,32 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0276-6__0276-D06-0-000",
+   "pane": "source",
+   "start": 2896,
+   "end": 2969,
+   "quote": "Empfang durch den Oberbürgermeister\nder Stadt Köln, Herrn Norbert Burger.",
+   "source": "claude",
+   "category": "T2.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Scheduled reception by the mayor, a hallmark of municipal invitation programs."
+  },
+  {
+   "id": "cl-0276-6__0276-D06-0-001",
+   "pane": "source",
+   "start": 9238,
+   "end": 9277,
+   "quote": "Allen Gästen eine glückliche Heimkehr !",
+   "source": "claude",
+   "category": "T1.2",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Explicitly marks the end of the bounded visit, wishing the guests a safe return to their current homes."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

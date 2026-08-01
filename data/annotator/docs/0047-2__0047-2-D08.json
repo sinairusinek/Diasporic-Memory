@@ -199,6 +199,33 @@
    "source_sha256": "313355947107fc994632614f460bef48e12d86f12c3097bd75a1115ed75485b0"
   }
  },
- "prehighlights": [],
+ "prehighlights": [
+  {
+   "id": "cl-0047-2__0047-2-D08-0-000",
+   "pane": "source",
+   "start": 816,
+   "end": 860,
+   "quote": "ich wahrsheinlich bi zum 17ten Juli bleiten.",
+   "source": "claude",
+   "category": "T1.2",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Indicates a specific, bounded duration for the planned stay in Hamburg."
+  },
+  {
+   "id": "cl-0047-2__0047-2-D08-0-001",
+   "pane": "source",
+   "start": 875,
+   "end": 904,
+   "quote": "ob ich nach Bonn fahren werde",
+   "source": "claude",
+   "category": "T1.5",
+   "match": "",
+   "strict": true,
+   "confidence": 0.8,
+   "rationale": "Shows hesitation and weighing of options regarding extending the trip to Bonn."
+  }
+ ],
  "built_at": "2026-08-01T11:51:11+00:00"
 }

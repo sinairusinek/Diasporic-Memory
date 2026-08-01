@@ -141,6 +141,19 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0047-2__0047-2-D37-0-000",
+   "pane": "source",
+   "start": 753,
+   "end": 814,
+   "quote": "Ich freue mich, wenn Sie im nächsten Jahre wieder her konmen.",
+   "source": "claude",
+   "category": "T1.2",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "Explicit anticipation of the emigrant's bounded return visit next year."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

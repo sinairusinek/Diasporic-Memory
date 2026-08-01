@@ -204,6 +204,45 @@
    "strict": false,
    "confidence": 0.4,
    "rationale": ""
+  },
+  {
+   "id": "cl-0276-6__0276-D17-0-000",
+   "pane": "source",
+   "start": 3496,
+   "end": 3668,
+   "quote": "daß Sie dieses Jahr 26 ehemalige\nKölner Bürger, die nach ihrer Auswanderung sich in Haifa\nniedergelassen haben, zu einem Besuch ihrer früheren Heimatstadt eingeladen haben.",
+   "source": "claude",
+   "category": "T2.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.98,
+   "rationale": "Explicit reference to the official invitation of former citizens by the city."
+  },
+  {
+   "id": "cl-0276-6__0276-D17-0-001",
+   "pane": "source",
+   "start": 3608,
+   "end": 3650,
+   "quote": "zu einem Besuch ihrer früheren Heimatstadt",
+   "source": "claude",
+   "category": "T3.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.98,
+   "rationale": "Cologne is explicitly referred to as their former 'Heimatstadt'."
+  },
+  {
+   "id": "cl-0276-6__0276-D17-0-002",
+   "pane": "source",
+   "start": 3697,
+   "end": 3848,
+   "quote": "den\nWillen, dort Brücken wieder aufzubauen, wc sie mit der Herrschaftsergreifung des Nationalsozialistischen Regimes in\nDeutschland abgebrochen wurden.",
+   "source": "claude",
+   "category": "T4.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "The metaphor of rebuilding broken bridges expresses the theme of reconciliation."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

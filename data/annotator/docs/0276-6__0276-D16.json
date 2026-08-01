@@ -400,6 +400,71 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0276-6__0276-D16-0-000",
+   "pane": "source",
+   "start": 230,
+   "end": 370,
+   "quote": "ich darf Sie im Namen der Stadt Köln, Ihrer Heimatstadt, heute hier\nim Historischen Hansasaal des Rathauses ganz herzlich willkommen\nheißen.",
+   "source": "claude",
+   "category": "T3.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "The mayor explicitly welcomes the guests to Cologne, calling it their Heimatstadt."
+  },
+  {
+   "id": "cl-0276-6__0276-D16-0-001",
+   "pane": "source",
+   "start": 371,
+   "end": 436,
+   "quote": "Ich freue mich, daß Sie der Einladung der Stadt Köln gefolgt sind",
+   "source": "claude",
+   "category": "T2.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "Explicit reference to the official municipal invitation extended to the former citizens."
+  },
+  {
+   "id": "cl-0276-6__0276-D16-0-002",
+   "pane": "source",
+   "start": 13656,
+   "end": 13716,
+   "quote": "einer Stadt, die für viele von Ihnen\neinmal auch Heimat war.",
+   "source": "claude",
+   "category": "T3.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "The mayor explicitly acknowledges that the city was once home (Heimat) for many of the visitors."
+  },
+  {
+   "id": "cl-0276-6__0276-D16-0-003",
+   "pane": "source",
+   "start": 14190,
+   "end": 14345,
+   "quote": "Viele von Ihnen kommen sicherlich mit gemischten Gefühlen nach Köln.\nWerden alte Wunden wieder aufreißen, oder wird die Freude des Wiedersehens überwiegen?",
+   "source": "claude",
+   "category": "T7.5",
+   "match": "",
+   "strict": true,
+   "confidence": 0.98,
+   "rationale": "Explicit mention of mixed feelings, the potential for old wounds to reopen, and the joy of seeing the city again."
+  },
+  {
+   "id": "cl-0276-6__0276-D16-0-004",
+   "pane": "source",
+   "start": 14589,
+   "end": 14773,
+   "quote": "Dennoch hoffe ich, daß sich die\nalte Vertrautheit mit der Heimatstadt zum Teil wieder herstellen läßt\nund daß sich Ihnen vielleicht sogar wieder ein Stück Heimatgefühl\nvermitteln wird.",
+   "source": "claude",
+   "category": "T3.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.98,
+   "rationale": "The speaker expresses the hope that the visitors will regain a sense of familiarity with their Heimatstadt and experience a feeling of Heimat once more."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

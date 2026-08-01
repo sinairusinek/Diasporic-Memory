@@ -137,6 +137,19 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0276-6__0276-D02-0-000",
+   "pane": "source",
+   "start": 128,
+   "end": 194,
+   "quote": "‚Ehemalige jüdische Bürger zu Gast in ihrer alten Heimatstadt Köln",
+   "source": "claude",
+   "category": "T3.1",
+   "match": "",
+   "strict": true,
+   "confidence": 1.0,
+   "rationale": "explicit naming of Cologne as the old home city"
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

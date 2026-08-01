@@ -96,18 +96,25 @@ def parse_json(text):
 
 
 def locate(text, quote):
-    """Exact, unambiguous match only. Returns (start, end) or None."""
+    """Unambiguous match, tolerant of line-wrapping only. (start, end) or None.
+
+    Every non-space character must still match exactly, OCR errors included —
+    that is what stops an invented or silently-corrected quote from becoming a
+    highlight. Runs of whitespace are the one exception: the model is given
+    text wrapped at the scan's line breaks and re-flows it when quoting, which
+    was discarding otherwise sound marks. Offsets come from the match against
+    the real text, so they stay valid for the app.
+    """
     quote = quote.strip()
     if len(quote) < 8:
         return None
+    pattern = r"\s+".join(re.escape(w) for w in quote.split())
     hits = []
-    i = text.find(quote)
-    while i != -1 and len(hits) < 3:
-        hits.append(i)
-        i = text.find(quote, i + 1)
-    if len(hits) != 1:
-        return None
-    return hits[0], hits[0] + len(quote)
+    for m in re.finditer(pattern, text):
+        hits.append((m.start(), m.end()))
+        if len(hits) > 1:
+            return None
+    return hits[0] if hits else None
 
 
 def run_doc(doc, usage, force):

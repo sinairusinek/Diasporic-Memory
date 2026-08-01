@@ -401,6 +401,19 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0047-2__0047-2-D33-0-000",
+   "pane": "source",
+   "start": 3717,
+   "end": 3777,
+   "quote": "Vielleicht kehren Sie doch mal wieder\nnach Wiesbaden zurück?",
+   "source": "claude",
+   "category": "T1.2",
+   "match": "",
+   "strict": true,
+   "confidence": 0.8,
+   "rationale": "Raises the prospect of Leonie making a return visit to Wiesbaden."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

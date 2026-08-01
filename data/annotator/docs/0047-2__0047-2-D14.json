@@ -202,6 +202,20 @@
    "source_sha256": "d4eb7d68f6eeba3fea167b73ccaa7f5bf5cf147f1416ae7cad342dc08a61c0f2"
   }
  },
- "prehighlights": [],
+ "prehighlights": [
+  {
+   "id": "cl-0047-2__0047-2-D14-0-000",
+   "pane": "source",
+   "start": 391,
+   "end": 498,
+   "quote": "ich werde höchst wahrscheinlich mntte\nJuli nach Haubung flieger um doch und in Bonn\nam woche zu verbleiben.",
+   "source": "claude",
+   "category": "T1.2",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Explicitly outlines plans for a bounded visit to Hamburg and Bonn."
+  }
+ ],
  "built_at": "2026-08-01T11:51:11+00:00"
 }

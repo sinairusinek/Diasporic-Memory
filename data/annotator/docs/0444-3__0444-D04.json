@@ -673,6 +673,71 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0444-3__0444-D04-0-000",
+   "pane": "source",
+   "start": 12875,
+   "end": 13010,
+   "quote": "Da eine Reise nach Worms finanzielle Belastungen mit\nsich bringt, biete ich Ihnen sowie einer Begleitperson je\n600,-- DM Reisespesen an",
+   "source": "claude",
+   "category": "T2.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "The mayor officially offers travel funds to enable the visit."
+  },
+  {
+   "id": "cl-0444-3__0444-D04-0-001",
+   "pane": "source",
+   "start": 10778,
+   "end": 10876,
+   "quote": "Als Oberbürgermeister der Stadt Worms bekenne ich mich zur\nSchuld und Verantwortung der Deutschen.",
+   "source": "claude",
+   "category": "T4.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "The mayor explicitly confesses guilt and responsibility as a gesture of reconciliation."
+  },
+  {
+   "id": "cl-0444-3__0444-D04-0-002",
+   "pane": "source",
+   "start": 19552,
+   "end": 19625,
+   "quote": "Ich bin ziemlich sicher,dass ich im November nicht nach Worms kommen\nkann",
+   "source": "claude",
+   "category": "T1.4",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "The emigrant explicitly states his decision not to travel to Worms for the commemorative event."
+  },
+  {
+   "id": "cl-0444-3__0444-D04-0-003",
+   "pane": "source",
+   "start": 17533,
+   "end": 17619,
+   "quote": "ich glaube,dass ich der erste Jude war,den\n\ndie Wormser nach dem Krieg überhaupt sahen",
+   "source": "claude",
+   "category": "T4.7",
+   "match": "",
+   "strict": true,
+   "confidence": 0.85,
+   "rationale": "The author describes a face-to-face encounter with a group of Germans from his hometown."
+  },
+  {
+   "id": "cl-0444-3__0444-D04-0-004",
+   "pane": "source",
+   "start": 22483,
+   "end": 22520,
+   "quote": "gibt es keine Juden mehr in der Stadt",
+   "source": "claude",
+   "category": "T3.4",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "Explicit statement noting the total absence of the former Jewish community in the city today."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

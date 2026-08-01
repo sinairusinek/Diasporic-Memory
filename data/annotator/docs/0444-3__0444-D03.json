@@ -435,6 +435,45 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0444-3__0444-D03-0-000",
+   "pane": "source",
+   "start": 266,
+   "end": 410,
+   "quote": "Wir möchten hier eine §este der Versöhnung defzeigen, selbst\nauf die Gefahr hin,daß sie von den Betreffenden unter Umständen mißverstanden wird.",
+   "source": "claude",
+   "category": "T4.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "The political party explicitly frames the proposed honorary citizenship as a gesture of reconciliation."
+  },
+  {
+   "id": "cl-0444-3__0444-D03-0-001",
+   "pane": "source",
+   "start": 9436,
+   "end": 9587,
+   "quote": "Eine für mich\nKusserst blamable Sache.Der Antrag der Grünen war ja Auch nur eine Demonstration-und ich wurde ihr Opfer,ohne auch nur gefragt zu Werden.",
+   "source": "claude",
+   "category": "T7.5",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Mannheimer expresses intense embarrassment and feelings of victimization regarding the unsolicited honor."
+  },
+  {
+   "id": "cl-0444-3__0444-D03-0-002",
+   "pane": "source",
+   "start": 9589,
+   "end": 9742,
+   "quote": "In den Tagen von Bitburg habe ich sehr intensiv Alles miterlebt,noch nie\nin den 40 Jahren habe ich Alles so miterlebt.Und ich komme auch nicht drübe\nweg.",
+   "source": "claude",
+   "category": "T7.5",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Mannheimer articulates deep emotional distress and an inability to move past the events surrounding Bitburg."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

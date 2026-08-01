@@ -190,6 +190,58 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0276-6__0276-D09-0-000",
+   "pane": "source",
+   "start": 0,
+   "end": 39,
+   "quote": "Die Stadt KÖLN lud ehemalige Bürger ein",
+   "source": "claude",
+   "category": "T2.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "The headline explicitly states the municipality invited former citizens."
+  },
+  {
+   "id": "cl-0276-6__0276-D09-0-001",
+   "pane": "source",
+   "start": 4430,
+   "end": 4560,
+   "quote": "Die'Stadt'!\nträgt bei diesen Einladungen,\nwie Oberbürgermeister ‘Norbert\nBurger erläuterte, die Reise- und ;\nUnterbringungskosten.",
+   "source": "claude",
+   "category": "T2.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Explicit mention of the city covering travel and accommodation costs for the official invitation program."
+  },
+  {
+   "id": "cl-0276-6__0276-D09-0-002",
+   "pane": "source",
+   "start": 5884,
+   "end": 5960,
+   "quote": "die alte Vertrautheit\n/ mit ‘der Heimatstadt teilweise\nwiederherstellen läßt",
+   "source": "claude",
+   "category": "T3.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "Cologne is explicitly referred to with the Heimat lexeme (Heimatstadt)."
+  },
+  {
+   "id": "cl-0276-6__0276-D09-0-003",
+   "pane": "source",
+   "start": 6358,
+   "end": 6378,
+   "quote": "Zwiespiltige Gefühle",
+   "source": "claude",
+   "category": "T7.5",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "Explicit expression of mixed (ambivalent) emotions upon return."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"

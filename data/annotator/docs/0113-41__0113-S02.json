@@ -597,6 +597,32 @@
    "strict": true,
    "confidence": 1.0,
    "rationale": ""
+  },
+  {
+   "id": "cl-0113-41__0113-S02-0-000",
+   "pane": "source",
+   "start": 951,
+   "end": 1000,
+   "quote": "Unsere Reise mehrzweckig, für mich BILDUNGSREISE,",
+   "source": "claude",
+   "category": "T1.2",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Explicitly names the trip and its bounded, purposeful nature."
+  },
+  {
+   "id": "cl-0113-41__0113-S02-0-001",
+   "pane": "source",
+   "start": 7688,
+   "end": 7888,
+   "quote": "Der Wehrmachtsoffizier Kurt M, 60 Jahre, Fabrikant, Gibt zu , dass er. aus Idealismus Nationalsozia -\nlist war; erklärt, dass er volles Verständnis dafür hat,\nwenn ich nichts mit ihm zu tun haben will",
+   "source": "claude",
+   "category": "T4.7",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "Detailed description of a face-to-face encounter with a former Wehrmacht officer."
   }
  ],
  "built_at": "2026-08-01T11:51:11+00:00"
