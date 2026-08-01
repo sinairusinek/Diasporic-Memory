@@ -215,7 +215,7 @@ export default function Workspace({
       </div>
 
       <div className="panes" data-cols={cols}>
-        {showScans && <ScanStrip docId={doc.doc_id} pages={pages} />}
+        {showScans && <ScanStrip docId={doc.doc_id} pages={pages} col={1} />}
         {view !== 'translation' && (
           <TextPane
             pane={source}
@@ -226,6 +226,7 @@ export default function Workspace({
             showStrict={showStrict}
             showLoose={showLoose}
             focusId={focusId}
+            col={showScans ? 2 : 1}
             onSelect={setSelection}
             onAnnotationClick={setFocusId}
           />
@@ -240,6 +241,7 @@ export default function Workspace({
             showStrict={showStrict}
             showLoose={showLoose}
             focusId={focusId}
+            col={cols}
             onSelect={setSelection}
             onAnnotationClick={setFocusId}
           />

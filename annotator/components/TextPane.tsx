@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, type CSSProperties } from 'react';
 import { assertPaneIntegrity, offsetsToRange, rangeToOffsets } from '@/lib/offsets';
 import { segment, trimRange, type Span } from '@/lib/segments';
 import type { Annotation, Pane, PaneName, Prehighlight } from '@/lib/types';
@@ -23,6 +23,8 @@ interface Props {
   showStrict: boolean;
   showLoose: boolean;
   focusId: number | null;
+  /** 1-based grid column this pane occupies in the shared row grid. */
+  col: number;
   onSelect: (s: Selected | null) => void;
   onAnnotationClick: (id: number) => void;
 }
@@ -36,11 +38,39 @@ export default function TextPane({
   showStrict,
   showLoose,
   focusId,
+  col,
   onSelect,
   onAnnotationClick,
 }: Props) {
   const rootRef = useRef<HTMLDivElement>(null);
   const text = pane.text;
+  // Length, not nullishness: translate_he.py writes BOTH keys and leaves the
+  // inapplicable one as [], so `pane.pages ?? pane.segments` hands back the
+  // empty array for an oral document and its translation never splits.
+  const blocks = (pane.pages?.length ? pane.pages : pane.segments) ?? [];
+
+  /**
+   * One cell per page, tiling the whole pane text.
+   *
+   * Each cell runs to the *next* page's start rather than to its own `end`, so
+   * the separators join_pages() puts between pages are carried along instead of
+   * falling into a gap. Every character of the pane text lands in exactly one
+   * cell — which is what keeps root.textContent equal to pane.text, and so
+   * keeps every offset derived from a selection correct.
+   */
+  const cells = useMemo(() => {
+    if (blocks.length < 2) return [{ start: 0, end: text.length }];
+    const out: { start: number; end: number }[] = [];
+    let cursor = 0;
+    blocks.forEach((b, i) => {
+      const next = i === blocks.length - 1 ? text.length : blocks[i + 1].start;
+      const end = Math.min(text.length, Math.max(cursor, next));
+      out.push({ start: cursor, end });
+      cursor = end;
+    });
+    if (cursor < text.length) out[out.length - 1].end = text.length;
+    return out;
+  }, [blocks, text.length]);
 
   const { segments, spanMeta } = useMemo(() => {
     const spans: Span[] = [];
@@ -56,8 +86,9 @@ export default function TextPane({
       spans.push({ id: key, start: a.start_offset, end: a.end_offset });
       meta.set(key, { kind: 'anno', id: a.id });
     }
-    return { segments: segment(text.length, spans), spanMeta: meta };
-  }, [text, prehighlights, annotations, paneName]);
+    const cuts = cells.map((c) => c.start);
+    return { segments: segment(text.length, spans, cuts), spanMeta: meta };
+  }, [text, prehighlights, annotations, paneName, cells]);
 
   // If this ever fires, the rendered DOM is not character-identical to the pane
   // text and every offset derived from a selection is wrong.
@@ -110,17 +141,60 @@ export default function TextPane({
     });
   }
 
-  const blocks = pane.pages ?? pane.segments ?? [];
+  function renderSegment(seg: (typeof segments)[number]) {
+    const chunk = text.slice(seg.start, seg.end);
+    if (!seg.ids.length) {
+      return <span key={seg.start}>{chunk}</span>;
+    }
+    const metas = seg.ids.map((id) => spanMeta.get(id)!).filter(Boolean);
+    const anno = metas.find((m) => m.kind === 'anno');
+    const phs = metas.filter((m) => m.kind === 'ph').map((m) => m.ph!);
+    const strict = phs.some((p) => p.strict);
+    const loose = phs.some((p) => !p.strict);
+    const cls = [
+      anno ? 'hl-anno' : '',
+      anno && anno.id === focusId ? 'focus' : '',
+      strict ? 'hl-strict' : '',
+      !strict && loose ? 'hl-loose' : '',
+      strict && phs.some((p) => p.category === 'heimat') ? 'cat-heimat' : '',
+    ]
+      .filter(Boolean)
+      .join(' ');
+    const title = phs.length
+      ? phs
+          .map(
+            (p) =>
+              `${p.category}${p.source === 'claude' ? ' (Claude)' : ''}` +
+              (p.rationale ? ` — ${p.rationale}` : '')
+          )
+          .join('\n')
+      : undefined;
+    return (
+      <span
+        key={seg.start}
+        className={cls}
+        title={title}
+        onClick={anno ? () => onAnnotationClick(anno.id!) : undefined}
+      >
+        {chunk}
+      </span>
+    );
+  }
 
   return (
-    <div className="pane">
-      <div className="pane-title">
+    <>
+      <div className="pane-title cell" data-col={col}
+        style={{ '--col': col } as CSSProperties}>
         <span>{title}</span>
         <span style={{ opacity: 0.7 }}>
           {pane.lang.toUpperCase()} · {text.length.toLocaleString()} chars
         </span>
         {pane.model && <span style={{ opacity: 0.6 }}>{pane.model}</span>}
       </div>
+      {/* display:contents — the cells below are the grid items, so a page lines
+          up with the same page in the other columns. The root stays a single
+          element whose textContent is the whole pane text, which is what
+          lib/offsets.ts requires. */}
       <div
         ref={rootRef}
         className={`text-body${showStrict ? ' show-strict' : ''}${
@@ -131,55 +205,32 @@ export default function TextPane({
         data-pane-root={paneName}
         onMouseUp={handleMouseUp}
       >
-        {segments.map((seg) => {
-          const chunk = text.slice(seg.start, seg.end);
-          if (!seg.ids.length) {
-            return <span key={seg.start}>{chunk}</span>;
-          }
-          const metas = seg.ids.map((id) => spanMeta.get(id)!).filter(Boolean);
-          const anno = metas.find((m) => m.kind === 'anno');
-          const phs = metas.filter((m) => m.kind === 'ph').map((m) => m.ph!);
-          const strict = phs.some((p) => p.strict);
-          const loose = phs.some((p) => !p.strict);
-          const cls = [
-            anno ? 'hl-anno' : '',
-            anno && anno.id === focusId ? 'focus' : '',
-            strict ? 'hl-strict' : '',
-            !strict && loose ? 'hl-loose' : '',
-            strict && phs.some((p) => p.category === 'heimat') ? 'cat-heimat' : '',
-          ]
-            .filter(Boolean)
-            .join(' ');
-          const title = phs.length
-            ? phs
-                .map(
-                  (p) =>
-                    `${p.category}${p.source === 'claude' ? ' (Claude)' : ''}` +
-                    (p.rationale ? ` — ${p.rationale}` : '')
-                )
-                .join('\n')
-            : undefined;
-          return (
-            <span
-              key={seg.start}
-              className={cls}
-              title={title}
-              onClick={anno ? () => onAnnotationClick(anno.id!) : undefined}
-            >
-              {chunk}
-            </span>
-          );
-        })}
+        {cells.map((cell, i) => (
+          <div
+            key={cell.start}
+            className="cell pageblock"
+            data-col={col}
+            style={{ '--col': col, '--row': i + 2 } as CSSProperties}
+          >
+            {segments
+              .filter((s) => s.start >= cell.start && s.end <= cell.end)
+              .map(renderSegment)}
+          </div>
+        ))}
       </div>
       {blocks.length > 1 && (
-        <div style={{ marginTop: 12, fontSize: 11.5, color: 'var(--ink-muted)' }}>
-          {pane.pages
+        <div
+          className="cell pane-foot"
+          data-col={col}
+          style={{ '--col': col, '--row': cells.length + 2 } as CSSProperties}
+        >
+          {pane.pages?.length
             ? `${blocks.length} pages · ${pane.pages[0].page_no}–${
                 pane.pages[pane.pages.length - 1].page_no
               }`
             : `${blocks.length} speaker turns`}
         </div>
       )}
-    </div>
+    </>
   );
 }

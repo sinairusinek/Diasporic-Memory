@@ -22,8 +22,23 @@ export interface Segment {
   ids: string[];
 }
 
-export function segment(textLength: number, spans: Span[]): Segment[] {
+/**
+ * `extraCuts` forces additional interval boundaries. The pane renders one
+ * container per page so the columns can align row by row, and a highlight that
+ * straddled a page boundary would otherwise have to live in two containers at
+ * once. Cutting at the boundary splits it into two siblings instead, which
+ * changes nothing about the text: the emitted characters, and their order, are
+ * identical either way.
+ */
+export function segment(
+  textLength: number,
+  spans: Span[],
+  extraCuts: number[] = []
+): Segment[] {
   const cuts = new Set<number>([0, textLength]);
+  for (const c of extraCuts) {
+    if (c > 0 && c < textLength) cuts.add(c);
+  }
   for (const s of spans) {
     if (s.end <= s.start) continue;
     const a = Math.max(0, Math.min(textLength, s.start));
