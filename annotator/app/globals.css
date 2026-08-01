@@ -149,14 +149,32 @@ button.primary:hover:not(:disabled) { background: #6f1d13; }
   margin: 10px 0;
   unicode-bidi: plaintext;
 }
+/* One box per field, wrapping. Reading a letter means checking date, sender
+   and folder repeatedly; as a run-on line they had to be re-found each time. */
 .dochead .facts {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 18px;
-  font-size: 12.5px;
-  color: var(--ink-muted);
+  gap: 8px;
+  font-size: 14.5px;
+  color: var(--ink);
 }
-.dochead .facts b { color: var(--ink-soft); font-weight: normal; }
+.dochead .facts span {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 6px 12px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  max-width: 100%;
+}
+.dochead .facts b {
+  color: var(--ink-muted);
+  font-weight: normal;
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .rationale {
   font-size: 13px;
   color: var(--ink-soft);
@@ -231,13 +249,21 @@ button.primary:hover:not(:disabled) { background: #6f1d13; }
 .toolbar .spacer { flex: 1; }
 
 /* ---------- panes ---------- */
+/* Facsimile, source and translation sit side by side. The scan column is
+   sized in absolute terms because a page image is only useful above a certain
+   width; the text columns share what is left. */
 .panes {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 0;
   align-items: start;
 }
-.panes.single { grid-template-columns: 1fr; }
+.panes[data-cols='2'] { grid-template-columns: 1fr 1fr; }
+.panes[data-cols='3'] { grid-template-columns: 1fr 1fr 1fr; }
+.panes:has(.scans)[data-cols='2'] { grid-template-columns: 210px minmax(0, 1fr); }
+.panes:has(.scans)[data-cols='3'] {
+  grid-template-columns: 210px minmax(0, 1fr) minmax(0, 1fr);
+}
 .pane { min-width: 0; padding: 18px 26px 30px; }
 .pane + .pane { border-inline-start: 1px solid var(--rule); }
 .pane-title {
@@ -384,11 +410,49 @@ button.primary:hover:not(:disabled) { background: #6f1d13; }
 .anno .del { float: inline-end; font-size: 11px; padding: 1px 6px; }
 
 /* ---------- scan strip ---------- */
-.scanstrip { display: flex; gap: 8px; overflow-x: auto; padding: 10px 0 4px; }
-.scanstrip figure { margin: 0; flex: 0 0 auto; width: 96px; }
-.scanstrip img { width: 96px; height: auto; border: 1px solid var(--rule-2); background: #fff; display: block; }
-.scanstrip figcaption { font-size: 10.5px; color: var(--ink-muted); text-align: center; margin-top: 2px; }
-.scanstrip figure.hit img { border-color: var(--accent); border-width: 2px; }
+.pane.scans { padding-inline: 16px; }
+/* The column scrolls with the page rather than internally: the pages of one
+   document are read in order, and a nested scrollbar beside two text panes is
+   one scroll region too many. */
+.scancol { display: flex; flex-direction: column; gap: 12px; }
+.scancol figure { margin: 0; }
+.scancol img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule-2);
+  background: #fff;
+  display: block;
+  cursor: zoom-in;
+}
+.scancol figcaption {
+  font-size: 11px;
+  color: var(--ink-muted);
+  text-align: center;
+  margin-top: 3px;
+}
+.scancol figure.hit img { border-color: var(--accent); border-width: 2px; }
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 16, 10, 0.86);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px;
+  cursor: zoom-out;
+}
+.lightbox img { max-width: 100%; max-height: 100%; background: #fff; cursor: default; }
+.lb-nav {
+  flex: 0 0 auto;
+  font-size: 26px;
+  line-height: 1;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.85);
+}
+.lb-nav:disabled { opacity: 0.25; }
 
 /* ---------- login ---------- */
 .login {
@@ -415,6 +479,16 @@ button.primary:hover:not(:disabled) { background: #6f1d13; }
 @media (max-width: 1100px) {
   .shell { grid-template-columns: 1fr; }
   .sidebar { position: static; max-height: 320px; }
-  .panes { grid-template-columns: 1fr; }
+  /* Three columns need the width; below this they stack, and the facsimile
+     goes back to a horizontal strip so it does not push the text off-screen. */
+  .panes,
+  .panes[data-cols='2'],
+  .panes[data-cols='3'],
+  .panes:has(.scans)[data-cols='2'],
+  .panes:has(.scans)[data-cols='3'] {
+    grid-template-columns: 1fr;
+  }
   .pane + .pane { border-inline-start: 0; border-top: 1px solid var(--rule); }
+  .scancol { flex-direction: row; overflow-x: auto; }
+  .scancol figure { flex: 0 0 auto; width: 120px; }
 }

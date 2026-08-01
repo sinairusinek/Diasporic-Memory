@@ -4,10 +4,13 @@ import { useState } from 'react';
 import type { PageBlock } from '@/lib/types';
 
 /**
- * Page facsimiles, served through /api/scan so the session gate applies.
- * The strip is the only way to check a suspicious OCR reading against the
- * actual page without leaving the tool, which matters most exactly where the
- * transcription is graded `poor`.
+ * Page facsimiles as the leftmost column, beside the source and the
+ * translation rather than under them.
+ *
+ * Checking a suspicious OCR reading against the page is the common move, not
+ * the exceptional one — most of all where the transcription is graded `poor` —
+ * so the image should be in view while reading, not a scroll away. Click to
+ * enlarge.
  */
 export default function ScanStrip({
   docId,
@@ -20,13 +23,20 @@ export default function ScanStrip({
   const withScans = pages.filter((p) => p.scan_url);
   if (!withScans.length) return null;
 
+  const i = open === null ? -1 : withScans.findIndex((p) => p.page_no === open);
+  const step = (d: number) => {
+    const next = withScans[i + d];
+    if (next) setOpen(next.page_no);
+  };
+
   return (
-    <section style={{ padding: '4px 26px 0' }}>
+    <section className="pane scans">
       <div className="pane-title">
-        Facsimile · {withScans.length} pages
-        <span style={{ opacity: 0.7 }}>click to enlarge</span>
+        Facsimile
+        <span style={{ opacity: 0.7 }}>{withScans.length} pages</span>
       </div>
-      <div className="scanstrip">
+
+      <div className="scancol">
         {withScans.map((p) => (
           <figure key={p.page_no} className={p.grade === 'poor' ? 'hit' : undefined}>
             <img
@@ -45,23 +55,40 @@ export default function ScanStrip({
 
       {open !== null && (
         <div
+          className="lightbox"
           onClick={() => setOpen(null)}
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'rgba(20,16,10,0.86)',
-            zIndex: 200,
-            display: 'grid',
-            placeItems: 'center',
-            padding: 20,
-            cursor: 'zoom-out',
-          }}
+          role="dialog"
+          aria-label={`page ${open}`}
         >
+          {/* Paging inside the lightbox: comparing consecutive pages of one
+              letter is the point, and closing to reopen loses the zoom. */}
+          <button
+            type="button"
+            className="lb-nav prev"
+            disabled={i <= 0}
+            onClick={(e) => {
+              e.stopPropagation();
+              step(-1);
+            }}
+          >
+            ‹
+          </button>
           <img
             src={`/api/scan/${encodeURIComponent(docId)}/${open}`}
             alt={`page ${open}`}
-            style={{ maxWidth: '100%', maxHeight: '100%', background: '#fff' }}
+            onClick={(e) => e.stopPropagation()}
           />
+          <button
+            type="button"
+            className="lb-nav next"
+            disabled={i < 0 || i >= withScans.length - 1}
+            onClick={(e) => {
+              e.stopPropagation();
+              step(1);
+            }}
+          >
+            ›
+          </button>
         </div>
       )}
     </section>

@@ -51,7 +51,8 @@ export default function DocHeader({
           .filter(([, v]) => v)
           .map(([k, v]) => (
             <span key={k}>
-              <b>{k}:</b> {v}
+              <b>{k}</b>
+              {v}
             </span>
           ))}
       </div>

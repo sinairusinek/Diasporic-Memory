@@ -120,6 +120,13 @@ export default function Workspace({
   const poor = pages.filter((p) => p.grade === 'poor');
   const mixed = pages.filter((p) => p.grade === 'mixed');
   const showBoth = view === 'both' && translation;
+  // The facsimile is a column like the others, so the grid has to know how
+  // many there are: scans + source + translation, minus whatever is hidden.
+  const showScans = pages.some((p) => p.scan_url);
+  const cols =
+    (showScans ? 1 : 0) +
+    (view !== 'translation' ? 1 : 0) +
+    (translation && view !== 'source' ? 1 : 0);
 
   return (
     <>
@@ -207,7 +214,8 @@ export default function Workspace({
         </button>
       </div>
 
-      <div className={`panes${showBoth ? '' : ' single'}`}>
+      <div className="panes" data-cols={cols}>
+        {showScans && <ScanStrip docId={doc.doc_id} pages={pages} />}
         {view !== 'translation' && (
           <TextPane
             pane={source}
@@ -237,8 +245,6 @@ export default function Workspace({
           />
         )}
       </div>
-
-      {pages.length > 0 && <ScanStrip docId={doc.doc_id} pages={pages} />}
 
       <AnnotationList
         annotations={annotations}

@@ -19,10 +19,28 @@ if (!url) {
 const sql = neon(url);
 const schema = await readFile(resolve(here, '../db/schema.sql'), 'utf8');
 
+// Comments are stripped per line rather than per statement: every `create
+// table` here is preceded by a comment block, so testing whether the whole
+// chunk starts with `--` silently skipped every table in the file.
+let applied = 0;
 for (const stmt of schema
   .split(/;\s*$/m)
-  .map((s) => s.trim())
-  .filter((s) => s && !s.startsWith('--'))) {
+  .map((s) =>
+    s
+      .split('\n')
+      .filter((line) => !line.trim().startsWith('--'))
+      .join('\n')
+      .trim()
+  )
+  .filter(Boolean)) {
   await sql.query(stmt);
+  applied += 1;
 }
-console.log('schema applied');
+
+const tables = await sql`
+  select tablename from pg_tables where schemaname = 'public' order by tablename`;
+console.log(
+  `schema applied — ${applied} statements, tables: ${tables
+    .map((t) => t.tablename)
+    .join(', ')}`
+);
