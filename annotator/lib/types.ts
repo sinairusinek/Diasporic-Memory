@@ -49,6 +49,12 @@ export interface Pane {
   sha256: string;
   pages?: PageBlock[];
   segments?: SegmentBlock[];
+  /**
+   * Page/turn correspondence with the source pane, written by
+   * translate_he.py. Block-level: a page maps to a page, not a phrase to a
+   * phrase.
+   */
+  align?: { src: [number, number]; tgt: [number, number] }[];
   model?: string;
   generated_at?: string;
 }

@@ -37,3 +37,11 @@ create table if not exists doc_review (
   note        text not null default '',
   updated_at  timestamptz not null default now()
 );
+
+-- `create table if not exists` above leaves an existing table's constraints
+-- alone, so a kind added after the first deploy would be rejected by the check
+-- that shipped with it. Restate it explicitly. Drop-then-add, so re-running is
+-- safe on a database that already has annotations.
+alter table annotation drop constraint if exists annotation_kind_check;
+alter table annotation add constraint annotation_kind_check
+  check (kind in ('comment', 'tag', 'keywords', 'relevance'));

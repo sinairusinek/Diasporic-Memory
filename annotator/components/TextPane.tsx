@@ -3,7 +3,8 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { assertPaneIntegrity, offsetsToRange, rangeToOffsets } from '@/lib/offsets';
 import { segment, trimRange, type Span } from '@/lib/segments';
-import type { Annotation, Pane, PaneName, Prehighlight, Region } from '@/lib/types';
+import type { Mark } from '@/lib/relevance';
+import type { Annotation, Pane, PaneName, Prehighlight } from '@/lib/types';
 
 export interface Selected {
   pane: PaneName;
@@ -23,8 +24,8 @@ interface Props {
   showStrict: boolean;
   showLoose: boolean;
   focusId: number | null;
-  /** Source-pane page segmentation; empty for panes that have none. */
-  regions?: Region[];
+  /** Non-overlapping display marks, sorted; see lib/relevance.ts. */
+  marks?: Mark[];
   showPageMatter?: boolean;
   /** 1-based grid column this pane occupies in the shared row grid. */
   col: number;
@@ -41,7 +42,7 @@ export default function TextPane({
   showStrict,
   showLoose,
   focusId,
-  regions,
+  marks,
   showPageMatter = false,
   col,
   onSelect,
@@ -50,9 +51,7 @@ export default function TextPane({
   const rootRef = useRef<HTMLDivElement>(null);
   const [opened, setOpened] = useState<Set<number>>(new Set());
   const text = pane.text;
-  // Regions are offsets into the source text; they mean nothing in the
-  // translation, which is generated per page rather than per region.
-  const rgs = paneName === 'source' ? regions ?? [] : [];
+  const rgs = marks ?? [];
   // Length, not nullishness: translate_he.py writes BOTH keys and leaves the
   // inapplicable one as [], so `pane.pages ?? pane.segments` hands back the
   // empty array for an oral document and its translation never splits.
@@ -123,7 +122,7 @@ export default function TextPane({
    * them. So gaps are filled with `keep` rather than left out.
    */
   function runsFor(cell: { start: number; end: number }) {
-    const blank = { label: 'keep' as const, what: '', confidence: 0, page_no: 0 };
+    const blank = { level: 'keep' as const, what: '' };
     const inCell = rgs
       .filter((r) => r.end > cell.start && r.start < cell.end)
       .map((r) => ({
@@ -291,17 +290,24 @@ export default function TextPane({
             style={{ '--col': col, '--row': i + 2 } as CSSProperties}
           >
             {runsByCell[i].map((run) => {
-              const set = run.label !== 'keep';
+              const set = run.level !== 'keep';
+              // `contextual` is a shading, not a fold: it says read this as
+              // background, which you cannot do if it is rolled up.
+              const foldable = set && run.level !== 'contextual';
               const open = showPageMatter || opened.has(run.start);
               return (
                 <div
                   key={run.start}
-                  className={`run${set ? ` run-${run.label}` : ''}${
-                    set && !open ? ' folded' : ''
-                  }`}
-                  title={set ? `${run.label}: ${run.what} — click to open` : undefined}
+                  className={`run${set ? ` run-${run.level}` : ''}${
+                    foldable && !open ? ' folded' : ''
+                  }${run.projected ? ' projected' : ''}`}
+                  title={
+                    set
+                      ? `${run.what}${foldable && !open ? ' — click to open' : ''}`
+                      : undefined
+                  }
                   onClick={
-                    set && !open
+                    foldable && !open
                       ? () => setOpened((p) => new Set(p).add(run.start))
                       : undefined
                   }

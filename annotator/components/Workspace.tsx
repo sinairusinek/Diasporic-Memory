@@ -1,10 +1,11 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import AnnotationPopover from './AnnotationPopover';
 import AnnotationList from './AnnotationList';
 import ScanStrip from './ScanStrip';
 import TextPane, { type Selected } from './TextPane';
+import { marksForPane } from '@/lib/relevance';
 import type {
   Annotation,
   AnnotationBody,
@@ -128,9 +129,19 @@ export default function Workspace({
   // per region, so there is no honest way to project them onto it — the
   // translation pane stays whole.
   const regions = doc.regions ?? [];
-  const setAside = regions
-    .filter((r) => r.label !== 'keep')
-    .reduce((n, r) => n + (r.end - r.start), 0);
+  // Hand judgements outrank the model's segmentation, and carry across to the
+  // other language through the page alignment. See lib/relevance.ts.
+  const sourceMarks = useMemo(
+    () => marksForPane('source', translation, annotations, regions),
+    [translation, annotations, regions]
+  );
+  const translationMarks = useMemo(
+    () => marksForPane('translation', translation, annotations, regions),
+    [translation, annotations, regions]
+  );
+  const setAside = sourceMarks
+    .filter((m) => m.level === 'drop' || m.level === 'chrome' || m.level === 'irrelevant')
+    .reduce((n, m) => n + (m.end - m.start), 0);
   const cols =
     (showScans ? 1 : 0) +
     (view !== 'translation' ? 1 : 0) +
@@ -244,7 +255,7 @@ export default function Workspace({
             showStrict={showStrict}
             showLoose={showLoose}
             focusId={focusId}
-            regions={regions}
+            marks={sourceMarks}
             showPageMatter={showPageMatter}
             col={showScans ? 2 : 1}
             onSelect={setSelection}
@@ -261,6 +272,8 @@ export default function Workspace({
             showStrict={showStrict}
             showLoose={showLoose}
             focusId={focusId}
+            marks={translationMarks}
+            showPageMatter={showPageMatter}
             col={cols}
             onSelect={setSelection}
             onAnnotationClick={setFocusId}

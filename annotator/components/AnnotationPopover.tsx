@@ -2,13 +2,32 @@
 
 import { useEffect, useRef, useState } from 'react';
 import TagPicker from './TagPicker';
-import type { AnnotationBody, AnnotationKind, TagVocab } from '@/lib/types';
+import type {
+  AnnotationBody,
+  AnnotationKind,
+  Relevance,
+  TagVocab,
+} from '@/lib/types';
 import type { Selected } from './TextPane';
 
 const MODES: { kind: AnnotationKind; label: string }[] = [
   { kind: 'comment', label: 'Comment' },
   { kind: 'tag', label: 'Tag' },
   { kind: 'keywords', label: 'Keywords' },
+  { kind: 'relevance', label: 'Relevance' },
+];
+
+const LEVELS: { value: Relevance; label: string; hint: string }[] = [
+  {
+    value: 'irrelevant',
+    label: 'Irrelevant',
+    hint: 'Not this document. Folds to a single line here and in the other language.',
+  },
+  {
+    value: 'contextual',
+    label: 'Contextual',
+    hint: 'Background rather than evidence. Stays open, set in a lighter grey.',
+  },
 ];
 
 export default function AnnotationPopover({
@@ -26,6 +45,7 @@ export default function AnnotationPopover({
   const [comment, setComment] = useState('');
   const [tag, setTag] = useState<string | null>(null);
   const [keywords, setKeywords] = useState('');
+  const [relevance, setRelevance] = useState<Relevance | null>(null);
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -41,6 +61,7 @@ export default function AnnotationPopover({
   function body(): AnnotationBody | null {
     if (mode === 'comment') return comment.trim() ? { text: comment.trim() } : null;
     if (mode === 'tag') return tag ? { tag } : null;
+    if (mode === 'relevance') return relevance ? { relevance } : null;
     const kws = keywords
       .split(/[,;\n]/)
       .map((k) => k.trim())
@@ -52,7 +73,11 @@ export default function AnnotationPopover({
     const b = body();
     if (!b) {
       setError(
-        mode === 'tag' ? 'Pick a tag first.' : 'Nothing to save yet.'
+        mode === 'tag'
+          ? 'Pick a tag first.'
+          : mode === 'relevance'
+            ? 'Pick irrelevant or contextual.'
+            : 'Nothing to save yet.'
       );
       return;
     }
@@ -103,6 +128,27 @@ export default function AnnotationPopover({
 
       {mode === 'tag' && (
         <TagPicker vocab={vocab} value={tag} onChange={setTag} />
+      )}
+
+      {mode === 'relevance' && (
+        <div className="levels">
+          {LEVELS.map((l) => (
+            <button
+              key={l.value}
+              type="button"
+              className={`level level-${l.value}`}
+              aria-pressed={relevance === l.value}
+              title={l.hint}
+              onClick={() => {
+                setRelevance(l.value);
+                setError('');
+              }}
+            >
+              <b>{l.label}</b>
+              <span>{l.hint}</span>
+            </button>
+          ))}
+        </div>
       )}
 
       {mode === 'keywords' && (
