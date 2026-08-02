@@ -333,9 +333,9 @@
    "page_no": 242,
    "start": 0,
    "end": 1049,
-   "label": "keep",
-   "what": "ecumenical service order",
-   "confidence": 0.95
+   "label": "drop",
+   "what": "Ecumenical service order — hymn numbers and organ cues, and the OCR of the musical notation is noise. Liturgy, not testimony.",
+   "confidence": 1.0
   },
   {
    "page_no": 243,
@@ -356,9 +356,25 @@
   {
    "page_no": 245,
    "start": 2820,
-   "end": 6975,
+   "end": 4997,
    "label": "keep",
    "what": "Philipp Jenninger profile — the Bundestag president whose 1988 Kristallnacht speech forced his resignation; German-Jewish memory, not local colour",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 245,
+   "start": 4997,
+   "end": 6913,
+   "label": "drop",
+   "what": "Ruprecht Eser zu Gast (ZDF journalist at the Sparkasse lecture series), the \"Gegen Traktor — geflüchtet\" police report, and the Ora-et-labora week for young adults — three unrelated articles the OCR wove into the Jenninger column",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 245,
+   "start": 6913,
+   "end": 6975,
+   "label": "keep",
+   "what": "Close of the Jenninger profile, then the headline \"Gedenktafel in Braunsbach — Gedenken in Berlichingen\"",
    "confidence": 1.0
   },
   {
@@ -366,24 +382,32 @@
    "start": 6975,
    "end": 7069,
    "label": "keep",
-   "what": "headlines for the memorial and Berlinger lecture",
-   "confidence": 0.85
+   "what": "Close of the Jenninger profile, then the headline \"Gedenktafel in Braunsbach — Gedenken in Berlichingen\"",
+   "confidence": 1.0
   },
   {
    "page_no": 245,
    "start": 7069,
    "end": 8108,
    "label": "drop",
-   "what": "continuation of Ora-et-labora article and interleaved continuation of Ruprecht Eser article",
-   "confidence": 0.85
+   "what": "Ora-et-labora registration details, then the Gorbachev/perestroika content of the Ruprecht Eser lecture. Two fragments of the Berlichingen article are interleaved here (\"über seine Erleb-\", \"nisse am 9. 1938 und danach\") but both recur intact below.",
+   "confidence": 1.0
   },
   {
    "page_no": 245,
    "start": 8108,
+   "end": 8110,
+   "label": "drop",
+   "what": "Ora-et-labora registration details, then the Gorbachev/perestroika content of the Ruprecht Eser lecture. Two fragments of the Berlichingen article are interleaved here (\"über seine Erleb-\", \"nisse am 9. 1938 und danach\") but both recur intact below.",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 245,
+   "start": 8110,
    "end": 9144,
    "label": "keep",
-   "what": "article about memorial event and Simon Berlinger's lecture",
-   "confidence": 0.95
+   "what": "The Berlichingen commemoration: the 1732 synagogue, 1933 and the deportation, the memorial plaque unveiling, and Simon Berlinger of Haifa, whose uncle Dr Jakob Berlinger was the last rabbi of Braunsbach-Schwäbisch Hall",
+   "confidence": 1.0
   },
   {
    "page_no": 246,

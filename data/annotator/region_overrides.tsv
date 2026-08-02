@@ -1,3 +1,8 @@
 doc_id	page_no	start	end	label	note
-0422-3__0422-S13	245	2820	6975	keep	Philipp Jenninger profile — the Bundestag president whose 1988 Kristallnacht speech forced his resignation; German-Jewish memory, not local colour
+0422-3__0422-S13	242	0	1049	drop	Ecumenical service order — hymn numbers and organ cues, and the OCR of the musical notation is noise. Liturgy, not testimony.
+0422-3__0422-S13	245	2820	4997	keep	Philipp Jenninger profile — the Bundestag president whose 1988 Kristallnacht speech forced his resignation; German-Jewish memory, not local colour
+0422-3__0422-S13	245	4997	6913	drop	"Ruprecht Eser zu Gast" (ZDF journalist at the Sparkasse lecture series), the "Gegen Traktor — geflüchtet" police report, and the Ora-et-labora week for young adults — three unrelated articles the OCR wove into the Jenninger column
+0422-3__0422-S13	245	6913	7069	keep	Close of the Jenninger profile, then the headline "Gedenktafel in Braunsbach — Gedenken in Berlichingen"
+0422-3__0422-S13	245	7069	8110	drop	Ora-et-labora registration details, then the Gorbachev/perestroika content of the Ruprecht Eser lecture. Two fragments of the Berlichingen article are interleaved here ("über seine Erleb-", "nisse am 9. 1938 und danach") but both recur intact below.
+0422-3__0422-S13	245	8110	9144	keep	The Berlichingen commemoration: the 1732 synagogue, 1933 and the deportation, the memorial plaque unveiling, and Simon Berlinger of Haifa, whose uncle Dr Jakob Berlinger was the last rabbi of Braunsbach-Schwäbisch Hall
 0422-3__0422-S13	247	11862	12511	keep	Finanzamt Künzelsau permits storing potatoes in the cellar of the former house of "der Jüdin Mina Sara Kaufmann Witwe" — Aryanised property, and the compulsory "Sara" dates it
