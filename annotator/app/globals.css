@@ -322,17 +322,20 @@ button.primary:hover:not(:disabled) { background: #6f1d13; }
 .run { display: block; }
 .run-drop,
 .run-chrome {
-  opacity: 0.4;
+  opacity: 0.45;
   cursor: pointer;
   border-left: 2px solid var(--rule-2);
-  padding-left: 10px;
-  margin: 6px 0;
+  background: rgba(128, 128, 128, 0.07);
+  padding: 2px 10px;
+  margin: 8px 0;
   transition: opacity 0.12s;
 }
 .run-drop:hover,
-.run-chrome:hover { opacity: 0.72; }
+.run-chrome:hover { opacity: 0.8; }
 .run.folded {
-  max-height: 2.6em;
+  /* Enough to show a line or two of the actual text — the point is that the
+     reader can tell what was set aside without opening it. */
+  max-height: 3.4em;
   overflow: hidden;
   /* Fade the clipped edge so it reads as folded rather than as text that
      happens to stop. */

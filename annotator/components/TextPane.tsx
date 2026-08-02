@@ -81,6 +81,14 @@ export default function TextPane({
     return out;
   }, [blocks, text.length]);
 
+  // Runs are computed before segmentation because their boundaries have to be
+  // cut points: a segment straddling a run edge would belong to neither run
+  // and would vanish from the DOM.
+  const runsByCell = useMemo(
+    () => cells.map((cell) => runsFor(cell)),
+    [cells, rgs, text]
+  );
+
   const { segments, spanMeta } = useMemo(() => {
     const spans: Span[] = [];
     const meta = new Map<string, { kind: 'ph' | 'anno'; ph?: Prehighlight; id?: number }>();
@@ -95,12 +103,14 @@ export default function TextPane({
       spans.push({ id: key, start: a.start_offset, end: a.end_offset });
       meta.set(key, { kind: 'anno', id: a.id });
     }
-    // Cell AND region boundaries are cuts, so every emitted segment lies
-    // wholly inside one region and can be placed without being split again.
+    // Cell AND run boundaries are cuts, so every emitted segment lies wholly
+    // inside one run and can be placed without being split again.
     const cuts = cells.map((c) => c.start);
-    for (const r of rgs) cuts.push(r.start, r.end);
+    for (const runs of runsByCell) {
+      for (const r of runs) cuts.push(r.start, r.end);
+    }
     return { segments: segment(text.length, spans, cuts), spanMeta: meta };
-  }, [text, prehighlights, annotations, paneName, cells, rgs]);
+  }, [text, prehighlights, annotations, paneName, cells, runsByCell]);
 
   /**
    * The runs to render inside one page cell.
@@ -134,7 +144,28 @@ export default function TextPane({
       }
     }
     if (cursor < cell.end) out.push({ ...blank, start: cursor, end: cell.end });
-    return out;
+
+    /* Push each run's leading whitespace back into the run before it.
+       Regions start at the blank line that separates them from the previous
+       one, and white-space: pre-wrap renders that as two real empty lines. A
+       folded run clipped to a couple of lines would then show nothing but
+       those blanks — the block reads as a gap in the page rather than as
+       greyed-out text. Runs left holding only whitespace disappear into their
+       predecessor. Boundaries stay contiguous, so the cell still tiles. */
+    const tidy: typeof out = [];
+    for (const r of out) {
+      let start = r.start;
+      while (start < r.end && /\s/.test(text[start])) start++;
+      if (start >= r.end) {
+        if (tidy.length) tidy[tidy.length - 1].end = r.end;
+        else tidy.push({ ...r });
+        continue;
+      }
+      if (tidy.length) tidy[tidy.length - 1].end = start;
+      else start = r.start;
+      tidy.push({ ...r, start });
+    }
+    return tidy;
   }
 
   // If this ever fires, the rendered DOM is not character-identical to the pane
@@ -259,7 +290,7 @@ export default function TextPane({
             data-col={col}
             style={{ '--col': col, '--row': i + 2 } as CSSProperties}
           >
-            {runsFor(cell).map((run) => {
+            {runsByCell[i].map((run) => {
               const set = run.label !== 'keep';
               const open = showPageMatter || opened.has(run.start);
               return (
