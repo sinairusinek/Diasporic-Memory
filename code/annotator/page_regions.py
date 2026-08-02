@@ -24,6 +24,7 @@ Two shapes of pollution, and only one is separable:
 Input/Output: data/annotator/docs/*.json  (`regions` written in place)
 """
 import argparse
+import csv
 import json
 from pathlib import Path
 
@@ -32,6 +33,7 @@ from prehighlight_claude import locate, parse_json
 
 REPO = Path(__file__).resolve().parents[2]
 DOCS = REPO / "data/annotator/docs"
+OVERRIDES = REPO / "data/annotator/region_overrides.tsv"
 
 # Types where a scan holds more than the document. A letter or a manuscript
 # note is photographed on its own and has nothing to separate.
@@ -178,6 +180,58 @@ def regions_for_page(doc, page, usage, force):
             for r in tiled]
 
 
+def load_overrides():
+    """Human corrections to the model's labels, keyed by doc_id.
+
+    These exist because the pass gets consequential calls wrong with high
+    confidence — it labelled 14,503 characters of the Salitter deportation
+    report "book reviews and advertisements" at 0.98. A correction recorded
+    here survives re-running the pass; one typed into a bundle would not.
+    """
+    if not OVERRIDES.exists():
+        return {}
+    out = {}
+    with OVERRIDES.open(encoding="utf-8", newline="") as fh:
+        for row in csv.DictReader(fh, delimiter="\t"):
+            if not row.get("doc_id") or row["doc_id"].startswith("#"):
+                continue
+            out.setdefault(row["doc_id"], []).append({
+                "page_no": int(row["page_no"]),
+                "start": int(row["start"]),
+                "end": int(row["end"]),
+                "label": row["label"].strip(),
+                "note": (row.get("note") or "").strip(),
+            })
+    return out
+
+
+def apply_overrides(regions, overrides):
+    """Re-label the spans a human corrected, splitting regions as needed.
+
+    The result still tiles the page: a region overlapping an override is cut
+    into the part before, the corrected part, and the part after, and no
+    character belongs to two regions or to none.
+    """
+    for o in overrides:
+        out = []
+        for r in regions:
+            if r["end"] <= o["start"] or r["start"] >= o["end"]:
+                out.append(r)
+                continue
+            if r["start"] < o["start"]:
+                out.append({**r, "end": o["start"]})
+            out.append({**r,
+                        "start": max(r["start"], o["start"]),
+                        "end": min(r["end"], o["end"]),
+                        "label": o["label"],
+                        "what": o["note"] or r["what"],
+                        "confidence": 1.0})
+            if r["end"] > o["end"]:
+                out.append({**r, "start": o["end"]})
+        regions = out
+    return regions
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--docs", nargs="*", help="doc_id substrings to limit to")
@@ -191,9 +245,10 @@ def main():
     if args.docs:
         files = [f for f in files if any(d in f.stem for d in args.docs)]
 
+    overrides = load_overrides()
     usage = llm.Usage()
     done = 0
-    tot_keep = tot_drop = tot_chrome = 0
+    tot_keep = tot_drop = tot_chrome = tot_overridden = 0
     nonlocal_fallback = [0]
     for f in files:
         doc = json.loads(f.read_text(encoding="utf-8"))
@@ -209,6 +264,10 @@ def main():
         regions = []
         for p in pages:
             regions.extend(regions_for_page(doc, p, usage, args.force))
+        ovs = overrides.get(doc["doc_id"], [])
+        if ovs:
+            regions = apply_overrides(regions, ovs)
+            tot_overridden += len(ovs)
         doc["regions"] = regions
         f.write_text(json.dumps(doc, ensure_ascii=False, indent=1),
                      encoding="utf-8")
@@ -232,6 +291,7 @@ def main():
     print(f"{done} documents · {tot_keep:,} keep / {tot_drop:,} drop / "
           f"{tot_chrome:,} chrome chars ({100*tot_drop//grand}% set aside)")
     print(f"  {nonlocal_fallback[0]} pages fell back to a single keep region")
+    print(f"  {tot_overridden} regions set by hand from region_overrides.tsv")
     print(f"  {usage.report()}")
 
 

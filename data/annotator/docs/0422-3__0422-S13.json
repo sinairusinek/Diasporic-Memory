@@ -357,9 +357,9 @@
    "page_no": 245,
    "start": 2820,
    "end": 6975,
-   "label": "drop",
-   "what": "article about Philipp Jenninger, police report, start of Ora-et-labora article, and start of Ruprecht Eser article",
-   "confidence": 0.9
+   "label": "keep",
+   "what": "Philipp Jenninger profile — the Bundestag president whose 1988 Kristallnacht speech forced his resignation; German-Jewish memory, not local colour",
+   "confidence": 1.0
   },
   {
    "page_no": 245,
@@ -397,9 +397,9 @@
    "page_no": 247,
    "start": 11862,
    "end": 12511,
-   "label": "drop",
-   "what": "irrelevant letter regarding potato storage in a former Jewish house",
-   "confidence": 0.95
+   "label": "keep",
+   "what": "Finanzamt Künzelsau permits storing potatoes in the cellar of the former house of \"der Jüdin Mina Sara Kaufmann Witwe\" — Aryanised property, and the compulsory \"Sara\" dates it",
+   "confidence": 1.0
   },
   {
    "page_no": 248,
