@@ -315,6 +315,31 @@ button.primary:hover:not(:disabled) { background: #6f1d13; }
 }
 .text-body seg { display: inline; }
 
+/* Page matter: the rest of the sheet the document was scanned on. Folded
+   away, never removed — the characters stay in the DOM (offsets depend on it)
+   and are one click from being read. Visibility only: no ::before/::after
+   content in here, for the reason given above .text-body. */
+.run { display: block; }
+.run-drop,
+.run-chrome {
+  opacity: 0.4;
+  cursor: pointer;
+  border-left: 2px solid var(--rule-2);
+  padding-left: 10px;
+  margin: 6px 0;
+  transition: opacity 0.12s;
+}
+.run-drop:hover,
+.run-chrome:hover { opacity: 0.72; }
+.run.folded {
+  max-height: 2.6em;
+  overflow: hidden;
+  /* Fade the clipped edge so it reads as folded rather than as text that
+     happens to stop. */
+  mask-image: linear-gradient(to bottom, #000 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 40%, transparent 100%);
+}
+
 /* Highlight layers. Off unless the toolbar switches them on. */
 .hl-strict { background: transparent; }
 .show-strict .hl-strict { background: var(--hl); }

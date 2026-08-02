@@ -2128,5 +2128,919 @@
    "rationale": "Describes the profound shock and emotional blow experienced by the visitors upon learning about the local concentration camp."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 108,
+   "start": 0,
+   "end": 67,
+   "label": "chrome",
+   "what": "masthead, date, page number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 108,
+   "start": 67,
+   "end": 755,
+   "label": "keep",
+   "what": "article 1 photo caption and beginning",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 108,
+   "start": 755,
+   "end": 932,
+   "label": "keep",
+   "what": "article 1 headline",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 108,
+   "start": 932,
+   "end": 1724,
+   "label": "keep",
+   "what": "article 1 body",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 108,
+   "start": 1724,
+   "end": 1834,
+   "label": "keep",
+   "what": "article 2 headline",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 108,
+   "start": 1834,
+   "end": 6207,
+   "label": "keep",
+   "what": "interleaved text of both articles",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 108,
+   "start": 6207,
+   "end": 6210,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 108,
+   "start": 6210,
+   "end": 6221,
+   "label": "drop",
+   "what": "noise or cut-off fragment",
+   "confidence": 0.8
+  },
+  {
+   "page_no": 109,
+   "start": 6223,
+   "end": 8693,
+   "label": "keep",
+   "what": "article about anti-fascism and remembrance education",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 109,
+   "start": 8693,
+   "end": 9257,
+   "label": "drop",
+   "what": "au-pair advertisement (part 1)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 109,
+   "start": 9257,
+   "end": 9367,
+   "label": "keep",
+   "what": "article about anti-fascism and remembrance education (interleaved continuation)",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 109,
+   "start": 9367,
+   "end": 9430,
+   "label": "drop",
+   "what": "au-pair advertisement (part 2)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 109,
+   "start": 9430,
+   "end": 9585,
+   "label": "keep",
+   "what": "caption for the anti-fascism article",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 110,
+   "start": 9587,
+   "end": 10979,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 111,
+   "start": 10981,
+   "end": 11017,
+   "label": "chrome",
+   "what": "date and page number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 111,
+   "start": 11017,
+   "end": 12654,
+   "label": "keep",
+   "what": "report on Paul Döing's performance/lecture during the commemorative week",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 112,
+   "start": 12656,
+   "end": 12684,
+   "label": "chrome",
+   "what": "newspaper masthead and issue number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 112,
+   "start": 12684,
+   "end": 14994,
+   "label": "keep",
+   "what": "article about a concert concluding the memorial week for the November pogrom",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 113,
+   "start": 14996,
+   "end": 17272,
+   "label": "keep",
+   "what": "article about an anti-fascist city tour in Schwäbisch Hall",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 114,
+   "start": 17274,
+   "end": 17296,
+   "label": "chrome",
+   "what": "newspaper header",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 114,
+   "start": 17296,
+   "end": 19763,
+   "label": "keep",
+   "what": "article about anti-fascist city tour and Holocaust remembrance",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 115,
+   "start": 19765,
+   "end": 20965,
+   "label": "keep",
+   "what": "liturgy and program for the 50th anniversary Holocaust remembrance service",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 116,
+   "start": 20967,
+   "end": 22352,
+   "label": "keep",
+   "what": "memorial service program with hymns and order of service",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 117,
+   "start": 22354,
+   "end": 23833,
+   "label": "keep",
+   "what": "Sermon on the 50th anniversary of Kristallnacht",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 118,
+   "start": 23835,
+   "end": 23840,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 118,
+   "start": 23840,
+   "end": 25834,
+   "label": "keep",
+   "what": "continuation of a remembrance speech or sermon",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 118,
+   "start": 25834,
+   "end": 25837,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 119,
+   "start": 25839,
+   "end": 25844,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 119,
+   "start": 25844,
+   "end": 27799,
+   "label": "keep",
+   "what": "Holocaust remembrance speech or essay continuation",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 119,
+   "start": 27799,
+   "end": 27804,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 120,
+   "start": 27806,
+   "end": 29774,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 121,
+   "start": 29776,
+   "end": 29781,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 121,
+   "start": 29781,
+   "end": 31349,
+   "label": "keep",
+   "what": "conclusion of a sermon or speech for the 9th of November commemoration",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 122,
+   "start": 31351,
+   "end": 31440,
+   "label": "chrome",
+   "what": "masthead",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 122,
+   "start": 31440,
+   "end": 35352,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 123,
+   "start": 35354,
+   "end": 36844,
+   "label": "keep",
+   "what": "Article on Braunsbach and Berlichingen commemorations involving Simon Berlinger",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 123,
+   "start": 36844,
+   "end": 38082,
+   "label": "keep",
+   "what": "Article on vigils and Simon Berlinger's talk",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 124,
+   "start": 38084,
+   "end": 38147,
+   "label": "chrome",
+   "what": "newspaper section and date line",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 124,
+   "start": 38147,
+   "end": 39802,
+   "label": "keep",
+   "what": "article on regional commemoration of the 1938 pogrom",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 125,
+   "start": 39804,
+   "end": 42287,
+   "label": "keep",
+   "what": "article on the post-war Jewish community in Baden-Württemberg",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 126,
+   "start": 42289,
+   "end": 45518,
+   "label": "keep",
+   "what": "editorial on the 50th anniversary of Kristallnacht and remembrance",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 127,
+   "start": 45520,
+   "end": 45939,
+   "label": "keep",
+   "what": "synagogue restoration report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 127,
+   "start": 45939,
+   "end": 47877,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 128,
+   "start": 47879,
+   "end": 47911,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 128,
+   "start": 47911,
+   "end": 51446,
+   "label": "keep",
+   "what": "article on the rededication of the renovated synagogue in Affaltrach",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 129,
+   "start": 51448,
+   "end": 57529,
+   "label": "keep",
+   "what": "article on an Auschwitz memorial visit",
+   "confidence": 0.85
+  },
+  {
+   "page_no": 130,
+   "start": 57531,
+   "end": 57573,
+   "label": "chrome",
+   "what": "date, page number and section",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 130,
+   "start": 57573,
+   "end": 62455,
+   "label": "keep",
+   "what": "article about the restoration of former synagogues as memorials in Baden-Württemberg",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 131,
+   "start": 62457,
+   "end": 62508,
+   "label": "chrome",
+   "what": "date, page number, and header noise",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 131,
+   "start": 62508,
+   "end": 68020,
+   "label": "keep",
+   "what": "full-page commemorative feature on the 50th anniversary of Reichskristallnacht",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 132,
+   "start": 68022,
+   "end": 69613,
+   "label": "keep",
+   "what": "reports on regional Holocaust remembrance events",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 132,
+   "start": 69613,
+   "end": 69640,
+   "label": "drop",
+   "what": "sports results header",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 133,
+   "start": 69642,
+   "end": 69689,
+   "label": "chrome",
+   "what": "dateline and page header",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 133,
+   "start": 69689,
+   "end": 74898,
+   "label": "keep",
+   "what": "article about reactions to local Jewish history book, emigrant descendant Emmanuel Eydoux, and synagogue Affaltrach",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 134,
+   "start": 74900,
+   "end": 74907,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 134,
+   "start": 74907,
+   "end": 74962,
+   "label": "chrome",
+   "what": "series title, date and issue number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 134,
+   "start": 74962,
+   "end": 75128,
+   "label": "drop",
+   "what": "OCR noise from image features",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 134,
+   "start": 75128,
+   "end": 75467,
+   "label": "keep",
+   "what": "article on the 1938 pogroms",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 135,
+   "start": 75469,
+   "end": 75506,
+   "label": "chrome",
+   "what": "newspaper date line and issue number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 135,
+   "start": 75506,
+   "end": 77784,
+   "label": "keep",
+   "what": "article on the 1938 pogroms in the Kraichgau region",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 136,
+   "start": 77786,
+   "end": 77841,
+   "label": "chrome",
+   "what": "page number, series title, date, issue number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 136,
+   "start": 77841,
+   "end": 78502,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 137,
+   "start": 78504,
+   "end": 78561,
+   "label": "chrome",
+   "what": "page number, dateline, and series masthead",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 137,
+   "start": 78561,
+   "end": 78599,
+   "label": "drop",
+   "what": "OCR noise",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 137,
+   "start": 78599,
+   "end": 79299,
+   "label": "keep",
+   "what": "article on the 1938 Kristallnacht in Berlichingen and post-war trials",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 137,
+   "start": 79299,
+   "end": 79302,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 137,
+   "start": 79302,
+   "end": 79463,
+   "label": "drop",
+   "what": "OCR noise",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 138,
+   "start": 79465,
+   "end": 79515,
+   "label": "chrome",
+   "what": "masthead",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 138,
+   "start": 79515,
+   "end": 79612,
+   "label": "drop",
+   "what": "OCR noise from image",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 138,
+   "start": 79612,
+   "end": 79655,
+   "label": "keep",
+   "what": "caption about November 1938",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 138,
+   "start": 79655,
+   "end": 80026,
+   "label": "drop",
+   "what": "OCR noise from image",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 139,
+   "start": 80028,
+   "end": 80227,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 140,
+   "start": 80229,
+   "end": 80278,
+   "label": "chrome",
+   "what": "masthead and date line",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 140,
+   "start": 80278,
+   "end": 80502,
+   "label": "drop",
+   "what": "OCR noise / unreadable image matter",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 141,
+   "start": 80504,
+   "end": 80613,
+   "label": "chrome",
+   "what": "newspaper masthead and date",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 141,
+   "start": 80613,
+   "end": 82265,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 142,
+   "start": 82267,
+   "end": 82330,
+   "label": "chrome",
+   "what": "dateline and page header",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 142,
+   "start": 82330,
+   "end": 84304,
+   "label": "keep",
+   "what": "article on Philipp Jenninger's controversial Kristallnacht commemoration speech in the Bundestag",
+   "confidence": 0.85
+  },
+  {
+   "page_no": 143,
+   "start": 84306,
+   "end": 87088,
+   "label": "keep",
+   "what": "article about the central Kristallnacht commemoration in Frankfurt",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 144,
+   "start": 87090,
+   "end": 92040,
+   "label": "keep",
+   "what": "speeches from the 50th anniversary memorial of the November pogrom",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 145,
+   "start": 92042,
+   "end": 92109,
+   "label": "chrome",
+   "what": "newspaper masthead, date, and page number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 145,
+   "start": 92109,
+   "end": 101814,
+   "label": "keep",
+   "what": "transcript of Philipp Jenninger's Kristallnacht commemoration speech and his resignation announcement",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 146,
+   "start": 101816,
+   "end": 101969,
+   "label": "chrome",
+   "what": "page header and date",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 146,
+   "start": 101969,
+   "end": 102305,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 146,
+   "start": 102305,
+   "end": 103370,
+   "label": "keep",
+   "what": "Holocaust remembrance article",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 147,
+   "start": 103372,
+   "end": 105229,
+   "label": "keep",
+   "what": "article about Holocaust remembrance event in Schwäbisch Hall",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 147,
+   "start": 105229,
+   "end": 105444,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 148,
+   "start": 105446,
+   "end": 108521,
+   "label": "keep",
+   "what": "continuation of a speech or article about Holocaust remembrance and German responsibility",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 149,
+   "start": 108523,
+   "end": 110467,
+   "label": "keep",
+   "what": "listing of regional 50th-anniversary commemorative events",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 150,
+   "start": 110469,
+   "end": 111254,
+   "label": "keep",
+   "what": "announcement of commemoration event in Künzelsau",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 150,
+   "start": 111254,
+   "end": 111980,
+   "label": "keep",
+   "what": "announcement of commemoration event in Braunsbach",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 151,
+   "start": 111982,
+   "end": 111998,
+   "label": "chrome",
+   "what": "page number and section header",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 151,
+   "start": 111998,
+   "end": 115044,
+   "label": "keep",
+   "what": "article on regional Holocaust remembrance events",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 152,
+   "start": 115046,
+   "end": 115093,
+   "label": "chrome",
+   "what": "dateline and issue number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 152,
+   "start": 115093,
+   "end": 116741,
+   "label": "keep",
+   "what": "article about Kristallnacht commemoration and visiting emigrant speaker",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 153,
+   "start": 116743,
+   "end": 122825,
+   "label": "keep",
+   "what": "article about the 1938 synagogue fire in Künzelsau",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 154,
+   "start": 122827,
+   "end": 122867,
+   "label": "chrome",
+   "what": "clipping noise and newspaper masthead",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 154,
+   "start": 122867,
+   "end": 125263,
+   "label": "keep",
+   "what": "article on three commemorative events in Gaildorf",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 155,
+   "start": 125265,
+   "end": 125794,
+   "label": "drop",
+   "what": "letters to the editor boilerplate",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 155,
+   "start": 125794,
+   "end": 130342,
+   "label": "keep",
+   "what": "reader letter about local resistance and 1938 events, responding to a Kristallnacht series",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 156,
+   "start": 130344,
+   "end": 130711,
+   "label": "keep",
+   "what": "opinion piece on Kristallnacht remembrance",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 156,
+   "start": 130711,
+   "end": 132675,
+   "label": "keep",
+   "what": "report on the Greens' statement regarding Kristallnacht remembrance",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 157,
+   "start": 132677,
+   "end": 132685,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 157,
+   "start": 132685,
+   "end": 134503,
+   "label": "keep",
+   "what": "letter to the editor about 1938 pogrom anniversary",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 158,
+   "start": 134505,
+   "end": 137586,
+   "label": "keep",
+   "what": "vox pop interviews on Kristallnacht anniversary",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 159,
+   "start": 137588,
+   "end": 139792,
+   "label": "keep",
+   "what": "letter to the editor about Reichskristallnacht commemoration",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 159,
+   "start": 139792,
+   "end": 140816,
+   "label": "keep",
+   "what": "second letter to the editor about the Pogrom",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 160,
+   "start": 140818,
+   "end": 140857,
+   "label": "drop",
+   "what": "fragment of preceding article",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 160,
+   "start": 140857,
+   "end": 143355,
+   "label": "keep",
+   "what": "article on Steinbach synagogue memorial plaque and reader's letter on Jenninger's Kristallnacht speech",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 160,
+   "start": 143355,
+   "end": 143878,
+   "label": "drop",
+   "what": "newspaper boilerplate for reader's letters",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 160,
+   "start": 143878,
+   "end": 143881,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 160,
+   "start": 143881,
+   "end": 145120,
+   "label": "keep",
+   "what": "continuation of the plaque article and the reader's letter",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 161,
+   "start": 145122,
+   "end": 151872,
+   "label": "keep",
+   "what": "article on Jewish emigrants returning to Schwäbisch Hall",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 162,
+   "start": 151874,
+   "end": 151971,
+   "label": "keep",
+   "what": "title page of a report on a return visit of former Jewish citizens",
+   "confidence": 1.0
+  }
+ ]
 }

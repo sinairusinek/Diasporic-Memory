@@ -640,5 +640,127 @@
    "rationale": "Mentions the broader context of German cities inviting their former persecuted citizens."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 55,
+   "start": 0,
+   "end": 5150,
+   "label": "keep",
+   "what": "article on the visit of former Jewish citizens to Cologne",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 56,
+   "start": 5152,
+   "end": 5165,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 56,
+   "start": 5165,
+   "end": 5258,
+   "label": "chrome",
+   "what": "page header",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 56,
+   "start": 5258,
+   "end": 14685,
+   "label": "drop",
+   "what": "article about Kristallnacht and German population's attitude",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 57,
+   "start": 14687,
+   "end": 14780,
+   "label": "chrome",
+   "what": "newspaper masthead and date",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 57,
+   "start": 14780,
+   "end": 21693,
+   "label": "keep",
+   "what": "article on German history and the November Pogrom",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 58,
+   "start": 21695,
+   "end": 21734,
+   "label": "chrome",
+   "what": "clipping service stamp or date",
+   "confidence": 0.8
+  },
+  {
+   "page_no": 58,
+   "start": 21734,
+   "end": 23646,
+   "label": "keep",
+   "what": "report on the return visit of former Jewish residents to Cologne",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 59,
+   "start": 23648,
+   "end": 24690,
+   "label": "keep",
+   "what": "article about the emigrants' stay in Cologne",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 59,
+   "start": 24690,
+   "end": 24723,
+   "label": "chrome",
+   "what": "publication date and page number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 59,
+   "start": 24723,
+   "end": 33230,
+   "label": "keep",
+   "what": "continuation of the article and mayor's speech",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 60,
+   "start": 33232,
+   "end": 40497,
+   "label": "keep",
+   "what": "article on the history of Jews in Cologne addressed to return visitors",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 60,
+   "start": 40497,
+   "end": 40500,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 61,
+   "start": 40502,
+   "end": 40532,
+   "label": "chrome",
+   "what": "publication dateline",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 61,
+   "start": 40532,
+   "end": 49007,
+   "label": "keep",
+   "what": "coverage and speeches from the Cologne return visit",
+   "confidence": 0.98
+  }
+ ]
 }

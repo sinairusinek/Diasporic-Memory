@@ -1263,5 +1263,695 @@
    "rationale": "Explicit mention of a reconciling, outstretched hand."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 225,
+   "start": 0,
+   "end": 3669,
+   "label": "drop",
+   "what": "unrelated news, vox populi on healthcare, and church guestbook",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 225,
+   "start": 3669,
+   "end": 5469,
+   "label": "keep",
+   "what": "article about the 80th birthday of Hans Mannheimer",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 225,
+   "start": 5469,
+   "end": 5496,
+   "label": "drop",
+   "what": "OCR noise",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 226,
+   "start": 5498,
+   "end": 6374,
+   "label": "keep",
+   "what": "article about Erich Guggenheim's return visit and donation of a silver goblet",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 227,
+   "start": 6376,
+   "end": 6899,
+   "label": "drop",
+   "what": "sugar beet harvest and processing report",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 227,
+   "start": 6899,
+   "end": 7811,
+   "label": "drop",
+   "what": "article on SPD proposal for youth employment in environmental protection",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 228,
+   "start": 7813,
+   "end": 8309,
+   "label": "drop",
+   "what": "theater and cabaret reviews",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 228,
+   "start": 8309,
+   "end": 13050,
+   "label": "keep",
+   "what": "article about Worms citizens visiting Israel and Hans Mannheimer",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 228,
+   "start": 13050,
+   "end": 13252,
+   "label": "drop",
+   "what": "interleaved theater/jazz review snippet",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 228,
+   "start": 13252,
+   "end": 13726,
+   "label": "keep",
+   "what": "continuation of the article about Israel visit",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 228,
+   "start": 13726,
+   "end": 13828,
+   "label": "drop",
+   "what": "theater program snippet",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 228,
+   "start": 13828,
+   "end": 14810,
+   "label": "keep",
+   "what": "conclusion and captions of the Israel visit article",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 229,
+   "start": 14812,
+   "end": 17391,
+   "label": "drop",
+   "what": "article about bridge maintenance and closure",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 229,
+   "start": 17391,
+   "end": 17731,
+   "label": "drop",
+   "what": "ADAC ball announcement",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 229,
+   "start": 17731,
+   "end": 19637,
+   "label": "drop",
+   "what": "birthday tribute to Willy Neureuther and bridge article continuation",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 229,
+   "start": 19637,
+   "end": 20906,
+   "label": "drop",
+   "what": "police and crime reports",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 229,
+   "start": 20906,
+   "end": 23018,
+   "label": "drop",
+   "what": "article on regional public transit planning",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 229,
+   "start": 23018,
+   "end": 26134,
+   "label": "drop",
+   "what": "report on a reception for MP Marie-Elisabeth Klee",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 229,
+   "start": 26134,
+   "end": 27028,
+   "label": "drop",
+   "what": "local club and society notices",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 229,
+   "start": 27028,
+   "end": 27731,
+   "label": "drop",
+   "what": "short report on special school locations",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 230,
+   "start": 27733,
+   "end": 27807,
+   "label": "chrome",
+   "what": "issue header and publication name",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 230,
+   "start": 27807,
+   "end": 31373,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 231,
+   "start": 31375,
+   "end": 31449,
+   "label": "chrome",
+   "what": "newsletter masthead",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 231,
+   "start": 31449,
+   "end": 34547,
+   "label": "drop",
+   "what": "advertisements and New Year greetings (irrelevant to Worms or Mannheimer)",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 232,
+   "start": 34549,
+   "end": 34606,
+   "label": "chrome",
+   "what": "clipping service stamp",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 232,
+   "start": 34606,
+   "end": 39507,
+   "label": "keep",
+   "what": "article on the opening of the Raschihaus",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 233,
+   "start": 39509,
+   "end": 39865,
+   "label": "keep",
+   "what": "caption about the opening of the Raschihaus and Purim pastries",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 234,
+   "start": 39867,
+   "end": 39925,
+   "label": "chrome",
+   "what": "clipping service or dateline",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 234,
+   "start": 39925,
+   "end": 42961,
+   "label": "keep",
+   "what": "article and caption about the rebuilding of the Raschi-Lehrhaus",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 235,
+   "start": 42963,
+   "end": 47853,
+   "label": "keep",
+   "what": "article about Hans Mannheimer's speech/recollection",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 235,
+   "start": 47853,
+   "end": 47889,
+   "label": "chrome",
+   "what": "handwritten date/clipping note",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 235,
+   "start": 47889,
+   "end": 50303,
+   "label": "keep",
+   "what": "article about Hans Mannheimer's speech/recollection",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 236,
+   "start": 50305,
+   "end": 50362,
+   "label": "chrome",
+   "what": "clipping service note and dateline",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 236,
+   "start": 50362,
+   "end": 56045,
+   "label": "keep",
+   "what": "article on the opening of the Raschihaus and Jewish history in Worms",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 237,
+   "start": 56047,
+   "end": 56057,
+   "label": "chrome",
+   "what": "date",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 237,
+   "start": 56057,
+   "end": 62197,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 237,
+   "start": 62197,
+   "end": 62384,
+   "label": "drop",
+   "what": "exhibition caption",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 237,
+   "start": 62384,
+   "end": 63620,
+   "label": "keep",
+   "what": "continuation of Mannheimer article",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 237,
+   "start": 63620,
+   "end": 63700,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 237,
+   "start": 63700,
+   "end": 64859,
+   "label": "keep",
+   "what": "conclusion of Mannheimer article",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 237,
+   "start": 64859,
+   "end": 65976,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 238,
+   "start": 65978,
+   "end": 70411,
+   "label": "keep",
+   "what": "article about Hans Mannheimer reminiscing on his emigration and the founding of his kibbutz",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 238,
+   "start": 70411,
+   "end": 70934,
+   "label": "drop",
+   "what": "cinema listings",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 239,
+   "start": 70936,
+   "end": 74268,
+   "label": "drop",
+   "what": "local news, accidents, police reports",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 240,
+   "start": 74270,
+   "end": 74295,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 240,
+   "start": 74295,
+   "end": 78622,
+   "label": "keep",
+   "what": "article about the Martin Buber exhibition documentation and Hans Mannheimer's reaction",
+   "confidence": 0.98
+  },
+  {
+   "page_no": 241,
+   "start": 78624,
+   "end": 83798,
+   "label": "drop",
+   "what": "sports page",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 242,
+   "start": 83800,
+   "end": 83830,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 242,
+   "start": 83830,
+   "end": 90792,
+   "label": "keep",
+   "what": "main article about VHS trip to Israel and meeting former Worms Jewish citizens",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 242,
+   "start": 90792,
+   "end": 91531,
+   "label": "drop",
+   "what": "unrelated local news briefs",
+   "confidence": 0.98
+  },
+  {
+   "page_no": 242,
+   "start": 91531,
+   "end": 96135,
+   "label": "keep",
+   "what": "continuation of the main article and photo caption about Israel trip",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 242,
+   "start": 96135,
+   "end": 96982,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 243,
+   "start": 96984,
+   "end": 96998,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 243,
+   "start": 96998,
+   "end": 98478,
+   "label": "drop",
+   "what": "article on church community center",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 98478,
+   "end": 100737,
+   "label": "drop",
+   "what": "article on military training grounds",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 100737,
+   "end": 103299,
+   "label": "drop",
+   "what": "local news briefs and birthdays",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 103299,
+   "end": 104173,
+   "label": "drop",
+   "what": "local politics brief",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 104173,
+   "end": 104589,
+   "label": "drop",
+   "what": "car accident report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 104589,
+   "end": 105079,
+   "label": "drop",
+   "what": "photo caption playground",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 105079,
+   "end": 109969,
+   "label": "drop",
+   "what": "article on historical society church visits",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 109969,
+   "end": 109992,
+   "label": "chrome",
+   "what": "date",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 243,
+   "start": 109992,
+   "end": 110340,
+   "label": "drop",
+   "what": "photo caption kindergarten festival",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 110340,
+   "end": 112225,
+   "label": "drop",
+   "what": "article on kindergarten anniversary",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 112225,
+   "end": 113794,
+   "label": "drop",
+   "what": "article on landfill safety",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 113794,
+   "end": 115705,
+   "label": "drop",
+   "what": "article on local political seminars",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 243,
+   "start": 115705,
+   "end": 117200,
+   "label": "drop",
+   "what": "fire brigade annual report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 117202,
+   "end": 117210,
+   "label": "chrome",
+   "what": "page number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 244,
+   "start": 117210,
+   "end": 120107,
+   "label": "drop",
+   "what": "theater preview",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 120107,
+   "end": 121311,
+   "label": "drop",
+   "what": "local association report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 121311,
+   "end": 124693,
+   "label": "drop",
+   "what": "local council meeting",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 124693,
+   "end": 124723,
+   "label": "chrome",
+   "what": "dateline and noise",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 244,
+   "start": 124723,
+   "end": 130060,
+   "label": "drop",
+   "what": "local history discussion",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 130060,
+   "end": 132825,
+   "label": "keep",
+   "what": "article by former Worms resident Hans Mannheimer about Mount Sinai (part 1)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 132825,
+   "end": 133236,
+   "label": "drop",
+   "what": "cinema advertisements",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 133236,
+   "end": 137642,
+   "label": "keep",
+   "what": "article by former Worms resident Hans Mannheimer about Mount Sinai (part 2)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 137642,
+   "end": 138867,
+   "label": "drop",
+   "what": "youth church service report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 244,
+   "start": 138867,
+   "end": 138881,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 245,
+   "start": 138883,
+   "end": 138895,
+   "label": "chrome",
+   "what": "date line",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 245,
+   "start": 138895,
+   "end": 157217,
+   "label": "drop",
+   "what": "local news, columns, notices, and advertisements",
+   "confidence": 0.98
+  },
+  {
+   "page_no": 246,
+   "start": 157219,
+   "end": 157278,
+   "label": "chrome",
+   "what": "masthead date and junk text",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 246,
+   "start": 157278,
+   "end": 171781,
+   "label": "drop",
+   "what": "book reviews and advertisements, unrelated to Mannheimer or Worms",
+   "confidence": 0.98
+  },
+  {
+   "page_no": 247,
+   "start": 171783,
+   "end": 171802,
+   "label": "chrome",
+   "what": "page header",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 247,
+   "start": 171802,
+   "end": 181044,
+   "label": "drop",
+   "what": "Amos Oz profile and interleaved advertisement",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 247,
+   "start": 181044,
+   "end": 183861,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 247,
+   "start": 183861,
+   "end": 183894,
+   "label": "chrome",
+   "what": "publication dateline",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 247,
+   "start": 183894,
+   "end": 189743,
+   "label": "drop",
+   "what": "Amos Oz profile continuation and Artemis publisher advertisement",
+   "confidence": 0.95
+  }
+ ]
 }

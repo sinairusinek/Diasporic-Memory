@@ -751,5 +751,207 @@
    "rationale": "Explicitly marks the end of the bounded visit, wishing the guests a safe return to their current homes."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 11,
+   "start": 0,
+   "end": 1204,
+   "label": "drop",
+   "what": "program for Woche der Brüderlichkeit 1987 in Marburg",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 12,
+   "start": 1206,
+   "end": 1370,
+   "label": "keep",
+   "what": "title page of the return visit program",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 14,
+   "start": 1374,
+   "end": 2144,
+   "label": "keep",
+   "what": "program schedule for friday",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 15,
+   "start": 2146,
+   "end": 2178,
+   "label": "chrome",
+   "what": "booklet header",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 15,
+   "start": 2178,
+   "end": 2969,
+   "label": "keep",
+   "what": "Saturday program details",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 16,
+   "start": 2971,
+   "end": 3493,
+   "label": "keep",
+   "what": "program schedule for the evening",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 17,
+   "start": 3495,
+   "end": 3922,
+   "label": "keep",
+   "what": "program instructions for carnival day",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 18,
+   "start": 3924,
+   "end": 4560,
+   "label": "keep",
+   "what": "delegation itinerary for carnival parade and dinner",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 18,
+   "start": 4560,
+   "end": 4593,
+   "label": "chrome",
+   "what": "OCR noise and pagination marks",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 19,
+   "start": 4595,
+   "end": 4625,
+   "label": "chrome",
+   "what": "header",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 19,
+   "start": 4625,
+   "end": 5134,
+   "label": "keep",
+   "what": "program schedule for Rosenmontag",
+   "confidence": 0.98
+  },
+  {
+   "page_no": 20,
+   "start": 5136,
+   "end": 5538,
+   "label": "keep",
+   "what": "itinerary details for the delegation visit",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 21,
+   "start": 5540,
+   "end": 6213,
+   "label": "keep",
+   "what": "schedule for Tuesday, February 11",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 21,
+   "start": 6213,
+   "end": 6239,
+   "label": "chrome",
+   "what": "page footer",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 22,
+   "start": 6241,
+   "end": 6802,
+   "label": "keep",
+   "what": "program itinerary and description for carnival event",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 22,
+   "start": 6802,
+   "end": 6848,
+   "label": "drop",
+   "what": "OCR noise from graphic or footer",
+   "confidence": 0.85
+  },
+  {
+   "page_no": 23,
+   "start": 6850,
+   "end": 7559,
+   "label": "keep",
+   "what": "program schedule for Wednesday",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 23,
+   "start": 7559,
+   "end": 7576,
+   "label": "chrome",
+   "what": "marginalia or stamp",
+   "confidence": 0.8
+  },
+  {
+   "page_no": 24,
+   "start": 7578,
+   "end": 7989,
+   "label": "keep",
+   "what": "itinerary schedule details",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 24,
+   "start": 7989,
+   "end": 8030,
+   "label": "chrome",
+   "what": "page footer or decorative border",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 25,
+   "start": 8032,
+   "end": 8049,
+   "label": "drop",
+   "what": "OCR noise or graphic elements",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 25,
+   "start": 8049,
+   "end": 8818,
+   "label": "keep",
+   "what": "itinerary for Thursday, February 13",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 27,
+   "start": 8822,
+   "end": 9277,
+   "label": "keep",
+   "what": "departure schedule for the guests",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 28,
+   "start": 9279,
+   "end": 10619,
+   "label": "keep",
+   "what": "list of participants",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 28,
+   "start": 10619,
+   "end": 10640,
+   "label": "chrome",
+   "what": "archive stamping or page number artifact",
+   "confidence": 0.8
+  }
+ ]
 }

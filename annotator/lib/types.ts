@@ -89,7 +89,23 @@ export interface DocBundle {
   summary_en: string;
   panes: { source: Pane; translation: Pane | null };
   prehighlights: Prehighlight[];
+  /**
+   * Which stretches of a scanned page are the document and which are whatever
+   * else shared the sheet. Offsets are into the SOURCE pane. Absent for
+   * documents that were never segmented — a letter photographed on its own has
+   * nothing to separate.
+   */
+  regions?: Region[];
   built_at: string;
+}
+
+export interface Region {
+  page_no: number;
+  start: number;
+  end: number;
+  label: 'keep' | 'drop' | 'chrome';
+  what: string;
+  confidence: number;
 }
 
 export interface Tag {

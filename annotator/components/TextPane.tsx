@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useMemo, useRef, type CSSProperties } from 'react';
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { assertPaneIntegrity, offsetsToRange, rangeToOffsets } from '@/lib/offsets';
 import { segment, trimRange, type Span } from '@/lib/segments';
-import type { Annotation, Pane, PaneName, Prehighlight } from '@/lib/types';
+import type { Annotation, Pane, PaneName, Prehighlight, Region } from '@/lib/types';
 
 export interface Selected {
   pane: PaneName;
@@ -23,6 +23,9 @@ interface Props {
   showStrict: boolean;
   showLoose: boolean;
   focusId: number | null;
+  /** Source-pane page segmentation; empty for panes that have none. */
+  regions?: Region[];
+  showPageMatter?: boolean;
   /** 1-based grid column this pane occupies in the shared row grid. */
   col: number;
   onSelect: (s: Selected | null) => void;
@@ -38,12 +41,18 @@ export default function TextPane({
   showStrict,
   showLoose,
   focusId,
+  regions,
+  showPageMatter = false,
   col,
   onSelect,
   onAnnotationClick,
 }: Props) {
   const rootRef = useRef<HTMLDivElement>(null);
+  const [opened, setOpened] = useState<Set<number>>(new Set());
   const text = pane.text;
+  // Regions are offsets into the source text; they mean nothing in the
+  // translation, which is generated per page rather than per region.
+  const rgs = paneName === 'source' ? regions ?? [] : [];
   // Length, not nullishness: translate_he.py writes BOTH keys and leaves the
   // inapplicable one as [], so `pane.pages ?? pane.segments` hands back the
   // empty array for an oral document and its translation never splits.
@@ -86,9 +95,47 @@ export default function TextPane({
       spans.push({ id: key, start: a.start_offset, end: a.end_offset });
       meta.set(key, { kind: 'anno', id: a.id });
     }
+    // Cell AND region boundaries are cuts, so every emitted segment lies
+    // wholly inside one region and can be placed without being split again.
     const cuts = cells.map((c) => c.start);
+    for (const r of rgs) cuts.push(r.start, r.end);
     return { segments: segment(text.length, spans, cuts), spanMeta: meta };
-  }, [text, prehighlights, annotations, paneName, cells]);
+  }, [text, prehighlights, annotations, paneName, cells, rgs]);
+
+  /**
+   * The runs to render inside one page cell.
+   *
+   * These MUST tile the cell exactly. Regions only span [page.start,
+   * page.end), while a cell runs on to the next page's start so the separator
+   * between pages is carried — and a blank page has no regions at all. Either
+   * way the leftover characters belong to no region, and rendering only the
+   * regions would drop them from the DOM and invalidate every offset after
+   * them. So gaps are filled with `keep` rather than left out.
+   */
+  function runsFor(cell: { start: number; end: number }) {
+    const blank = { label: 'keep' as const, what: '', confidence: 0, page_no: 0 };
+    const inCell = rgs
+      .filter((r) => r.end > cell.start && r.start < cell.end)
+      .map((r) => ({
+        ...r,
+        start: Math.max(r.start, cell.start),
+        end: Math.min(r.end, cell.end),
+      }))
+      .sort((a, b) => a.start - b.start);
+    if (!inCell.length) return [{ ...blank, start: cell.start, end: cell.end }];
+
+    const out: typeof inCell = [];
+    let cursor = cell.start;
+    for (const r of inCell) {
+      if (r.start > cursor) out.push({ ...blank, start: cursor, end: r.start });
+      if (r.end > cursor) {
+        out.push({ ...r, start: Math.max(r.start, cursor) });
+        cursor = r.end;
+      }
+    }
+    if (cursor < cell.end) out.push({ ...blank, start: cursor, end: cell.end });
+    return out;
+  }
 
   // If this ever fires, the rendered DOM is not character-identical to the pane
   // text and every offset derived from a selection is wrong.
@@ -212,9 +259,28 @@ export default function TextPane({
             data-col={col}
             style={{ '--col': col, '--row': i + 2 } as CSSProperties}
           >
-            {segments
-              .filter((s) => s.start >= cell.start && s.end <= cell.end)
-              .map(renderSegment)}
+            {runsFor(cell).map((run) => {
+              const set = run.label !== 'keep';
+              const open = showPageMatter || opened.has(run.start);
+              return (
+                <div
+                  key={run.start}
+                  className={`run${set ? ` run-${run.label}` : ''}${
+                    set && !open ? ' folded' : ''
+                  }`}
+                  title={set ? `${run.label}: ${run.what} — click to open` : undefined}
+                  onClick={
+                    set && !open
+                      ? () => setOpened((p) => new Set(p).add(run.start))
+                      : undefined
+                  }
+                >
+                  {segments
+                    .filter((s) => s.start >= run.start && s.end <= run.end)
+                    .map(renderSegment)}
+                </div>
+              );
+            })}
           </div>
         ))}
       </div>

@@ -1934,5 +1934,607 @@
    "rationale": "Describes the inability to find ancestors' graves because they were destroyed."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 312,
+   "start": 0,
+   "end": 147,
+   "label": "keep",
+   "what": "brochure welcome page",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 314,
+   "start": 151,
+   "end": 204,
+   "label": "chrome",
+   "what": "letterhead",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 314,
+   "start": 204,
+   "end": 3215,
+   "label": "keep",
+   "what": "annual letter to former citizens/emigrants",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 314,
+   "start": 3215,
+   "end": 3281,
+   "label": "chrome",
+   "what": "footer with contact info",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 315,
+   "start": 3283,
+   "end": 6482,
+   "label": "drop",
+   "what": "tourist guide description of local museums and exhibitions",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 316,
+   "start": 6484,
+   "end": 7843,
+   "label": "keep",
+   "what": "report on Jewish cultural artifacts and 1938 pogrom commemoration",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 316,
+   "start": 7843,
+   "end": 10484,
+   "label": "drop",
+   "what": "local news including election results and social services",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 317,
+   "start": 10486,
+   "end": 10491,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 317,
+   "start": 10491,
+   "end": 14126,
+   "label": "keep",
+   "what": "newsletter/letter to emigrants updating on city affairs",
+   "confidence": 0.8
+  },
+  {
+   "page_no": 318,
+   "start": 14128,
+   "end": 17567,
+   "label": "drop",
+   "what": "local infrastructure news",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 319,
+   "start": 17569,
+   "end": 21047,
+   "label": "drop",
+   "what": "city development and infrastructure updates",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 320,
+   "start": 21049,
+   "end": 21056,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 320,
+   "start": 21056,
+   "end": 24536,
+   "label": "keep",
+   "what": "newsletter addressed to former citizens (Haller in der Ferne)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 321,
+   "start": 24538,
+   "end": 27782,
+   "label": "keep",
+   "what": "letter to former citizens / emigrants with city updates",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 322,
+   "start": 27784,
+   "end": 29886,
+   "label": "keep",
+   "what": "Mayor's letter to former citizens",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 323,
+   "start": 29888,
+   "end": 31501,
+   "label": "keep",
+   "what": "emigrant list",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 324,
+   "start": 31503,
+   "end": 31510,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 324,
+   "start": 31510,
+   "end": 33462,
+   "label": "keep",
+   "what": "list of former residents abroad (Haller im Ausland)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 325,
+   "start": 33464,
+   "end": 35181,
+   "label": "keep",
+   "what": "list of former residents living abroad",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 326,
+   "start": 35183,
+   "end": 36693,
+   "label": "keep",
+   "what": "emigrant list by country",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 327,
+   "start": 36695,
+   "end": 38171,
+   "label": "keep",
+   "what": "emigrant list",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 328,
+   "start": 38173,
+   "end": 40319,
+   "label": "keep",
+   "what": "emigrant list",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 329,
+   "start": 40321,
+   "end": 42235,
+   "label": "keep",
+   "what": "list of former residents living abroad (USA)",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 330,
+   "start": 42237,
+   "end": 44437,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 331,
+   "start": 44439,
+   "end": 46390,
+   "label": "keep",
+   "what": "emigrant list",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 332,
+   "start": 46392,
+   "end": 48672,
+   "label": "keep",
+   "what": "emigrant list",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 333,
+   "start": 48674,
+   "end": 50911,
+   "label": "keep",
+   "what": "emigrant list",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 334,
+   "start": 50913,
+   "end": 50921,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 334,
+   "start": 50921,
+   "end": 51807,
+   "label": "keep",
+   "what": "emigrant list",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 335,
+   "start": 51809,
+   "end": 52623,
+   "label": "keep",
+   "what": "letter to Mr. Berlinger thanking him for his visit",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 336,
+   "start": 52625,
+   "end": 52667,
+   "label": "keep",
+   "what": "brochure section headings",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 337,
+   "start": 52669,
+   "end": 56975,
+   "label": "drop",
+   "what": "tourist map legend",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 337,
+   "start": 56975,
+   "end": 57212,
+   "label": "chrome",
+   "what": "publisher info",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 337,
+   "start": 57212,
+   "end": 57258,
+   "label": "drop",
+   "what": "map text fragments",
+   "confidence": 0.8
+  },
+  {
+   "page_no": 338,
+   "start": 57260,
+   "end": 57275,
+   "label": "chrome",
+   "what": "running header",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 338,
+   "start": 57275,
+   "end": 60094,
+   "label": "keep",
+   "what": "city history section of the welcome booklet",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 339,
+   "start": 60096,
+   "end": 69986,
+   "label": "drop",
+   "what": "history of the city of Schwäbisch Hall",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 340,
+   "start": 69988,
+   "end": 70177,
+   "label": "drop",
+   "what": "map legend",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 341,
+   "start": 70179,
+   "end": 73092,
+   "label": "drop",
+   "what": "city walking tour guide",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 341,
+   "start": 73092,
+   "end": 73179,
+   "label": "keep",
+   "what": "mention of former Jewish prayer room",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 341,
+   "start": 73179,
+   "end": 74331,
+   "label": "drop",
+   "what": "city walking tour guide and map legend",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 342,
+   "start": 74333,
+   "end": 75383,
+   "label": "drop",
+   "what": "city guide, walking tour",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 342,
+   "start": 75383,
+   "end": 75476,
+   "label": "keep",
+   "what": "mention of historical Jewish settlement",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 342,
+   "start": 75476,
+   "end": 78465,
+   "label": "drop",
+   "what": "city guide, walking tour and map text",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 343,
+   "start": 78467,
+   "end": 83866,
+   "label": "drop",
+   "what": "city walking tour description",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 344,
+   "start": 83868,
+   "end": 85895,
+   "label": "keep",
+   "what": "letter to Berlinger from city archive",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 345,
+   "start": 85897,
+   "end": 85916,
+   "label": "chrome",
+   "what": "page header",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 345,
+   "start": 85916,
+   "end": 86485,
+   "label": "keep",
+   "what": "short notice about arranging contacts with former Jewish citizens",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 345,
+   "start": 86485,
+   "end": 87099,
+   "label": "drop",
+   "what": "local news and excursions",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 345,
+   "start": 87099,
+   "end": 87719,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 345,
+   "start": 87719,
+   "end": 89067,
+   "label": "drop",
+   "what": "article on a theater play reception",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 345,
+   "start": 89067,
+   "end": 89425,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 345,
+   "start": 89425,
+   "end": 91338,
+   "label": "keep",
+   "what": "main article on the reception for former Jewish citizens",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 345,
+   "start": 91338,
+   "end": 92294,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 346,
+   "start": 92296,
+   "end": 92395,
+   "label": "drop",
+   "what": "street index and OCR noise",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 347,
+   "start": 92397,
+   "end": 92479,
+   "label": "chrome",
+   "what": "page header and partial column text",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 347,
+   "start": 92479,
+   "end": 97382,
+   "label": "drop",
+   "what": "unrelated local news, weather, and business announcements",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 348,
+   "start": 97384,
+   "end": 97389,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 348,
+   "start": 97389,
+   "end": 97443,
+   "label": "chrome",
+   "what": "page header and date",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 348,
+   "start": 97443,
+   "end": 104329,
+   "label": "drop",
+   "what": "theatre review",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 348,
+   "start": 104329,
+   "end": 104683,
+   "label": "drop",
+   "what": "local announcement",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 349,
+   "start": 104685,
+   "end": 113382,
+   "label": "keep",
+   "what": "article and captions about the reception and visit of former Jewish citizens",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 349,
+   "start": 113382,
+   "end": 113501,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 350,
+   "start": 113503,
+   "end": 113522,
+   "label": "chrome",
+   "what": "section header",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 350,
+   "start": 113522,
+   "end": 118366,
+   "label": "keep",
+   "what": "report on commemoration at Jewish cemetery by former citizens",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 350,
+   "start": 118366,
+   "end": 120232,
+   "label": "drop",
+   "what": "unrelated local news and advertisements",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 351,
+   "start": 120234,
+   "end": 120293,
+   "label": "chrome",
+   "what": "date line and section header",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 351,
+   "start": 120293,
+   "end": 130767,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 352,
+   "start": 130769,
+   "end": 130818,
+   "label": "chrome",
+   "what": "page header",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 352,
+   "start": 130818,
+   "end": 137044,
+   "label": "drop",
+   "what": "article about high school graduation in Michelbach",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 352,
+   "start": 137044,
+   "end": 139437,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 353,
+   "start": 139439,
+   "end": 139470,
+   "label": "chrome",
+   "what": "date and issue number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 353,
+   "start": 139470,
+   "end": 142288,
+   "label": "drop",
+   "what": "various local advertisements",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 354,
+   "start": 142290,
+   "end": 142443,
+   "label": "keep",
+   "what": "city map title and legend",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 355,
+   "start": 142445,
+   "end": 142582,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  }
+ ]
 }

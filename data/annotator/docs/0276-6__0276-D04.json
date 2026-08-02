@@ -581,5 +581,127 @@
    "rationale": "Explicit use of 'Heimatstadt'."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 4,
+   "start": 0,
+   "end": 50,
+   "label": "chrome",
+   "what": "masthead and date",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 4,
+   "start": 50,
+   "end": 681,
+   "label": "drop",
+   "what": "carnival reception report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 4,
+   "start": 681,
+   "end": 1434,
+   "label": "keep",
+   "what": "mention of former Cologne citizens from Israel and USA, interleaved with caption and costume description",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 4,
+   "start": 1434,
+   "end": 2243,
+   "label": "drop",
+   "what": "continuation of carnival reception report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 5,
+   "start": 2245,
+   "end": 2347,
+   "label": "chrome",
+   "what": "clipping service header and publication dateline",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 5,
+   "start": 2347,
+   "end": 4025,
+   "label": "keep",
+   "what": "article about the return visit of former Jewish citizens from Israel",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 6,
+   "start": 4027,
+   "end": 4037,
+   "label": "chrome",
+   "what": "clipping service header",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 6,
+   "start": 4037,
+   "end": 4657,
+   "label": "keep",
+   "what": "article body, quote and caption split by OCR",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 6,
+   "start": 4657,
+   "end": 4689,
+   "label": "chrome",
+   "what": "publication name and date",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 6,
+   "start": 4689,
+   "end": 5333,
+   "label": "keep",
+   "what": "headlines and remainder of article",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 7,
+   "start": 5335,
+   "end": 5372,
+   "label": "chrome",
+   "what": "masthead",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 7,
+   "start": 5372,
+   "end": 11142,
+   "label": "keep",
+   "what": "article on former Cologne residents visiting from Israel",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 8,
+   "start": 11144,
+   "end": 11189,
+   "label": "chrome",
+   "what": "masthead and clipping artifacts",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 8,
+   "start": 11189,
+   "end": 11860,
+   "label": "keep",
+   "what": "short report on the city's invitation of former citizens",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 9,
+   "start": 11862,
+   "end": 15848,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  }
+ ]
 }

@@ -37,6 +37,7 @@ export default function Workspace({
   // not — the PI can always select an unmarked passage herself.
   const [showStrict, setShowStrict] = useState(true);
   const [showLoose, setShowLoose] = useState(false);
+  const [showPageMatter, setShowPageMatter] = useState(false);
   const [notice, setNotice] = useState('');
 
   const load = useCallback(async () => {
@@ -123,6 +124,13 @@ export default function Workspace({
   // The facsimile is a column like the others, so the grid has to know how
   // many there are: scans + source + translation, minus whatever is hidden.
   const showScans = pages.some((p) => p.scan_url);
+  // Regions carry SOURCE offsets. The translation is generated per page, not
+  // per region, so there is no honest way to project them onto it — the
+  // translation pane stays whole.
+  const regions = doc.regions ?? [];
+  const setAside = regions
+    .filter((r) => r.label !== 'keep')
+    .reduce((n, r) => n + (r.end - r.start), 0);
   const cols =
     (showScans ? 1 : 0) +
     (view !== 'translation' ? 1 : 0) +
@@ -184,6 +192,16 @@ export default function Workspace({
           />
           Possible signals ({doc.prehighlights.filter((p) => !p.strict).length})
         </label>
+        {setAside > 0 && (
+          <label title="The whole sheet was scanned; this is the rest of the page — neighbouring articles, mastheads, advertisements. Nothing is deleted, and any block can be opened by clicking it.">
+            <input
+              type="checkbox"
+              checked={showPageMatter}
+              onChange={(e) => setShowPageMatter(e.target.checked)}
+            />
+            Rest of the page ({setAside.toLocaleString()} chars)
+          </label>
+        )}
 
         <span className="spacer" />
 
@@ -226,6 +244,8 @@ export default function Workspace({
             showStrict={showStrict}
             showLoose={showLoose}
             focusId={focusId}
+            regions={regions}
+            showPageMatter={showPageMatter}
             col={showScans ? 2 : 1}
             onSelect={setSelection}
             onAnnotationClick={setFocusId}

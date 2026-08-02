@@ -244,5 +244,23 @@
    "rationale": "Explicit expression of mixed (ambivalent) emotions upon return."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 39,
+   "start": 0,
+   "end": 3872,
+   "label": "keep",
+   "what": "article about Cologne emigrant visit",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 40,
+   "start": 3874,
+   "end": 6448,
+   "label": "keep",
+   "what": "article about return visit of former Cologne citizens from Israel, with personal stamps",
+   "confidence": 0.95
+  }
+ ]
 }

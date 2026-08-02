@@ -152,5 +152,63 @@
    "rationale": "explicit naming of Cologne as the old home city"
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 2,
+   "start": 0,
+   "end": 3,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 2,
+   "start": 3,
+   "end": 95,
+   "label": "chrome",
+   "what": "masthead, date, page number",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 2,
+   "start": 95,
+   "end": 5630,
+   "label": "keep",
+   "what": "article on Cologne return visit (part 1)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 2,
+   "start": 5630,
+   "end": 6297,
+   "label": "drop",
+   "what": "article on a women's conference in Zurich (part 1)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 2,
+   "start": 6297,
+   "end": 8929,
+   "label": "keep",
+   "what": "article on Cologne return visit (part 2)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 2,
+   "start": 8929,
+   "end": 9458,
+   "label": "drop",
+   "what": "article on a women's conference in Zurich (part 2)",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 2,
+   "start": 9458,
+   "end": 10811,
+   "label": "keep",
+   "what": "article on Cologne return visit (part 3)",
+   "confidence": 0.95
+  }
+ ]
 }

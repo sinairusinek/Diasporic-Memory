@@ -159,5 +159,15 @@
    "rationale": "Explicit use of 'Heimatstadt' to name Cologne as the home they wish to see again."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 10,
+   "start": 0,
+   "end": 3880,
+   "label": "keep",
+   "what": "article about a return visit of former citizens to Cologne",
+   "confidence": 0.95
+  }
+ ]
 }

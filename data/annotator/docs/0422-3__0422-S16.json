@@ -814,5 +814,271 @@
    "rationale": "Schedule indicating a face-to-face meeting between the returnee and German students."
   }
  ],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "regions": [
+  {
+   "page_no": 280,
+   "start": 2,
+   "end": 599,
+   "label": "keep",
+   "what": "invitations to Simon Berlinger lecture, photo exhibition and commemoration hour",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 281,
+   "start": 601,
+   "end": 1804,
+   "label": "keep",
+   "what": "program for Kristallnacht 50th anniversary memorial featuring Simon Berlinger",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 282,
+   "start": 1806,
+   "end": 1823,
+   "label": "chrome",
+   "what": "OCR noise / page edge",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 282,
+   "start": 1823,
+   "end": 4549,
+   "label": "keep",
+   "what": "report on Kristallnacht commemoration and Jewish history in Berlichingen",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 4549,
+   "end": 4691,
+   "label": "drop",
+   "what": "cinema announcement",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 4691,
+   "end": 5155,
+   "label": "keep",
+   "what": "continuation of commemoration report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 5155,
+   "end": 5365,
+   "label": "drop",
+   "what": "continuation of cinema announcement",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 5365,
+   "end": 5716,
+   "label": "keep",
+   "what": "continuation of commemoration report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 5716,
+   "end": 6024,
+   "label": "drop",
+   "what": "lecture announcement on Kirlian photography",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 6024,
+   "end": 6682,
+   "label": "keep",
+   "what": "continuation of commemoration report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 6682,
+   "end": 6933,
+   "label": "drop",
+   "what": "continuation of lecture announcement",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 6933,
+   "end": 7316,
+   "label": "keep",
+   "what": "continuation of commemoration report",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 282,
+   "start": 7316,
+   "end": 7352,
+   "label": "drop",
+   "what": "continuation of cinema announcement",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 283,
+   "start": 7354,
+   "end": 9401,
+   "label": "keep",
+   "what": "commemoration event schedule",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 284,
+   "start": 9403,
+   "end": 11684,
+   "label": "keep",
+   "what": "schedule of regional commemorative exhibitions and events",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 285,
+   "start": 11686,
+   "end": 16183,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 286,
+   "start": 16185,
+   "end": 26062,
+   "label": "keep",
+   "what": "Israel/Palestine solidarity open letter",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 286,
+   "start": 26062,
+   "end": 26065,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 287,
+   "start": 26067,
+   "end": 26075,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 287,
+   "start": 26075,
+   "end": 35644,
+   "label": "drop",
+   "what": "political tract on Israel/Palestine conflict",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 288,
+   "start": 35646,
+   "end": 45433,
+   "label": "drop",
+   "what": "political text on Israel-Palestine conflict",
+   "confidence": 1.0
+  },
+  {
+   "page_no": 289,
+   "start": 45435,
+   "end": 45450,
+   "label": "chrome",
+   "what": "header noise",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 289,
+   "start": 45450,
+   "end": 47792,
+   "label": "keep",
+   "what": "speech on the 50th anniversary of Kristallnacht",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 290,
+   "start": 47794,
+   "end": 50215,
+   "label": "keep",
+   "what": "speech or essay on Holocaust remembrance",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 291,
+   "start": 50217,
+   "end": 54794,
+   "label": "keep",
+   "what": "script for Kristallnacht commemoration service",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 291,
+   "start": 54794,
+   "end": 54797,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 292,
+   "start": 54799,
+   "end": 58528,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 293,
+   "start": 58530,
+   "end": 62021,
+   "label": "keep",
+   "what": "Kristallnacht commemoration liturgy",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 294,
+   "start": 62023,
+   "end": 64924,
+   "label": "keep",
+   "what": "unsegmented",
+   "confidence": 0.0
+  },
+  {
+   "page_no": 295,
+   "start": 64926,
+   "end": 65715,
+   "label": "keep",
+   "what": "1928 letter regarding religious instruction by Dr. Berlinger",
+   "confidence": 0.9
+  },
+  {
+   "page_no": 296,
+   "start": 65717,
+   "end": 66765,
+   "label": "keep",
+   "what": "restitution inquiry letter regarding former Jewish student",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 297,
+   "start": 66767,
+   "end": 68589,
+   "label": "keep",
+   "what": "Kristallnacht commemoration liturgy",
+   "confidence": 0.95
+  },
+  {
+   "page_no": 297,
+   "start": 68589,
+   "end": 70496,
+   "label": "keep",
+   "what": "unclaimed",
+   "confidence": 0.0
+  }
+ ]
 }
