@@ -32,6 +32,7 @@ export default async function DocPage({
   }
 
   const caseEntry = index.cases.find((c) => c.case_id === doc.case_id);
+  const archival = index.docs.find((d) => d.doc_id === docId)?.archival;
 
   // Everything below here is a client component, so the bundle is serialized
   // into the RSC payload. Strip the public Blob URLs before it goes.
@@ -44,6 +45,7 @@ export default async function DocPage({
         <DocHeader
           doc={shown}
           caseEntry={caseEntry}
+          archival={archival}
           position={nav.position}
           total={nav.total}
           review={review}

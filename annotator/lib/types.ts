@@ -157,6 +157,24 @@ export interface CaseEntry {
   doc_ids: string[];
 }
 
+/**
+ * Where the paper physically is. Resolved at index-build time from the Tefen
+ * accession register (see code/annotator/archival.py), which is Hebrew
+ * throughout — hence `title_lang`, so the renderer sets direction rather than
+ * guesses it. `collection` and `folder_title` are empty when the register
+ * never carded that folder; show what there is, not a placeholder.
+ */
+export interface Archival {
+  archive: string;
+  archive_short: string;
+  collection: string;
+  collection_id: string;
+  folder_title: string;
+  folder_id: string;
+  folder_ref: string;
+  title_lang: '' | 'he';
+}
+
 export interface DocEntry {
   doc_id: string;
   case_id: string;
@@ -168,6 +186,7 @@ export interface DocEntry {
   languages: string[];
   folder: string;
   page_range: string;
+  archival?: Archival;
   chars: number;
   blocks: number;
   has_translation: boolean;

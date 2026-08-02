@@ -23,6 +23,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+import archival
 import tags as tagvocab
 from textnorm import PAGE_JOINER, sha256_text
 
@@ -117,6 +118,11 @@ def main():
             "languages": doc["meta"]["languages"],
             "folder": doc["meta"]["folder"],
             "page_range": doc["meta"]["page_range"],
+            # Resolved here rather than baked into the bundles: it is pure
+            # catalogue lookup, so a register correction should reach the app
+            # through a free index rebuild, not a re-OCR.
+            "archival": archival.context_for(
+                doc["meta"]["folder"], doc["meta"].get("event_id", "")),
             "chars": len(src["text"]),
             "blocks": len(blocks),
             "has_translation": bool(doc["panes"].get("translation")),

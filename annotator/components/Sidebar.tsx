@@ -13,6 +13,19 @@ export default function Sidebar({
   const byId = new Map(index.docs.map((d) => [d.doc_id, d]));
   const annotated = index.docs.filter((d) => counts[d.doc_id]).length;
 
+  // A case is one person's papers and in practice sits in a single folder, so
+  // the archival line belongs to the case head rather than repeating on every
+  // document. Where a case ever does straddle folders, say so instead of
+  // silently showing the first one as if it covered all of them.
+  const archivalFor = (docIds: string[]) => {
+    const found = docIds
+      .map((id) => byId.get(id)?.archival)
+      .filter((a): a is NonNullable<typeof a> => Boolean(a));
+    if (!found.length) return null;
+    const uniform = found.every((a) => a.folder_id === found[0].folder_id);
+    return uniform ? found[0] : { ...found[0], folder_title: '', folder_id: '' };
+  };
+
   return (
     <nav className="sidebar">
       <h1>
@@ -23,7 +36,10 @@ export default function Sidebar({
         </small>
       </h1>
 
-      {index.cases.map((c) => (
+      {index.cases.map((c) => {
+        const a = archivalFor(c.doc_ids);
+        const heb = a?.title_lang === 'he';
+        return (
         <div className="case-group" key={c.case_id}>
           <div className="case-head">
             <strong>
@@ -32,6 +48,26 @@ export default function Sidebar({
             </strong>
             {c.case_id} {c.year && `· ${c.year}`}{' '}
             {c.kind === 'oral' && <span className="badge oral">oral</span>}
+            {a && (
+              <span className="case-arch">
+                <span className="arch">{a.archive_short}</span>
+                {a.collection && (
+                  <span dir={heb ? 'rtl' : 'ltr'} lang={heb ? 'he' : undefined}>
+                    {a.collection}
+                  </span>
+                )}
+                {a.folder_title && (
+                  <span
+                    className="ftitle"
+                    dir={heb ? 'rtl' : 'ltr'}
+                    lang={heb ? 'he' : undefined}
+                  >
+                    {a.folder_title}
+                  </span>
+                )}
+                {a.folder_id && <span className="ref">{a.folder_id}</span>}
+              </span>
+            )}
           </div>
           {c.doc_ids.map((id) => {
             const d = byId.get(id);
@@ -56,7 +92,8 @@ export default function Sidebar({
             );
           })}
         </div>
-      ))}
+        );
+      })}
     </nav>
   );
 }

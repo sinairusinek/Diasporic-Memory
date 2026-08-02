@@ -1,20 +1,25 @@
 import ReviewBox from '@/components/ReviewBox';
-import type { CaseEntry, DocBundle } from '@/lib/types';
+import type { Archival, CaseEntry, DocBundle } from '@/lib/types';
 
 export default function DocHeader({
   doc,
   caseEntry,
+  archival,
   position,
   total,
   review,
 }: {
   doc: DocBundle;
   caseEntry: CaseEntry | undefined;
+  archival: Archival | undefined;
   position: number;
   total: number;
   review: { verdict: string; note: string } | null;
 }) {
   const m = doc.meta;
+  // The register's names are Hebrew; keep them in their own direction so they
+  // do not reorder against the English archive name beside them.
+  const heb = archival?.title_lang === 'he';
   const facts: [string, string][] = [
     ['Date', m.date_text],
     ['Type', m.doc_type.replace(/_/g, ' ')],
@@ -22,7 +27,12 @@ export default function DocHeader({
     ['From', m.from_person],
     ['To', m.to_person],
     ['Places', m.places.slice(0, 6).join(' · ')],
-    ['Folder', `${m.folder} ${m.page_range}`],
+    [
+      'Folder',
+      archival?.folder_id
+        ? `${archival.folder_id}${m.page_range ? `, ${m.page_range}` : ''}`
+        : `${m.folder} ${m.page_range}`,
+    ],
   ];
 
   return (
@@ -34,6 +44,42 @@ export default function DocHeader({
         {' — '}
         {position} of {total}
       </div>
+
+      {archival && (
+        <div className="archline">
+          <span className="arch">{archival.archive}</span>
+          {archival.collection && (
+            <>
+              <span className="sep">›</span>
+              <span
+                className="coll"
+                dir={heb ? 'rtl' : 'ltr'}
+                lang={heb ? 'he' : undefined}
+              >
+                {archival.collection}
+              </span>
+            </>
+          )}
+          {archival.folder_title && (
+            <>
+              <span className="sep">›</span>
+              <span
+                className="ftitle"
+                dir={heb ? 'rtl' : 'ltr'}
+                lang={heb ? 'he' : undefined}
+              >
+                {archival.folder_title}
+              </span>
+            </>
+          )}
+          {archival.folder_id && (
+            <span className="ref" title={archival.folder_ref}>
+              {archival.folder_id}
+            </span>
+          )}
+        </div>
+      )}
+
       <h2>{m.title}</h2>
 
       {doc.summary_he ? (
