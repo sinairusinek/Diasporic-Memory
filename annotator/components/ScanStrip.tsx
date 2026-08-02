@@ -29,7 +29,7 @@ export default function ScanStrip({
 }) {
   const [open, setOpen] = useState<number | null>(null);
   const rowOf = new Map(pages.map((p, i) => [p.page_no, i + 2]));
-  const withScans = pages.filter((p) => p.scan_url);
+  const withScans = pages.filter((p) => p.has_scan);
   if (!withScans.length) return null;
 
   const i = open === null ? -1 : withScans.findIndex((p) => p.page_no === open);

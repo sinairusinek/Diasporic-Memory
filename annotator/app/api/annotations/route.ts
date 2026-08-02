@@ -7,7 +7,7 @@ import type { AnnotationBody, AnnotationKind, PaneName } from '@/lib/types';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-const KINDS: AnnotationKind[] = ['comment', 'tag', 'keywords'];
+const KINDS: AnnotationKind[] = ['comment', 'tag', 'keywords', 'relevance'];
 const PANES: PaneName[] = ['source', 'translation'];
 
 export async function GET(req: Request) {
@@ -54,6 +54,11 @@ function validBody(kind: AnnotationKind, body: unknown): AnnotationBody | null {
   }
   if (kind === 'tag') {
     return typeof b.tag === 'string' && b.tag.trim() ? { tag: b.tag.trim() } : null;
+  }
+  if (kind === 'relevance') {
+    return b.relevance === 'irrelevant' || b.relevance === 'contextual'
+      ? { relevance: b.relevance }
+      : null;
   }
   if (Array.isArray(b.keywords)) {
     const kws = b.keywords

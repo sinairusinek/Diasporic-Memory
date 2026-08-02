@@ -123,7 +123,7 @@ export default function Workspace({
   const showBoth = view === 'both' && translation;
   // The facsimile is a column like the others, so the grid has to know how
   // many there are: scans + source + translation, minus whatever is hidden.
-  const showScans = pages.some((p) => p.scan_url);
+  const showScans = pages.some((p) => p.has_scan);
   // Regions carry SOURCE offsets. The translation is generated per page, not
   // per region, so there is no honest way to project them onto it — the
   // translation pane stays whole.

@@ -2,7 +2,9 @@
 // Python side is authoritative, this is the reader's view of the same contract.
 
 export type PaneName = 'source' | 'translation';
-export type AnnotationKind = 'comment' | 'tag' | 'keywords';
+export type AnnotationKind = 'comment' | 'tag' | 'keywords' | 'relevance';
+/** A hand-made judgement about what a stretch of the document is worth. */
+export type Relevance = 'irrelevant' | 'contextual';
 export type Grade = 'clean' | 'mixed' | 'poor';
 
 /** A page of a written document, in the pane's flat offset space. */
@@ -11,7 +13,14 @@ export interface PageBlock {
   start: number;
   end: number;
   scan_file: string | null;
+  /**
+   * Public, unauthenticated Blob URL. Server-side only — `forClient()` strips
+   * it before the bundle crosses into the browser, because anything in the RSC
+   * payload is readable by anyone who can load the page.
+   */
   scan_url: string | null;
+  /** What the browser gets instead of `scan_url`: is there a facsimile? */
+  has_scan?: boolean;
   /** Which engine's transcription won this page. */
   ocr_engine: 'tesseract' | 'transkribus';
   /** null for Transkribus HTR, which reports no per-page confidence. */
@@ -171,7 +180,8 @@ export interface CorpusIndex {
 export type AnnotationBody =
   | { text: string }
   | { tag: string }
-  | { keywords: string[] };
+  | { keywords: string[] }
+  | { relevance: Relevance };
 
 export interface Annotation {
   id: number;

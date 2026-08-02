@@ -22,6 +22,38 @@ export async function getIndex(): Promise<CorpusIndex> {
   return indexCache;
 }
 
+/**
+ * The bundle as the browser may see it.
+ *
+ * The scans Blob store is public: its URLs fetch without auth, forever, by
+ * anyone who has them. Handing the bundle straight to a client component puts
+ * every one of them in the RSC payload, so the password gates the page but not
+ * the images behind it. The client never needs the URL — `<img>` loads through
+ * `/api/scan/<docId>/<page>`, which re-checks the session — so it only needs to
+ * know whether a facsimile exists at all.
+ *
+ * Call this on anything crossing into a client component. `getDoc` itself must
+ * keep the URL: the /api/scan proxy is what resolves it.
+ */
+export function forClient(doc: DocBundle): DocBundle {
+  const src = doc.panes.source;
+  if (!src?.pages) return doc;
+  return {
+    ...doc,
+    panes: {
+      ...doc.panes,
+      source: {
+        ...src,
+        pages: src.pages.map((p) =>
+          'scan_url' in p
+            ? { ...p, scan_url: null, has_scan: Boolean(p.scan_url) }
+            : p
+        ),
+      },
+    },
+  };
+}
+
 export async function getDoc(docId: string): Promise<DocBundle | null> {
   // doc_id reaches us from the URL; keep it to the shape the build emits so a
   // crafted id cannot walk out of content/docs.

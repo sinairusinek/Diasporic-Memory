@@ -10,7 +10,7 @@ create table if not exists annotation (
   id            bigserial primary key,
   doc_id        text        not null,
   pane          text        not null check (pane in ('source', 'translation')),
-  kind          text        not null check (kind in ('comment', 'tag', 'keywords')),
+  kind          text        not null check (kind in ('comment', 'tag', 'keywords', 'relevance')),
   start_offset  int         not null check (start_offset >= 0),
   end_offset    int         not null check (end_offset > start_offset),
   quote         text        not null,
