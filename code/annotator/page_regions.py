@@ -183,10 +183,14 @@ def regions_for_page(doc, page, usage, force):
 def load_overrides():
     """Human corrections to the model's labels, keyed by doc_id.
 
-    These exist because the pass gets consequential calls wrong with high
-    confidence — it labelled 14,503 characters of the Salitter deportation
-    report "book reviews and advertisements" at 0.98. A correction recorded
-    here survives re-running the pass; one typed into a bundle would not.
+    Anchored to text, not to offsets. The first version of this file recorded
+    absolute offsets and was silently invalidated the moment the pages were
+    re-transcribed — offset 2820 had been the Philipp Jenninger profile and
+    became the middle of a church service programme. An anchor moves with its
+    sentence.
+
+    A row marks where a region STARTS; it runs to the next override on the
+    same page, or to the end of the page. An empty anchor means the whole page.
     """
     if not OVERRIDES.exists():
         return {}
@@ -197,39 +201,77 @@ def load_overrides():
                 continue
             out.setdefault(row["doc_id"], []).append({
                 "page_no": int(row["page_no"]),
-                "start": int(row["start"]),
-                "end": int(row["end"]),
+                "anchor": (row.get("start_anchor") or "").strip(),
                 "label": row["label"].strip(),
                 "note": (row.get("note") or "").strip(),
             })
     return out
 
 
-def apply_overrides(regions, overrides):
-    """Re-label the spans a human corrected, splitting regions as needed.
+def apply_overrides(regions, overrides, doc):
+    """Replace a page's regions wholesale wherever the PI has ruled on it.
 
-    The result still tiles the page: a region overlapping an override is cut
-    into the part before, the corrected part, and the part after, and no
-    character belongs to two regions or to none.
+    Her rows tile the page between them, so the model's segmentation of that
+    page is discarded rather than merged with — a half-corrected page is
+    harder to reason about than either an automatic one or a hand one.
+    Anything that will not resolve is reported and skipped, never guessed at.
     """
+    src = doc["panes"]["source"]
+    text = src["text"]
+    pages = {p["page_no"]: p for p in (src.get("pages") or [])}
+    by_page = {}
     for o in overrides:
-        out = []
-        for r in regions:
-            if r["end"] <= o["start"] or r["start"] >= o["end"]:
-                out.append(r)
+        by_page.setdefault(o["page_no"], []).append(o)
+
+    unresolved = []
+    for page_no, rows in by_page.items():
+        page = pages.get(page_no)
+        if not page:
+            unresolved.append(f"page {page_no} not in document")
+            continue
+        body = text[page["start"]:page["end"]]
+
+        marks = []
+        for o in rows:
+            if not o["anchor"]:
+                marks.append((0, o))
                 continue
-            if r["start"] < o["start"]:
-                out.append({**r, "end": o["start"]})
-            out.append({**r,
-                        "start": max(r["start"], o["start"]),
-                        "end": min(r["end"], o["end"]),
-                        "label": o["label"],
-                        "what": o["note"] or r["what"],
-                        "confidence": 1.0})
-            if r["end"] > o["end"]:
-                out.append({**r, "start": o["end"]})
-        regions = out
-    return regions
+            span = locate(body, o["anchor"])
+            if span is None:
+                unresolved.append(
+                    f"page {page_no}: anchor not found or ambiguous — "
+                    f"{o['anchor'][:60]!r}")
+                continue
+            marks.append((span[0], o))
+        if not marks:
+            continue
+        marks.sort(key=lambda m: m[0])
+
+        replacement = []
+        for i, (start, o) in enumerate(marks):
+            end = marks[i + 1][0] if i + 1 < len(marks) else len(body)
+            if end <= start:
+                continue
+            replacement.append({
+                "page_no": page_no,
+                "start": page["start"] + start,
+                "end": page["start"] + end,
+                "label": o["label"],
+                "what": o["note"] or "set by hand",
+                "confidence": 1.0,
+            })
+        if replacement:
+            if replacement[0]["start"] > page["start"]:
+                replacement.insert(0, {
+                    "page_no": page_no, "start": page["start"],
+                    "end": replacement[0]["start"], "label": "keep",
+                    "what": "before the first hand-marked region",
+                    "confidence": 0.0})
+            regions = [r for r in regions if r["page_no"] != page_no]
+            regions.extend(replacement)
+
+    regions.sort(key=lambda r: r["start"])
+    return regions, unresolved
 
 
 def main():
@@ -266,8 +308,10 @@ def main():
             regions.extend(regions_for_page(doc, p, usage, args.force))
         ovs = overrides.get(doc["doc_id"], [])
         if ovs:
-            regions = apply_overrides(regions, ovs)
+            regions, unresolved = apply_overrides(regions, ovs, doc)
             tot_overridden += len(ovs)
+            for u in unresolved:
+                print(f"  !! {doc['doc_id']}: {u}")
         doc["regions"] = regions
         f.write_text(json.dumps(doc, ensure_ascii=False, indent=1),
                      encoding="utf-8")

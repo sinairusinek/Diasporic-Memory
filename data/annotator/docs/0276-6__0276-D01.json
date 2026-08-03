@@ -53,7 +53,7 @@
       "shortline": 0.7,
       "tokens": 34
      },
-     "translatable": false,
+     "translatable": true,
      "triage": {
       "engine": "transkribus",
       "why": "handwritten (hebrew)",
@@ -75,15 +75,15 @@
    "pane": "translation",
    "lang": "he",
    "dir": "rtl",
-   "text": "[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
-   "sha256": "c8c60ad1cd90081910c465e5157813a7aa5a518d2c2a8ef5ceb172856bdf3f3a",
+   "text": "8991\nשבוע מפגש (Begegnungswoche) עם המולדת הישנה (alte Heimat).\nישראלים יוצאי העיר קלן (Köln) מתל אביב וחיפה\nמבלים שבוע כאורחים בעיר הולדתם (Heimatstadt)\nקטעי עיתונות, נאומים וביקורים",
+   "sha256": "80cf5f323f00e5e56c4fb2c85114e8df0052bf3d6a1c0e9a07486b727c7c7f1c",
    "pages": [
     {
      "page_no": 1,
      "start": 0,
-     "end": 44,
+     "end": 183,
      "source_start": 0,
-     "source_end": 146,
+     "source_end": 129,
      "grade": "poor"
     }
    ],
@@ -92,20 +92,73 @@
     {
      "src": [
       0,
-      146
+      129
      ],
      "tgt": [
       0,
-      44
+      183
      ]
     }
    ],
-   "model": "gemini-3.1-pro-preview",
-   "generated_at": "2026-08-01T14:10:42+00:00",
-   "source_sha256": "dcba99c37609a7320540efc290080e295bcfa5e78b18d1708b1fca081e536e08"
+   "model": "gemini-3-flash-preview",
+   "generated_at": "2026-08-03T15:17:14+00:00",
+   "source_sha256": "0607fca72896115d6d8a5b0890385dad7677add3ea31137c10bea65dd311143e"
   }
  },
- "prehighlights": [],
+ "prehighlights": [
+  {
+   "id": "cl-0276-6__0276-D01-0-000",
+   "pane": "source",
+   "start": 5,
+   "end": 31,
+   "quote": "שבוע מפגש עם המילדת בישנה.",
+   "source": "claude",
+   "category": "T3.1",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "explicitly refers to the destination using the Hebrew word for homeland (with OCR spelling error)"
+  },
+  {
+   "id": "cl-0276-6__0276-D01-0-001",
+   "pane": "source",
+   "start": 69,
+   "end": 92,
+   "quote": "מבלים שבוא באורחים בעיר",
+   "source": "claude",
+   "category": "T1.2",
+   "match": "",
+   "strict": true,
+   "confidence": 0.8,
+   "rationale": "spending a week as guests indicates a bounded visit"
+  },
+  {
+   "id": "kw-0276-6__0276-D01-translation-0000",
+   "pane": "translation",
+   "start": 37,
+   "end": 42,
+   "quote": "מולדת",
+   "source": "keyword",
+   "category": "heimat",
+   "match": "מולדת",
+   "strict": true,
+   "confidence": 1.0,
+   "rationale": ""
+  },
+  {
+   "id": "kw-0276-6__0276-D01-translation-0001",
+   "pane": "translation",
+   "start": 129,
+   "end": 139,
+   "quote": "עיר הולדתם",
+   "source": "keyword",
+   "category": "heimat",
+   "match": "עיר הולדתם",
+   "strict": true,
+   "confidence": 1.0,
+   "rationale": ""
+  }
+ ],
  "built_at": "2026-08-01T11:51:11+00:00",
  "source_retranscribed_at": "2026-08-03T14:11:21+00:00",
  "previous_source_sha256": "dcba99c37609a7320540efc290080e295bcfa5e78b18d1708b1fca081e536e08"

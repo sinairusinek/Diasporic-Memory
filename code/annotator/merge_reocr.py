@@ -99,6 +99,11 @@ def main():
             p["ocr_conf"] = None
             p["retranscribed_at"] = now
             p["grade"] = "clean" if engine == "gemini" else p["grade"]
+            # `translatable` was set from the Tesseract grade, and a page
+            # graded poor then is precisely the page most worth re-reading now.
+            # Leaving the flag alone sent 47 freshly-transcribed pages to the
+            # "not reliably transcribed" placeholder instead of to Hebrew.
+            p["translatable"] = len(text.strip()) > 40
 
         if not touched:
             continue

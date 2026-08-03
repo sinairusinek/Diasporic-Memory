@@ -122,7 +122,7 @@
       "shortline": 1.0,
       "tokens": 9
      },
-     "translatable": false,
+     "translatable": true,
      "triage": {
       "engine": "transkribus",
       "why": "Gemini returned only 16 chars of print; the page is its handwriting",
@@ -181,39 +181,39 @@
    "pane": "translation",
    "lang": "he",
    "dir": "rtl",
-   "text": "24671 77530\n[...]\nאילת 20\n30172\nלאוני (Leonie) היקרה\nתודה רבה על מכתבך, אנו נמצאים כאן לחופשה קצרה. מצב בריאותי מותיר עדיין מקום רב לשיפור. באשר לעניין הדת, הבעתי, בתשובה לשאלה, את דעתי האישית על כמה שרידים. אין בכוונתי לפתוח במערכה על כך.\nתודה מיוחדת על ברכותייך ליום הולדתי, שהוא בעצם אירוע די מדכא.\nשלך\nמ.\n\n24/6/59\n[...]\n1.7.\n[...]\nידידה יקרה,\nתודה על מכתבך מ-[...] במאי. אני רוצה לספר לך קצת על תוכניותיי. אני טס ב-10 ביולי מלוד לפריז ומגיע למחרת להמבורג. מקום המגורים הוא מלון אטלנטיק (Atlantic Hotel). אני אשתדל להתקשר אלייך בהקדם האפשרי לאחר ההגעה. בהמבורג אשאר ככל הנראה עד ה-17 ביולי. מוטל בספק אם אסע לבון – אני מקווה שלא. זה מפחית את הסיכויים של [...] מיד לאחר סיום התוכנית בכוונתי לעזוב את גרמניה. אין לי נטייה [...] לדרום גרמניה [...] 11 [...] 1\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
-   "sha256": "07cb5924a8a4920ab7e424eaae0b0ca2e34acd40a92ebed3e8a5b2881b2a6bd6",
+   "text": "24671\nמשה שרת\n[...] 20/X אילת\nירושלים\n\nלאוני (Leonie) היקרה,\n\nתודה רבה על מכתבך.\n\nאנחנו נמצאים כאן בחופשה קצרה. מצבי הבריאותי עדיין מותיר הרבה מקום לשיפור. באשר לעניין הדתי (Religionsangelegenheit), הרי שבתשובה לשאלה הבעתי את דעתי האישית על כמה שרידים. אין בכוונתי ליזום קמפיין בנושא זה.\n\nתודה מיוחדת על איחולייך ליום הולדתי – למעשה אירוע מעציב למדי.\n\nמ. ש.\n\n24/6/59\nP.\n4. 4.\n1.4.\n\nחברה יקרה,\nתודה לך על מכתבך מ-31 במאי. ברצוני לעדכן אותך מעט על תוכניותיי. אני טס ב-10 ביולי מלוד לפריז ומגיע למחרת להמבורג (Hamburg). מקום המגורים הוא מלון \"אטלנטיק\" (Atlantic Hotel). אנסה להתקשר אלייך ככל הניתן בסמוך לאחר הגעתי. בהמבורג אשאר ככל הנראה עד ה-17 ביולי. מוטל בספק אם אסע לבון (Bonn) – אני מקווה שלא. הדבר מפחית את הסיכויים לביקורי בוויסבאדן (Wiesbaden) – הרי לא תהיה לי כל אמתלה לכך! זמן קצר לאחר סיום הקונגרס בכוונתי לעזוב את גרמניה (Deutschland). אין לי כל נטייה לערוך סיורים (sightseeing) כלשהם באותה ארץ. נכון לעכשיו נראה שאסע מיד לדנמרק (Denmark), שם תצטרף אליי צ. [Z.] לאחר כשבוע בערך. היא, אם כן, כלל לא תדרוך על אדמת גרמניה. מדנמרק נמשיך דרך נורווגיה (Norway) לסטוקהולם (Stockholm) ומשם ישירות הביתה. בהתאם לתוכנית זו, האפשרות היחידה לפגישה נראית בהמבורג עצמה, אך נוכל לדון בכך עוד טלפונית. [...]\n\nN.\n\nשבה\n[...]\n02\nשל\nתם\n[...] איני [...]\n[...] 20\nד\n[...] אמריה\n[...]\n[...]\n\n[העמוד לא תועתק באופן מהימן — ראו את הסריקה]",
+   "sha256": "3b3453475c457f213dcca37b531be8b32a6eb7aca3d7e35dda37138c64115419",
    "pages": [
     {
      "page_no": 33,
      "start": 0,
-     "end": 308,
+     "end": 357,
      "source_start": 0,
-     "source_end": 492,
+     "source_end": 539,
      "grade": "mixed"
     },
     {
      "page_no": 34,
-     "start": 310,
-     "end": 758,
-     "source_start": 494,
-     "source_end": 1543,
+     "start": 359,
+     "end": 1205,
+     "source_start": 541,
+     "source_end": 1691,
      "grade": "mixed"
     },
     {
      "page_no": 35,
-     "start": 760,
-     "end": 804,
-     "source_start": 1545,
-     "source_end": 1571,
+     "start": 1207,
+     "end": 1277,
+     "source_start": 1693,
+     "source_end": 1751,
      "grade": "poor"
     },
     {
      "page_no": 36,
-     "start": 806,
-     "end": 850,
-     "source_start": 1573,
-     "source_end": 1573,
+     "start": 1279,
+     "end": 1323,
+     "source_start": 1753,
+     "source_end": 1753,
      "grade": "poor"
     }
    ],
@@ -222,50 +222,90 @@
     {
      "src": [
       0,
-      492
+      539
      ],
      "tgt": [
       0,
-      308
+      357
      ]
     },
     {
      "src": [
-      494,
-      1543
+      541,
+      1691
      ],
      "tgt": [
-      310,
-      758
+      359,
+      1205
      ]
     },
     {
      "src": [
-      1545,
-      1571
+      1693,
+      1751
      ],
      "tgt": [
-      760,
-      804
+      1207,
+      1277
      ]
     },
     {
      "src": [
-      1573,
-      1573
+      1753,
+      1753
      ],
      "tgt": [
-      806,
-      850
+      1279,
+      1323
      ]
     }
    ],
-   "model": "gemini-3.1-pro-preview",
-   "generated_at": "2026-08-01T14:06:51+00:00",
-   "source_sha256": "313355947107fc994632614f460bef48e12d86f12c3097bd75a1115ed75485b0"
+   "model": "gemini-3-flash-preview",
+   "generated_at": "2026-08-03T15:15:23+00:00",
+   "source_sha256": "cbe737cb5b934715b6fbb9a4d8d9780477282c4fc6ff291a590aa7d32866bacd"
   }
  },
- "prehighlights": [],
+ "prehighlights": [
+  {
+   "id": "cl-0047-2__0047-2-D08-0-000",
+   "pane": "source",
+   "start": 849,
+   "end": 912,
+   "quote": "In Hamburg werde\nich wahrscheinlich bis zum 17ten Juli bleiben.",
+   "source": "claude",
+   "category": "T1.2",
+   "match": "",
+   "strict": true,
+   "confidence": 0.95,
+   "rationale": "Explicitly states the bounded duration of his stay in the city."
+  },
+  {
+   "id": "cl-0047-2__0047-2-D08-0-001",
+   "pane": "source",
+   "start": 913,
+   "end": 977,
+   "quote": "Es\nist fraglich ob ich nach Bonn fahren werde – ich\nhoffe nicht.",
+   "source": "claude",
+   "category": "T1.5",
+   "match": "",
+   "strict": true,
+   "confidence": 0.9,
+   "rationale": "Expresses hesitation and weighing regarding an extension of the trip to Bonn."
+  },
+  {
+   "id": "cl-0047-2__0047-2-D08-0-002",
+   "pane": "source",
+   "start": 1368,
+   "end": 1425,
+   "quote": "Sie wird also\nden Boden Deutschland's gan nicht betreten.",
+   "source": "claude",
+   "category": "T1.4",
+   "match": "",
+   "strict": true,
+   "confidence": 0.98,
+   "rationale": "Articulates an explicit decision that his companion will completely avoid entering Germany."
+  }
+ ],
  "built_at": "2026-08-01T11:51:11+00:00",
  "source_retranscribed_at": "2026-08-03T14:11:21+00:00",
  "previous_source_sha256": "313355947107fc994632614f460bef48e12d86f12c3097bd75a1115ed75485b0"
