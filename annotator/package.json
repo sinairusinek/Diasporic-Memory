@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "sync": "node scripts/sync-content.mjs",
-    "prebuild": "node scripts/sync-content.mjs",
+    "prebuild": "node scripts/sync-content.mjs && node --env-file-if-exists=.env.local scripts/migrate.mjs",
     "predev": "node scripts/sync-content.mjs",
     "dev": "next dev",
     "build": "next build",
