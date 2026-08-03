@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useLayoutEffect, useRef } from 'react';
 import type { CorpusIndex } from '@/lib/types';
 
 export default function Sidebar({
@@ -10,6 +13,21 @@ export default function Sidebar({
   activeDocId: string;
   counts: Record<string, number>;
 }) {
+  const navRef = useRef<HTMLElement>(null);
+
+  // Every document click is a full navigation, so the list comes back scrolled
+  // to the top and the reader loses their place. Put the active row back in
+  // the middle of the list — scroll the nav itself, not scrollIntoView, which
+  // would also drag the page when the sidebar is stacked above the document.
+  useLayoutEffect(() => {
+    const nav = navRef.current;
+    const el = nav?.querySelector<HTMLElement>('.doc-link.active');
+    if (!nav || !el) return;
+    const navRect = nav.getBoundingClientRect();
+    const elRect = el.getBoundingClientRect();
+    nav.scrollTop += elRect.top - navRect.top - (nav.clientHeight - elRect.height) / 2;
+  }, [activeDocId]);
+
   const byId = new Map(index.docs.map((d) => [d.doc_id, d]));
   const annotated = index.docs.filter((d) => counts[d.doc_id]).length;
 
@@ -27,7 +45,7 @@ export default function Sidebar({
   };
 
   return (
-    <nav className="sidebar">
+    <nav className="sidebar" ref={navRef}>
       <h1>
         <Link href="/" className="allcases">
           ← Post-war visits
