@@ -152,6 +152,9 @@ export interface CaseEntry {
   year: string;
   category: string;
   evidence: string;
+  /** Hand-written catalogue prose (data/annotator/case_summaries.json). */
+  summary_en: string;
+  summary_he: string;
   drive_url: string;
   kind: 'written' | 'oral';
   doc_ids: string[];
@@ -192,6 +195,11 @@ export interface DocEntry {
   has_translation: boolean;
   n_prehighlights: number;
   n_strict: number;
+  /** Copied out of the bundle so the catalogue can browse without loading it.
+      Hebrew and German exist for the written corpus; oral has English only. */
+  summary_he: string;
+  summary_de: string;
+  summary_en: string;
   grades: Partial<Record<Grade, number>>;
 }
 

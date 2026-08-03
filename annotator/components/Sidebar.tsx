@@ -29,7 +29,9 @@ export default function Sidebar({
   return (
     <nav className="sidebar">
       <h1>
-        Post-war visits
+        <Link href="/" className="allcases">
+          ← Post-war visits
+        </Link>
         <small>
           {index.docs.length} sources · {index.cases.length} cases ·{' '}
           {annotated} annotated

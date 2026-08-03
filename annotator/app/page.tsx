@@ -1,5 +1,6 @@
-import { redirect } from 'next/navigation';
+import Catalogue from '@/components/Catalogue';
 import { getIndex } from '@/lib/corpus';
+import { countsByDoc } from '@/lib/store';
 
 export const dynamic = 'force-dynamic';
 
@@ -16,5 +17,15 @@ export default async function Home() {
       </main>
     );
   }
-  redirect(`/doc/${index.docs[0].doc_id}`);
+
+  // Annotation counts are decoration on the catalogue; a missing DATABASE_URL
+  // should not stop the corpus being browsable.
+  let counts: Record<string, number> = {};
+  try {
+    counts = await countsByDoc();
+  } catch {
+    counts = {};
+  }
+
+  return <Catalogue index={index} counts={counts} />;
 }

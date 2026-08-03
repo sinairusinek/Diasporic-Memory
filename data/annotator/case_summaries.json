@@ -1,0 +1,95 @@
+{
+ "_comment": "Case-level summaries for the annotator catalogue, keyed by case_id. Hand-written from the folder evidence (data/post_war_visits.tsv) and the documents themselves; merged into index.json by code/annotator/build_index.py. Hebrew first for the PI; English as fallback.",
+ "PWV-12": {
+  "en": "«Deutschland, eine Winterreise» — a German-language lecture written for the Golden Age Club of WIZO Nahariya (April 1969): an Israeli lecturer's winter journey through Germany, told under the sign of Heine.",
+  "he": "«גרמניה, מסע חורף» — הרצאה בגרמנית שנכתבה עבור מועדון הגיל הזהב של ויצו נהריה (אפריל 1969): מסע חורף בגרמניה מפי מרצה ישראלי, בעקבות היינה."
+ },
+ "PWV-13": {
+  "en": "Shimon Berlinger's lecture journeys to German towns in the Hohenlohe region of Baden-Württemberg: an invitation to speak at an ecumenical service in Berlichingen (1968), a Schwäbisch Hall welcome booklet from a 1980s visit, and press coverage of the Kristallnacht fiftieth-anniversary week (1988).",
+  "he": "מסעות ההרצאות של שמעון ברלינגר לערי חבל הוהנלוהה שבבאדן-וירטמברג: הזמנה לשאת דברים בטקס בין-דתי בברליכינגן (1968), חוברת קבלת פנים משווביש האל מביקור בשנות השמונים, וקטעי עיתונות משבוע ציון חמישים שנה לליל הבדולח (1988)."
+ },
+ "PWV-14": {
+  "en": "The City of Worms' official invitation of November 1964 to its former resident Hans Hanan Mannheimer — the canonical municipal return-visit invitation — together with a handwritten Hebrew note.",
+  "he": "הזמנתה הרשמית של העיר וורמס מנובמבר 1964 לתושבה לשעבר הנס חנן מנהיימר — הזמנת ביקור עירונית מן הדגם המובהק — ולצדה פתק עברי בכתב יד."
+ },
+ "PWV-15": {
+  "en": "Worms proposes honorary citizenship for Mannheimer (1985) and he declines, objecting to a disrespectful process; around the affair — correspondence with the Memorial Committee for the Jewish victims of Nazism from Worms (1988), Wormser Zeitung clippings (1979–1982) and handwritten notes.",
+  "he": "וורמס מציעה למנהיימר אזרחות כבוד (1985) והוא מסרב, במחאה על הליך מזלזל; סביב הפרשה — התכתבות עם ועד ההנצחה ליהודי וורמס קורבנות הנאצים (1988), קטעי עיתונות מ«וורמסר צייטונג» (1979–1982) ורשימות בכתב יד."
+ },
+ "PWV-16": {
+  "en": "Heinrich (Zvi) Schopler, chairman of the Organization of Cologne Emigrants in Israel: correspondence with Cologne's mayors Burger and Brügelmann, materials around a visit to Cologne, and publications covering an Israeli delegation's visit to the city.",
+  "he": "היינריך (צבי) שופלר, יושב ראש ארגון יוצאי קלן בישראל: התכתבות עם ראשי העיר קלן בורגר ובריגלמן, חומרים סביב ביקור בקלן, ופרסומים על ביקור משלחת ישראלית בעיר."
+ },
+ "PWV-17": {
+  "en": "Leoni Frank-Landsberg writes to Moshe Sharett “from Germany, where she lives” (1959, 1962) — a remigration case: letters between Wiesbaden and Jerusalem on Jewish Agency paper.",
+  "he": "לאוני פרנק-לנדסברג כותבת למשה שרת “מגרמניה, שבה היא חיה” (1959, 1962) — מקרה של הגירה חוזרת: חליפת מכתבים בין ויסבאדן לירושלים על נייר הסוכנות היהודית."
+ },
+ "PWV-18": {
+  "en": "Wilma Adam, a cousin of Garzon: lived in kibbutz Givat Brenner and returned with her husband to live in Germany — a remigration case documented in the family papers.",
+  "he": "וילמה אדם, בת דודו של גרזון: חיה בקיבוץ גבעת ברנר וחזרה עם בעלה לחיות בגרמניה — מקרה של הגירה חוזרת המתועד בניירות המשפחה."
+ },
+ "PWV-21": {
+  "en": "Abraham H. Friedländer (formerly Horst), born 1916 in Cottbus. The 1991 interview opens with his recent first return to Cottbus; around it: the ex-Cottbusers' Heimatverband in West Germany and its newsletter, correspondence with the hometown, the Berlin Senate's visiting weeks for former Berliners, and bar-association trips to Germany. The richest of the interview cases.",
+  "he": "אברהם ה' פרידלנדר (לשעבר הורסט), יליד קוטבוס 1916. הריאיון מ-1991 נפתח בביקורו הראשון בקוטבוס זמן קצר קודם לכן; סביבו: אגודת יוצאי קוטבוס במערב גרמניה ועלונה, התכתבות עם עיר ההולדת, שבועות האירוח של סנאט ברלין ליוצאי העיר, ונסיעות של לשכת עורכי הדין לגרמניה. העשיר שבמקרי הריאיונות."
+ },
+ "PWV-22": {
+  "en": "Joseph Walk, historian and educator (Leo Baeck Institute Jerusalem), born 1914 in Breslau. First return to Germany in 1967, then repeated symposium invitations; a first “reunion with Breslau” around 1990 — while denying any Heimat feeling for the city: the “old Heimat” he names is Israel.",
+  "he": "יוסף ולק, היסטוריון ומחנך (מכון ליאו בק ירושלים), יליד ברסלאו 1914. שיבה ראשונה לגרמניה ב-1967 ואחריה הזמנות חוזרות לכנסים; “פגישה מחודשת עם ברסלאו” ראשונה סביב 1990 — תוך שלילת כל רגש היימאט כלפי העיר: “ההיימאט הישנה” שהוא נוקב בה היא ישראל."
+ },
+ "PWV-23": {
+  "en": "Eva M. Eylon returns for the first time after 42 years: a Soroptimist scholarship exchange in 1975, hosted privately by seven clubs across Germany; unease about her hosts' pasts, and a firm line — she loves visiting, but living in Germany again: “one hundred percent no”.",
+  "he": "אווה מ' אילון שבה לראשונה אחרי 42 שנה: חילופי מלגות של מועדוני סורופטימיסט ב-1975, באירוח פרטי של שבעה מועדונים ברחבי גרמניה; אי-נוחות לנוכח עברם של המארחים, וקו ברור — היא אוהבת לבקר, אך לחיות שוב בגרמניה: “מאה אחוז לא”."
+ },
+ "PWV-24": {
+  "en": "Aharon Doron: a first, single-day return in 1957, then repeated professional trips (Tel Aviv University, fundraising missions); a visit to Ludwigshafen at the city's invitation together with a former schoolmate around 1987 — while his wife refuses to travel to Germany.",
+  "he": "אהרן דורון: שיבה ראשונה בת יום אחד ב-1957, ואחריה נסיעות מקצועיות חוזרות (אוניברסיטת תל אביב, משלחות המגבית); ביקור בלודוויגסהאפן בהזמנת העיר יחד עם חבר ספסל לימודים לשעבר סביב 1987 — בעוד אשתו מסרבת לנסוע לגרמניה."
+ },
+ "PWV-25": {
+  "en": "Ellen Glasner receives the Berlin Senate's invitation in 1987 — the week-long, city-funded visit that, as she notes, most German cities by then offered their expelled former citizens; the municipal visitor programme at its most typical, in oral testimony.",
+  "he": "אלן גלזנר מקבלת ב-1987 את הזמנת סנאט ברלין — ביקור בן שבוע על חשבון העיר, מן הסוג שכדבריה הציעו אז רוב הערים הגרמניות לאזרחיהן המגורשים לשעבר; תוכנית האירוח העירונית בהתגלמותה המובהקת, בעדות שבעל-פה."
+ },
+ "PWV-26": {
+  "en": "Iwan Gabriel Lilienfeld: officially invited to Germany even before diplomatic relations (pre-1965) and a regular visitor since — “not the average visitor”; the interviewer presses him on why one keeps going back, with a wife who is an “incorrigible Berliner”.",
+  "he": "איוואן גבריאל ליליינפלד: הוזמן רשמית לגרמניה עוד לפני כינון היחסים הדיפלומטיים (לפני 1965) ומאז מבקר בקביעות — “לא המבקר הממוצע”; המראיינת מקשה מדוע שבים ונוסעים, ואשתו — “ברלינאית חסרת תקנה”."
+ },
+ "PWV-27": {
+  "en": "Rachel Beck: some fifteen visits — “I went every year” — with a son living in Germany; three trips accompanying Israeli groups as interpreter, one invitation from Berlin as carer for German groups, and work in her kibbutz's restitution department.",
+  "he": "רחל בק: כחמישה-עשר ביקורים — “נסעתי לשם כל שנה” — כשבנה חי בגרמניה; שלוש נסיעות כמתורגמנית מלווה של קבוצות ישראליות, הזמנה אחת מברלין כמלווה של קבוצות גרמניות, ועבודה במחלקת הפיצויים של הקיבוץ."
+ },
+ "PWV-28": {
+  "en": "Leni Yahil, historian: followed her husband Chaim Yahil, head of the Jewish Agency mission to the survivors, to Munich with two children (summer 1947 to spring 1949), working around the displaced-persons camps and clandestine emigration — “I never had the feeling that I was living in Germany.” Later, by choice, outside the invitation circuit.",
+  "he": "לני יחיל, היסטוריונית: הצטרפה לבעלה חיים יחיל, ראש משלחת הסוכנות היהודית לשארית הפליטה, במינכן עם שני ילדים (קיץ 1947 עד אביב 1949), בעבודה סביב מחנות העקורים והעלייה הבלתי לגאלית — “לא הייתה לי ההרגשה שאני חיה בגרמניה”. לימים, מבחירה, מחוץ למעגל ההזמנות."
+ },
+ "PWV-29": {
+  "en": "Ernst Georg Martin Pfeffermann drives to Gelsenkirchen in 1977 because his wife “wanted to see it once — the old, former Heimat”, and searches for the Richard-Wagner-Straße; his brother has remigrated, and his own boundary stands: he never visits the camps in Germany.",
+  "he": "ארנסט גאורג מרטין פפרמן נוסע ב-1977 לגלזנקירכן משום שאשתו “רצתה לראות פעם את ההיימאט הישנה, לשעבר”, ומחפש את רחוב ריכרד ואגנר; אחיו היגר חזרה לגרמניה, וגבולו שלו עומד: במחנות בגרמניה הוא אינו מבקר לעולם."
+ },
+ "PWV-30": {
+  "en": "Hilde Rudberg: a first short return to Germany, later trips with her daughter, and a brief employment at the United Restitution Organization; the interview closes on Betten's question whether Heimat, Israel and German Jewry still mean anything to her.",
+  "he": "הילדה רודברג: שיבה ראשונה קצרה לגרמניה, נסיעות מאוחרות יותר עם בתה, והעסקה קצרה בארגון United Restitution Organization; הריאיון נחתם בשאלתה של בטן אם היימאט, ישראל ויהדות גרמניה הם עדיין מושג עבורה."
+ },
+ "PWV-31": {
+  "en": "Around Dov Zuriel, a family map of returns: a cousin “went back to Berlin and did Wiedergutmachung” as a restitution lawyer, a relative returned for training, and his own stance shifts — “now I can travel to Germany… a new generation has grown up.”",
+  "he": "סביב דב צוריאל, מפה משפחתית של שיבות: בן דוד “חזר לברלין ועסק בפיצויים” כעורך דין לענייני שילומים, קרוב אחר חזר לצורך הכשרה, ועמדתו שלו משתנה — “עכשיו אני כבר יכול לנסוע לגרמניה… גדל דור חדש”."
+ },
+ "PWV-32": {
+  "en": "Alice Schwarz-Gardos, journalist: once the restitution pension arrived, her husband “wanted to go back to Germany” — the return deliberation carried on inside a Jecke marriage; Betten also asks whether her parents' own return succeeded.",
+  "he": "אליס שוורץ-גרדוש, עיתונאית: משהגיעה קצבת הפיצויים, בעלה “רצה לחזור לגרמניה” — התלבטות השיבה מתנהלת בתוך נישואים יקיים; בטן שואלת גם אם שיבת הוריה שלה עלתה יפה."
+ },
+ "PWV-33": {
+  "en": "Abraham Frank travels in 1958 to his father's hometown in the father's stead: the father, in London, “could not bring himself to go back to his old Heimat… to see the destruction” — refusal and delegated return in a single case.",
+  "he": "אברהם פרנק נוסע ב-1958 לעיר הולדתו של אביו בשליחותו: האב, בלונדון, “לא היה מסוגל לשוב אל ההיימאט הישנה שלו… לראות את החורבן” — סירוב ושיבה-בשליחות במקרה אחד."
+ },
+ "PWV-34": {
+  "en": "Emanuel Strauss: vocational-education missions to Germany and German experts hosted in Israel through the 1970s–80s, under the identity formula “today this [Israel] is my Heimat, and I travel to Germany and meet acquaintances there”.",
+  "he": "עמנואל שטראוס: משלחות של חינוך מקצועי לגרמניה ואירוח מומחים גרמנים בישראל בשנות השבעים והשמונים, תחת נוסחת הזהות “היום זו [ישראל] ההיימאט שלי, ואני נוסע לגרמניה ופוגש שם מכרים”."
+ },
+ "PWV-35": {
+  "en": "Ada Brodsky, of Frankfurt — “my home town”: repeated visits whose feel changes over the years, from wanting to see as little as possible to unburdened friendships in several German cities; professionally she traces the landscapes of the German poets.",
+  "he": "עדה ברודסקי, ילידת פרנקפורט — “עיר מולדתי”: ביקורים חוזרים שטעמם משתנה עם השנים, מרצון לראות כמה שפחות ועד ידידויות משוחררות בכמה ערים גרמניות; במקצועה היא מתחקה אחר נופיהם של המשוררים הגרמנים."
+ },
+ "PWV-36": {
+  "en": "Charlotte Rothschild, born 1915, visits her home town shortly before the 1990 interview — calling on the daughter of the Bürgermeister who had helped her family.",
+  "he": "שרלוטה רוטשילד, ילידת 1915, מבקרת בעיירת הולדתה זמן קצר לפני הריאיון (1990) — אצל בתו של ראש העיר שסייע בשעתו למשפחתה."
+ }
+}

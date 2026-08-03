@@ -30,6 +30,7 @@ from textnorm import PAGE_JOINER, sha256_text
 REPO = Path(__file__).resolve().parents[2]
 DOCS = REPO / "data/annotator/docs"
 VISITS = REPO / "data/post_war_visits.tsv"
+CASE_SUMMARIES = REPO / "data/annotator/case_summaries.json"
 OUT = REPO / "data/annotator/index.json"
 
 
@@ -128,6 +129,11 @@ def main():
             "has_translation": bool(doc["panes"].get("translation")),
             "n_prehighlights": len(doc["prehighlights"]),
             "n_strict": strict,
+            # The catalogue view browses by summary, so the index carries them;
+            # they are small next to the pane text that stays in the bundles.
+            "summary_he": doc.get("summary_he", ""),
+            "summary_de": doc.get("summary_de", ""),
+            "summary_en": doc.get("summary_en", ""),
             "grades": {g: sum(1 for b in blocks if b.get("grade") == g)
                        for g in ("clean", "mixed", "poor")}
                       if doc["kind"] == "written" else {},
@@ -147,10 +153,23 @@ def main():
     def case_sort(cid):
         return (0, int(cid.split("-")[1])) if cid.startswith("PWV-") else (1, 0)
 
+    # Hand-written case summaries (en/he). The tsv's evidence column is a
+    # working note, not prose for the catalogue, so these live in their own
+    # file; a case without one falls back to nothing rather than the note.
+    case_summaries = {}
+    if CASE_SUMMARIES.exists():
+        case_summaries = {
+            k: v for k, v in
+            json.loads(CASE_SUMMARIES.read_text(encoding="utf-8")).items()
+            if not k.startswith("_")}
+
     case_list = []
     for cid in sorted(by_case, key=case_sort):
         c = cases.get(cid, {})
         ids = by_case[cid]
+        cs = case_summaries.get(cid, {})
+        if not cs:
+            print(f"  note: no case summary for {cid}", file=sys.stderr)
         case_list.append({
             "case_id": cid,
             "person": c.get("person", ""),
@@ -158,6 +177,8 @@ def main():
             "year": c.get("year", ""),
             "category": c.get("category", ""),
             "evidence": c.get("evidence", ""),
+            "summary_en": cs.get("en", ""),
+            "summary_he": cs.get("he", ""),
             "drive_url": c.get("drive_url", ""),
             "kind": "oral" if all(i.startswith("IS_E_") for i in ids)
                     else "written",
