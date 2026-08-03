@@ -90,6 +90,8 @@ export interface DocMeta {
   event_id?: string;
   signal_categories?: string[];
   restricted?: string;
+  /** Private Drive doc with the full cleaned transcript of the interview. */
+  full_text_url?: string;
 }
 
 export interface DocBundle {

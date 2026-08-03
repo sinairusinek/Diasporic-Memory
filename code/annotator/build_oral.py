@@ -31,6 +31,20 @@ STRUCTURED = REPO / "data/israelkorpus/structured"
 SCAN = REPO / "data/israelkorpus/heimat_scan.tsv"
 VISITS = REPO / "data/post_war_visits.tsv"
 DOCS = REPO / "data/annotator/docs"
+# event_id -> Drive URL of the full cleaned transcript (private folder);
+# maintained by code/annotator/add_drive_links.py, absent until first fill.
+DRIVE_LINKS = REPO / "data/israelkorpus/drive_links.json"
+
+_links_cache = None
+
+
+def _drive_links():
+    global _links_cache
+    if _links_cache is None:
+        _links_cache = (
+            json.loads(DRIVE_LINKS.read_text()) if DRIVE_LINKS.exists() else {}
+        )
+    return _links_cache
 
 MERGE_GAP = 12  # hits this close (in contributions) belong to one window
 PAD = 4         # contributions of context on each side
@@ -161,6 +175,7 @@ def build_event(event_id, rec, hits, case, dry=False):
                 "event_id": event_id,
                 "signal_categories": cats,
                 "restricted": "DGD",
+                "full_text_url": _drive_links().get(event_id, ""),
             },
             "summary_he": "",
             "summary_de": "",

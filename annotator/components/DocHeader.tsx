@@ -101,6 +101,14 @@ export default function DocHeader({
               {v}
             </span>
           ))}
+        {m.full_text_url && (
+          <span>
+            <b>Full text</b>
+            <a href={m.full_text_url} target="_blank" rel="noreferrer">
+              open in Drive ↗
+            </a>
+          </span>
+        )}
       </div>
 
       {m.heimat_rationale && <p className="rationale">{m.heimat_rationale}</p>}
