@@ -134,8 +134,17 @@ export default function Catalogue({
               const n = counts[id] ?? 0;
               const poor = d.grades?.poor ?? 0;
               const ds = pick(d.summary_he, d.summary_en);
+              // New tab: the catalogue is where a document is chosen from
+              // among its siblings, and going back to re-read the case listing
+              // after every document is the wrong way round.
               return (
-                <Link key={id} href={`/doc/${id}`} className="cat-doc">
+                <Link
+                  key={id}
+                  href={`/doc/${id}`}
+                  className="cat-doc"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <span className="cat-doc-title">{d.title || id}</span>
                   <span className="cat-doc-meta">
                     {d.date_text && <span>{d.date_text}</span>}
