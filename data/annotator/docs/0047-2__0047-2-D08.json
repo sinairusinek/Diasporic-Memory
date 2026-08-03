@@ -30,9 +30,9 @@
   "page_range": "33-36",
   "is_heimat_relevant": "true"
  },
- "summary_he": "מכתב מ-24.6.1959: שרת מפרט את תוכניתו — טיסה ב-10 ביולי מלוד דרך פריז ונחיתה למחרת בהמבורג (מלון אטלנטיק), שהות עד 17 ביולי לערך; הנסיעה לבון טרם הוכרעה; יבקש לטלפן אליה סמוך להגעתו; קטע ארוך על השאלה אם לראות עוד מגרמניה משובש בפענוח.",
- "summary_de": "Brief vom 24.6.1959: Sharett teilt seine Pläne mit — Abflug am 10. Juli von Lod über Paris, Ankunft am nächsten Tag in Hamburg (Hotel Atlantic), Aufenthalt bis etwa 17. Juli; ob er nach Bonn fährt, ist offen; er will sie möglichst bald nach der Ankunft anrufen; eine längere Passage über die Frage, mehr von Deutschland zu sehen, ist im HTR entstellt.",
- "summary_en": "Letter of 24 June 1959: Sharett details his plans — flying 10 July from Lod via Paris, landing next day in Hamburg (Hotel Atlantic), staying until about 17 July; Bonn still undecided; he will try to phone her soon after arrival; a longer passage on whether to see more of Germany is garbled in the HTR.",
+ "summary_he": "צרור של שני מכתבים ממשה שרת אל לאוני פרנק. (1) מכתב קצר ללא תאריך שנכתב בעת חופשה קצרה (בכותרת נראה \"אילת\"; הקריאה אינה ודאית), בפנייה \"לאוני היקרה\": מצב בריאותו עדיין מותיר מקום רב לשיפור; בעניין הדת הביע, בתשובה לשאלה, את דעתו האישית על כמה שרידים, אך אין בכוונתו לפתוח במערכה; תודה מיוחדת על ברכותיה ליום הולדתו — \"בעצם אירוע די מדכא\" — בחתימת \"מ.\". (2) מכתב מ-24 ביוני 1959 (\"ידידה יקרה\") ובו תוכנית הנסיעה: טיסה ב-10 ביולי מלוד דרך פריז ונחיתה למחרת בהמבורג (מלון אטלנטיק); הוא ישתדל לטלפן אליה סמוך להגעתו ויישאר בהמבורג ככל הנראה עד ה-17 ביולי לערך; הנסיעה לבון מוטלת בספק — הוא מקווה שלא תצא לפועל; עם תום התוכנית בכוונתו לעזוב את גרמניה, וקטע ארוך יותר על השאלה אם לראות עוד מן הארץ (מוזכר דרום גרמניה) משובש בפענוח. שני עמודים נוספים תועתקו באיכות ירודה מכדי שאפשר יהיה לקוראם.",
+ "summary_de": "Konvolut aus zwei Briefen von Moshe Sharett an Leonie Frank. (1) Ein kurzer undatierter Brief, geschrieben während eines kurzen Urlaubs (die Ortsangabe scheint \"Elat\" zu lauten; Lesung unsicher), mit der Anrede \"Liebe Leonie\": sein Gesundheitszustand lasse noch viel zu wünschen übrig; in der Religionsangelegenheit habe er, eine Frage beantwortend, seine persönliche Meinung über manche Überbleibsel geäußert, beabsichtige aber keine Kampagne; besonderer Dank für ihre Glückwünsche zu seinem Geburtstag — \"eigentlich eine ziemlich betrübende Gelegenheit\" — gezeichnet \"M.\". (2) Ein Brief vom 24. Juni 1959 (\"Liebe Freundin\") mit seinen Reiseplänen: Abflug am 10. Juli von Lod über Paris, Ankunft am nächsten Tag in Hamburg (Hotel Atlantic); er will sie möglichst bald nach der Ankunft anrufen und bleibt wahrscheinlich bis etwa 17. Juli in Hamburg; ob er nach Bonn fährt, ist fraglich — er hofft es nicht; nach Abschluss des Programms beabsichtigt er, Deutschland zu verlassen; eine längere Passage über die Frage, mehr vom Land zu sehen (Süddeutschland wird erwähnt), ist im HTR entstellt. Zwei weitere Seiten sind zu schlecht transkribiert, um lesbar zu sein.",
+ "summary_en": "Bundle of two letters from Moshe Sharett to Leonie Frank. (1) A short undated note written during a brief holiday (the heading appears to read \"Elat\"; reading uncertain), addressed \"Liebe Leonie\": his health still leaves much to be desired; on the religious question he has, in answering a query, expressed his personal opinion about certain vestiges but intends to launch no campaign; special thanks for her greetings on his birthday — \"actually a rather depressing occasion\" — signed \"M.\". (2) A letter of 24 June 1959 (\"Liebe Freundin\") setting out his travel plans: he flies on 10 July from Lod via Paris and lands the next day in Hamburg (Hotel Atlantic); he will try to telephone her soon after arrival and will probably stay in Hamburg until about 17 July; whether he goes to Bonn is in doubt — he hopes not; after the programme closes he intends to leave Germany, and a longer passage on the question of seeing more of the country (southern Germany is mentioned) is garbled in the HTR. Two further pages are too poorly transcribed to read.",
  "panes": {
   "source": {
    "pane": "source",
@@ -56,7 +56,19 @@
       "shortline": 0.381,
       "tokens": 69
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "moderate",
+      "issues": [],
+      "note": "Handwritten letter on a letterhead with Hebrew and Latin print.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 34,
@@ -73,7 +85,22 @@
       "shortline": 0.233,
       "tokens": 193
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (latin)",
+      "script": "handwriting",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "dense",
+      "issues": [
+       "stamp",
+       "handwritten-annotation"
+      ],
+      "note": "Handwritten letter in Latin script with some blue ink annotations at the top and a circular stamp on the left edge.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 35,
@@ -90,7 +117,21 @@
       "shortline": 1.0,
       "tokens": 9
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "hebrew",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [
+       "stamp"
+      ],
+      "note": "Handwritten Hebrew address on an envelope with Israeli postage stamps and postmarks.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 36,
@@ -107,7 +148,21 @@
       "shortline": 0.0,
       "tokens": 0
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [
+       "stamp"
+      ],
+      "note": "Back of a used envelope with a partial postmark.",
+      "confidence": 0.95
+     }
     }
    ]
   },

@@ -27,9 +27,9 @@
   "page_range": "1",
   "is_heimat_relevant": "yes"
  },
- "summary_he": "הערה בכתב יד בראש התיק (שנה \"1987\"); כנראה רישום תיוק של שופלר.",
- "summary_de": "Handschriftliche Notiz am Aktenanfang (Jahr \"1987\"), vermutlich Ablagenotiz Schoplers.",
- "summary_en": "Handwritten note at the file's head (year \"1987\"), probably Schopler's own filing annotation.",
+ "summary_he": "רשימה בודדת בכתב יד בראש התיק, ובראשה השנה 1987 — ככל הנראה רישום תיוק של היינריך (צבי) שופלר. מעבר לציון השנה, השורות המעטות המשורבטות — הכתובות כנראה בערבוב של כתב לטיני ועברי — כמעט שאינן ניתנות לקריאה; פענוח ה-OCR של העמוד אינו מהימן, ולכן אי אפשר לקבוע את תוכנן בוודאות ומוטב לפנות לסריקה עצמה.",
+ "summary_de": "Einzelne handschriftliche Notiz am Anfang der Mappe, überschrieben mit der Jahreszahl 1987, vermutlich eine Ablagenotiz Heinrich (Zvi) Schoplers. Über die Jahreszahl hinaus sind die wenigen hingeworfenen Zeilen — offenbar in lateinischer und hebräischer Schrift gemischt — kaum lesbar; die OCR-Übertragung der Seite ist unzuverlässig, ihr Inhalt lässt sich daher nicht sicher angeben, und es empfiehlt sich der Blick in das Digitalisat.",
+ "summary_en": "A single handwritten note at the head of the folder, headed with the year 1987 and most likely a filing annotation by Heinrich (Zvi) Schopler. Beyond the year, the few scrawled lines — apparently mixing Latin and Hebrew script — are barely legible; the OCR of the page is graded unreliable, so their content cannot be stated with confidence and the scan itself should be consulted.",
  "panes": {
   "source": {
    "pane": "source",
@@ -53,7 +53,19 @@
       "shortline": 0.7,
       "tokens": 34
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (hebrew)",
+      "script": "handwriting",
+      "hand_kind": "hebrew",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [],
+      "note": "The page contains Hebrew handwriting and a numeric date.",
+      "confidence": 1.0
+     }
     }
    ]
   },

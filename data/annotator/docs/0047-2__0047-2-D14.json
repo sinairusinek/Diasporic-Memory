@@ -33,9 +33,9 @@
   "page_range": "57-60",
   "is_heimat_relevant": "true"
  },
- "summary_he": "מכתב מירושלים 29.5.1959: חושש שמכתבו עם כתובת משפחת לוין ברומא כבר לא השיג אותה בכפר שמריהו; ככל הנראה יטוס באמצע יולי להמבורג ולשבוע גם לבון; בתחילת אוגוסט — שטוקהולם, לקונגרס היהודי העולמי; \"אגב, אין לי מושג היכן ויסבאדן ביחס להמבורג — אצטרך עוד ללמוד את המפה\"; מערכת הבחירות הסתיימה אך הלחץ נמשך; מקווה שלא שכחה את מעט העברית מהאולפן.",
- "summary_de": "Brief aus Jerusalem, 29.5.1959: er fürchtet, sein Brief mit der Adresse der Lewins in Rom habe sie in Kfar Shmaryahu nicht mehr erreicht; höchstwahrscheinlich fliegt er Mitte Juli nach Hamburg und für eine Woche auch nach Bonn; Anfang August Stockholm zum Jüdischen Weltkongress; \"Übrigens habe ich noch keine Ahnung, wo Wiesbaden gelegen ist in Bezug auf Hamburg – ich werde noch die Karte studieren müssen\"; der Wahlkampf ist vorüber, der Druck lässt nicht nach; hoffentlich hat sie ihr Ulpan-Hebräisch nicht vergessen.",
- "summary_en": "Letter from Jerusalem, 29 May 1959: he fears his letter with the Levins' Rome address no longer reached her in Kfar Shmaryahu; he will most probably fly mid-July to Hamburg and spend a week there and in Bonn; early August Stockholm for the World Jewish Congress; \"By the way, I still have no idea where Wiesbaden lies in relation to Hamburg – I shall have to study the map\"; the election campaign is over but the pressure continues; he hopes she has not forgotten her Ulpan Hebrew.",
+ "summary_he": "מכתב ממשה שרת, ירושלים, 29 במאי 1959, אל לאוני פרנק. במכתב בכתב יד על שני עמודים הוא מתנצל על שתיקתו — באותם ימים היה \"בלתי אפשרי מבחינה אנושית\" לפעול בחופשיות — וחושש שמכתבו עם כתובת משפחת לוין ברומא כבר לא השיג אותה בכפר שמריהו; קרוב לוודאי שיטוס באמצע יולי להמבורג כדי לשהות שם ובבון שבוע; המועד הקבוע הבא הוא תחילת אוגוסט בשטוקהולם, בקונגרס היהודי העולמי, ובשל ועידת מפלגה שנקבעה לסוף יולי ייתכן שיטוס בינתיים מהמבורג/בון הביתה ויצא שוב לדרך כעבור שבוע; הוא מעיר: \"אגב, עדיין אין לי מושג היכן שוכנת ויסבאדן ביחס להמבורג — אצטרך עוד לעיין במפה\"; מערכת הבחירות הסתיימה אך הלחץ אינו מרפה (ועידת בני ברית, הארץ מלאה ביהודים אמריקאים שיש להעניק להם תשומת לב); הוא מקווה שלא שכחה לגמרי את העברית שלמדה באולפן. שני העמודים האחרונים תועתקו באיכות ירודה מכדי שאפשר יהיה לקוראם; שברי מילים מרמזים על מעטפה ממוענת (רחוב גוסטב-פרייטג, ויסבאדן, גרמניה — הקריאה אינה ודאית).",
+ "summary_de": "Brief von Moshe Sharett, Jerusalem, 29. Mai 1959, an Leonie Frank. In dem zweiseitigen handschriftlichen Brief entschuldigt er sein Schweigen — in jenen Tagen sei es \"menschlich unmöglich\" gewesen, frei zu handeln — und befürchtet, dass sein Brief mit der Rom-Adresse der Lewins sie in Kfar Shmaryahu nicht mehr erreicht hat; höchstwahrscheinlich fliegt er Mitte Juli nach Hamburg, um dort und in Bonn eine Woche zu verbleiben; der nächste feste Termin ist Anfang August in Stockholm beim Jüdischen Weltkongress, und wegen einer für Ende Juli angesetzten Parteikonferenz fliegt er möglicherweise von Hamburg/Bonn zwischendurch nach Hause, um nach einer Woche wieder zu verreisen; er bemerkt: \"Übrigens habe ich noch keine Ahnung, wo Wiesbaden gelegen ist in Bezug auf Hamburg — ich werde noch die Karte studieren müssen\"; der Wahlkampf ist vorüber, aber der Druck lässt nicht nach (eine Bnei-Brith-Konferenz, das Land voller amerikanischer Juden, denen Aufmerksamkeit zu schenken ist); er hofft, dass sie ihr Ulpan-Hebräisch nicht ganz vergessen hat. Die letzten beiden Seiten sind zu schlecht transkribiert, um lesbar zu sein; Fragmente deuten auf einen adressierten Umschlag hin (Gustav-Freytag-Str., Wiesbaden, Germany — Lesung unsicher).",
+ "summary_en": "Letter from Moshe Sharett, Jerusalem, 29 May 1959, to Leonie Frank. In the two-page handwritten letter he apologizes for his silence — in those days it was \"humanly impossible\" to act freely — and fears that his letter with the Lewins' Rome address no longer reached her in Kfar Shmaryahu; he will most probably fly in mid-July to Hamburg, to spend a week there and in Bonn; the next fixed date is early August in Stockholm for the World Jewish Congress, and because of a party conference set for late July he may fly home from Hamburg/Bonn in between, setting out again after a week; he remarks: \"By the way, I still have no idea where Wiesbaden lies in relation to Hamburg — I shall have to study the map\"; the election campaign is over but the pressure does not let up (a B'nai B'rith conference, the country full of American Jews to whom attention must be paid); he hopes she has not entirely forgotten her Ulpan Hebrew. The last two pages are too poorly transcribed to read; fragments suggest an addressed envelope (Gustav-Freytag-Str., Wiesbaden, Germany — reading uncertain).",
  "panes": {
   "source": {
    "pane": "source",
@@ -59,7 +59,19 @@
       "shortline": 0.227,
       "tokens": 138
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (latin)",
+      "script": "handwriting",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "moderate",
+      "issues": [],
+      "note": "A modern Latin longhand letter in German dated 1959.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 58,
@@ -76,7 +88,21 @@
       "shortline": 0.25,
       "tokens": 107
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (latin)",
+      "script": "handwriting",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "moderate",
+      "issues": [
+       "marginalia"
+      ],
+      "note": "The text contains a vertical note in the left margin.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 59,
@@ -93,7 +119,22 @@
       "shortline": 0.938,
       "tokens": 29
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (latin)",
+      "script": "handwriting",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [
+       "stamp",
+       "handwritten-annotation"
+      ],
+      "note": "Handwritten address in Latin script and some Hebrew script; contains postal stamps.",
+      "confidence": 0.95
+     }
     },
     {
      "page_no": 60,
@@ -110,7 +151,21 @@
       "shortline": 1.0,
       "tokens": 1
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (latin)",
+      "script": "handwriting",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [
+       "handwritten-annotation"
+      ],
+      "note": "Back of an envelope with two handwritten initials.",
+      "confidence": 0.95
+     }
     }
    ]
   },

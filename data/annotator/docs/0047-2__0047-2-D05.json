@@ -27,9 +27,9 @@
   "page_range": "18-22",
   "is_heimat_relevant": "true"
  },
- "summary_he": "מכתב על נייר הנהלת הסוכנות היהודית, ולצדו מעטפת אוויר אל \"פראו לאוני פרנק, רח' גוסטב-פרייטג, ויסבאדן\": תודה על מכתבה המפורט והמסור, הרגעה באשר למצבו, ומשלוח שני דו\"חות (על מצב ערביי ישראל ושאלת הפליטים — קריאה לא ודאית).",
- "summary_de": "Brief auf Papier der Jewish-Agency-Exekutive, mit Luftpostumschlag an \"Frau Leonie Frank, Gustav-Freytag-Str., Wiesbaden\": Dank für ihren ausführlichen, fürsorglichen Brief, Beruhigung über sein Befinden und Übersendung zweier Berichte (über die Lage der israelischen Araber und die Flüchtlingsfrage — Lesung unsicher).",
- "summary_en": "Letter on Jewish Agency Executive paper, with an airmail envelope addressed to \"Frau Leonie Frank, Gustav-Freytag-Str., Wiesbaden\": thanks for her detailed, caring letter, reassurance about his condition, and two enclosed reports (on the situation of Israel's Arabs and the refugee question — uncertain reading).",
+ "summary_he": "מכתב ומעטפה מ-21 באוגוסט 1962, ממשה שרת אל לאוני פרנק. הצרור כולל (1) מעטפת דואר אוויר הממוענת אל \"פראו לאוני פרנק, רחוב גוסטב-פרייטג, ויסבאדן\", וכן (2) מכתב בכתב יד על נייר המכתבים של הנהלת הסוכנות היהודית, ירושלים, מ-21/8/62, הנפתח \"ידידה יקרה\": שרת מודה לה על מכתבה המפורט והנוגע ללב במסירותו, מרגיע אותה שמצבו כלל אינו כה גרוע, מזכיר בקטע שרק חלקו קריא את מה שנראה כסידורי נסיעה באונייה, תוך אזכור ונציה (הקריאה אינה ודאית), ומודיע על משלוח שני דו\"חות — על מצב ערביי ישראל ועל שאלת הפליטים — שהוא מקווה שיהיו לה לעזר. שני עמודים נוספים בסריקה תועתקו באיכות ירודה מכדי שאפשר יהיה לקוראם.",
+ "summary_de": "Brief mit Umschlag vom 21. August 1962 von Moshe Sharett an Leonie Frank. Das Konvolut umfasst (1) einen Luftpostumschlag an \"Frau Leonie Frank, Gustav-Freytag-Str., Wiesbaden\" und (2) einen handschriftlichen Brief auf Papier der Exekutive der Jewish Agency, Jerusalem, datiert 21/8/62, mit der Anrede \"Liebe Freundin\": Sharett dankt für ihren ausführlichen, in seiner Sorgfalt rührenden Brief, beruhigt sie, dass es um ihn gar nicht so schlimm stehe, erwähnt in einer nur teilweise lesbaren Passage offenbar Reisepläne per Schiff, wobei Venedig genannt wird (Lesung unsicher), und kündigt die Übersendung zweier Berichte an — über die Lage der israelischen Araber und über die Flüchtlingsfrage —, die ihr, so hofft er, von Nutzen sein werden. Zwei weitere Seiten des Scans sind zu schlecht transkribiert, um lesbar zu sein.",
+ "summary_en": "Letter with envelope, 21 August 1962, from Moshe Sharett to Leonie Frank. The bundle comprises (1) an airmail envelope addressed to \"Frau Leonie Frank, Gustav-Freytag-Str., Wiesbaden\", and (2) a handwritten letter on the letterhead of the Executive of the Jewish Agency, Jerusalem, dated 21/8/62 and opening \"Liebe Freundin\": Sharett thanks her for her detailed letter, touching in its care, reassures her that things are not at all so bad with him, mentions in an only partly legible passage what appear to be travel arrangements by ship, with Venice named (reading uncertain), and announces that he is sending her two reports — on the situation of Israel's Arabs and on the refugee question — which he hopes will be of use to her. Two further pages of the scan are too poorly transcribed to read.",
  "panes": {
   "source": {
    "pane": "source",
@@ -53,7 +53,21 @@
       "shortline": 1.0,
       "tokens": 11
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [
+       "stamp"
+      ],
+      "note": "Airmail envelope with printed 'PAR AVION', handwritten address in Latin script, and Hebrew postmarks.",
+      "confidence": 0.95
+     }
     },
     {
      "page_no": 19,
@@ -70,7 +84,19 @@
       "shortline": 0.75,
       "tokens": 9
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "keep",
+      "why": "already transcribed by Transkribus",
+      "script": "print",
+      "hand_kind": "",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [],
+      "note": "The back of an airmail envelope from the Jewish Agency with printed text in Hebrew and English.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 20,
@@ -87,7 +113,21 @@
       "shortline": 0.45,
       "tokens": 95
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "moderate",
+      "issues": [
+       "marginalia"
+      ],
+      "note": "Letter on printed letterhead with Hebrew text and a handwritten date and body in German Latin cursive.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 21,
@@ -104,7 +144,22 @@
       "shortline": 1.0,
       "tokens": 10
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "hebrew",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [
+       "stamp",
+       "handwritten-annotation"
+      ],
+      "note": "The page is an envelope with handwritten Hebrew address and Israeli postage stamps.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 22,
@@ -121,7 +176,21 @@
       "shortline": 1.0,
       "tokens": 1
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "keep",
+      "why": "already transcribed by Transkribus",
+      "script": "print",
+      "hand_kind": "",
+      "layout": "mostly-image",
+      "legibility": "good",
+      "text_amount": "sparse",
+      "issues": [
+       "stamp"
+      ],
+      "note": "The page contains only a single circular ink stamp on the back of an envelope.",
+      "confidence": 1.0
+     }
     }
    ]
   },

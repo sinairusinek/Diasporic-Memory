@@ -24,9 +24,9 @@
   "page_range": "249-252",
   "is_heimat_relevant": "true"
  },
- "summary_he": "הערות בכתב יד (Thal Heinz; וורמייזה).",
- "summary_de": "Handschriftliche Notizen (Thal Heinz; Wormeisa).",
- "summary_en": "Handwritten notes (Thal Heinz; Wormeisa).",
+ "summary_he": "ארבעה עמודי רשימות, שאף אחד מהם אינו קריא במכונה באופן מהימן (כל העמודים דורגו כירודים בזיהוי הטקסט). העמוד הראשון נראה כרשימת שמות אלפביתית מודפסת, הפותחת ב-\"Thal, Heinz\" וכוללת שמות משפחה יהודיים וורמסיים רבים (אופנהיימר, זונדהיימר, ריינהיימר, וכנהיימר, וייס ועוד), ככל הנראה רשימת זיכרון; ניכר בה גם שם חודש עברי (כסלו). העמוד השני הוא קטע עברי מודפס קצר על וורמס (וורמייזה) — בית הכנסת של רש\"י, מקומה של העיר בין קהילות שו\"ם לצד שפיירא ומגנצא, ומספר תושבים. שני העמודים האחרונים כתובים בצפיפות בכתב יד גרמני, שאת תוכנו לא הצליח זיהוי הטקסט לפענח; אי אפשר לציין את נושאם ויש לבררו מן הסריקות.",
+ "summary_de": "Vier Seiten Notizen, keine davon maschinell zuverlässig lesbar (alle Seiten von der Texterkennung als schlecht eingestuft). Die erste Seite scheint eine maschinenschriftliche oder gedruckte alphabetische Namensliste zu sein, beginnend mit \"Thal, Heinz\" und mit vielen Wormser jüdischen Familiennamen (Oppenheimer, Sondheimer, Reinheimer, Wachenheimer, Weis u.a.), offenbar eine Gedenkliste; erkennbar ist auch ein hebräischer Monatsname (Kislew). Die zweite Seite ist ein kurzer gedruckter hebräischer Text über Worms (Warmaisa) — die Raschi-Synagoge, die Stellung der Stadt unter den SchUM-Gemeinden neben Speyer und Mainz und eine Einwohnerzahl. Die beiden letzten Seiten sind dicht beschriebene deutsche Schreibschrift, deren Inhalt die Texterkennung nicht erschließen konnte; ihr Gegenstand lässt sich nicht angeben und muss anhand der Scans ermittelt werden.",
+ "summary_en": "Four pages of notes, none of them reliably machine-readable (all pages graded poor by the OCR). The first page appears to be a typed or printed alphabetical list of personal names beginning \"Thal, Heinz\" and containing many Worms Jewish family names (Oppenheimer, Sondheimer, Reinheimer, Wachenheimer, Weis and others), evidently a memorial or commemorative list; a Hebrew month name (Kislev) is also discernible. The second page is a short printed Hebrew passage about Worms (Warmaisa) — its Rashi synagogue, the city's place among the ShUM communities alongside Speyer and Mainz, and a population figure. The last two pages are densely written German cursive whose content the OCR could not recover; their subject cannot be stated and must be established from the scans.",
  "panes": {
   "source": {
    "pane": "source",
@@ -50,7 +50,19 @@
       "shortline": 0.419,
       "tokens": 214
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "gemini",
+      "why": "print, graded poor",
+      "script": "print",
+      "hand_kind": "",
+      "layout": "montage",
+      "legibility": "low-contrast",
+      "text_amount": "moderate",
+      "issues": [],
+      "note": "A photo of a cemetery montage with a photo of a memorial plaque containing a dense list of names.",
+      "confidence": 0.95
+     }
     },
     {
      "page_no": 250,
@@ -67,7 +79,22 @@
       "shortline": 0.667,
       "tokens": 56
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "latin",
+      "layout": "montage",
+      "legibility": "good",
+      "text_amount": "moderate",
+      "issues": [
+       "handwritten-annotation",
+       "map"
+      ],
+      "note": "Clippings in Hebrew, German, and English are pasted at various angles; includes one date in handwriting.",
+      "confidence": 0.95
+     }
     },
     {
      "page_no": 251,
@@ -84,7 +111,21 @@
       "shortline": 0.314,
       "tokens": 453
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (latin)",
+      "script": "handwriting",
+      "hand_kind": "latin",
+      "layout": "two-column",
+      "legibility": "good",
+      "text_amount": "dense",
+      "issues": [
+       "tight-gutter"
+      ],
+      "note": "Modern German longhand script across two notebook pages.",
+      "confidence": 0.95
+     }
     },
     {
      "page_no": 252,
@@ -101,7 +142,22 @@
       "shortline": 0.704,
       "tokens": 499
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (latin)",
+      "script": "handwriting",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "dense",
+      "issues": [
+       "tight-gutter",
+       "page-curl"
+      ],
+      "note": "A notebook spread with dense Latin longhand; the central gutter is very tight and shadows the text.",
+      "confidence": 0.95
+     }
     }
    ]
   },

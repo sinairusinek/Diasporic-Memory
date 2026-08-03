@@ -23,9 +23,9 @@
   "page_range": "5",
   "is_heimat_relevant": "true"
  },
- "summary_he": "הערה קצרה בכתב יד עברי (עיפרון דהוי) הנוגעת להזמנת 1964.",
- "summary_de": "Kurze handschriftliche hebräische Notiz (verblasst) zur Einladung 1964.",
- "summary_en": "Short handwritten Hebrew note (faded) relating to the 1964 invitation.",
+ "summary_he": "דף בודד ובו הערה קצרה בכתב יד עברי בעיפרון דהוי, שתויקה לצד הזמנת עיריית וורמס מ-1964 וככל הנראה מתייחסת אליה. הכתב, כנראה בכתב ידו של מנהיימר, לא ניתן לתעתוק מהימן: זיהוי הטקסט מניב אותיות בודדות בלבד, ולכן אי אפשר לסכם את התוכן ויש לקראו מן הסריקה.",
+ "summary_de": "Ein einzelnes Blatt mit einer kurzen handschriftlichen hebräischen Notiz in verblasstem Bleistift, abgelegt bei der Einladung der Stadt Worms von 1964 und offenbar auf sie bezogen. Die Schrift, vermutlich von Mannheimers Hand, ließ sich nicht zuverlässig transkribieren: Die Texterkennung liefert nur vereinzelte Buchstaben, so dass sich der Inhalt nicht zusammenfassen lässt und aus dem Scan gelesen werden muss.",
+ "summary_en": "A single leaf with a short handwritten Hebrew note in faded pencil, filed with the City of Worms invitation of 1964 and evidently referring to it. The writing, presumably in Mannheimer's hand, could not be reliably transcribed: the optical character recognition yields only scattered letters, so the content cannot be summarised and must be read from the scan.",
  "panes": {
   "source": {
    "pane": "source",
@@ -49,7 +49,19 @@
       "shortline": 0.7,
       "tokens": 55
      },
-     "translatable": false
+     "translatable": false,
+     "triage": {
+      "engine": "transkribus",
+      "why": "handwritten (hebrew)",
+      "script": "handwriting",
+      "hand_kind": "hebrew",
+      "layout": "single",
+      "legibility": "faded",
+      "text_amount": "sparse",
+      "issues": [],
+      "note": "A few lines of Hebrew handwriting and the year 1964; the ink is very light/faded.",
+      "confidence": 1.0
+     }
     }
    ]
   },

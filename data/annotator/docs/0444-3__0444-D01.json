@@ -32,9 +32,9 @@
   "page_range": "6-7",
   "is_heimat_relevant": "true"
  },
- "summary_he": "מכתב הזמנה רשמי מעיריית וורמס (מטעם ראש העיר ברג, מחלקת המכללה העממית) אל הנס חנן מנהיימר לבקר ב\"מולדתו הישנה\" באביב 1965 במסגרת \"שבוע האחווה\", ולהרצות על חיי הקיבוץ; מוצע מימון הנסיעה, איסוף משדה התעופה בפרנקפורט ואירוח.",
- "summary_de": "Offizielle Einladung der Städtischen Kulturinstitute/Volkshochschule Worms an Hans Mannheimer, im Frühjahr 1965 zur Woche der Brüderlichkeit \"in Ihre alte Heimat\" zu kommen und über das Leben im Kibbuz vorzutragen; Reisekosten, Abholung am Frankfurter Flughafen und Unterbringung werden angeboten.",
- "summary_en": "Official invitation from the Worms municipal cultural institutes / adult-education college to Hans Mannheimer to come \"to your old Heimat\" in spring 1965 for the Week of Brotherhood and lecture on kibbutz life; travel funding, Frankfurt-airport pickup and lodging offered.",
+ "summary_he": "מכתב מודפס של עיריית וורמס (מכוני התרבות העירוניים / האוניברסיטה העממית), וורמס, 6 בנובמבר 1964, חתום בידי ד\"ר ק. שלוסר, אל הנס מנהיימר, קיבוץ גליל ים, ישראל; שני עמודים. בהמשך להזמנת ראש העירייה הראשון ברג מ-3 בנובמבר מסדיר שלוסר את הפרטים המעשיים של הביקור המתוכנן: רצוי שיחול בשבוע האחווה, 7–14 במרץ 1965, ובמסגרתו מתבקש מנהיימר להרצות באוניברסיטה העממית על חייו בקיבוץ ועל דרכו אליו, רצוי בליווי שקופיות צבעוניות. שלוסר כבר יצר קשר עם אוניברסיטאות עממיות שכנות (לודוויגסהאפן, מנהיים) ומעמיד על הפרק שלוש עד חמש הרצאות נוספות בשכר המקובל של 50–80 מארק, כסיוע במימון הנסיעה. הוא מבטיח איסוף משדה התעופה בפרנקפורט, אירוח במלון בוורמס ומפגשים עם מכרים מוורמס, מבקש לדעת אילו מועדים נוחים למנהיימר ומהן בקשותיו, ומוסיף הערה אישית שהוא שמח שמנהיימר יבוא בקרוב \"אל מולדתך הישנה\".",
+ "summary_de": "Maschinenschriftlicher Brief der Stadtverwaltung Worms (Städtische Kulturinstitute / Volkshochschule), Worms, 6. November 1964, gezeichnet Dr. K. Schlösser, an Hans Mannheimer, Kibbuz Glil-Yam, Israel; zwei Seiten. Im Anschluss an die Einladung des Ersten Bürgermeisters Berg vom 3. November regelt Schlösser die praktischen Einzelheiten des geplanten Besuchs: Er soll möglichst in die Woche der Brüderlichkeit vom 7.–14. März 1965 fallen, in der Mannheimer an der Volkshochschule über sein Leben im Kibbuz und seinen Weg dorthin sprechen soll, nach Möglichkeit mit Farbdias. Schlösser hat bereits mit benachbarten Volkshochschulen (Ludwigshafen, Mannheim) Fühlung aufgenommen und stellt drei bis fünf weitere Vorträge zum üblichen Honorar von 50–80 DM in Aussicht, als Beitrag zur Finanzierung der Reise. Er sagt Abholung am Frankfurter Flughafen, Hotelunterbringung in Worms und Begegnungen mit Wormser Bekannten zu, bittet um genehme Termine und um Mannheimers eigene Wünsche und fügt die persönliche Bemerkung an, er freue sich, dass Mannheimer demnächst \"in Ihre alte Heimat\" komme.",
+ "summary_en": "Typed letter of the Worms municipal administration (Städtische Kulturinstitute / Volkshochschule), Worms, 6 November 1964, signed Dr. K. Schlösser, to Hans Mannheimer, Kibbutz Glil-Yam, Israel; two pages. Following up First Mayor Berg's invitation of 3 November, Schlösser settles the practical details of the proposed visit: it should fall in the Week of Brotherhood, 7–14 March 1965, when Mannheimer is asked to give a Volkshochschule lecture on his life in the kibbutz and how he came there, if possible with colour slides. Schlösser has already approached neighbouring adult-education colleges (Ludwigshafen, Mannheim) and holds out the prospect of three to five further lectures at the usual fee of DM 50–80, as a contribution towards financing the journey. He promises collection at Frankfurt airport, hotel accommodation in Worms and meetings with Worms acquaintances, asks for convenient dates and for Mannheimer's own wishes, and adds the personal remark that he is glad Mannheimer will soon be coming \"to your old Heimat\".",
  "panes": {
   "source": {
    "pane": "source",
@@ -58,7 +58,21 @@
       "shortline": 0.244,
       "tokens": 352
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "dense",
+      "issues": [
+       "handwritten-annotation"
+      ],
+      "note": "Letterhead is printed; body text is typewritten; a few small handwritten marks in Latin script.",
+      "confidence": 1.0
+     }
     },
     {
      "page_no": 7,
@@ -75,7 +89,21 @@
       "shortline": 0.286,
       "tokens": 232
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "latin",
+      "layout": "single",
+      "legibility": "good",
+      "text_amount": "moderate",
+      "issues": [
+       "handwritten-annotation"
+      ],
+      "note": "A typewritten letter with a handwritten signature and initialing.",
+      "confidence": 1.0
+     }
     }
    ]
   },

@@ -28,9 +28,9 @@
   "page_range": "10",
   "is_heimat_relevant": "true"
  },
- "summary_he": "כתבה: אבות העיר קלן הזמינו 40 בני קלן לשעבר מישראל לבקר בעיר מולדתם; מוזכר קלאוס לאדה, עוזרו של ראש העיר בורגר.",
- "summary_de": "Bericht: Kölner Stadtväter luden 40 ehemalige Kölner aus Israel in ihre Heimatstadt ein; erwähnt Klaus Ladda, den persönlichen Referenten von OB Burger.",
- "summary_en": "Report: Cologne's city fathers invited 40 former Cologne residents from Israel to their home city; names Klaus Ladda, Mayor Burger's personal aide.",
+ "summary_he": "כתבת עיתון בודדת, 'מסע אביב אל עיר הקתדרלה קלן', חתומה בידי אנה היימן — דיווח מסע בגוף ראשון, שנכתב בבירור עבור קהל קוראים דובר גרמנית בישראל, על השבוע שבו אירחו פרנסי קלן 40 תושבי קלן לשעבר מישראל בעיר מולדתם. הכתבה מתארת את טיסת אל על לפרנקפורט ואת הליווי המסור של קלאוס לאדה, הרפרנט האישי של ראש העיר נורברט בורגר, ורעייתו רות; את מלון חמשת הכוכבים פולמן-מונדיאל; את הסיור בעיר עם ביקור בקתדרלה ושעות במוזיאון לודוויג ובמוזיאון ולראף-ריכרץ; את קבלת הפנים הלבבית של בורגר באולם ההנזה ההיסטורי של בית העירייה; את הרכב הקבוצה — ברובה נשים מבוגרות, עם בת 96 מתל אביב כ'אנפאן טריבל' שלה; את הטיול דרך הרי האייפל אל נהר המוזל ואת השייט בספינת קיטור על הריין על פני צוק הלורליי; את יום השישי שהוקדש לקהילה היהודית של קלן, עם ביקור בבית העלמין, תפילה ושלושה מניינים; את האופרה 'צאר ונגר' במוצאי שבת; ואת ארוחת הפרידה במסעדה המסתובבת של מגדל הטלוויזיה 'קולוניוס'. המחברת חותמת בעצה מעשית לקוראים המבקשים לשוב ולראות את קלן — לפנות בכתב ללשכת ראש העיר לידי קלאוס לאדה — ובאיחולים לקבוצת הנוסעים הבאה.",
+ "summary_de": "Einzelner Zeitungsartikel 'Frühlingsfahrt in die Domstadt Köln', gezeichnet Änne Heymann — ein Ich-Bericht, erkennbar für eine deutschsprachige Leserschaft in Israel geschrieben, über die Woche, in der die Kölner Stadtväter 40 ehemalige Kölner aus Israel in ihrer Heimatstadt zu Gast hatten. Geschildert werden der El-Al-Flug nach Frankfurt und die aufmerksame Betreuung durch Klaus Ladda, den persönlichen Referenten Oberbürgermeister Norbert Burgers, und dessen Frau Ruth; das Fünf-Sterne-Hotel Pullman-Mondial; die Stadtrundfahrt mit Dombesichtigung und Stunden im Ludwig- bzw. Wallraf-Richartz-Museum; Burgers herzlicher Empfang im historischen Hansasaal des Rathauses; die Zusammensetzung der Gruppe — überwiegend ältere Damen, mit einer 96-Jährigen aus Tel Aviv als 'Enfant terrible'; die Fahrt durch die Eifel zur Mosel und die Rheindampferfahrt an der Loreley vorbei; der der Kölner jüdischen Gemeinde gewidmete Freitag mit Friedhofsbesuch, Gottesdienst und drei Minjanim; nach Schabbatausgang die Oper 'Zar und Zimmermann'; und das Abschiedssouper im Drehrestaurant des Fernsehturms 'Colonius'. Die Verfasserin schließt mit dem praktischen Rat an Leser, die Köln wiedersehen möchten, sich an das Büro des Oberbürgermeisters zu Händen von Klaus Ladda zu wenden, und mit guten Wünschen für die nächste Reisegruppe.",
+ "summary_en": "Single newspaper article 'Frühlingsfahrt in die Domstadt Köln', signed Änne Heymann — a first-person travel report, evidently written for a German-language readership in Israel, on the week in which the Cologne city fathers hosted 40 former Cologne residents from Israel in their home city. It recounts the El Al flight to Frankfurt and the attentive care of Klaus Ladda, personal aide to Mayor Norbert Burger, and his wife Ruth; the five-star Hotel Pullman-Mondial; the city tour with the cathedral and hours spent in the Ludwig and Wallraf-Richartz museums; Burger's warm reception in the historic Hansasaal of the Rathaus; the composition of the group — mostly elderly ladies, with a 96-year-old from Tel Aviv as its 'enfant terrible'; the excursion through the Eifel to the Mosel and the Rhine steamer past the Loreley; the Friday devoted to the Cologne Jewish community, with cemetery visit, service and three minyanim; the opera 'Zar und Zimmermann' after the close of Sabbath; and the farewell supper in the revolving restaurant of the 'Colonius' television tower. The author closes with practical advice for readers wishing to see Cologne again — to write to the mayor's office attn. Klaus Ladda — and good wishes for the next travel group.",
  "panes": {
   "source": {
    "pane": "source",
@@ -54,7 +54,21 @@
       "shortline": 0.092,
       "tokens": 560
      },
-     "translatable": true
+     "translatable": true,
+     "triage": {
+      "engine": "gemini",
+      "why": "printed body with handwriting on it",
+      "script": "mixed",
+      "hand_kind": "latin",
+      "layout": "multi-column",
+      "legibility": "good",
+      "text_amount": "dense",
+      "issues": [
+       "handwritten-annotation"
+      ],
+      "note": "Main text is printed newspaper clipping in three columns; the header is a white-on-black handwritten or stylized graphic.",
+      "confidence": 0.95
+     }
     }
    ]
   },
