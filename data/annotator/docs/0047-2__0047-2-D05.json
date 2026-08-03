@@ -35,13 +35,13 @@
    "pane": "source",
    "lang": "de",
    "dir": "ltr",
-   "text": "BaR AVION\nTrau leonie Tranh\nCustar treytapsti\nhresbaden\nN 2713.3 3373771\n\n13\n33014\nTHE ExECUrVE Or THE IEWIsH ACEN\nserusaiem\n\n24671 71530\nAA\n\n21/8/62\n13017\nLiebe Treundin,\nDanke fir thren aushäte\nlichen und durch Ihre Soyfältigkeit rührendeen\nBrief. 53 steht mit mir gar ncht so sekhimm\nand et ai Eo er eib vogeaells helten bn\ngeben auf detar aber vor auf l. 1. 178.\nden at der Malinnm dle at mit ulee\nhenn - die sir auf eenem Schaff vrkleiten\npecden, den Hacse noch Veretig und geml\nwas das Material anbelangt. Es\nschrete ich thne zrei Brrichun, iher\nder Lagt der Teraeleinhen Aceber auf des\nFlüchtlengsfraht. Ich haft zn werte hnn\nAnzwiderschen\nbehlflich sein\nI.\n\n2\n2\n>\nm\n%\nF\n« 6\n5\n‏לית‎\n\n21144x",
-   "sha256": "a372c57c0f4a5e7487c8885893f1f4c63d275af9639f458cbb5a43dce371d7b5",
+   "text": "PAR AVION\nFran Leonie Frank\nGustav Freytagstr.\nhriesbaden\nפדענר כישננית\n\n13\n33014\nTHE ExECUrVE Or THE IEWIsH ACEN\nserusaiem\n\n24671\nמשת שרת\nהסוכנות היהודית לארץ בשראל\n27/8/62\nרושלים\nLiebe Fuundin.\nDanke füz Ihren ausführ.\nlichen und durch Ihre Sorgfältigkeit rührende\nBrief. Es steht mit mir gar nicht so schlimm\nund ernst wie sie es sich vorgestellt haben. Wir\ngehen auf Ferien, aber nur auf l-9 Tage -\ndas ist das Maximum das ich mich erlauben\nkann - die wir auf einem Schiff verbleiben\nwerden, son Harfa nach Venedig und grunch.\nWas das Material anbelangt, so\nschicke ich Ihnen zwei Broschuren, über\ndie Lage der Ieraclischen Araber und die\nFlüchtlingsfrage. Ich hoffe sie werde Ihnen\nAufwiedersehen\nbehilflich sein\nM\n\nפ\n00.2\nספר שמריהו\nא\nר\nאחובב\n\n22\n\n21144x",
+   "sha256": "77f02076c6036372f3b46283ebf7845ce3e1b97ec517cae9cc2b1def4b74587e",
    "pages": [
     {
      "page_no": 18,
      "start": 0,
-     "end": 72,
+     "end": 71,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0018.jpg",
      "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0018.webp",
      "ocr_engine": "transkribus",
@@ -55,8 +55,8 @@
      },
      "translatable": true,
      "triage": {
-      "engine": "gemini",
-      "why": "printed body with handwriting on it",
+      "engine": "transkribus",
+      "why": "Gemini returned only 9 chars of print; the page is its handwriting",
       "script": "mixed",
       "hand_kind": "latin",
       "layout": "single",
@@ -66,13 +66,16 @@
        "stamp"
       ],
       "note": "Airmail envelope with printed 'PAR AVION', handwritten address in Latin script, and Hebrew postmarks.",
-      "confidence": 0.95
-     }
+      "confidence": 0.95,
+      "rerouted_from": "gemini"
+     },
+     "ocr_model": "Text Titan II",
+     "retranscribed_at": "2026-08-03T14:11:21+00:00"
     },
     {
      "page_no": 19,
-     "start": 74,
-     "end": 124,
+     "start": 73,
+     "end": 123,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0019.jpg",
      "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0019.webp",
      "ocr_engine": "transkribus",
@@ -100,8 +103,8 @@
     },
     {
      "page_no": 20,
-     "start": 126,
-     "end": 664,
+     "start": 125,
+     "end": 719,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0020.jpg",
      "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0020.webp",
      "ocr_engine": "transkribus",
@@ -115,8 +118,8 @@
      },
      "translatable": true,
      "triage": {
-      "engine": "gemini",
-      "why": "printed body with handwriting on it",
+      "engine": "transkribus",
+      "why": "Gemini returned only 55 chars of print; the page is its handwriting",
       "script": "mixed",
       "hand_kind": "latin",
       "layout": "single",
@@ -126,17 +129,20 @@
        "marginalia"
       ],
       "note": "Letter on printed letterhead with Hebrew text and a handwritten date and body in German Latin cursive.",
-      "confidence": 1.0
-     }
+      "confidence": 1.0,
+      "rerouted_from": "gemini"
+     },
+     "ocr_model": "Text Titan II",
+     "retranscribed_at": "2026-08-03T14:11:21+00:00"
     },
     {
      "page_no": 21,
-     "start": 666,
-     "end": 689,
+     "start": 721,
+     "end": 752,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0021.jpg",
      "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0021.webp",
-     "ocr_engine": "tesseract",
-     "ocr_conf": 0.784,
+     "ocr_engine": "transkribus",
+     "ocr_conf": null,
      "needs_escalation": false,
      "grade": "poor",
      "signals": {
@@ -146,8 +152,8 @@
      },
      "translatable": false,
      "triage": {
-      "engine": "gemini",
-      "why": "printed body with handwriting on it",
+      "engine": "transkribus",
+      "why": "Gemini returned only 67 chars of print; the page is its handwriting",
       "script": "mixed",
       "hand_kind": "hebrew",
       "layout": "single",
@@ -158,13 +164,16 @@
        "handwritten-annotation"
       ],
       "note": "The page is an envelope with handwritten Hebrew address and Israeli postage stamps.",
-      "confidence": 1.0
-     }
+      "confidence": 1.0,
+      "rerouted_from": "gemini"
+     },
+     "ocr_model": "Hebrew Hand Sept.25",
+     "retranscribed_at": "2026-08-03T14:11:21+00:00"
     },
     {
      "page_no": 22,
-     "start": 691,
-     "end": 697,
+     "start": 754,
+     "end": 760,
      "scan_file": "IL-MTFN-001-G-F-0047-2_0001_0022.jpg",
      "scan_url": "https://ju3tpyj4duvvtbus.public.blob.vercel-storage.com/annotator/0047-2__0047-2-D05/0022.webp",
      "ocr_engine": "transkribus",
@@ -301,5 +310,7 @@
   }
  },
  "prehighlights": [],
- "built_at": "2026-08-01T11:51:11+00:00"
+ "built_at": "2026-08-01T11:51:11+00:00",
+ "source_retranscribed_at": "2026-08-03T14:11:21+00:00",
+ "previous_source_sha256": "a372c57c0f4a5e7487c8885893f1f4c63d275af9639f458cbb5a43dce371d7b5"
 }
