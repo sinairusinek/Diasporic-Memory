@@ -2,49 +2,6 @@
 .DS_Store
 .claude/
 
-# Reproducible from running code/harvest_cjh.py and code/fill_ead.py
-data/cjh-oai/raw/
-data/cjh-oai/records/
-data/cjh-oai/state/
-data/cjh-oai/fill_ead_failures.tsv
-
 # Python
 __pycache__/
 *.pyc
-
-# Recatalog pipeline: large rclone-downloaded scan images (keep TSVs/text, not JPEGs)
-data/recatalog/*/scans/
-
-# Hecht accession register source PDF (large scanned register)
-ארכיון גרמני הכט.pdf
-data/hecht/raw.txt
-
-# Transkribus HTR downloads: keep plain-text transcripts, not re-downloadable images/PAGE-XML/fulldoc
-data/transkribus/htr/**/*.jpg
-data/transkribus/htr/**/*.xml
-data/transkribus/htr/**/fulldoc.json
-
-# Copyrighted book-chapter scans (public repo — do not publish)
-data/diaspora book chapters/
-
-# ISF grant guidelines (external document, not project output)
-GuidelinesPersonalGrant_Heb_3058_1.pdf
-data/israelkorpus/transcripts/
-
-# Annotator build artifacts.
-# NB: gitignore has no trailing-comment syntax — a comment on the same line as a
-# pattern makes the whole line a literal path and silently ignores nothing.
-# WebP page derivatives; these live in Vercel Blob
-data/annotator/scans/
-# model response cache
-data/annotator/.cache/
-# DGD quotes; the redacted TSV is the committed one
-data/annotator/annotations_unredacted.tsv
-annotator/node_modules/
-annotator/.next/
-annotator/content/
-annotator/.dev-data/
-
-# Source-planning sheet: carries contact names and Guy's internal review
-# comments, and this repo is public.
-data/the_corpus.xlsx

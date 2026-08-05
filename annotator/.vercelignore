@@ -1,6 +1,0 @@
-node_modules
-.next
-.dev-data
-.vercel
-*.tsbuildinfo
-.env.local
